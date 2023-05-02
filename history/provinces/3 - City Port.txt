@@ -1,0 +1,17 @@
+base_manpower = 1
+base_production = 1
+base_tax = 1
+
+trade_goods = hex_trade_good_none
+
+3.1.1 = {
+	add_core = A01
+	base_manpower = 2
+	base_production = 2
+	base_tax = 2
+	controller = A01
+	owner = A01
+	tribal_owner = A01
+
+	is_city = yes
+}

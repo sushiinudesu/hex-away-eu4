@@ -1,0 +1,11 @@
+hex_trade_good_none = {
+	color = { 0.96 0.93 0.58 }
+
+	modifier = { }
+
+	province = { }
+
+	chance = {
+		factor = 1000
+	}
+}

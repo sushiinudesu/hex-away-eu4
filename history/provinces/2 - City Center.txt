@@ -4,7 +4,7 @@ base_production = 3
 base_tax = 3
 controller = A01
 owner = A01
-trade_goods = unknown
+trade_goods = hex_trade_good_none
 tribal_owner = A01
 
 is_city = yes

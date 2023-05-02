@@ -1,0 +1,5 @@
+base_manpower = 1000
+base_production = 1000
+base_tax = 1000
+
+trade_goods = hex_trade_good_none
