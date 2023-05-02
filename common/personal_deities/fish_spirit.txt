@@ -1,0 +1,14 @@
+hex_fish_spirit = {
+	sprite = 1
+	
+	potential = {
+		has_global_flag = hex_fish_spirit_unlocked
+		religion = hex_faithless
+	}
+	trigger = {}
+	
+	effect = {}
+	removed_effect = {}
+
+	ai_will_do = { factor = 0 }
+}
