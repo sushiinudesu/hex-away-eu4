@@ -1,0 +1,13 @@
+hex_vagabond_culture_group = {
+	graphical_culture = northamericagfx
+
+	hex_vagabond_culture = {
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	male_names = { "---" }
+	female_names = { "---" }
+	dynasty_names = { "---" }
+}

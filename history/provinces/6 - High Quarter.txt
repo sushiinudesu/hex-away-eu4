@@ -1,7 +1,7 @@
 base_manpower = 1
 base_production = 1
 base_tax = 1
-
+culture = hex_vagabond_culture
 trade_goods = hex_trade_good_none
 
 3.1.1 = {
@@ -10,6 +10,7 @@ trade_goods = hex_trade_good_none
 	base_production = 2
 	base_tax = 2
 	controller = A01
+	culture = hex_awake_culture
 	owner = A01
 	tribal_owner = A01
 }

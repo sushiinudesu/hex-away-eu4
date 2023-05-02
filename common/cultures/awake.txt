@@ -1,0 +1,15 @@
+hex_awake_culture_group = {
+	graphical_culture = westerngfx
+
+	hex_awake_culture = {
+		primary = A01
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	male_names = { "---" }
+	female_names = { "---" }
+	dynasty_names = { "---" }
+}

@@ -1,0 +1,6 @@
+2 = "First Camp"
+3 = "Construction - Port"
+4 = "Construction - City"
+5 = "Construction - City"
+6 = "Construction - City"
+7 = "Construction - City"

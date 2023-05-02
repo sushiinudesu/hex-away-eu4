@@ -6,9 +6,11 @@ tags={
 }
 replace_path="common/bookmarks"
 replace_path="common/countries"
+replace_path="common/cultures"
 replace_path="common/government_names"
 replace_path="common/government_reforms"
 replace_path="common/governments"
+replace_path="common/province_names"
 replace_path="decisions"
 replace_path="events"
 replace_path="history/advisors"

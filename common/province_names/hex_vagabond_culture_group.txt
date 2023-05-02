@@ -1,0 +1,5 @@
+3 = "Beach"
+4 = "Cliffs"
+5 = "Desert"
+6 = "Hills"
+7 = "Forest"
