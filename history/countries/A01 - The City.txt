@@ -3,6 +3,7 @@ fixed_capital = 2
 government = native
 government_rank = 1
 primary_culture = hex_awake_culture
+religion = hex_faithless
 
 add_government_reform = hex_city_reform
 
@@ -15,6 +16,7 @@ add_government_reform = hex_city_reform
 		dip = 1
 		mil = 1
 		culture = hex_awake_culture
+		religion = hex_faithless
 	}
 
 	set_ai_personality = { personality = ai_balanced locked = yes }

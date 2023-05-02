@@ -5,6 +5,7 @@ base_tax = 3
 controller = A01
 culture = hex_awake_culture
 owner = A01
+religion = hex_faithless
 trade_goods = hex_trade_good_none
 tribal_owner = A01
 

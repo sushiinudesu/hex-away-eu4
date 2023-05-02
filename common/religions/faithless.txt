@@ -1,0 +1,16 @@
+hex_faithless_religions = {
+	hex_faithless = {
+		color = { 204 204 0 }
+		icon = 1
+
+		country = { }
+
+		province = { }
+		
+		personal_deity = yes
+		
+		heretic = { HEX_FAITHLESS_HERETIC }	
+	}
+
+	crusade_name = HEX_FAITHLESS_CRUSADE
+}
