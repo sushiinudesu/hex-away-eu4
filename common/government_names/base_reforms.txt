@@ -1,0 +1,23 @@
+hex_unique_rule_reform = {
+	rank = {
+		1 = HEX_UNIQUE_RULE
+		2 = HEX_UNIQUE_RULE
+		3 = HEX_UNIQUE_RULE
+	}
+
+	ruler_male = {
+		1 = HEX_LEADER
+		2 = HEX_LEADER
+		3 = HEX_LEADER
+	}
+
+	ruler_female = {
+		1 = HEX_LEADER
+		2 = HEX_LEADER
+		3 = HEX_LEADER
+	}
+
+	trigger = {
+		government = native
+	}
+}

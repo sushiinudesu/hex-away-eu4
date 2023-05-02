@@ -1,6 +1,9 @@
 capital = 2
 fixed_capital = 2
 government = native
+government_rank = 1
+
+add_government_reform = hex_city_reform
 
 2.1.1 = {
 	monarch = {

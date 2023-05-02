@@ -1,0 +1,9 @@
+hex_city_reform = {
+	icon = "free_city"
+
+	potential = { tag = A01 }
+
+	modifiers = {
+		tribal_development_growth = 0.5
+	}
+}

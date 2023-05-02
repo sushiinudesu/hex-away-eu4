@@ -1,0 +1,12 @@
+native = {
+	basic_reform = hex_unique_rule_reform
+	color = { 194 127 209 }
+
+	reform_levels = {
+		hex_adminsitration_reform_level = {
+			reforms = {
+				hex_city_reform
+			}
+		}
+	}
+}
