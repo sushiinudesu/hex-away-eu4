@@ -1,0 +1,3 @@
+graphical_culture = westerngfx
+
+color = { 58 50 45 } #3a322d obsidian

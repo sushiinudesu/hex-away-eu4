@@ -1,0 +1,16 @@
+capital = 2
+fixed_capital = 2
+government = native
+
+2.1.1 = {
+	monarch = {
+		name = "First"
+		dynasty = "'the First Awake'"
+		birth_date = 1.1.2
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+
+	set_ai_personality = { personality = ai_balanced locked = yes }
+}

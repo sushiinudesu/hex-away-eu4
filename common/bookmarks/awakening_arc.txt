@@ -1,0 +1,12 @@
+bookmark = {
+	name = "HEX_BOOKMARK_AWAKENING_NAME"
+	desc = "HEX_BOOKMARK_AWAKENING_DESC"
+	date = 2.2.2
+	
+	center = 1
+	default = yes
+
+	country = A01
+
+	easy_country = A01
+}

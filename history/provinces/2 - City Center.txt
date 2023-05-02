@@ -1,0 +1,10 @@
+add_core = A01
+base_manpower = 3
+base_production = 3
+base_tax = 3
+controller = A01
+owner = A01
+trade_goods = unknown
+tribal_owner = A01
+
+is_city = yes

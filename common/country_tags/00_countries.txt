@@ -1,0 +1,3 @@
+NAT = "countries/NAT - Natives.txt"
+PIR = "countries/PIR - Pirates.txt"
+REB = "countries/REB - Rebels.txt"
