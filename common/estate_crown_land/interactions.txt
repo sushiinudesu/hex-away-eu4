@@ -1,0 +1,29 @@
+interaction = {
+    key = sale_of_titles
+    random_seed = random
+	cooldown_months = 0
+
+    trigger = { always = no }
+    effect = { }
+	ai_will_do = { factor = 0 }
+}
+
+interaction = {
+    key = summon_the_diet
+    random_seed = random
+	cooldown_months = 0
+
+    trigger = { always = no }
+    effect = { }
+	ai_will_do = { factor = 0 }
+}
+
+interaction = {
+    key = seize_land
+    random_seed = random
+	cooldown_months = 0
+
+    trigger = { always = no }
+    effect = { }
+	ai_will_do = { factor = 0 }
+}

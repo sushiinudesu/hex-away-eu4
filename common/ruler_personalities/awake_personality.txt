@@ -1,0 +1,40 @@
+hex_awake_personality = {
+	ruler_allow = {
+		allow = { current_age = hex_age_of_awakening }
+
+		chance = {
+			modifier = {
+				factor = 1000
+				always = yes
+			}
+		}
+	}
+
+	heir_allow = {
+		allow = { current_age = hex_age_of_awakening }
+
+		chance = {
+			modifier = {
+				factor = 1000
+				always = yes
+			}
+		}
+	}
+
+	consort_allow = {
+		allow = { current_age = hex_age_of_awakening }
+
+		chance = {
+			modifier = {
+				factor = 1000
+				always = yes
+			}
+		}
+	}
+
+	nation_designer_cost = 0
+	static = yes
+
+	hex_awake_personality_modifier = 1
+	global_unrest = -1
+}

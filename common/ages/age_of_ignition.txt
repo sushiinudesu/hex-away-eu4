@@ -1,0 +1,9 @@
+hex_age_of_ignition = {
+	start = 200
+	
+	can_start = { always = no }	
+
+	objectives = { }		
+	
+	abilities = { }
+}

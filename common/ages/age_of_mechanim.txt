@@ -1,0 +1,9 @@
+hex_age_of_mechanim = {
+	start = 300
+	
+	can_start = { always = no }	
+
+	objectives = { }		
+	
+	abilities = { }
+}
