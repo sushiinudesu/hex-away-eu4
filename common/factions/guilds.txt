@@ -1,0 +1,107 @@
+hex_artisan_guild = {
+	monarch_power = DIP
+
+	allow = {
+		tag = A01
+	}
+
+	triggered_faction_name = {
+        name = HEX_ARTISANS
+        
+        trigger = {
+			NOT = { is_institution_enabled = hex_institution_guilds }
+        }
+    }
+
+	modifier = { }
+}
+
+hex_builders_guild = {
+	monarch_power = DIP
+
+	allow = {
+		tag = A01
+	}
+
+	triggered_faction_name = {
+        name = HEX_BUILDERS
+        
+        trigger = {
+			NOT = { is_institution_enabled = hex_institution_guilds }
+        }
+    }
+
+	modifier = { }
+}
+
+hex_farmers_guild = {
+	monarch_power = DIP
+
+	allow = {
+		tag = A01
+	}
+
+	triggered_faction_name = {
+        name = HEX_FARMERS
+        
+        trigger = {
+			NOT = { is_institution_enabled = hex_institution_guilds }
+        }
+    }
+
+	modifier = { }
+}
+
+hex_hunters_guild = {
+	monarch_power = DIP
+
+	allow = {
+		tag = A01
+	}
+
+	triggered_faction_name = {
+        name = HEX_HUNTERS
+        
+        trigger = {
+			NOT = { is_institution_enabled = hex_institution_guilds }
+        }
+    }
+
+	modifier = { }
+}
+
+hex_miners_guild = {
+	monarch_power = DIP
+
+	allow = {
+		tag = A01
+	}
+
+	triggered_faction_name = {
+        name = HEX_MINERS
+        
+        trigger = {
+			NOT = { is_institution_enabled = hex_institution_guilds }
+        }
+    }
+
+	modifier = { }
+}
+
+hex_sailors_guild = {
+	monarch_power = DIP
+
+	allow = {
+		tag = A01
+	}
+
+	triggered_faction_name = {
+        name = HEX_SAILORS
+        
+        trigger = {
+			NOT = { is_institution_enabled = hex_institution_guilds }
+        }
+    }
+
+	modifier = { }
+}

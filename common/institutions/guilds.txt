@@ -1,0 +1,51 @@
+hex_institution_guilds = {
+	bonus = {
+		tribal_development_growth = 0.5
+	}
+
+	trade_company_efficiency = 0
+
+	historical_start_date = "4.1.1"
+	historical_start_province = 2
+
+	history = {
+		is_year = 3
+	}
+	
+	can_start = {
+		is_year = 3
+		province_id = 2
+		A01 = { exists = yes }
+	}
+
+	start_chance = 100
+	# on_start = hex_institution_guilds_events.1
+
+	can_embrace = {
+		always = yes
+	}
+
+	embracement_speed = {
+		modifier = {
+			factor = 1000
+			custom_trigger_tooltip = {
+				tooltip = HEX_GUILDS_HISTORICAL_PROVINCE
+				province_id = 2
+			}
+		}
+
+		modifier = {
+			factor = 50
+			custom_trigger_tooltip = {
+				tooltip = HEX_GUILDS_BORDER_PROVINCE
+				any_neighbor_province = {
+					hex_institution_guilds = 50
+				}
+			}
+		}
+	}
+	
+	ai_will_do = {
+		factor = 1000
+	}
+}

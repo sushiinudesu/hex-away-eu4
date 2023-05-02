@@ -3,6 +3,10 @@ hex_city_reform = {
 
 	potential = { tag = A01 }
 
+	factions = {
+		hex_first_faction
+	}
+
 	modifiers = {
 		tribal_development_growth = 0.5
 	}

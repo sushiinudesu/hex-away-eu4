@@ -21,4 +21,20 @@ add_government_reform = hex_city_reform
 
 	add_ruler_personality = hex_awake_personality
 	set_ai_personality = { personality = ai_balanced locked = yes }
+
+	add_faction = hex_first_faction
+}
+
+3.1.1 = {
+	add_faction = hex_artisan_guild
+	add_faction = hex_builders_guild
+	add_faction = hex_farmers_guild
+	add_faction = hex_hunters_guild
+	add_faction = hex_miners_guild
+	add_faction = hex_sailors_guild
+
+	add_faction_influence = {
+		faction = hex_first_faction
+		influence = 50
+	}
 }

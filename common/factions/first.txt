@@ -1,0 +1,9 @@
+hex_first_faction = {
+	monarch_power = DIP
+
+	allow = {
+		tag = A01
+	}
+
+	modifier = { }
+}
