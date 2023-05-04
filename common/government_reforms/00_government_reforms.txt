@@ -1,9 +1,19 @@
 defaults_reform = {
+	allow_convert = no
 	allow_normal_conversion = no
+	can_change_primary_culture = no
+	can_customise_heir = no
+	can_remove_idea_group = no
+	can_use_trade_post = no
+	different_religion_acceptance = 0
+	different_religion_group_acceptance = 0
 	factions = { }
+	fixed_rank = 0
 	has_meritocracy = no
 	heir = no
 	heirs_can_be_generals = no
+	is_trading_city = no
+	mercs_do_not_cost_army_professionalism = yes
 	nation_designer_cost = 0
 	nation_designer_trigger = { }
 	native_mechanic = no
@@ -23,10 +33,8 @@ defaults_reform = {
 		}
 	}
 
-	#  unsorted
+	#  unused
 
-	allow_convert = yes
-	fixed_rank = 0
 	claim_states = no
 	religion = no
 	republic = no
@@ -39,14 +47,10 @@ defaults_reform = {
 	election_on_death = no
 	monarchy = no
 	tribal = no
-	different_religion_acceptance = 0
-	different_religion_group_acceptance = 0
 	boost_income = no
 	monastic = no
-	can_use_trade_post = no
 	can_form_trade_league = no
 	free_city = no
-	is_trading_city = no
 	trade_city_reform = ""
 	maintain_dynasty = no
 	allow_migration = no
@@ -76,13 +80,9 @@ defaults_reform = {
 	allow_draft_transport_ships = no
 	free_concentrate_development = no
 	disallowed_trade_goods = {}
-	can_customise_heir = yes
 	allow_cawa = no
-	can_change_primary_culture = yes
 	allow_carolean = no
-	can_inherit_personal_unions = yes
+	can_inherit_personal_unions = no
 	block_cultural_union = no
 	has_cultural_union = no 
-	can_remove_idea_group = yes
-	mercs_do_not_cost_army_professionalism = no
 }

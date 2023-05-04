@@ -33,9 +33,4 @@ add_government_reform = hex_city_reform
 	add_faction = hex_hunters_guild
 	add_faction = hex_miners_guild
 	add_faction = hex_sailors_guild
-
-	add_faction_influence = {
-		faction = hex_first_faction
-		influence = 50
-	}
 }
