@@ -1,6 +1,8 @@
 hex_city_reform = {
 	icon = "free_city"
 
+	lock_level_when_selected = yes
+
 	potential = { tag = A01 }
 
 	factions = {
