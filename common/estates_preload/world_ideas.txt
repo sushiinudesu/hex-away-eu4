@@ -1,0 +1,77 @@
+hex_world_law_life_modifier = {
+	modifier_definition = {
+		type = world
+		key = hex_world_law_life
+		trigger = { always = yes }
+	}
+}
+
+hex_world_law_faith_modifier = {
+	modifier_definition = {
+		type = world
+		key = hex_world_law_faith
+		trigger = { always = yes }
+	}
+}
+
+hex_world_law_magic_modifier = {
+	modifier_definition = {
+		type = world
+		key = hex_world_law_magic
+		trigger = { always = yes }
+	}
+}
+
+hex_world_law_experience_modifier = {
+	modifier_definition = {
+		type = world
+		key = hex_world_law_experience
+		trigger = { always = yes }
+	}
+}
+
+hex_world_law_knowledge_modifier = {
+	modifier_definition = {
+		type = world
+		key = hex_world_law_knowledge
+		trigger = { always = yes }
+	}
+}
+
+hex_world_law_essence_modifier = {
+	modifier_definition = {
+		type = world
+		key = hex_world_law_essence
+		trigger = { always = yes }
+	}
+}
+
+hex_world_law_obsidian_modifier = {
+	modifier_definition = {
+		type = world
+		key = hex_world_law_obsidian
+		trigger = { always = yes }
+	}
+}
+
+hex_world_law_start_modifier = {
+	modifier_definition = {
+		type = world
+		key = hex_world_law_start
+		trigger = { always = yes }
+	}
+
+	modifier_definition = {
+		type = world
+		key = hex_world_law_start_2
+		trigger = { always = yes }
+	}
+}
+
+hex_world_law_end_modifier = {
+	modifier_definition = {
+		type = world
+		key = hex_world_law_end
+		trigger = { always = yes }
+	}
+}

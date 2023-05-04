@@ -1,0 +1,24 @@
+hex_world_ideas = {
+	start = {
+		hex_world_law_start = 1
+		hex_world_law_start_2 = 0.001
+	}
+	
+	bonus = { hex_world_law_end = 10 }	
+
+	free = yes
+	
+	hex_idea_world_life = { hex_world_law_life = -1 }
+
+	hex_idea_world_faith = { hex_world_law_faith = 1 }
+
+	hex_idea_world_magic = { hex_world_law_magic = 1 }
+
+	hex_idea_world_experience = { hex_world_law_experience = 1  }
+
+	hex_idea_world_knowledge = { hex_world_law_knowledge = 1  }
+
+	hex_idea_world_essence = { hex_world_law_essence = 1 }
+
+	hex_idea_world_obsidian = { hex_world_law_obsidian = -10000 }
+}
