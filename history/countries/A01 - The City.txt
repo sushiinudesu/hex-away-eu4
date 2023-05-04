@@ -10,8 +10,8 @@ add_government_reform = hex_city_reform
 
 2.1.1 = {
 	monarch = {
-		name = "First"
-		dynasty = "'the First Awake'"
+		name = "First One"
+		dynasty = "'the Awake'"
 		birth_date = 1.1.2
 		adm = 1
 		dip = 1
