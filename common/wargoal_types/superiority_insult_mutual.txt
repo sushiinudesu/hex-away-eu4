@@ -1,0 +1,31 @@
+superiority_insult_mutual = {
+	type = superiority
+	
+	attacker = 	{
+		badboy_factor = 1
+		prestige_factor = 2
+		peace_cost_factor = 0.75
+
+		peace_options = {
+			po_revoke_cores
+			po_gold
+			po_concede_defeat
+			po_humiliate_rival
+		}
+	}
+	
+	defender = 	{
+		badboy_factor = 1
+		prestige_factor = 2
+		peace_cost_factor = 0.75
+
+		peace_options = {
+			po_revoke_cores
+			po_gold
+			po_concede_defeat	
+			po_humiliate_rival
+		}
+	}
+	
+	war_name = INSULT_WAR_NAME
+}

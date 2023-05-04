@@ -1,0 +1,10 @@
+cb_imperial_realm_war = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 12
+
+	call_empire_members = yes
+
+	war_goal = superiority_reichskrieg
+}

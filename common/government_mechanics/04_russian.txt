@@ -1,0 +1,61 @@
+russian_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 1
+	available = {
+		OR = {
+			has_dlc = "Third Rome"
+			has_dlc = "Domination"
+		}
+	}
+	
+	powers = {
+		russian_adm_power = {
+			max = 150
+			monarch_power = ADM
+			base_monthly_growth = 0.25
+		}
+		russian_dip_power = {
+			max = 150
+			monarch_power = DIP
+			base_monthly_growth = 0.25
+		}
+		russian_mil_power = {
+			max = 150
+			monarch_power = MIL
+			base_monthly_growth = 0.25
+		}
+	}
+	
+	interactions = {
+		RUSABIL_SUDEBNIK = {
+			gui = russian_mechanics_interaction_gui
+			icon = GFX_russian_ability_ADM
+			cost_type = russian_adm_power
+			cost = 100
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+		RUSABIL_OPRICHNINA = {
+			gui = russian_mechanics_interaction_gui
+			icon = GFX_russian_ability_DIP
+			cost_type = russian_dip_power
+			cost = 100
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+		RUSABIL_STRELTSY = {
+			gui = russian_mechanics_interaction_gui
+			icon = GFX_russian_ability_MIL
+			cost_type = russian_mil_power
+			cost = 100
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+	}
+}

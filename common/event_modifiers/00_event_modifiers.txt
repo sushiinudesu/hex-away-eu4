@@ -1,3 +1,5 @@
+# Empty Base EU4 file to avoid warnings
+
 chisti_timer = { }
 
 expelled_minority = { }

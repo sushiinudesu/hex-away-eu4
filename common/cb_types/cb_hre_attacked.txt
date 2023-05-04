@@ -1,0 +1,8 @@
+cb_hre_attacked = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 60
+
+	war_goal = take_province_hre
+}

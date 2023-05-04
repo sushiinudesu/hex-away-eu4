@@ -1,0 +1,7 @@
+revolution = {
+	target_province_weights = { factor = 1 }
+
+	revolution_province_modifiers = { }
+
+	zeal_modifiers = { }
+}

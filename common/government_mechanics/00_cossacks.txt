@@ -1,0 +1,55 @@
+cossacks_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 6
+	available = {
+		has_dlc = "The Cossacks"
+	}
+	
+	powers = {
+		cossacks_adm_power = {
+			max = 150
+			monarch_power = ADM
+			base_monthly_growth = 3
+		}
+		cossacks_dip_power = {
+			max = 150
+			monarch_power = DIP
+			base_monthly_growth = 3
+		}
+		cossacks_mil_power = {
+			max = 150
+			monarch_power = MIL
+			base_monthly_growth = 3
+		}
+	}
+	
+	interactions = {
+		cossacks_ability_receive_serfs = {
+			icon = GFX_cossacks_ability_ADM
+			cost_type = cossacks_adm_power
+			cost = 100
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+		cossacks_ability_raiding_parties = {
+			icon = GFX_cossacks_ability_DIP
+			cost_type = cossacks_dip_power
+			cost = 100
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+		cossacks_ability_cossacks = {
+			icon = GFX_cossacks_ability_MIL
+			cost_type = cossacks_mil_power
+			cost = 100
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+	}
+}

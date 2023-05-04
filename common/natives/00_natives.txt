@@ -1,0 +1,9 @@
+hex_vagabonds = {
+	graphical_culture = northamericagfx
+	color = { 0 255 0 }
+	icon = 1
+	
+	unit = hex_unit_city_1_camp_guards
+	
+	provinces = { 1 2 3 4 5 6 7 }
+}

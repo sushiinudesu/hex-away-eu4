@@ -1,4 +1,5 @@
 hex_artisan_guild = {
+	always = yes
 	monarch_power = DIP
 
 	allow = {
@@ -17,6 +18,7 @@ hex_artisan_guild = {
 }
 
 hex_builders_guild = {
+	always = yes
 	monarch_power = DIP
 
 	allow = {
@@ -35,6 +37,7 @@ hex_builders_guild = {
 }
 
 hex_farmers_guild = {
+	always = yes
 	monarch_power = DIP
 
 	allow = {
@@ -53,6 +56,7 @@ hex_farmers_guild = {
 }
 
 hex_hunters_guild = {
+	always = yes
 	monarch_power = DIP
 
 	allow = {
@@ -71,6 +75,7 @@ hex_hunters_guild = {
 }
 
 hex_miners_guild = {
+	always = yes
 	monarch_power = DIP
 
 	allow = {
@@ -89,6 +94,7 @@ hex_miners_guild = {
 }
 
 hex_sailors_guild = {
+	always = yes
 	monarch_power = DIP
 
 	allow = {

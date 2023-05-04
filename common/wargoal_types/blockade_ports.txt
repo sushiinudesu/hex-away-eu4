@@ -1,0 +1,24 @@
+blockade_ports = {
+	type = blockade_ports
+	
+	attacker = {
+		peace_options = {
+			po_gold
+			po_concede_defeat
+			po_trade_power
+			po_steer_trade
+		}
+
+		transfer_trade_cost_factor = 0.5
+	}
+	
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+}

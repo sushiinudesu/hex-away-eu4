@@ -1,0 +1,7 @@
+cb_core = {
+	prerequisites = {
+		core_claim = FROM
+	}
+
+	war_goal = take_core
+}

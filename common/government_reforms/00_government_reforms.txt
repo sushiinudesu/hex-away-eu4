@@ -79,13 +79,3 @@ defaults_reform = {
 	can_remove_idea_group = yes
 	mercs_do_not_cost_army_professionalism = no
 }
-
-hex_unique_rule_reform = {
-	basic_reform = yes
-
-	has_meritocracy = yes
-	native_mechanic = yes
-
-	custom_attributes = { }
-	modifiers = { }
-}

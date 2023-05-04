@@ -1,0 +1,7 @@
+cb_conquest = {
+	prerequisites = {
+		claim = FROM
+	}
+
+	war_goal = take_claim
+}

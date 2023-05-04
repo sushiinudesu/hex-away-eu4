@@ -1,0 +1,35 @@
+superiority_reichskrieg = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 1.0
+		prestige_factor = 0.75
+		peace_cost_factor = 1.0	
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_demand_provinces
+			po_guaranteed_join_empire
+			po_release_annexed
+		}
+	}
+	
+	defender = {
+		badboy_factor = 0.75
+		prestige_factor = 1.25
+		peace_cost_factor = 1.0	
+		
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_demand_provinces
+		}
+	}	
+	
+	war_name = REICHSKRIEG_WAR_NAME	
+}

@@ -1,0 +1,9 @@
+cb_insult = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+
+	months = 12
+
+	war_goal = superiority_insult_mutual
+}

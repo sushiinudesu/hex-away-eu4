@@ -1,0 +1,9 @@
+hex_unique_rule_reform = {
+	basic_reform = yes
+
+	has_meritocracy = yes
+	native_mechanic = yes
+
+	custom_attributes = { }
+	modifiers = { }
+}

@@ -1,0 +1,31 @@
+iqta_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 2
+	available = {
+		has_dlc = "Cradle of Civilization"
+	}
+	
+	interactions = {
+		efficient_tax_farming = {
+			icon = GFX_efficient_tax_farming_button
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+		land_acquisition = {
+			icon = GFX_land_acquisition_button
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+		lenient_taxation = {
+			icon = GFX_lenient_taxation_button
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+	}
+}

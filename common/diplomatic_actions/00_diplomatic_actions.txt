@@ -1,0 +1,27 @@
+declarewar = { }
+
+allianceaction = { }
+
+enforce_peace = { }
+
+royal_marriage = { }
+
+annexationaction = { }
+
+integrationaction = { }
+
+vassalaction = { }
+
+abandon_union = { }
+
+form_coalition = { }
+
+request_to_join_trade_league = { }
+
+invite_to_trade_league = { }
+
+tributary_state_action = { }
+
+ask_for_tributary_state_action = { }
+
+break_alliance = { }

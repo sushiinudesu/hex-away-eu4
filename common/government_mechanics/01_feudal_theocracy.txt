@@ -1,0 +1,31 @@
+feudal_theocracy_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 4
+	available = {
+		has_dlc = "Cradle of Civilization"
+	}
+	
+	interactions = {
+		seize_clerical_holdings = {
+			icon = GFX_seize_clerical_holdings_button
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+		invite_minorities = {
+			icon = GFX_invite_minorities_button
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+		sanction_holy_war = {
+			icon = GFX_sanction_holy_war_button
+			trigger = { always = no }
+			effect = { }
+			cooldown_years = 0
+			ai_chance = { factor = 0 }
+		}
+	}
+}

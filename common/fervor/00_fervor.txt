@@ -1,0 +1,39 @@
+fervor_trade = {
+	cost = 8
+	potential = {
+	}
+	trigger = {
+	}
+	effect = { }
+	ai_will_do = { factor = 0 }
+}
+
+fervor_war = {
+	cost = 8
+	potential = {
+	}
+	trigger = {
+	}
+	effect = { }
+	ai_will_do = { factor = 0 }	
+}
+
+fervor_stability = {
+	cost = 8
+	potential = {
+	}
+	trigger = {
+	}
+	effect = { all_estate_loyalty_equilibrium = 0.1 }
+	ai_will_do = { factor = 0 }	
+}
+
+fervor_diplomacy = {
+	cost = 8
+	potential = {
+	}
+	trigger = {
+	}
+	effect = { }
+	ai_will_do = { factor = 0 }
+}

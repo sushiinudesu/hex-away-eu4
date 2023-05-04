@@ -1,0 +1,9 @@
+naval_hegemon = {
+	allow = { always = no }
+	
+	base = { }
+	
+	scale = { }
+	
+	max = { }
+}

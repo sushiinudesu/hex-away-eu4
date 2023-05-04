@@ -1,0 +1,8 @@
+cb_religious_conformance = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 24
+
+	war_goal = take_capital_conformance
+}

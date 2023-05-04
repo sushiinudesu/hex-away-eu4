@@ -1,0 +1,7 @@
+base_flagship_modification = {
+    base_modification = yes
+
+    trigger = { }
+    
+    modifier = { }
+}
