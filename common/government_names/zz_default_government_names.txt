@@ -1,8 +1,8 @@
-hex_unique_rule_reform = {
+hex_city_rule_reform = {
 	rank = {
-		1 = HEX_UNIQUE_RULE
-		2 = HEX_UNIQUE_RULE
-		3 = HEX_UNIQUE_RULE
+		1 = HEX_CITY_RULE
+		2 = HEX_CITY_RULE
+		3 = HEX_CITY_RULE
 	}
 
 	ruler_male = {

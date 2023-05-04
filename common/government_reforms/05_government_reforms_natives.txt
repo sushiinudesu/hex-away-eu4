@@ -1,4 +1,4 @@
-hex_unique_rule_reform = {
+hex_city_rule_reform = {
 	basic_reform = yes
 
 	has_meritocracy = yes

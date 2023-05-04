@@ -1,5 +1,5 @@
 native = {
-	basic_reform = hex_unique_rule_reform
+	basic_reform = hex_city_rule_reform
 	color = { 194 127 209 }
 
 	reform_levels = {
