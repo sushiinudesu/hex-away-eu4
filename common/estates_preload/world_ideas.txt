@@ -1,7 +1,7 @@
 hex_world_law_life_modifier = {
 	modifier_definition = {
 		type = world
-		key = hex_world_law_life
+		key = hex_world_law_life_modifier
 		trigger = { always = yes }
 	}
 }
@@ -9,7 +9,7 @@ hex_world_law_life_modifier = {
 hex_world_law_faith_modifier = {
 	modifier_definition = {
 		type = world
-		key = hex_world_law_faith
+		key = hex_world_law_faith_modifier
 		trigger = { always = yes }
 	}
 }
@@ -17,7 +17,7 @@ hex_world_law_faith_modifier = {
 hex_world_law_magic_modifier = {
 	modifier_definition = {
 		type = world
-		key = hex_world_law_magic
+		key = hex_world_law_magic_modifier
 		trigger = { always = yes }
 	}
 }
@@ -25,7 +25,7 @@ hex_world_law_magic_modifier = {
 hex_world_law_experience_modifier = {
 	modifier_definition = {
 		type = world
-		key = hex_world_law_experience
+		key = hex_world_law_experience_modifier
 		trigger = { always = yes }
 	}
 }
@@ -33,7 +33,7 @@ hex_world_law_experience_modifier = {
 hex_world_law_knowledge_modifier = {
 	modifier_definition = {
 		type = world
-		key = hex_world_law_knowledge
+		key = hex_world_law_knowledge_modifier
 		trigger = { always = yes }
 	}
 }
@@ -41,7 +41,7 @@ hex_world_law_knowledge_modifier = {
 hex_world_law_essence_modifier = {
 	modifier_definition = {
 		type = world
-		key = hex_world_law_essence
+		key = hex_world_law_essence_modifier
 		trigger = { always = yes }
 	}
 }
@@ -49,7 +49,7 @@ hex_world_law_essence_modifier = {
 hex_world_law_obsidian_modifier = {
 	modifier_definition = {
 		type = world
-		key = hex_world_law_obsidian
+		key = hex_world_law_obsidian_modifier
 		trigger = { always = yes }
 	}
 }
@@ -57,13 +57,15 @@ hex_world_law_obsidian_modifier = {
 hex_world_law_start_modifier = {
 	modifier_definition = {
 		type = world
-		key = hex_world_law_start
+		key = hex_world_law_start_modifier
 		trigger = { always = yes }
 	}
+}
 
+hex_world_law_start_2_modifier = {
 	modifier_definition = {
 		type = world
-		key = hex_world_law_start_2
+		key = hex_world_law_start_2_modifier
 		trigger = { always = yes }
 	}
 }
@@ -71,7 +73,7 @@ hex_world_law_start_modifier = {
 hex_world_law_end_modifier = {
 	modifier_definition = {
 		type = world
-		key = hex_world_law_end
+		key = hex_world_law_end_modifier
 		trigger = { always = yes }
 	}
 }
