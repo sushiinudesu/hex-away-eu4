@@ -1,0 +1,9 @@
+city_sprite_pack = {
+	country_trigger = {
+		tag = A01
+	}
+
+	sprite_infantry = {
+		0 = CAS_INFANTRY_1
+	}
+}
