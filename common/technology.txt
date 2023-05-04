@@ -1,0 +1,12 @@
+groups = {
+	hex_technology_group_city = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
+}
+
+tables = {
+	adm_tech = "technologies/adm.txt"
+	dip_tech = "technologies/dip.txt"
+	mil_tech = "technologies/mil.txt"
+}

@@ -1,0 +1,25 @@
+chisti_timer = { }
+
+expelled_minority = { }
+
+global_holy_war_released_modifier = { }
+
+hints_timer = { }
+
+joined_league_war = { }
+
+pasha_removed_modifier = { }
+
+qadiriyya_timer = { }
+
+religious_center = { }
+
+religious_zeal_at_conv = { }
+
+suhrawardiyya_timer = { }
+
+trade_post_modifier = {
+	picture = "province_trade_power_value"
+}
+
+unlawful_territory = { }

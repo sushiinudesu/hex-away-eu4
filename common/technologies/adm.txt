@@ -1,0 +1,10 @@
+monarch_power = ADM
+
+ahead_of_time = { }
+
+# Tech 0
+technology = {
+	year = 1
+
+	allowed_idea_groups = 1
+}

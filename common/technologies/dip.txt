@@ -1,0 +1,8 @@
+monarch_power = DIP
+
+ahead_of_time = { }
+
+# Tech 0
+technology = {
+	year = 1
+}

@@ -4,6 +4,7 @@ government = native
 government_rank = 1
 primary_culture = hex_awake_culture
 religion = hex_faithless
+technology_group = hex_technology_group_city
 
 add_government_reform = hex_city_reform
 
