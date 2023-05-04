@@ -557,6 +557,8 @@ subject_tax_modifier = { }
 
 same_religion_subject_bonus_mod = { }
 
+eyalet_modifier = { }
+
 maintained_forts = { }
 
 gov_rank_1 = { }
