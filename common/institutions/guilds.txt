@@ -5,21 +5,21 @@ hex_institution_guilds = {
 
 	trade_company_efficiency = 0
 
-	historical_start_date = "4.1.1"
+	historical_start_date = "7.1.1"
 	historical_start_province = 2
 
 	history = {
-		is_year = 3
+		is_year = 7
 	}
 	
 	can_start = {
-		is_year = 3
+		is_year = 7
 		province_id = 2
 		A01 = { exists = yes }
 	}
 
 	start_chance = 100
-	# on_start = hex_institution_guilds_events.1
+	on_start = hex_institution_guilds_events.1
 
 	can_embrace = {
 		always = yes

@@ -1,0 +1,5 @@
+﻿l_english:
+  hex_institution_guilds_events.1.a:0 "For the City!"
+  hex_institution_guilds_events.1.a.tt:0 "§YEmbracing§! the §YGuilds§! is vital for our future."
+  hex_institution_guilds_events.1.d:0 "As more and more awake to the World, we need a proper structure to maintain order and keep track of tasks. Our [Root.Monarch.GetTitle] has expressed [Root.Monarch.GetHerHis] idea for the future of [Root.GetName] - a city for all the Awake to call home. A large settlement all around the Tower that will cater to every need of its citizen. And at its foundation  - a System of Guilds. Everyone will be assigned to a guild depending on their abilities and aspirations. Hopefully this will provide a lot of new jobs and better organization."
+  hex_institution_guilds_events.1.t:0 "Creation of Guilds!"
