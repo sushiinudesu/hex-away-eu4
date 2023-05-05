@@ -1,0 +1,1 @@
+technology_group = hex_technology_group_city

@@ -1,18 +1,18 @@
--- -- NGame
+-- NGame
 
-NDefines.NGame.START_DATE = "4.1.1"
-NDefines.NGame.END_DATE = "13.1.1"
-NDefines.NGame.MAX_COLONIAL_NATIONS = 0
--- NDefines.NGame.MAX_CLIENT_STATES = 100               -- don't change, breaks ironman save
--- NDefines.NGame.MAX_CUSTOM_COUNTRIES = 75             -- don't change, breaks ironman save
--- NDefines.NGame.MAX_ESTATE_COUNTRIES = 50             -- don't change, breaks ironman save
--- NDefines.NGame.MAX_FEDERATION_COUNTRIES = 20         -- don't change, breaks ironman save
+NDefines.NGame.START_DATE = "2.1.1"
+NDefines.NGame.END_DATE = "1500.1.1"
+-- NDefines.NGame.MAX_COLONIAL_NATIONS = 100
+-- NDefines.NGame.MAX_CLIENT_STATES = 100
+-- NDefines.NGame.MAX_CUSTOM_COUNTRIES = 75
+-- NDefines.NGame.MAX_ESTATE_COUNTRIES = 50
+-- NDefines.NGame.MAX_FEDERATION_COUNTRIES = 20
 NDefines.NGame.MAX_GOVERNMENT_REFORMS_PER_TIER = 1
--- NDefines.NGame.MAX_OBSERVERS = 10                    -- don't change, breaks ironman save
+NDefines.NGame.MAX_OBSERVERS = 1
 NDefines.NGame.MAX_RANDOM_NEW_WORLD = "1.1.1"
--- NDefines.NGame.MAX_TRADING_CITIES = 75               -- don't change, breaks ironman save
+-- NDefines.NGame.MAX_TRADING_CITIES = 75
 
--- -- NDiplomacy
+-- NDiplomacy
 
 NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 1
 NDefines.NDiplomacy.DAYS_TO_DECLARE_WAR = 0
@@ -21,10 +21,10 @@ NDefines.NDiplomacy.LEAVING_GREAT_POWER_YEARS = 1
 NDefines.NDiplomacy.MAX_CLIENT_STATES = 0
 NDefines.NDiplomacy.NUM_OF_GREAT_POWERS = 6
 NDefines.NDiplomacy.NUM_POSSIBLE_RIVALS = 1
-NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 4
-NDefines.NDiplomacy.TRUCE_YEARS = 2                    -- don't set lower than 2, breaks ironman save
+NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 5
+NDefines.NDiplomacy.TRUCE_YEARS = 100
 
--- -- NCountry
+-- NCountry
 
 NDefines.NCountry.ADVISOR_MAX_DEFAULT_AGE = 1
 NDefines.NCountry.ADVISOR_MIN_DEFAULT_AGE = 0
@@ -125,13 +125,13 @@ NDefines.NCountry.TRIBE_STARTING_DEV = 0
 NDefines.NCountry.WAREXHAUSTION_REDUCTION = 0
 NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 0
 
--- -- NEconomy
+-- NEconomy
 
 NDefines.NEconomy.BANKRUPTCY_BUILDING_DESTRUCTION_THRESHOLD = 0
 NDefines.NEconomy.BANKRUPTCY_DURATION = 1
 NDefines.NEconomy.BANKRUPTCY_PROVINCE_DEVASTATION_GAIN = 90
 
--- -- NMilitary
+-- NMilitary
 
 NDefines.NMilitary.CANNOT_RETREAT_DAYS = 1
 NDefines.NMilitary.COMBAT_DICE_SIDE = 7
@@ -139,23 +139,23 @@ NDefines.NMilitary.DAYS_PER_PHASE = 1
 NDefines.NMilitary.OVERRUN_FACTOR = 1000000
 -- NDefines.NMilitary.OVERRUN_FACTOR_CANNOT_LEAVE = 2
 
--- -- NAI
+-- NAI
 
--- -- NAIEconomy
+-- NAIEconomy
 
--- -- NGraphics
+-- NGraphics
 
--- -- NGui
+-- NGui
 
--- -- NEngine
+-- NEngine
 
--- -- NMacroBuildColors
+-- NMacroBuildColors
 
--- -- NFrontend
+-- NFrontend
 
--- -- NReligion
+-- NReligion
 
--- -- NNationDesigner
+-- NNationDesigner
 
--- -- NGovernment
+-- NGovernment
 

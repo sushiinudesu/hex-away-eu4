@@ -8,7 +8,7 @@ technology_group = hex_technology_group_city
 
 add_government_reform = hex_city_reform
 
-4.1.1 = {
+1.1.2 = {
 	monarch = {
 		name = "First One"
 		dynasty = "'the Awake'"
