@@ -2,11 +2,29 @@ can_join_hre_league = { }
 
 can_leave_hre_league = { }
 
-can_harsh_treatment = { }
+can_harsh_treatment = {
+	condition = {
+		tooltip = "HEX_CANT_HARSH_TREATMENT"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_reduce_war_exhaustion = { }
+can_reduce_war_exhaustion = {
+	condition = {
+		tooltip = "HEX_CANT_REDUCE_WAR_EXHAUSTION"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_reduce_inflation = { }
+can_reduce_inflation = {
+	condition = {
+		tooltip = "HEX_CANT_REDUCE_INFLATION"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
 can_declare_bankruptcy = { }
 
@@ -16,7 +34,13 @@ can_claim_defender_of_faith = { }
 
 can_change_national_focus = { }
 
-can_increase_stability = { }
+can_increase_stability = {
+	condition = {
+		tooltip = "HEX_CANT_INCREASE_STABILITY"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
 can_add_province_to_hre = { }
 
@@ -26,29 +50,89 @@ can_increase_autonomy = { }
 
 can_decrease_autonomy = { }
 
-can_make_core = { }
+can_make_core = {
+	condition = {
+		tooltip = "HEX_CANT_MAKE_CORE"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
 can_make_state = { }
 
 can_abandon_state = { }
 
-can_improve_tax = { }
+can_improve_tax = {
+	condition = {
+		tooltip = "HEX_CANT_IMPROVE_DEVELOPMENT"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_improve_production = { }
+can_improve_production = {
+	condition = {
+		tooltip = "HEX_CANT_IMPROVE_DEVELOPMENT"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_improve_manpower = { }
+can_improve_manpower = {
+	condition = {
+		tooltip = "HEX_CANT_IMPROVE_DEVELOPMENT"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_exploit_tax = { }
+can_exploit_tax = {
+	condition = {
+		tooltip = "HEX_CANT_EXPLOIT_DEVELOPMENT"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_exploit_production = { }
+can_exploit_production = {
+	condition = {
+		tooltip = "HEX_CANT_EXPLOIT_DEVELOPMENT"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_exploit_manpower = { }
+can_exploit_manpower = {
+	condition = {
+		tooltip = "HEX_CANT_EXPLOIT_DEVELOPMENT"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_change_culture = { }
+can_change_culture = {
+	condition = {
+		tooltip = "HEX_CANT_CHANGE_CULTURE"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_move_capital = { }
+can_move_capital = {
+	condition = {
+		tooltip = "HEX_CANT_MOVE_CAPITAL"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_move_trade_port = { }
+can_move_trade_port = {
+	condition = {
+		tooltip = "HEX_CANT_MOVE_TRADE_PORT"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
 can_order_assault = { }
 
