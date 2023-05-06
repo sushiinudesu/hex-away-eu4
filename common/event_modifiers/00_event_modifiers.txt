@@ -1,6 +1,22 @@
 # Empty Base EU4 file to avoid warnings
 
+atlantean_remnants_modifier = { }
+
+chrishna_estuary_modifier = {
+	picture = "estuary_icon"
+}
+
 chisti_timer = { }
+
+comet_ore_modifier = { }
+
+devils_gate_modifier = {
+	picture = "province_trade_power_value"
+}
+
+djanges_estuary_modifier = {
+	picture = "estuary_icon"
+}
 
 expelled_minority = { }
 
@@ -8,7 +24,17 @@ global_holy_war_released_modifier = { }
 
 hints_timer = { }
 
+important_natural_harbor = {
+	picture = "province_trade_power_value"
+}
+
 joined_league_war = { }
+
+krodavari_estuary_modifier = {
+	picture = "estuary_icon"
+}
+
+paradise_modifier = { }
 
 pasha_removed_modifier = { }
 
@@ -17,6 +43,14 @@ qadiriyya_timer = { }
 religious_center = { }
 
 religious_zeal_at_conv = { }
+
+river_estuary_modifier = {
+	picture = "estuary_icon"
+}
+
+sindus_estuary_modifier = {
+	picture = "estuary_icon"
+}
 
 suhrawardiyya_timer = { }
 

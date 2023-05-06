@@ -1,4 +1,5 @@
 hex_first_faction = {
+	always = yes
 	monarch_power = DIP
 
 	allow = {
