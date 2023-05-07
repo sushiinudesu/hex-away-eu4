@@ -1,0 +1,12 @@
+﻿l_english:
+  hex_city_harbor_sea_area:0 "City Harbor"
+  hex_inner_city_area:0 "Inner City"
+  hex_outer_city_coast_area:0 "City Coast"
+  hex_outer_city_desert_area:0 "City Desert"
+  hex_outer_city_fields_area:0 "City Fields"
+  hex_outer_city_forest_area:0 "City Forest"
+  hex_outer_city_mountain_area:0 "City Mountains"
+  hex_outer_city_plains_area:0 "City Plains"
+  hex_tower_area:0 "The Tower"
+  rnw_area:0 "RNW"
+  tbd_area:0 "TBD"

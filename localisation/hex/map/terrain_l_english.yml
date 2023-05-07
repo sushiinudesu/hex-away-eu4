@@ -1,0 +1,13 @@
+﻿l_english:
+  hex_terrain_city:0 "City"
+  hex_terrain_coastline:0 "Coastline"
+  hex_terrain_desert:0 "Desert"
+  hex_terrain_forest:0 "Forest"
+  hex_terrain_grasslands:0 "Grasslands"
+  hex_terrain_hills:0 "Hills"
+  hex_terrain_inland_sea:0 "Inland Sea"
+  hex_terrain_marsh:0 "Marsh"
+  hex_terrain_mountains:0 "Mountains"
+  hex_terrain_mountains_impassable:0 "High Mountains"
+  hex_terrain_savannah:0 "Savannah"
+  hex_terrain_tower:0 "The Tower"
