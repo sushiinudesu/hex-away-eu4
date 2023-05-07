@@ -22,7 +22,7 @@ NDefines.NDiplomacy.MAX_CLIENT_STATES = 0
 NDefines.NDiplomacy.NUM_OF_GREAT_POWERS = 6
 NDefines.NDiplomacy.NUM_POSSIBLE_RIVALS = 1
 NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 5
-NDefines.NDiplomacy.TRUCE_YEARS = 100
+NDefines.NDiplomacy.TRUCE_YEARS = 1
 
 -- NCountry
 
