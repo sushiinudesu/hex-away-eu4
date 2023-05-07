@@ -2,6 +2,13 @@ random_new_world_region = { }
 
 hex_city_region = {
 	areas = {
-		hex_city_area
+		hex_inner_city_area
+		hex_outer_city_area
+	}
+}
+
+hex_tower_region = {
+	areas = {
+		hex_tower_area
 	}
 }

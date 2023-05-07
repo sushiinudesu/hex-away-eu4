@@ -6,7 +6,6 @@ province;red;green;blue;x;x
 5;128;42;0;Gold Quarter;x
 6;0;44;64;High Quarter;x
 7;129;46;128;Green Quarter;x
-
 8;1;48;192;Dalaskogen;x
 9;129;50;255;H�lsingland;x
 10;1;52;0;J�mtland;x
@@ -37,6 +36,7 @@ province;red;green;blue;x;x
 35;133;102;0;�sel;x
 36;5;104;64;Estland;x
 37;133;106;128;Livland;x
+
 38;5;108;192;Riga;x
 39;133;110;255;Kurland;x
 40;5;112;0;Memel;x
