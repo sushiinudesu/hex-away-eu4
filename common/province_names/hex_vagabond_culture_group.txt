@@ -16,6 +16,7 @@
 19 = "Fields"
 20 = "Hills"
 21 = "Coast"
+23 = "Island"
 25 = "Coast"
 26 = "Plains"
 27 = "Desert"

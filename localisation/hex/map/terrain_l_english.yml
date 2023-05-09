@@ -8,6 +8,7 @@
   hex_terrain_inland_sea:0 "Inland Sea"
   hex_terrain_marsh:0 "Marsh"
   hex_terrain_mountains:0 "Mountains"
-  hex_terrain_mountains_impassable:0 "High Mountains"
+  hex_terrain_mountains_frozen:0 "Frozen Mountains"
+  hex_terrain_mountains_impassable:0 "Impassable"
   hex_terrain_savannah:0 "Savannah"
   hex_terrain_tower:0 "The Tower"

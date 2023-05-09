@@ -7,7 +7,7 @@ categories =  {
 	hex_terrain_city = {
 		color = { 255 255 0 }
 
-		sound_type = mountains
+		sound_type = plains
 
 		terrain_override = { 2 3 4 5 6 7 }
 	}
@@ -19,7 +19,7 @@ categories =  {
 
 		movement_cost = 1.0
 
-		terrain_override = { 9 11 21 25 38 }
+		terrain_override = { 9 11 21 23 25 38 }
 	}
 	
 	hex_terrain_desert = {
@@ -30,7 +30,7 @@ categories =  {
 
 		movement_cost = 1.0
 
-		terrain_override = { 27 28 29 }
+		terrain_override = { 28 29 }
 	}
 	
 	hex_terrain_forest = {
@@ -63,7 +63,7 @@ categories =  {
 
 		movement_cost = 1.0
 
-		terrain_override = { 14 20 33 }
+		terrain_override = { 14 20 27 33 }
 	}
 
 	hex_terrain_inland_sea = {
@@ -75,7 +75,7 @@ categories =  {
 
 		movement_cost = 1.0
 
-		terrain_override = { 10 22 23 24 }
+		terrain_override = { 10 22 24 }
 	}
 
 	hex_terrain_marsh = {
@@ -100,18 +100,29 @@ categories =  {
 		terrain_override = { 15 16 30 32 }
 	}
 
-	hex_terrain_mountains_impassable = {
+	hex_terrain_mountains_frozen = {
 		color = { 255 255 255 }
 
-		sound_type = desert
+		type = mountains
+		sound_type = mountains
 
 		movement_cost = 1.0	
 
 		terrain_override = { 31 }
 	}
 
+	hex_terrain_mountains_impassable = {
+		color = { 128 128 128 }
+
+		sound_type = mountains
+
+		movement_cost = 1.0	
+
+		terrain_override = { 39 }
+	}
+
 	hex_terrain_savannah = {
-		color = { 248 199 23  }
+		color = { 248 199 23 }
 
 		sound_type = plains
 		type = plains

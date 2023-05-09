@@ -5,6 +5,7 @@ hex_city_region = {
 		hex_inner_city_area
 		hex_outer_city_coast_area
 		hex_outer_city_desert_area
+		hex_outer_city_estuary_area
 		hex_outer_city_fields_area
 		hex_outer_city_forest_area
 		hex_outer_city_mountain_area

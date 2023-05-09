@@ -3,6 +3,7 @@
   hex_inner_city_area:0 "Inner City"
   hex_outer_city_coast_area:0 "City Coast"
   hex_outer_city_desert_area:0 "City Desert"
+  hex_outer_city_estuary_area:0 "City Estuary"
   hex_outer_city_fields_area:0 "City Fields"
   hex_outer_city_forest_area:0 "City Forest"
   hex_outer_city_mountain_area:0 "City Mountains"

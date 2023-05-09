@@ -1,0 +1,11 @@
+bookmark = {
+	name = "HEX_BOOKMARK_DAWN_NAME"
+	desc = "HEX_BOOKMARK_DAWN_DESC"
+	date = 19.1.1
+	
+	center = 1
+
+	country = A01
+
+	easy_country = A01
+}

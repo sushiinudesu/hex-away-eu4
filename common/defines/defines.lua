@@ -1,7 +1,7 @@
 -- NGame
 
-NDefines.NGame.START_DATE = "2.1.1"
-NDefines.NGame.END_DATE = "1500.1.1"
+NDefines.NGame.START_DATE = "2.2.2"
+NDefines.NGame.END_DATE = "19.1.2"
 -- NDefines.NGame.MAX_COLONIAL_NATIONS = 100
 -- NDefines.NGame.MAX_CLIENT_STATES = 100
 -- NDefines.NGame.MAX_CUSTOM_COUNTRIES = 75
