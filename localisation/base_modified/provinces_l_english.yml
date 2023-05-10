@@ -29,8 +29,8 @@
   PROV_ADJ14:0 "Red Scar"
   PROV15:0 "City Mines"
   PROV_ADJ15:0 "Mines"
-  PROV16:0 "TBD"
-  PROV_ADJ16:0 "TBD"
+  PROV16:0 "Snow Peaks"  # Sky Port
+  PROV_ADJ16:0 "Snow Peak"
   PROV17:0 "Lion Fort"
   PROV_ADJ17:0 "Lion Fort"
   PROV18:0 "Great Forest"
@@ -57,14 +57,14 @@
   PROV_ADJ28:0 "Sun Gate"
   PROV29:0 "Dust Lands"  # *Library of Dust
   PROV_ADJ29:0 "Dust"
-  PROV30:0 "TBD"
-  PROV_ADJ30:0 "TBD"
-  PROV31:0 "Snow Peaks" # *Frozen Assembly
-  PROV_ADJ31:0 "Snow Peak"
-  PROV32:0 "TBD"
-  PROV_ADJ32:0 "TBD"
-  PROV33:0 "Stone Steps"  # *Godhome
-  PROV_ADJ33:0 "Steps"
+  PROV30:0 "Dark Grotto"
+  PROV_ADJ30:0 "Dark Grotto"
+  PROV31:0 "Stone Steps"  # *Godhome
+  PROV_ADJ31:0 "Steps"
+  PROV32:0 "Frozen Halls" # *Frozen Assembly
+  PROV_ADJ32:0 "Frozen Hall"
+  PROV33:0 "Water Caves"
+  PROV_ADJ33:0 "Cave"
   PROV34:0 "Fool's Falls" # *The Burrow
   PROV_ADJ34:0 "Fall"
   PROV35:0 "Old Grove"  # *Parliament of Leaves
