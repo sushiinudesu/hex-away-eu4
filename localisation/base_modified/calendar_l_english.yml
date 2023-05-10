@@ -1,0 +1,26 @@
+﻿l_english:
+  # Months
+  January:0 "§lI§! §YEarly Wind§!"
+  February:0 "§lII§! §YLate Wind§!"
+  March:0 "§lIII§! §MEarly Water§!"
+  April:0 "§lIV§! §MLate Water§!"
+  May:0 "§lV§! §GEarly Earth§!"
+  June:0 "§lVI§! §GLate Earth§!"
+  July:0 "§lVII§! §REarly Fire§!"
+  August:0 "§lVIII§! §RLate Fire§!"
+  September:0 "§lIX§! §PEarly Void§!"
+  October:0 "§lX§! §PLate Void§!"
+  November:0 "§lXI§! §gEarly Hollow§!"
+  December:0 "§lXII§! §gLate Hollow§!"
+
+  # Days 
+  Monday:0 "First Day"
+  Tuesday:0 "Second Day"
+  Wednesday:0 "Third Day"
+  Thursday:0 "Fourth Day"
+  Friday:0 "Fifth Day"
+  Saturday:0 "Sixth Day"
+  Sunday:0 "Last Day"
+
+  # Year 
+  WORLD_YEAR:0 "The world $YEAR$ AA"
