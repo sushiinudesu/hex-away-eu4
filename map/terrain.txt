@@ -9,6 +9,10 @@ categories =  {
 
 		sound_type = plains
 
+		local_friendly_movement_speed = 2
+		local_hostile_movement_speed = 1
+		tribal_development_growth = 0.1
+
 		terrain_override = { 2 3 4 5 6 7 }
 	}
 
@@ -136,6 +140,12 @@ categories =  {
 		color = { 0 0 0 }
 
 		sound_type = mountains
+
+		local_friendly_movement_speed = -100
+		local_hostile_movement_speed = -100
+		local_governing_cost = -10
+		min_local_autonomy = 1000
+		trade_goods_size_modifier = -10
 
 		terrain_override = { 1 }
 	}

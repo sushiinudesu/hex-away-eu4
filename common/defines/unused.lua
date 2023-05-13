@@ -1196,10 +1196,6 @@
 -- 	INFANTRY_BREAKTHROUGH = 0.0					-- Between 0 and 1
 -- 	CAVALRY_BREAKTHROUGH = 0.0						-- Between 0 and 1
 
--- 	INFANTRY_SPEED = 0.7 							-- _MDEF_INFANTRY_SPEED = 10
--- 	CAVALRY_SPEED = 0.7 							-- _MDEF_CAVALRY_SPEED = 10
--- 	ARTILLERY_SPEED = 0.7 							-- _MDEF_ARTILLERY_SPEED = 10
-
 -- 	INFANTRY_COST = 10.0 							-- _MDEF_INFANTRY_COST = 10
 -- 	CAVALRY_COST = 25.0 							-- _MDEF_CAVALRY_COST = 10
 -- 	ARTILLERY_COST = 30.0 							-- _MDEF_ARTILLERY_COST = 10
@@ -1228,7 +1224,6 @@
 -- 	BACK_LINE_REINFORCE_SPEED = 2 					-- How many regiments can reinforce per day
 -- 	BASE_COMBAT_WIDTH = 15.0						-- _MDEF_BASE_COMBAT_WIDTH_
 -- 	MAX_COMBAT_WIDTH = 40
--- 	FORCE_MARCH_FACTOR = 0.5						--
 -- 	LOOT_DEVASTATION_IMPACT = 10						-- how much devastation full loot impacts
 -- 	SCORCHED_DEVASTATION_IMPACT = 10 					-- how much devastation scorching impacts.
 -- 	SCORCHED_DURATION = 60				-- months
@@ -2100,7 +2095,7 @@
 -- 	BORDER_WIDTH = 1.5
 -- 	TRADE_GOODS_ROTATE_SPEED = 0.2					-- Higher values gives a faster speed
 -- 	TRADE_GOODS_SPEED = 0.02						-- Higher values gives a faster speed
--- 	LAND_UNIT_MOVEMENT_SPEED = 12
+
 -- 	NAVAL_UNIT_MOVEMENT_SPEED = 12
 -- 	ARROW_MOVEMENT_SPEED = 2
 -- 	DRAW_DETAILED_CUTOFF = 400
