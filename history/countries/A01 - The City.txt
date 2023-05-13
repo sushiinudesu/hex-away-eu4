@@ -26,7 +26,7 @@ add_government_reform = hex_city_reform
 	add_faction = hex_first_faction
 }
 
-7.1.1 = {
+4.1.1 = {
 	add_faction = hex_artisan_guild
 	add_faction = hex_builders_guild
 	add_faction = hex_farmers_guild

@@ -1,0 +1,179 @@
+namespace = hex_awakening_guilds_events
+
+country_event = {
+	id = hex_awakening_guilds_events.1
+	title = hex_awakening_guilds_events.1.t
+	desc = hex_awakening_guilds_events.1.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_awakening_arc = yes
+		tag = A01
+		OR = {
+			NOT = { has_faction = hex_artisan_guild }
+			NOT = { has_faction = hex_builders_guild }
+			NOT = { has_faction = hex_farmers_guild }
+			NOT = { has_faction = hex_hunters_guild }
+			NOT = { has_faction = hex_miners_guild }
+			NOT = { has_faction = hex_sailors_guild }
+		}
+	}
+
+	option = {
+		name = hex_awakening_guilds_events.1.a
+
+		hidden_effect = {
+			random_list = {
+				6 = { }
+				1 = {
+					trigger = { NOT = { has_faction = hex_artisan_guild } }
+					country_event = { id = hex_awakening_guilds_events.2 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { NOT = { has_faction = hex_builders_guild } }
+					country_event = { id = hex_awakening_guilds_events.3 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { NOT = { has_faction = hex_farmers_guild } }
+					country_event = { id = hex_awakening_guilds_events.4 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { NOT = { has_faction = hex_hunters_guild } }
+					country_event = { id = hex_awakening_guilds_events.5 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { NOT = { has_faction = hex_miners_guild } }
+					country_event = { id = hex_awakening_guilds_events.6 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { NOT = { has_faction = hex_sailors_guild } }
+					country_event = { id = hex_awakening_guilds_events.7 days = 1 random = 25 }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = hex_awakening_guilds_events.2
+	title = hex_awakening_guilds_events.2.t
+	desc = hex_awakening_guilds_events.2.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_guilds_events.2.a
+		custom_tooltip = hex_institution_guilds_events.2.a.tt
+
+		hidden_effect = {
+			add_faction = hex_artisan_guild
+		}
+	}
+}
+
+country_event = {
+	id = hex_awakening_guilds_events.3
+	title = hex_awakening_guilds_events.3.t
+	desc = hex_awakening_guilds_events.3.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_guilds_events.3.a
+		custom_tooltip = hex_institution_guilds_events.3.a.tt
+
+		hidden_effect = {
+			add_faction = hex_builders_guild
+		}
+	}
+}
+
+country_event = {
+	id = hex_awakening_guilds_events.4
+	title = hex_awakening_guilds_events.4.t
+	desc = hex_awakening_guilds_events.4.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_guilds_events.4.a
+		custom_tooltip = hex_institution_guilds_events.4.a.tt
+
+		hidden_effect = {
+			add_faction = hex_farmers_guild
+		}
+	}
+}
+
+country_event = {
+	id = hex_awakening_guilds_events.5
+	title = hex_awakening_guilds_events.5.t
+	desc = hex_awakening_guilds_events.5.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_guilds_events.5.a
+		custom_tooltip = hex_institution_guilds_events.5.a.tt
+
+		hidden_effect = {
+			add_faction = hex_hunters_guild
+		}
+	}
+}
+
+country_event = {
+	id = hex_awakening_guilds_events.6
+	title = hex_awakening_guilds_events.6.t
+	desc = hex_awakening_guilds_events.6.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_guilds_events.6.a
+		custom_tooltip = hex_institution_guilds_events.6.a.tt
+
+		hidden_effect = {
+			add_faction = hex_miners_guild
+		}
+	}
+}
+
+country_event = {
+	id = hex_awakening_guilds_events.7
+	title = hex_awakening_guilds_events.7.t
+	desc = hex_awakening_guilds_events.7.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_guilds_events.7.a
+		custom_tooltip = hex_institution_guilds_events.7.a.tt
+
+		hidden_effect = {
+			add_faction = hex_sailors_guild
+		}
+	}
+}

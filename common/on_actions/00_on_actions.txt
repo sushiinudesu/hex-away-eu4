@@ -154,7 +154,11 @@ on_colonial_pulse = { }
 
 on_siberian_pulse = { }
 
-on_monthly_pulse = { }
+on_monthly_pulse = {
+	events = {
+		hex_awakening_guilds_events.1
+	}
+}
 
 on_yearly_pulse = { }
 
