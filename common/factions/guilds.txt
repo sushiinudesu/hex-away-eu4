@@ -10,7 +10,7 @@ hex_artisan_guild = {
         name = HEX_ARTISANS
         
         trigger = {
-			hex_is_awakening_arc = yes
+			NOT = { is_institution_enabled = hex_institution_guilds }
         }
     }
 
@@ -29,7 +29,7 @@ hex_builders_guild = {
         name = HEX_BUILDERS
         
         trigger = {
-			hex_is_awakening_arc = yes
+			NOT = { is_institution_enabled = hex_institution_guilds }
         }
     }
 
@@ -48,7 +48,7 @@ hex_farmers_guild = {
         name = HEX_FARMERS
         
         trigger = {
-			hex_is_awakening_arc = yes
+			NOT = { is_institution_enabled = hex_institution_guilds }
         }
     }
 
@@ -67,7 +67,7 @@ hex_hunters_guild = {
         name = HEX_HUNTERS
         
         trigger = {
-			hex_is_awakening_arc = yes
+			NOT = { is_institution_enabled = hex_institution_guilds }
         }
     }
 
@@ -86,7 +86,7 @@ hex_miners_guild = {
         name = HEX_MINERS
         
         trigger = {
-			hex_is_awakening_arc = yes
+			NOT = { is_institution_enabled = hex_institution_guilds }
         }
     }
 
@@ -105,7 +105,7 @@ hex_sailors_guild = {
         name = HEX_SAILORS
         
         trigger = {
-			hex_is_awakening_arc = yes
+			NOT = { is_institution_enabled = hex_institution_guilds }
         }
     }
 
