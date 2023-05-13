@@ -481,7 +481,9 @@ in_golden_era = { }
 
 absolutism = { }
 
-low_army_professionalism = { }
+low_army_professionalism = {
+	land_forcelimit_modifier = -1
+}
 
 high_army_professionalism = { }
 
