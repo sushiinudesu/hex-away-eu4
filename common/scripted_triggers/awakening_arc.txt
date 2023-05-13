@@ -1,3 +1,3 @@
-is_awakening_arc = {
+hex_is_awakening_arc = {
 	NOT = { is_institution_enabled = hex_institution_guilds }
 }

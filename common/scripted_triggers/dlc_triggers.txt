@@ -1,0 +1,3 @@
+hex_native_mechanic_available = {
+	has_dlc = "Conquest of Paradise"
+}

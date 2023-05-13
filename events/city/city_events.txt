@@ -1,0 +1,52 @@
+namespace = hex_city_events
+
+country_event = {
+	id = hex_city_events.1
+	title = hex_city_events.1.t
+	desc = hex_city_events.1.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		capital_scope = { region = hex_city_region }
+	}
+
+	option = {
+		name = hex_city_events.1.a
+		custom_tooltip = hex_city_events.1.a.tt
+
+		trigger = { hex_native_mechanic_available = yes }
+
+		hidden_effect = {
+			random_province = {
+				limit = { tribal_land_of = ROOT }
+				settle_province = ROOT
+			}
+		}
+	}
+
+	option = {
+		name = hex_city_events.1.b
+		custom_tooltip = hex_city_events.1.b.tt
+
+		trigger = { hex_native_mechanic_available = no }
+
+		hidden_effect = {
+			random_province = {
+				limit = {
+					region = hex_city_region
+					owned_by = ROOT
+				}
+
+				random_list = { 
+					33 = { add_base_tax = 1 } 
+					33 = { add_base_production = 1 } 
+					33 = { add_base_manpower = 1 } 
+				}
+			}
+		}
+	}
+}

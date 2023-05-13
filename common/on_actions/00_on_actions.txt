@@ -158,6 +158,8 @@ on_monthly_pulse = {
 	events = {
 		hex_awakening_guilds_events.1
 		hex_awakening_random_events.1
+
+		hex_city_events.1
 	}
 }
 
