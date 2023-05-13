@@ -1,0 +1,827 @@
+namespace = hex_awakening_random_events
+
+country_event = {
+	id = hex_awakening_random_events.1
+	title = hex_awakening_random_events.1.t
+	desc = hex_awakening_random_events.1.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_awakening_arc = yes
+		tag = A01
+	}
+
+	option = {
+		name = hex_awakening_random_events.1.a
+
+		hidden_effect = {
+			random_list = {
+				36 = { }
+
+				1 = {
+					trigger = { has_faction = hex_artisan_guild }
+					country_event = { id = hex_awakening_random_events.2 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_artisan_guild }
+					country_event = { id = hex_awakening_random_events.3 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_artisan_guild }
+					country_event = { id = hex_awakening_random_events.4 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_artisan_guild }
+					country_event = { id = hex_awakening_random_events.5 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_artisan_guild }
+					country_event = { id = hex_awakening_random_events.6 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_artisan_guild }
+					country_event = { id = hex_awakening_random_events.7 days = 1 random = 25 }
+				}
+
+				1 = {
+					trigger = { has_faction = hex_builders_guild }
+					country_event = { id = hex_awakening_random_events.8 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_builders_guild }
+					country_event = { id = hex_awakening_random_events.9 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_builders_guild }
+					country_event = { id = hex_awakening_random_events.10 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_builders_guild }
+					country_event = { id = hex_awakening_random_events.11 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_builders_guild }
+					country_event = { id = hex_awakening_random_events.12 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_builders_guild }
+					country_event = { id = hex_awakening_random_events.13 days = 1 random = 25 }
+				}
+
+
+				1 = {
+					trigger = { has_faction = hex_farmers_guild }
+					country_event = { id = hex_awakening_random_events.14 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_farmers_guild }
+					country_event = { id = hex_awakening_random_events.15 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_farmers_guild }
+					country_event = { id = hex_awakening_random_events.16 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_farmers_guild }
+					country_event = { id = hex_awakening_random_events.17 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_farmers_guild }
+					country_event = { id = hex_awakening_random_events.18 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_farmers_guild }
+					country_event = { id = hex_awakening_random_events.19 days = 1 random = 25 }
+				}
+
+
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_awakening_random_events.20 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_awakening_random_events.21 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_awakening_random_events.22 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_awakening_random_events.23 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_awakening_random_events.24 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_awakening_random_events.25 days = 1 random = 25 }
+				}
+
+				1 = {
+					trigger = { has_faction = hex_miners_guild }
+					country_event = { id = hex_awakening_random_events.26 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_miners_guild }
+					country_event = { id = hex_awakening_random_events.27 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_miners_guild }
+					country_event = { id = hex_awakening_random_events.28 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_miners_guild }
+					country_event = { id = hex_awakening_random_events.29 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_miners_guild }
+					country_event = { id = hex_awakening_random_events.30 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_miners_guild }
+					country_event = { id = hex_awakening_random_events.31 days = 1 random = 25 }
+				}
+
+				1 = {
+					trigger = { has_faction = hex_sailors_guild }
+					country_event = { id = hex_awakening_random_events.32 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_sailors_guild }
+					country_event = { id = hex_awakening_random_events.33 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_sailors_guild }
+					country_event = { id = hex_awakening_random_events.34 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_sailors_guild }
+					country_event = { id = hex_awakening_random_events.35 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_sailors_guild }
+					country_event = { id = hex_awakening_random_events.36 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_sailors_guild }
+					country_event = { id = hex_awakening_random_events.37 days = 1 random = 25 }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.2
+	title = hex_awakening_random_events.2.t
+	desc = hex_awakening_random_events.2.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.2.a
+		custom_tooltip = hex_awakening_random_events.2.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.3
+	title = hex_awakening_random_events.3.t
+	desc = hex_awakening_random_events.3.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.3.a
+		custom_tooltip = hex_awakening_random_events.3.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.4
+	title = hex_awakening_random_events.4.t
+	desc = hex_awakening_random_events.4.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.4.a
+		custom_tooltip = hex_awakening_random_events.4.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.5
+	title = hex_awakening_random_events.5.t
+	desc = hex_awakening_random_events.5.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.5.a
+		custom_tooltip = hex_awakening_random_events.5.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.6
+	title = hex_awakening_random_events.6.t
+	desc = hex_awakening_random_events.6.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.6.a
+		custom_tooltip = hex_awakening_random_events.6.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.7
+	title = hex_awakening_random_events.7.t
+	desc = hex_awakening_random_events.7.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.7.a
+		custom_tooltip = hex_awakening_random_events.7.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.8
+	title = hex_awakening_random_events.8.t
+	desc = hex_awakening_random_events.8.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.8.a
+		custom_tooltip = hex_awakening_random_events.8.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.9
+	title = hex_awakening_random_events.9.t
+	desc = hex_awakening_random_events.9.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.9.a
+		custom_tooltip = hex_awakening_random_events.9.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.10
+	title = hex_awakening_random_events.10.t
+	desc = hex_awakening_random_events.10.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.10.a
+		custom_tooltip = hex_awakening_random_events.10.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.11
+	title = hex_awakening_random_events.11.t
+	desc = hex_awakening_random_events.11.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.11.a
+		custom_tooltip = hex_awakening_random_events.11.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.12
+	title = hex_awakening_random_events.12.t
+	desc = hex_awakening_random_events.12.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.12.a
+		custom_tooltip = hex_awakening_random_events.12.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.13
+	title = hex_awakening_random_events.13.t
+	desc = hex_awakening_random_events.13.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.13.a
+		custom_tooltip = hex_awakening_random_events.13.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.14
+	title = hex_awakening_random_events.14.t
+	desc = hex_awakening_random_events.14.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.14.a
+		custom_tooltip = hex_awakening_random_events.14.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.15
+	title = hex_awakening_random_events.15.t
+	desc = hex_awakening_random_events.15.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.15.a
+		custom_tooltip = hex_awakening_random_events.15.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.16
+	title = hex_awakening_random_events.16.t
+	desc = hex_awakening_random_events.16.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.16.a
+		custom_tooltip = hex_awakening_random_events.16.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.17
+	title = hex_awakening_random_events.17.t
+	desc = hex_awakening_random_events.17.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.17.a
+		custom_tooltip = hex_awakening_random_events.17.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.18
+	title = hex_awakening_random_events.18.t
+	desc = hex_awakening_random_events.18.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.18.a
+		custom_tooltip = hex_awakening_random_events.18.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.19
+	title = hex_awakening_random_events.19.t
+	desc = hex_awakening_random_events.19.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.19.a
+		custom_tooltip = hex_awakening_random_events.19.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.20
+	title = hex_awakening_random_events.20.t
+	desc = hex_awakening_random_events.20.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.20.a
+		custom_tooltip = hex_awakening_random_events.20.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.21
+	title = hex_awakening_random_events.21.t
+	desc = hex_awakening_random_events.21.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.21.a
+		custom_tooltip = hex_awakening_random_events.21.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.22
+	title = hex_awakening_random_events.22.t
+	desc = hex_awakening_random_events.22.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.22.a
+		custom_tooltip = hex_awakening_random_events.22.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.23
+	title = hex_awakening_random_events.23.t
+	desc = hex_awakening_random_events.23.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.23.a
+		custom_tooltip = hex_awakening_random_events.23.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.24
+	title = hex_awakening_random_events.24.t
+	desc = hex_awakening_random_events.24.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.24.a
+		custom_tooltip = hex_awakening_random_events.24.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.25
+	title = hex_awakening_random_events.25.t
+	desc = hex_awakening_random_events.25.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.25.a
+		custom_tooltip = hex_awakening_random_events.25.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.26
+	title = hex_awakening_random_events.26.t
+	desc = hex_awakening_random_events.26.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.26.a
+		custom_tooltip = hex_awakening_random_events.26.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.27
+	title = hex_awakening_random_events.27.t
+	desc = hex_awakening_random_events.27.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.27.a
+		custom_tooltip = hex_awakening_random_events.27.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.28
+	title = hex_awakening_random_events.28.t
+	desc = hex_awakening_random_events.28.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.28.a
+		custom_tooltip = hex_awakening_random_events.28.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.29
+	title = hex_awakening_random_events.29.t
+	desc = hex_awakening_random_events.29.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.29.a
+		custom_tooltip = hex_awakening_random_events.29.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.30
+	title = hex_awakening_random_events.30.t
+	desc = hex_awakening_random_events.30.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.30.a
+		custom_tooltip = hex_awakening_random_events.30.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.31
+	title = hex_awakening_random_events.31.t
+	desc = hex_awakening_random_events.31.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.31.a
+		custom_tooltip = hex_awakening_random_events.31.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.32
+	title = hex_awakening_random_events.32.t
+	desc = hex_awakening_random_events.32.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.32.a
+		custom_tooltip = hex_awakening_random_events.32.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.33
+	title = hex_awakening_random_events.33.t
+	desc = hex_awakening_random_events.33.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.33.a
+		custom_tooltip = hex_awakening_random_events.33.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.34
+	title = hex_awakening_random_events.34.t
+	desc = hex_awakening_random_events.34.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.34.a
+		custom_tooltip = hex_awakening_random_events.34.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.35
+	title = hex_awakening_random_events.35.t
+	desc = hex_awakening_random_events.35.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.35.a
+		custom_tooltip = hex_awakening_random_events.35.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.36
+	title = hex_awakening_random_events.36.t
+	desc = hex_awakening_random_events.36.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.36.a
+		custom_tooltip = hex_awakening_random_events.36.a.tt
+
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = hex_awakening_random_events.37
+	title = hex_awakening_random_events.37.t
+	desc = hex_awakening_random_events.37.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_random_events.37.a
+		custom_tooltip = hex_awakening_random_events.37.a.tt
+
+		hidden_effect = { }
+	}
+}
