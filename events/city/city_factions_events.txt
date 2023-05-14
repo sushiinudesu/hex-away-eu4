@@ -1,0 +1,122 @@
+namespace = hex_city_factions_events
+
+country_event = {
+	id = hex_city_factions_events.1
+	title = hex_city_factions_events.1.t
+	desc = hex_city_factions_events.1.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		capital_scope = { region = hex_city_region }
+		tag = A01
+	}
+
+	option = {
+		name = hex_city_factions_events.1.chef
+		custom_tooltip = hex_city_factions_events.1.chef.tt
+
+		trigger = { faction_in_power = hex_farmers_guild }
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_ruler = "Chef" } }
+				hex_exile_character = yes
+				hex_set_character_chef = yes
+			}
+		}
+	}
+
+	option = {
+		name = hex_city_factions_events.1.clay
+		custom_tooltip = hex_city_factions_events.1.clay.tt
+
+		trigger = { faction_in_power = hex_builders_guild }
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_ruler = "Clay" } }
+				hex_exile_character = yes
+				hex_set_character_clay = yes
+			}
+		}
+	}
+
+	option = {
+		name = hex_city_factions_events.1.first_one
+		custom_tooltip = hex_city_factions_events.1.first_one.tt
+
+		trigger = { faction_in_power = hex_first_faction }
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_ruler = "First One" } }
+				hex_exile_character = yes
+				hex_set_character_first_one = yes
+			}
+		}
+	}
+
+	option = {
+		name = hex_city_factions_events.1.lion
+		custom_tooltip = hex_city_factions_events.1.lion.tt
+
+		trigger = { faction_in_power = hex_hunters_guild }
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_ruler = "Lion" } }
+				hex_exile_character = yes
+				hex_set_character_lion = yes
+			}
+		}
+	}
+
+	option = {
+		name = hex_city_factions_events.1.longbeard
+		custom_tooltip = hex_city_factions_events.1.longbeard.tt
+
+		trigger = { faction_in_power = hex_miners_guild }
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_ruler = "Longbeard" } }
+				hex_exile_character = yes
+				hex_set_character_longbeard = yes
+			}
+		}
+	}
+
+	option = {
+		name = hex_city_factions_events.1.needle
+		custom_tooltip = hex_city_factions_events.1.needle.tt
+
+		trigger = { faction_in_power = hex_artisan_guild }
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_ruler = "Needle" } }
+				hex_exile_character = yes
+				hex_set_character_needle = yes
+			}
+		}
+	}
+
+	option = {
+		name = hex_city_factions_events.1.seawatcher
+		custom_tooltip = hex_city_factions_events.1.seawatcher.tt
+
+		trigger = { faction_in_power = hex_sailors_guild }
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_ruler = "Seawatcher" } }
+				hex_exile_character = yes
+				hex_set_character_seawatcher = yes
+			}
+		}
+	}
+}

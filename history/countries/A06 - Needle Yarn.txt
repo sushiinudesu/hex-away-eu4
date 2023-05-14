@@ -1,0 +1,16 @@
+technology_group = hex_technology_group_city
+
+2.1.1 = {
+	monarch = {
+		name = "Needle"
+		dynasty = "'the Awake'"
+		birth_date = 2.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+		female = yes
+		culture = hex_awake_culture
+		religion = hex_faithless
+	}
+	exile_ruler_as = { name = needle kill_monarch = no }
+}

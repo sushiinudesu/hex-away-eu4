@@ -8,7 +8,7 @@ technology_group = hex_technology_group_city
 
 add_government_reform = hex_city_reform
 
-1.1.2 = {
+2.1.1 = {
 	monarch = {
 		name = "First One"
 		dynasty = "'the Awake'"
@@ -17,9 +17,12 @@ add_government_reform = hex_city_reform
 		dip = 1
 		mil = 1
 		culture = hex_awake_culture
-		religion = hex_faithless		
+		religion = hex_faithless
 	}
+	exile_ruler_as = { name = first_one kill_monarch = no }
+}
 
+2.2.2 = {
 	add_ruler_personality = hex_awake_personality
 	set_ai_personality = { personality = ai_balanced locked = yes }
 

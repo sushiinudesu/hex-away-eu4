@@ -1,1 +1,7 @@
 A01 = "countries/A01 - The City.txt"
+A02 = "countries/A02 - Chef's Troupe.txt"
+A03 = "countries/A03 - Clay Masons.txt"
+A04 = "countries/A04 - Lion Company.txt"
+A05 = "countries/A05 - Longbeard Clan.txt"
+A06 = "countries/A06 - Needle Yarn.txt"
+A07 = "countries/A07 - Salt Circle.txt"

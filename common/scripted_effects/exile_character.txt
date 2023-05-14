@@ -1,0 +1,65 @@
+hex_exile_character = {
+	if = {
+		limit = { has_ruler = "Chef" }
+		exile_ruler_as = { name = chef kill_monarch = no }
+	}
+	else_if = {
+		limit = { has_ruler = "Clay" }
+		exile_ruler_as = { name = clay kill_monarch = no }
+	}
+	else_if = {
+		limit = { has_ruler = "First One" }
+		exile_ruler_as = { name = first_one kill_monarch = no }
+	}
+	else_if = {
+		limit = { has_ruler = "Lion" }
+		exile_ruler_as = { name = lion kill_monarch = no }
+	}
+	else_if = {
+		limit = { has_ruler = "Longbeard" }
+		exile_ruler_as = { name = longbeard kill_monarch = no }
+	}
+	else_if = {
+		limit = { has_ruler = "Needle" }
+		exile_ruler_as = { name = needle kill_monarch = no }
+	}
+	else_if = {
+		limit = { has_ruler = "Seawatcher" }
+		exile_ruler_as = { name = seawatcher kill_monarch = no }
+	}
+}
+
+hex_set_character_chef = {
+	set_ruler = chef
+	hex_setup_ruler = { ai = ai_capitalist }
+}
+
+hex_set_character_clay = {
+	set_ruler = clay
+	hex_setup_ruler = { ai = ai_balanced }
+}
+
+hex_set_character_first_one = {
+	set_ruler = first_one
+	hex_setup_ruler = { ai = ai_balanced }
+}
+
+hex_set_character_lion = {
+	set_ruler = lion
+	hex_setup_ruler = { ai = ai_militarist }
+}
+
+hex_set_character_longbeard = {
+	set_ruler = longbeard
+	hex_setup_ruler = { ai = ai_capitalist }
+}
+
+hex_set_character_needle = {
+	set_ruler = needle
+	hex_setup_ruler = { ai = ai_diplomat }
+}
+
+hex_set_character_seawatcher = {
+	set_ruler = seawatcher
+	hex_setup_ruler = { ai = ai_diplomat }
+}
