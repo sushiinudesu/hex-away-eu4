@@ -1,3 +1,5 @@
 ﻿l_english:
-  hex_city_reform:0 "The City"
-  hex_city_reform_desc:0 "TBD"
+  hex_city_first_camp_reform:0 "First Camp"
+  hex_city_first_camp_reform_desc:0 "What started as a little camp used by §YMr. First§!, when he was exploring the World by himself, soon after the Awakening became a large settlement and home to may of those who decided not to venture far away from the Tower."
+  hex_city_under_construction_reform:0 "City Under Construction"
+  hex_city_under_construction_reform_desc:0 "With the help of the Guilds, First Camp and its surrounding gradually started to look more like a city. But there's still a lot more to be done if we want it to be a home for everyone."

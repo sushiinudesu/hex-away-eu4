@@ -1,6 +1,6 @@
 ﻿l_english:
   desc_hex_institution_guilds:0 "As more and more awoke, a better organization was needed in order to keep track of people and help them acclimate in the World. The creation of Guilds was supposed to solve the problem and give everyone shelter, food and work."
-  HEX_GUILDS_BORDER_PROVINCE:0 "Borders province with institution"
+  HEX_GUILDS_BORDER_PROVINCE:0 "From nearby provinces"
   HEX_GUILDS_HISTORICAL_PROVINCE:0 "Birthplace of the Guilds"
   hex_institution_guilds_date:0 "4"
   hex_institution_guilds:0 "Guilds"

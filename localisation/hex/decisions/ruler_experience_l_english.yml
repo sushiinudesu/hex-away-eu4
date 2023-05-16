@@ -1,0 +1,13 @@
+﻿l_english:
+  hex_improve_adm_desc:0 "You've saved enough XP to permanently increase §Y[Root.Monarch.GetName]§! Administrative Skill."
+  hex_improve_adm_title:0 "Level Up Administrative Skill"
+  HEX_IMPROVE_ADM_EFFECT_TT:0 "This will increase Ruler Administrative Skill by 1"
+  HEX_IMPROVE_ADM_TT:0 "You have enough XP"
+  hex_improve_dip_desc:0 "You've saved enough XP to permanently increase §Y[Root.Monarch.GetName]§! Diplomatic Skill."
+  hex_improve_dip_title:0 "Level Up Diplomatic Skill"
+  HEX_IMPROVE_DIP_EFFECT_TT:0 "This will increase Ruler Diplomatic Skill by 1"
+  HEX_IMPROVE_DIP_TT:0 "You have enough XP"
+  hex_improve_mil_desc:0 "You've saved enough XP to permanently increase §Y[Root.Monarch.GetName]§! Military Skill."
+  hex_improve_mil_title:0 "Level Up Military Skill"
+  HEX_IMPROVE_MIL_EFFECT_TT:0 "This will increase Ruler Military Skill by 1"
+  HEX_IMPROVE_MIL_TT:0 "You have enough XP"

@@ -1,9 +1,7 @@
 ﻿l_english:
   HEX_CAMP_LEADER:0 "Camp Leader"
-  HEX_CITY:0 "City"
-  HEX_CITY_CAMP:0 "City Camp"
-  HEX_GRAND_MAYOR:0 "Grand-Mayor"
-  HEX_GREAT_CITY:0 "Great City"
+  HEX_CITY_FIRST_CAMP:0 "First Camp"
+  HEX_CITY_LEADER:0 "City Leader"
+  HEX_CITY_UNDER_CONSTRUCTION:0 "City Under Construction"
   HEX_LEADER:0 "Leader"
-  HEX_MAYOR:0 "Mayor"
   HEX_CITY_RULE:0 "City Rule"

@@ -1,8 +1,8 @@
-hex_white_bear_spirit = {
+hex_star_fox_spirit = {
 	sprite = 1
 	
 	potential = {
-		has_global_flag = hex_white_bear_spirit_unlocked
+		has_global_flag = hex_star_fox_spirit_unlocked
 		religion = hex_faithless
 	}
 	trigger = {}

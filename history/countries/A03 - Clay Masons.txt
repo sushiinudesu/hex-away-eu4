@@ -1,4 +1,4 @@
-technology_group = hex_technology_group_city
+government = native
 
 2.1.1 = {
 	monarch = {

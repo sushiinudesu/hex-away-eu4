@@ -12,3 +12,6 @@
   hex_terrain_mountains_impassable:0 "Impassable"
   hex_terrain_savannah:0 "Savannah"
   hex_terrain_tower:0 "The Tower"
+
+  impassable:0 "Impassable"
+  desc_impassable:0 "TBD"

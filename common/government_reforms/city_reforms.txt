@@ -1,12 +1,28 @@
-hex_city_reform = {
+hex_city_first_camp_reform = {
 	icon = "free_city"
 
+	fixed_rank = 1
 	lock_level_when_selected = yes
 
-	potential = { tag = A01 }
+	potential = {
+		tag = A01
+		has_reform = hex_city_first_camp_reform
+	}
 
-	factions = {
-		hex_first_faction
+	modifiers = {
+		tribal_development_growth = 0.2
+	}
+}
+
+hex_city_under_construction_reform = {
+	icon = "free_city"
+
+	fixed_rank = 1
+	lock_level_when_selected = yes
+
+	potential = {
+		tag = A01
+		has_reform = hex_city_under_construction_reform
 	}
 
 	modifiers = {

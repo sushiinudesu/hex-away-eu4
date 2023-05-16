@@ -32,7 +32,7 @@ country_decisions = {
 			}
 		}
 
-		ai_will_do = { factor = 1000 }
+		ai_will_do = { factor = 100 }
 	}
 
 	hex_improve_dip = {
@@ -68,7 +68,7 @@ country_decisions = {
 			}
 		}
 
-		ai_will_do = { factor = 1000 }
+		ai_will_do = { factor = 100 }
 	}
 
 	hex_improve_mil = {
@@ -104,6 +104,6 @@ country_decisions = {
 			}
 		}
 
-		ai_will_do = { factor = 1000 }
+		ai_will_do = { factor = 100 }
 	}
 }

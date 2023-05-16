@@ -1,23 +1,35 @@
-hex_city_reform = {
+hex_city_first_camp_reform = {
 	rank = {
-		1 = HEX_CITY_CAMP
-		2 = HEX_CITY
-		3 = HEX_GREAT_CITY
+		1 = HEX_CITY_FIRST_CAMP
 	}
 
 	ruler_male = {
 		1 = HEX_CAMP_LEADER
-		2 = HEX_MAYOR
-		3 = HEX_GRAND_MAYOR
 	}
 
 	ruler_female = {
 		1 = HEX_CAMP_LEADER
-		2 = HEX_MAYOR
-		3 = HEX_GRAND_MAYOR
 	}
 
 	trigger = {
-		has_reform = hex_city_reform
+		has_reform = hex_city_first_camp_reform
+	}
+}
+
+hex_city_under_construction_reform = {
+	rank = {
+		1 = HEX_CITY_UNDER_CONSTRUCTION
+	}
+
+	ruler_male = {
+		1 = HEX_CITY_LEADER
+	}
+
+	ruler_female = {
+		1 = HEX_CITY_LEADER
+	}
+
+	trigger = {
+		has_reform = hex_city_under_construction_reform
 	}
 }

@@ -2,9 +2,7 @@ hex_first_faction = {
 	always = yes
 	monarch_power = DIP
 
-	allow = {
-		tag = A01
-	}
+	allow = { tag = A01 }
 
 	modifier = { }
 }

@@ -5,7 +5,8 @@ native = {
 	reform_levels = {
 		hex_adminsitration_reform_level = {
 			reforms = {
-				hex_city_reform
+				hex_city_first_camp_reform
+				hex_city_under_construction_reform
 			}
 		}
 	}
