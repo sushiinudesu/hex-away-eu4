@@ -1,4 +1,6 @@
-on_startup = { }
+on_startup = {
+	every_province = { set_in_empire = no }
+}
 
 on_religion_change = { }
 
