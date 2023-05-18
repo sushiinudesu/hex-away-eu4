@@ -6,11 +6,11 @@ hex_city_first_camp_reform = {
 
 	potential = {
 		tag = A01
-		has_reform = hex_city_first_camp_reform
+		NOT = { is_institution_enabled = hex_institution_guilds }
 	}
 
 	modifiers = {
-		tribal_development_growth = 0.2
+		tribal_development_growth = 0.5
 	}
 }
 
@@ -22,10 +22,10 @@ hex_city_under_construction_reform = {
 
 	potential = {
 		tag = A01
-		has_reform = hex_city_under_construction_reform
+		is_institution_enabled = hex_institution_guilds
 	}
 
 	modifiers = {
-		tribal_development_growth = 0.5
+		tribal_development_growth = 1
 	}
 }

@@ -259,19 +259,20 @@ army_tradition = {
 }
 
 base_values = {
-	army_tradition_decay = 0.05
-	diplomatic_upkeep = 3
-	diplomats = 2
-	free_leader_pool = 100
-	max_flagships = 1
-	navy_tradition_decay = 0.05
-	prestige_decay = 0.05
-	tolerance_of_heretics_capacity = 10
-	tolerance_of_heathens_capacity = 10
+	diplomats = 1
+	global_tax_modifier = -1
+	land_maintenance_modifier = -1
+	naval_maintenance_modifier = -1
+	production_efficiency = -1
+	state_maintenance_modifier = -1
+	trade_efficiency = -1
 }
 
 corruption = {
 	all_power_cost = 10
+	country_admin_power	= 6
+	country_diplomatic_power = 6
+	country_military_power	= 6
 }
 
 inflation = {

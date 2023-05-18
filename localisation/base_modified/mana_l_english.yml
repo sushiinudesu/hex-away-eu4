@@ -1,0 +1,6 @@
+﻿l_english:
+  ADM_POWER:0 "Administrative Experience"
+  DIP_POWER:0 "Diplomatic Experience"
+  MIL_POWER:0 "Military Experience"
+  POWER_INCREASE:0 "Monthly Increase: $TOTAL|+=$\n\n"
+  MAX_POWER_STORE:0 "You can only keep $MAX$ experience saved (based on Ruler Corruption)"

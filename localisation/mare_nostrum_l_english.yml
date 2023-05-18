@@ -73,8 +73,7 @@
  AUTO_DUE_TO_MOD:1 "$WHAT$"
  AUTO_HEADER:0 "Cannot be lower than §Y$VAL$%§! due to:\n$WHAT$"
  MODIFIER_YEARLY_CORRUPTION:0 "Yearly Corruption"
- CORRUPTION_IRO:0 "§YCorruption§!\nCurrently: $CURR|Y$.\nCorruption changes by $CHANGE$ every year due to:\n$WHY$"
- CORRUPTION_DRO:0 "This level of Corruption gives the following effects:"
+
  STEALMAPTITLE:0 "Steal Maps"
  SPYCOST:0 "Will reduce the size of our $ADJ|Y$ Spy Network by $COST$."
  STEALMAPDESC:0 "Steals the target's maps of a region."

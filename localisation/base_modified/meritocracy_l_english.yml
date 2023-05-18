@@ -1,0 +1,4 @@
+﻿l_english:
+  meritocracy:0 "Enthusiasm"
+  YOU_MERITOCRACY_IRO:0 "§YEnthusiasm§!\nEnthusiasm changes by $CHANGE$ every year due to:\n$WHY$"
+  YOU_MERITOCRACY_DRO:0 "This represents how much the citizens support our country ideals. The higher it is, the more efficient our country will run.\n\nThis level of Enthusiasm gives the following effects:"

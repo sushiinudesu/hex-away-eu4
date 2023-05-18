@@ -4454,7 +4454,6 @@
  NEWMON_BTN2:0 "OK"
  NEWMON_BTN3:0 "Go to"
  NEWMON_MAP:0 "Long Live $MONARCHNAME$!"
- NEWMON_MOURN:0 "Our nation is in mourning over the loss of our previous monarch $OLD$."
  CONSORTREGENTSUCCEEDED_MOURN:0 "Our consort-regent $NAME$ has stepped down and allowed $HEIRNAME$ to take the crown."
  ENEMYMILALLHONOUR_HEADER:0 "Herald from"
  ENEMYMILALLHONOUR_1:0 "$RECIPIENT$"
