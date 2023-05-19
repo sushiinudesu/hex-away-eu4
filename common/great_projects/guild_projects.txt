@@ -1,0 +1,46 @@
+hex_project_lion_fort = {
+	# start = 17
+
+	date = 1000.1.1
+	
+	build_cost = 0
+	time = { months = 0 }
+
+	can_be_moved = no
+	move_days_per_unit_distance = 0
+	
+	starting_tier = 0
+	
+	type = monument
+
+	build_trigger = {
+		province_id = 17
+		has_province_flag = hex_lion_fort_flag
+	}
+
+	on_built = { }
+	
+	on_destroyed = { }
+
+	can_use_modifiers_trigger = { always = yes }
+	can_upgrade_trigger = { always = no }
+	keep_trigger = { always = yes }
+
+	tier_0 = {
+		upgrade_time = { months = 0 }
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+			fort_level = 1
+		}
+
+		area_modifier = { }
+
+		country_modifiers = { }
+
+		on_upgraded = { }
+	}
+}

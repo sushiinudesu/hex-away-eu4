@@ -1,0 +1,40 @@
+namespace = hex_great_projects_events
+
+country_event = {
+	id = hex_great_projects_events.1
+	title = hex_great_projects_events.1.t
+	desc = hex_great_projects_events.1.d
+	picture = CAVE_eventPicture
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+        name = hex_great_projects_events.1.a
+        ai_chance = { factor = 100 }
+		country_event = { id = hex_great_projects_events.2 }
+	}
+}
+
+country_event = {
+	id = hex_great_projects_events.2
+	title = hex_great_projects_events.2.t
+	desc = hex_great_projects_events.2.d
+	picture = CAVE_eventPicture
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+        name = hex_great_projects_events.2.a
+        ai_chance = { factor = 100 }
+
+		event_target:hex_great_project_province = {
+			trigger_switch = {
+				on_trigger = has_province_flag
+
+				hex_lion_fort_flag = { add_great_project = { type = hex_project_lion_fort instant = yes } clr_province_flag = hex_lion_fort_flag }
+			}
+		}
+	}
+}

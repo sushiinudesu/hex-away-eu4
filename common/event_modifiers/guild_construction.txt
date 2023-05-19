@@ -1,0 +1,4 @@
+hex_faction_has_construction = {
+	# TBD picture
+	tribal_development_growth = -0.1
+}

@@ -1,0 +1,30 @@
+country_decisions = {
+	hex_build_lion_fort = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_faction = hex_hunters_guild
+			faction_in_power = hex_hunters_guild
+			17 = {
+				owned_by = ROOT
+				NOT = { has_construction = hex_building_lion_fort }
+				NOT = { has_province_flag = hex_lion_fort_flag }
+				NOT = { has_great_project = { type = hex_project_lion_fort tier = 0 } }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			17 = {
+				add_building_construction = {
+					building = hex_building_lion_fort
+					speed = 1
+					cost = 0
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+}

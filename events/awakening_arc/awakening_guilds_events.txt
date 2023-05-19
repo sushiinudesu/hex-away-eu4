@@ -137,7 +137,7 @@ country_event = {
 
 		hidden_effect = {
 			add_faction = hex_hunters_guild
-			hex_change_faction_influence = { from = hex_first_faction to = hex_hunters_guild value = 10 }
+			hex_change_faction_influence = { from = hex_first_faction to = hex_hunters_guild value = 50 }
 		}
 	}
 }
