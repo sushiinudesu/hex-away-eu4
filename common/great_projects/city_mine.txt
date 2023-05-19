@@ -1,6 +1,4 @@
-hex_project_lion_fort = {
-	# start = 17
-
+hex_project_city_mine = {
 	date = 1000.1.1
 	
 	build_cost = 0
@@ -14,8 +12,8 @@ hex_project_lion_fort = {
 	type = monument
 
 	build_trigger = {
-		province_id = 17
-		has_province_flag = hex_lion_fort_flag
+		province_id = 15
+		has_province_flag = hex_city_mine_flag
 	}
 
 	on_built = { }
@@ -33,9 +31,7 @@ hex_project_lion_fort = {
 			factor = 0
 		}
 
-		province_modifiers = {
-			fort_level = 1
-		}
+		province_modifiers = { }
 
 		area_modifier = { }
 

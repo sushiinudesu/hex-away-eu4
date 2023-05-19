@@ -34,6 +34,11 @@ country_event = {
 				on_trigger = has_province_flag
 
 				hex_lion_fort_flag = { add_great_project = { type = hex_project_lion_fort instant = yes } clr_province_flag = hex_lion_fort_flag }
+				hex_first_farm_flag = { add_great_project = { type = hex_project_first_farm instant = yes } clr_province_flag = hex_first_farm_flag }
+				hex_white_tower_flag = { add_great_project = { type = hex_project_white_tower instant = yes } clr_province_flag = hex_white_tower_flag }
+				hex_city_mine_flag = { add_great_project = { type = hex_project_city_mine instant = yes } clr_province_flag = hex_city_mine_flag }
+				hex_yarn_club_flag = { add_great_project = { type = hex_project_yarn_club instant = yes } clr_province_flag = hex_yarn_club_flag }
+				hex_salt_shipyard_flag = { add_great_project = { type = hex_project_salt_shipyard instant = yes } clr_province_flag = hex_salt_shipyard_flag }
 			}
 		}
 	}

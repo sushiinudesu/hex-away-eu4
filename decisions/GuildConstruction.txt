@@ -27,4 +27,149 @@ country_decisions = {
 
 		ai_will_do = { factor = 100 }
 	}
+
+	hex_build_first_farm = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_faction = hex_farmers_guild
+			faction_in_power = hex_farmers_guild
+			8 = {
+				owned_by = ROOT
+				NOT = { has_construction = hex_building_first_farm }
+				NOT = { has_province_flag = hex_first_farm_flag }
+				NOT = { has_great_project = { type = hex_project_first_farm tier = 0 } }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			8 = {
+				add_building_construction = {
+					building = hex_building_first_farm
+					speed = 1
+					cost = 0
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_build_white_tower = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_faction = hex_builders_guild
+			faction_in_power = hex_builders_guild
+			11 = {
+				owned_by = ROOT
+				NOT = { has_construction = hex_building_white_tower }
+				NOT = { has_province_flag = hex_white_tower_flag }
+				NOT = { has_great_project = { type = hex_project_white_tower tier = 0 } }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			11 = {
+				add_building_construction = {
+					building = hex_building_white_tower
+					speed = 1
+					cost = 0
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_build_city_mine = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_faction = hex_miners_guild
+			faction_in_power = hex_miners_guild
+			15 = {
+				owned_by = ROOT
+				NOT = { has_construction = hex_building_city_mine }
+				NOT = { has_province_flag = hex_city_mine_flag }
+				NOT = { has_great_project = { type = hex_project_city_mine tier = 0 } }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			15 = {
+				add_building_construction = {
+					building = hex_building_city_mine
+					speed = 1
+					cost = 0
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_build_yarn_club = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_faction = hex_artisan_guild
+			faction_in_power = hex_artisan_guild
+			13 = {
+				owned_by = ROOT
+				NOT = { has_construction = hex_building_yarn_club }
+				NOT = { has_province_flag = hex_yarn_club_flag }
+				NOT = { has_great_project = { type = hex_project_yarn_club tier = 0 } }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			13 = {
+				add_building_construction = {
+					building = hex_building_yarn_club
+					speed = 1
+					cost = 0
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_build_salt_shipyard = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_faction = hex_sailors_guild
+			faction_in_power = hex_sailors_guild
+			38 = {
+				owned_by = ROOT
+				NOT = { has_construction = hex_building_salt_shipyard }
+				NOT = { has_province_flag = hex_salt_shipyard_flag }
+				NOT = { has_great_project = { type = hex_project_salt_shipyard tier = 0 } }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			38 = {
+				add_building_construction = {
+					building = hex_building_salt_shipyard
+					speed = 1
+					cost = 0
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
 }
