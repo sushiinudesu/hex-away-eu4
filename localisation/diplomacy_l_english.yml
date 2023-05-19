@@ -124,7 +124,7 @@
  DIP_MAINT_VASSAL:0 "Have Vassal: (§Y$COUNTRY$§W): §Y-$VAL$§W."
  alert_agreement_fail_instant:0 "§YAn agreement will fail due to low power!§W"
  alert_agreement_fail_delayed:0 "Our agreement with $LIST$ will fail due to low Diplomatic Power."
- UPKEEP_EXPLANATION:0 "$CURR$/$ALLOW$ Diplomatic Relations: $COST$\n$LIST$"
+ UPKEEP_EXPLANATION:0 "\n$CURR$/$ALLOW$ Diplomatic Relations: $COST$\n$LIST$"
  UPKEEP_MOD_DESC:0 "We can support Diplomatic Relations with $NUM|Y$ nations, due to:"
  DIP_MAINT:0 "$RELATION$: (§Y$COUNTRY$§W): §Y-$VAL$§W."
  RIVAL_IMPACT_ON_SPY:0 "Rivals: $VAL$\n"

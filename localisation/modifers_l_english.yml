@@ -62,7 +62,6 @@
  MODIFIER_REFORM_PROGRESS_GROWTH_BUILDING:1 "Reform Progress Contribution"
  MINIMUM_GLOBAL_AUTONOMY:0 "Minimum Autonomy"
  MINIMUM_LOCAL_AUTONOMY:0 "Minimum Local Autonomy"
- MODIFIER_ALL_POWER_COST:0 "All Power Costs"
  MODIFIER_ACCEPTED_CULTURES:0 "Max Promoted Cultures"
  MODIFIER_REDUCED_LIBERTY_DESIRE:0 "Liberty Desire in Subjects"
  MODIFIER_REDUCED_LIBERTY_DESIRE_ON_SAME_CONTINENT:0 "Liberty Desire in Same Continent Subjects"

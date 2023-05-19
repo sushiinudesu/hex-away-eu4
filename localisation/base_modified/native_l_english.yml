@@ -1,0 +1,13 @@
+﻿l_english:
+  native_desc:1 "This is part of the City. It has a unique identity, tying itself to the political and economic development of the City."
+  TRIBAL_DEVELOPMENT_TITLE:0 "City Development"
+  HEADER_NATIVES:0 "The City"
+  NATIVE_TRIBE_SETTLED_DEVELOPMENT_HEADER_TOOLTIP:1 "§YCity Development§!"
+  TRIBAL_DEVELOPMENT_INCREASE_EXPLANATION:1 "$POWER|$ City Development will increase by $VAL|+3$ due to:\n\n"
+  ADD_TRIBAL_LAND:0 "§YAdd $PROV$ to the City§!"
+  ADD_TRIBAL_LAND_COST:0 "§RCan't manually add provinces to the City§!"
+  PROVINCE_SETTLE_TOOLTIP:0 "Develop $PROV|Y$"
+  CONFIRM_SETTLE:0 "Develop City Province"
+  CONFIRM_SETTLE_DESC:2 "Are you sure you want to develop $PROV|Y$?"
+  ADD_TRIBAL_LAND_COL_WIN:0 "Add to City"
+  TRIBAL_LAND_OF:0 "\nControlled by $WHO|Y$\n"

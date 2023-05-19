@@ -5,5 +5,17 @@ hex_city_rule_reform = {
 	native_mechanic = yes
 
 	custom_attributes = { }
-	modifiers = { }
+	modifiers = {
+		diplomats = 1
+	}
+
+	assimilation_cultures = {
+		hex_awake_culture_group = {
+			global_unrest = 0.25
+			tribal_development_growth = 0.25
+		}
+		hex_vagabond_culture_group = {
+			global_unrest = 0.25
+		}
+	}
 }

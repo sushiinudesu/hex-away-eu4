@@ -1,0 +1,10 @@
+﻿l_english:
+  CV_INCOME_TAXCHANGE:0 "Available Taxes"
+  GLOBAL_TAX_MODIFIER:0 "Available Taxes"
+  INCOMETAX:0 "Taxes"
+  TAX_INCOME_EFFICIENCY:0 "Available Taxes"
+  TAX:0 "Taxes"
+  YEARLY_INC_TXT:0 ""
+  PROV_TAX_MONTHLY_DESCR:0 "Yearly Taxes: $YEARLY|Y2$¤"
+  PROV_TAX_DESCR:0 ""
+  TAX_INCOME:0 "From Taxes"

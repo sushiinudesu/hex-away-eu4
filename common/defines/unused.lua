@@ -533,7 +533,6 @@
 
 -- 	EMBRACE_INSTITUTION_COST = 2.5				-- 2.5 per development (autonomy modified)
 -- 	MAXIMUM_CONDOTTIERI = 20					-- Base number of units you can rent out
--- 	CORRUPTION_COST = 0.05						-- cost for monthly combat per development
 -- 	STATE_MAINTENANCE_DEV_FACTOR = 0.007		-- per dev
 -- 	STATE_MAINTENANCE_DISTANCE_FACTOR = 0.001	-- distance
 -- 	STATE_MAINTENANCE_CONTINENT_FACTOR = 0.25	-- different continet
@@ -688,7 +687,6 @@
 
 -- 	DISMANTLE_HRE_PRESTIGE = 0						-- Prestige gain on dismantling HRE
 -- 	CROWN_LANDS_ALERT_THRESHOLD = 30
--- 	FREE_IDEA_GROUP_COST  = 3						-- modifier on cheapness of "free" idea group
 -- 	CONVERSION_COOLDOWN = 120						-- months before you can convert again.
 -- 	CONVERSION_COOLDOWN_SECONDARY = 120			-- months before you can convert secondary religion again.
 
@@ -925,7 +923,6 @@
 -- 	ARMY_PROFESSIONALISM_PER_AGE = 0.2
 -- 	TRADING_POLICY_COOLDOWN_MONTHS  = 12			-- Cooldown until you can change Trading Policy after selecting.
 -- 	INNOVATIVENESS_FIRST_REACHED_TECH_LEVEL = 4.0  -- Innovativeness bonus to first country (or countries) to reach a certain tech level.
--- 	INNOVATIVENESS_FIRST_PICKED_IDEA = 2.0			-- Innovativeness bonus to first country (or countries) to pick an idea.
 -- 	INNOVATIVENESS_BEHIND_IN_TECH_PENALTY = -0.03 	-- Innovativeness penalty if behind neighbors in tech (and not ahead of time).
 -- 	INNOVATIVENESS_ENABLE_ANY_BEHIND_IN_TECH_PENALTY = 0	-- Enabled that if any tech is behind we apply the penalty. Turning this off will require you only to be ahead in one.
 -- 	INNOVATIVENESS_ENABLE_PER_TECH_BEHIND_IN_TECH_PENALTY = 0 -- Enable that the penalty is applied for each tech we are behind in tech.

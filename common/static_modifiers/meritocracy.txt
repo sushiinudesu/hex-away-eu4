@@ -1,0 +1,5 @@
+low_meritocracy = { }
+
+meritocracy = {
+	tribal_development_growth = 1
+}

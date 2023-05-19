@@ -1,3 +1,5 @@
 ﻿l_english:
-  defaults_reform_hex_awake_culture_group_assimilated:0 "A Shared Beginning"
-  defaults_reform_hex_awake_culture_group_assimilated_desc:0 "We may be different people, but all of us have something in common - the Awakening."
+  hex_city_rule_reform_hex_awake_culture_group_assimilated:0 "Culture Bonus - §YA Shared Beginning§!"
+  hex_city_rule_reform_hex_awake_culture_group_assimilated_desc:0 "We may be different people, but all of us have something in common - the Awakening."
+  hex_city_rule_reform_hex_vagabond_culture_group_assimilated:0 "Culture Bonus - §YOn the Road§!"
+  hex_city_rule_reform_hex_vagabond_culture_group_assimilated_desc:0 "To live is to wander and constantly wonder if this is the way to live."

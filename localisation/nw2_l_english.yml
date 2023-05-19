@@ -420,8 +420,6 @@
  CANT_START_EDIT_LOCK:0 "This savegame must be played in multiplayer."
  LEDGER_LOCKED:0 "Ledger is locked by gameplay settings."
  BECOME_PROTECTORATE_DESC:0 "$WHO$ will give $BOSS$ 50% of their trade power, and $BOSS$ will help $WHO$ in their technological advancement. Also, $WHO$ can't have any ally other than $BOSS$."
- FE_RANDOMWORLD_DESC:0 "§YRandom New World§! will give true exploration. Starting with this will randomize all land in North and South America"
- FE_RANDOMWORLD_DESC2:0 "Playing with §YRandom New World§! enabled will only work for the very earliest bookmarks."
  FE_OBSERVE_DESC:0 "Observe mode"
  FE_OBSERVE_DESC2:0 "Observe mode allows you to join a game without playing a country, instead you can watch what is happening in all the countries."
  FE_OBSERVE_SERVER:0 "§R- The host can't be an observer.§!"

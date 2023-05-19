@@ -4,5 +4,7 @@ hex_first_faction = {
 
 	allow = { tag = A01 }
 
-	modifier = { }
+	modifier = {
+		tribal_development_growth = 0.25
+	}
 }

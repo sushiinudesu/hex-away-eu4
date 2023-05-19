@@ -1,0 +1,8 @@
+high_army_professionalism = { }
+
+low_army_professionalism = {
+	land_forcelimit_modifier = -1
+	land_maintenance_modifier = -1
+	naval_forcelimit_modifier = -1
+	naval_maintenance_modifier = -1
+}

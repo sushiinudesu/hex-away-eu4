@@ -3,4 +3,6 @@
   DIP_POWER:0 "Diplomatic Experience"
   MIL_POWER:0 "Military Experience"
   POWER_INCREASE:0 "Monthly Increase: $TOTAL|+=$\n\n"
-  MAX_POWER_STORE:0 "You can only keep $MAX$ experience saved (based on Ruler Corruption)"
+  MAX_POWER_STORE:0 "You can only have $MAX$ experience\n(based on Ruler Corruption)"
+  MODIFIER_ALL_POWER_COST:0 "Experience Limit"
+  CV_COURT_POWER:0 "$POWER$ Experience"

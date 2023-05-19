@@ -1,6 +1,7 @@
 defaults_reform = {
 	allow_convert = no
 	allow_normal_conversion = no
+	assimilation_cultures = {}
 	can_change_primary_culture = no
 	can_customise_heir = no
 	can_remove_idea_group = no
@@ -23,15 +24,6 @@ defaults_reform = {
 	rulers_can_be_generals = no
 	valid_for_nation_designer = no
 	valid_for_new_country = no
-
-	assimilation_cultures = {
-		hex_awake_culture_group = {
-			tribal_development_growth = 0.5
-		}
-		hex_vagabond_culture_group = {
-			tribal_development_growth = 0.1
-		}
-	}
 
 	#  unused
 

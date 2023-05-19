@@ -942,7 +942,6 @@
  MERCENARY_MANPOWER_TOOLTIP:0 "Manpower Reinforcement Speed: $AMOUNT|Y$ per month"
  regent_female:0 "Regent"
  CONVREL_KINGFORCED_DATE:0 "We have been forced to change religion, and cannot change religion until at least $DATE$."
- CONFIRM_SETTLE:0 "Settle"
  SECEDE_PROV_REDUCE_OPINION_AND_TRUST:0 "$ACTUALGIVER|Y$ will change their opinion of $NEGOTIATORGIVER|Y$ by $OPINION|R$ and change trust by $TRUST|R$."
  HAS_OR_BUILDING_FLAGSHIP:0 "Country has or is building a Flagship"
  HAS_NOT_OR_BUILDING_FLAGSHIP:0 "Country does not have a Flagship and is not building one"

@@ -1,0 +1,60 @@
+capital_city = {
+	fort_level = 1
+}
+
+city = {
+	local_manpower_modifier = 1
+	local_sailors_modifier = 1
+	local_tax_modifier = 1
+}
+
+colonial_core = {
+	local_governing_cost = -0.25
+	min_local_autonomy = 25
+}
+
+development = {
+	land_forcelimit	= 0.1
+	local_sailors = 60
+	naval_forcelimit = 0.1
+}
+
+in_capital_state = {
+	local_state_maintenance_modifier = -0.5
+	local_governing_cost = -1.0
+}
+
+local_autonomy_multiplicative = {
+	local_manpower_modifier = -1.0
+	local_sailors_modifier = -1.0
+	local_tax_modifier = -1.0
+	land_forcelimit_modifier = -1.0 # Misleading, only used to avoid errors when applying effect of Estates in code.
+	naval_forcelimit_modifier = -1.0 # Misleading, only used to avoid errors when applying effect of Estates in code.
+}
+
+local_autonomy = { }
+
+local_autonomy_trade_company_multiplicative = {
+	local_manpower_modifier = -1.0
+	local_sailors_modifier = -1.0
+	local_tax_modifier = -1.0
+	land_forcelimit_modifier = -1.0
+	naval_forcelimit_modifier = -1.0
+}
+
+local_autonomy_trade_company = { }
+
+recent_uprising = {
+	local_unrest = -100
+	picture = "recent_uprising"
+}
+
+territory_core = {
+	local_governing_cost = -0.50
+	min_local_autonomy = 50
+}
+
+territory_non_core = {
+	local_governing_cost = -0.75
+	min_local_autonomy = 75
+}

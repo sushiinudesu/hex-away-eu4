@@ -1,6 +1,6 @@
 hex_institution_guilds = {
 	bonus = {
-		tribal_development_growth = 0.5
+		tribal_development_growth = 0.25
 	}
 
 	trade_company_efficiency = 0

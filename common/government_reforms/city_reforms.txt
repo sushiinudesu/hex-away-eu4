@@ -10,7 +10,9 @@ hex_city_first_camp_reform = {
 	}
 
 	modifiers = {
-		tribal_development_growth = 0.5
+		global_tax_modifier = -1
+		state_maintenance_modifier = -1
+		tribal_development_growth = 0.25
 	}
 }
 
@@ -26,6 +28,8 @@ hex_city_under_construction_reform = {
 	}
 
 	modifiers = {
-		tribal_development_growth = 1
+		global_tax_modifier = -1
+		state_maintenance_modifier = -1
+		tribal_development_growth = 0.5
 	}
 }

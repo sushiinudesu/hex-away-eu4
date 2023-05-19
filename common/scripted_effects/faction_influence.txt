@@ -1,0 +1,4 @@
+hex_change_faction_influence = {
+	add_faction_influence = { faction = $from$ influence = -$value$ perform_readjustment = no }
+	add_faction_influence = { faction = $to$ influence = $value$ perform_readjustment = no }
+}

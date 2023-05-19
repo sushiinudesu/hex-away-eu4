@@ -5,4 +5,6 @@ ahead_of_time = { }
 # Tech 0
 technology = {
 	year = 1
+
+	trade_efficiency = 1
 }

@@ -1,0 +1,5 @@
+﻿l_english:
+  RV_NO_DEITY:0 "No Spirit Selected"
+  RV_PICK_DEITY:0 "Choose Spirit"
+  RV_NO_DEITY_TITLE:0 "No Spirit Selected"
+  RV_NO_DEITY_DESC:0 "Faithless religion allows to select a Spirit which your Ruler believes in.\nSpirit will remain selected until Ruler changes."

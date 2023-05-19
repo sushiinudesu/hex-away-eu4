@@ -94,7 +94,6 @@
  MODIFIER_LOCAL_HEIR_DIPLOMATIC:0 "Local Heir Diplomatic Skill"
  MODIFIER_LOCAL_HEIR_MILITARY:0 "Local Heir Military Skill"
  ABOUT_NOW_TXT:0 "About Now"
- ALREADY_REACHED_TOOLTIP:0 "We have enough to enact the next reform §Ynow§!!"
  UNIT_IS_SHATTERED:0 "This unit is shattered, wait for it to recover."
  JANISSARY_LIMIT_RELIGION:0 "$PROVINCE$ is a $RELIGION$ province, so can not recruit Janissaries here."
  JOIN_TRADE_LEAGUE_EFFECT:0 "§Y$WHO$§W joins our Trade League.\n"
