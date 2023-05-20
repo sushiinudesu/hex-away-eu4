@@ -44,8 +44,6 @@ NDefines.NGraphics.LAND_UNIT_MOVEMENT_SPEED = 1
 
 -- NMacroBuildColors
 
--- NFrontend
-
 -- NReligion
 
 -- NNationDesigner
