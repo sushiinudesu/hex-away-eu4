@@ -30,18 +30,6 @@ NDefines.NEconomy.BANKRUPTCY_BUILDING_DESTRUCTION_THRESHOLD = 0
 NDefines.NEconomy.BANKRUPTCY_DURATION = 1
 NDefines.NEconomy.BANKRUPTCY_PROVINCE_DEVASTATION_GAIN = 90
 
--- NMilitary
-
-NDefines.NMilitary.ARTILLERY_SPEED = 1.25
-NDefines.NMilitary.CANNOT_RETREAT_DAYS = 1
-NDefines.NMilitary.CAVALRY_SPEED = 2
-NDefines.NMilitary.COMBAT_DICE_SIDE = 7
-NDefines.NMilitary.DAYS_PER_PHASE = 1
-NDefines.NMilitary.FORCE_MARCH_FACTOR = 0.25
-NDefines.NMilitary.INFANTRY_SPEED = 1
-NDefines.NMilitary.OVERRUN_FACTOR = 1000000
--- NDefines.NMilitary.OVERRUN_FACTOR_CANNOT_LEAVE = 2
-
 -- NAI
 
 -- NAIEconomy

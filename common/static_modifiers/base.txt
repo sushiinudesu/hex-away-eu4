@@ -4,6 +4,7 @@ ai_nation = {
 }
 
 all_nations = {
+	manpower_recovery_speed = 11
 	may_explore = yes
 }
 

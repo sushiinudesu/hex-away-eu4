@@ -1,0 +1,14 @@
+NDefines.NMilitary.ARTILLERY_SPEED = 1.25
+NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.1
+NDefines.NMilitary.CANNOT_RETREAT_DAYS = 1
+NDefines.NMilitary.CAVALRY_SPEED = 2
+NDefines.NMilitary.COMBAT_DICE_SIDE = 7
+NDefines.NMilitary.DAYS_PER_PHASE = 1
+NDefines.NMilitary.FORCE_MARCH_FACTOR = 0.25
+NDefines.NMilitary.INFANTRY_SPEED = 1
+NDefines.NMilitary.MAX_MANPOWER = 1
+NDefines.NMilitary.MAX_SAILORS = 1
+NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0
+NDefines.NMilitary.MIN_MONTHLY_SAILORS = 0
+NDefines.NMilitary.OVERRUN_FACTOR = 1000000
+-- NDefines.NMilitary.OVERRUN_FACTOR_CANNOT_LEAVE = 2

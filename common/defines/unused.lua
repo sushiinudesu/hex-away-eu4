@@ -1150,7 +1150,6 @@
 -- 	MOVE_LOCK_PERCENTAGE = 0.5						-- Unit movement is locked after this percentage of progress
 -- 	REGULAR_LEADER_POWER = 1						-- Used for generals & admirals (affects total pips)
 -- 	EXPLORER_LEADER_POWER = 0.8					-- Used for conquistadors & explorers (affects total pips)
--- 	BASE_MP_TO_MANPOWER = 0.25		-- 250 men per manpower
 -- 	SIEGE_ATTRITION = 1
 -- 	SIEGE_DISEASE_IMPACT = 0.05						-- Fraction of besieging soldiers lost in a disease outbraek
 -- 	ARMY_ATTRITION_AT_COAST = 1					-- How many percent attrition units take while loaded onto ships along the coast
@@ -1181,10 +1180,6 @@
 -- 	LIGHT_SHIP_SAILORS_COST = 50					-- 1 = 1 men in cost.
 -- 	GALLEY_SHIP_SAILORS_COST = 50					-- 1 = 1 men in cost.
 -- 	TRANSPORT_SHIP_SAILORS_COST = 50				-- 1 = 1 men in cost.
--- 	MAX_MANPOWER = 10 								-- years in mp pool
--- 	MIN_MONTHLY_MANPOWER = 0.1						-- 100 men/month is minimum
--- 	MAX_SAILORS = 10 								-- years in mp pool
--- 	MIN_MONTHLY_SAILORS = 5						-- 5 sailors/month is minimum
 -- 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25						--
 -- 	SLAVE_RAIDS_DURATION = 3650
 

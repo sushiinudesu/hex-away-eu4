@@ -13,11 +13,7 @@ colonial_core = {
 	min_local_autonomy = 25
 }
 
-development = {
-	land_forcelimit	= 0.1
-	local_sailors = 60
-	naval_forcelimit = 0.1
-}
+development = { }
 
 in_capital_state = {
 	local_state_maintenance_modifier = -0.5
@@ -43,6 +39,15 @@ local_autonomy_trade_company_multiplicative = {
 }
 
 local_autonomy_trade_company = { }
+
+manpower = {
+	land_forcelimit	= 0.1
+}
+
+provincial_production_size = {
+	local_sailors = 1
+	naval_forcelimit = 0.1
+}
 
 recent_uprising = {
 	local_unrest = -100

@@ -1,6 +1,8 @@
 high_army_professionalism = { }
 
 low_army_professionalism = {
+	global_manpower_modifier = -1
+	global_sailors_modifier = -1
 	land_forcelimit_modifier = -1
 	land_maintenance_modifier = -1
 	naval_forcelimit_modifier = -1

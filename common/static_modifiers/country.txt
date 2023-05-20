@@ -1,9 +1,4 @@
-army_tradition = {
-	land_morale = 0.25
-	manpower_recovery_speed = 0.25
-	recover_army_morale_speed = 0.25
-	siege_ability = 0.25
-}
+army_tradition = { }
 
 corruption = {
 	all_power_cost = 9
@@ -36,13 +31,7 @@ inflation = {
 	transport_cost = 0.01
 }
 
-navy_tradition = {
-	blockade_efficiency = 1
-	naval_morale = 0.25
-	privateer_efficiency = 0.25
-	recover_navy_morale_speed = 0.25
-	sailors_recovery_speed = 0.25
-}
+navy_tradition = { }
 
 peace = {
 	global_autonomy = -0.1
@@ -54,11 +43,4 @@ root_out_corruption = {
 	yearly_corruption = -6
 }
 
-war_exhaustion = {
-	global_ship_recruit_speed = 0.01
-	global_regiment_recruit_speed = 0.01
-	global_unrest = 0.25
-	manpower_recovery_speed = -0.01
-	sailors_recovery_speed = -0.01
-	siege_ability = -0.01
-}
+war_exhaustion = { }

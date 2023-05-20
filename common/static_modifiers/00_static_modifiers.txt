@@ -89,13 +89,9 @@ no_adjacent_controlled = { }
 
 provincial_tax_income = { }
 
-provincial_production_size = { }
-
 knowledge_sharing = { }
 
 cardinals_spread_institution = { }
-
-manpower = { }
 
 province_razed = {
 	picture = "province_razed"
