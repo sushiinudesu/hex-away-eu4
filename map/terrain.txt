@@ -82,7 +82,7 @@ categories =  {
 	}
 
 	hex_terrain_marsh = {
-		color = { 13 189 130 }
+		color = { 75 147 174 }
 
 		type = marsh
 		sound_type = forest
@@ -148,60 +148,61 @@ categories =  {
 
 		terrain_override = { 1 }
 	}
-
-	ocean = {
-		color = { 255 255 255 }
-
-		sound_type = sea
-		is_water = yes
-
-		movement_cost = 1.0
-	}
-
-	glacier = {
-		color = { 235 235 235 }
-
-		sound_type = desert
-
-		movement_cost = 1.0		
-	}
-
-	jungle = {
-		color = { 98 163 18 }
-
-		type = jungle
-		sound_type = jungle
-
-		movement_cost = 1.0
-	}	
-	
-	steppe = {
-		color = { 147 200 83  }
-
-		type = plains
-		sound_type = plains
-
-		movement_cost = 1.0
-	}	
 }
 	
 ##################################################################
 ### Graphical terrain
 ###		type	=	refers to the terrain defined above, "terrain category"'s 
-### 	color 	= 	index in bitmap color table (see terrain.bmp)
+### color = index in bitmap color table (see terrain.bmp)
 ###
 
 terrain = {
-	ocean				= { type = ocean			color = { 	3	 } }
-	jungle				= { type = jungle			color = { 	254	 } }	
+	grasslands	= { color = { 0 } type = hex_terrain_grasslands }
+	hills = { color = { 1 } type = hex_terrain_hills }
+	desert_mountain = { color = { 2 } type = hex_terrain_desert }
+	desert = { color = { 3 } type = hex_terrain_desert }
+	desert_grasslands = { color = { 4 } type = hex_terrain_desert }
+	mountains = { color = { 6 } type = hex_terrain_mountains }
+	desert_canyons = { color = { 7 } type = hex_terrain_desert }
+	stone_grasslands = { color = { 8 } type = hex_terrain_grasslands }
+	marsh = { color = { 9 } type = hex_terrain_marsh }
+	forest = { color = { 12 } type = hex_terrain_forest }
+	frozen_grasslands = { color = { 14 } type = hex_terrain_grasslands }
+	# ocean= { type = ocean color = { 15 } }
+	snow_mountains = { color = { 16 } type = hex_terrain_mountains_frozen }
+	sea = { color = { 17 } type = hex_terrain_inland_sea }
+	coastline = { color = { 35 } type = hex_terrain_coastline }
+	
+
+
 }
 
 ##################################################################
 ### Tree terrain
 ###		terrain	=	refers to the terrain tag defined above
-### 	color 	= 	index in bitmap color table (see tree.bmp)
+### color = index in bitmap color table (see tree.bmp)
 ###
 
 tree = {
-	jungle				= { terrain = jungle 			color = { 3 4 6 7 19 20	2 5 8 18 13 14 15 12 27 28 29 30 } }
+	low_pines = { color = { 2 } terrain = hex_terrain_forest }
+	medium_pines = { color = { 3 } terrain = hex_terrain_forest }
+	high_pines = { color = { 4 } terrain = hex_terrain_forest }
+	low_greytree = { color = { 5 } terrain = hex_terrain_forest }
+	medium_greytree = { color = { 6 } terrain = hex_terrain_forest }
+	high_greytree = { color = { 7 } terrain = hex_terrain_forest }
+	tiny_greentree = { color = { 8 } terrain = hex_terrain_forest }
+	low_greentree = { color = { 9 } terrain = hex_terrain_forest }
+	medium_greentree = { color = { 10 } terrain = hex_terrain_forest }
+	tiny_palm = { color = { 11 } terrain = hex_terrain_forest }
+	low_palm = { color = { 12 } terrain = hex_terrain_forest }
+	medium_2_greentree = { color = { 13 } terrain = hex_terrain_forest }
+	big_greentree = { color = { 14 } terrain = hex_terrain_forest }
+	high_greentree = { color = { 15 } terrain = hex_terrain_forest }
+	low_mixed = { color = { 18 } terrain = hex_terrain_forest }
+	medium_mixed = { color = { 19 } terrain = hex_terrain_forest }
+	high_mixed = { color = { 20 } terrain = hex_terrain_forest }
+	low_savanna = { color = { 27 } terrain = hex_terrain_forest }
+	medium_savanna = { color = { 28 } terrain = hex_terrain_forest }
+	high_savanna = { color = { 29 } terrain = hex_terrain_forest }
+	mixed_savanna = { color = { 30 } terrain = hex_terrain_forest }
 }
