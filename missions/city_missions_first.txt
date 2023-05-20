@@ -1,0 +1,101 @@
+hex_missions_city_first_awakening_left = {
+	slot = 1
+
+	ai = yes
+	generic = no
+	has_country_shield = yes
+
+	potential = {
+		tag = A01
+		faction_in_power = hex_first_faction
+	}
+	
+	hex_missions_city_first_fireplace_stories = {
+		icon = mission_sio_camp_circles
+		position = 1
+		required_missions = { }
+
+		completed_by = 6.12.31
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = HEX_IS_HOLLOW_SEASON
+				hex_is_hollow_season = yes
+			}
+		}
+
+		effect = {
+			country_event = { id = hex_city_missions_first_events.1 }
+
+			hidden_effect = {
+				add_faction_influence = { faction = hex_first_faction influence = 1 }
+			}
+		}
+	}
+}
+
+hex_missions_city_first_awakening_middle = {
+	slot = 3
+
+	ai = yes
+	generic = no
+	has_country_shield = yes
+
+	potential = {
+		tag = A01
+		faction_in_power = hex_first_faction
+	}
+	
+	hex_missions_city_first_early_development = {
+		icon = mission_sio_camp_circles
+		position = 1
+		required_missions = { }
+
+		completed_by = 6.12.31
+
+		trigger = {
+			total_development = 75
+		}
+
+		effect = {
+			country_event = { id = hex_city_missions_first_events.2 }
+
+			hidden_effect = {
+				add_faction_influence = { faction = hex_first_faction influence = 1 }
+			}
+		}
+	}
+}
+
+hex_missions_city_first_awakening_right = {
+	slot = 5
+
+	ai = yes
+	generic = no
+	has_country_shield = yes
+
+	potential = {
+		tag = A01
+		faction_in_power = hex_first_faction
+	}
+	
+	hex_missions_city_first_camp_guards = {
+		icon = mission_sio_camp_circles
+		position = 1
+		required_missions = { }
+
+		completed_by = 6.12.31
+
+		trigger = {
+			max_manpower = 5
+		}
+
+		effect = {
+			country_event = { id = hex_city_missions_first_events.3 }
+
+			hidden_effect = {
+				add_faction_influence = { faction = hex_first_faction influence = 1 }
+			}
+		}
+	}
+}

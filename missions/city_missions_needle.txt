@@ -1,0 +1,65 @@
+hex_missions_city_needle_awakening_left = {
+	slot = 1
+
+	ai = yes
+	generic = no
+	has_country_shield = yes
+
+	potential = {
+		tag = A01
+		faction_in_power = hex_artisan_guild
+	}
+	
+	hex_missions_city_needle_festival = {
+		icon = mission_sio_camp_circles
+		position = 1
+		required_missions = { }
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = HEX_IS_FIRE_SEASON
+				hex_is_fire_season = yes
+			}
+		}
+
+		effect = {
+			country_event = { id = hex_city_missions_needle_events.1 }
+
+			hidden_effect = {
+				add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+			}
+		}
+	}
+}
+
+hex_missions_city_needle_awakening_right = {
+	slot = 5
+
+	ai = yes
+	generic = no
+	has_country_shield = yes
+
+	potential = {
+		tag = A01
+		faction_in_power = hex_artisan_guild
+	}
+	
+	hex_missions_city_needle_yarn_club = {
+		icon = mission_sio_camp_circles
+		position = 1
+		required_missions = { }
+
+		trigger = {
+			13 = {
+				owned_by = ROOT
+				has_great_project = { type = hex_project_yarn_club tier = 0 }
+			}
+		}
+
+		effect = {
+			hidden_effect = {
+				add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+			}
+		}
+	}
+}

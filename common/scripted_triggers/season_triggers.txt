@@ -1,0 +1,27 @@
+hex_is_wind_season = {
+	NOT = { is_month = 2 }
+}
+
+hex_is_water_season = {
+	is_month = 2
+	NOT = { is_month = 4 }
+}
+
+hex_is_earth_season = {
+	is_month = 4
+	NOT = { is_month = 6 }
+}
+
+hex_is_fire_season = {
+	is_month = 6
+	NOT = { is_month = 8 }
+}
+
+hex_is_void_season = {
+	is_month = 8
+	NOT = { is_month = 10 }
+}
+
+hex_is_hollow_season = {
+	is_month = 10
+}

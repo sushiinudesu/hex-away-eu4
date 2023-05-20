@@ -1,0 +1,65 @@
+hex_missions_city_clay_awakening_left = {
+	slot = 1
+
+	ai = yes
+	generic = no
+	has_country_shield = yes
+
+	potential = {
+		tag = A01
+		faction_in_power = hex_builders_guild
+	}
+	
+	hex_missions_city_clay_courier_service = {
+		icon = mission_sio_camp_circles
+		position = 1
+		required_missions = { }
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = HEX_IS_HOLLOW_SEASON
+				hex_is_hollow_season = yes
+			}
+		}
+
+		effect = {
+			country_event = { id = hex_city_missions_clay_events.1 }
+
+			hidden_effect = {
+				add_faction_influence = { faction = hex_builders_guild influence = 1 }
+			}
+		}
+	}
+}
+
+hex_missions_city_clay_awakening_right = {
+	slot = 5
+
+	ai = yes
+	generic = no
+	has_country_shield = yes
+
+	potential = {
+		tag = A01
+		faction_in_power = hex_builders_guild
+	}
+	
+	hex_missions_city_clay_white_tower = {
+		icon = mission_sio_camp_circles
+		position = 1
+		required_missions = { }
+
+		trigger = {
+			11 = {
+				owned_by = ROOT
+				has_great_project = { type = hex_project_white_tower tier = 0 }
+			}
+		}
+
+		effect = {
+			hidden_effect = {
+				add_faction_influence = { faction = hex_builders_guild influence = 1 }
+			}
+		}
+	}
+}
