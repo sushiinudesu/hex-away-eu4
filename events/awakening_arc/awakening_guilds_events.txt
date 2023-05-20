@@ -75,6 +75,7 @@ country_event = {
 		hidden_effect = {
 			add_faction = hex_artisan_guild
 			hex_change_faction_influence = { from = hex_first_faction to = hex_artisan_guild value = 10 }
+			hex_add_to_city = { province = 13 }
 		}
 	}
 }
@@ -96,6 +97,7 @@ country_event = {
 		hidden_effect = {
 			add_faction = hex_builders_guild
 			hex_change_faction_influence = { from = hex_first_faction to = hex_builders_guild value = 10 }
+			hex_add_to_city = { province = 11 }
 		}
 	}
 }
@@ -117,6 +119,7 @@ country_event = {
 		hidden_effect = {
 			add_faction = hex_farmers_guild
 			hex_change_faction_influence = { from = hex_first_faction to = hex_farmers_guild value = 10 }
+			hex_add_to_city = { province = 8 }
 		}
 	}
 }
@@ -138,6 +141,7 @@ country_event = {
 		hidden_effect = {
 			add_faction = hex_hunters_guild
 			hex_change_faction_influence = { from = hex_first_faction to = hex_hunters_guild value = 10 }
+			hex_add_to_city = { province = 17 }
 		}
 	}
 }
@@ -159,6 +163,7 @@ country_event = {
 		hidden_effect = {
 			add_faction = hex_miners_guild
 			hex_change_faction_influence = { from = hex_first_faction to = hex_miners_guild value = 10 }
+			hex_add_to_city = { province = 15 }
 		}
 	}
 }
@@ -180,6 +185,7 @@ country_event = {
 		hidden_effect = {
 			add_faction = hex_sailors_guild
 			hex_change_faction_influence = { from = hex_first_faction to = hex_sailors_guild value = 10 }
+			hex_add_to_city = { province = 38 }
 		}
 	}
 }
