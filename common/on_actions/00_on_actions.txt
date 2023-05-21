@@ -1,5 +1,12 @@
 on_startup = {
-	every_country = { add_war_exhaustion = -100 }
+	every_country = {
+		add_war_exhaustion = -100
+	
+		if = {
+			limit = { NOT = { has_reform_on_level = 0 }}
+			hex_setup_administration = yes
+		}
+	}
 	every_province = { set_in_empire = no }
 
 	hex_setup_vision = yes
