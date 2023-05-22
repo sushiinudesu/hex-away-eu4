@@ -452,7 +452,6 @@
  HAS_NOT_REFORM:1 "Has not enacted Government Reform $REFORM|Y$\n"
  GET_REFORM:0 "Country gets $REFORM|Y$"
  CULTURE_VIEW_IS_ASSIMILATED_CULTURE:0 "$NAME|Y$ has been assimilated by owning all provinces, so it gives us no penalties."
- CULTURE_VIEW_GROUP_NOT_ASSIMILATED:1 "We hold $OWNED|Y$ provinces out of $PROVINCES|Y$ of this culture group. We need to hold them all to assimilate the culture group and get its effect."
  CULTURE_VIEW_GROUP_CONTAINS:0 "The $GROUP|Y$ culture group contains the following cultures:\n"
  CANNOT_CHANGE_LEVEL_LOCKED:1 "You cannot change your reform on this level due to the Reform $REFORM|Y$ being enacted."
  LOSE_REFORMS:1 "Lose $NUM|Y$ Government reforms.\n"

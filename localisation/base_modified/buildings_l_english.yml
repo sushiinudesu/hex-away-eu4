@@ -1,0 +1,4 @@
+﻿l_english:
+  ADD_BUILDING_CONSTRUCTION_EFFECT:0 "Start §Y$BUILDING$§! for §Y$COST$%§! of the cost, and §Y$SPEED$%§! of the time.\n"
+  BUILD_CONST_TIP:0 "§Y$BUILDING$§! will be finished on §Y$DATE$§!."
+  CANCEL_BUILDING:0 "Stop construction"

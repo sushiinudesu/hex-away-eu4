@@ -1,0 +1,10 @@
+corruption = {
+	all_power_cost = 9
+	country_admin_power	= 6
+	country_diplomatic_power = 6
+	country_military_power	= 6
+}
+
+root_out_corruption = {
+	yearly_corruption = -6
+}

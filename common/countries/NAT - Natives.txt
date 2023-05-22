@@ -2,7 +2,9 @@ graphical_culture = northamericagfx
 
 color = { 203 164 103 }
 
-historical_idea_groups = { }
+historical_idea_groups = {
+	hex_awakening_ideas
+}
 
 historical_units = {
 	hex_unit_city_1_camp_guards

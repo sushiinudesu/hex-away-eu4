@@ -36,5 +36,4 @@ hex_awake_personality = {
 	static = yes
 
 	hex_awake_personality_modifier = 1
-	global_unrest = -1
 }

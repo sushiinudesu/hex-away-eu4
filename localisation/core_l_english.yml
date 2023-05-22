@@ -377,7 +377,6 @@
  CANCEL_MISSIONARY:0 "Cancel missionary."
  CANCEL_CULTURE_CONVERT:0 "Cancel convert culture progress."
  CANCEL_CORE_PROGRESS:0 "Cancel core creation."
- CANCEL_BUILDING:0 "Cancel building."
  CANCEL_UNIT_PRODUCTION:0 "Cancel unit production."
  CANCEL_MIL_CON_RULES:0 "Click to §Rcancel§! construction.\n\nWhen the progress is less than §Y$PERC1|%0$§!, we will get refund §G$PERC2|%0$§! of the construction costs. Otherwise we will get only §R$PERC3|%0$§!"
  CANCEL_MIL_CON_REFUND:0 "Will receive:"

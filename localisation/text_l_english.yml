@@ -2006,7 +2006,6 @@
  alert_diplo_anexing_instant:0 "§YYou can now Annex one or more nations.§!"
  alert_diplo_anexing_delayed:0 "$LIST$"
  MIL_CONST_TIP:0 "A §Y$TYPE$§! will be fielded here on §Y$DATE$§!."
- BUILD_CONST_TIP:0 "A §Y$BUILDING$§! will be finished here in §Y$DATE$§!."
  BUILD_CONST_TIP_OTHER:0 "A §Y$BUILDING$§! built by §Y$COUNTRY$§! will be finished here in §Y$DATE$§!."
  COL_CONST_TIP:0 "A Colonist will arrive here on §Y$DATE$§!. His chance of success is §Y$CHANCE$ %§!."
  COL_CONST_TIP_SETTLEMENT_GROWTH:0 "A Colonist will arrive here on §Y$DATE$§! to work on Settlement Growth."

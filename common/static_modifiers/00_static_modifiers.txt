@@ -87,8 +87,6 @@ blockaded = { }
 
 no_adjacent_controlled = { }
 
-provincial_tax_income = { }
-
 knowledge_sharing = { }
 
 cardinals_spread_institution = { }
@@ -175,6 +173,16 @@ scorched_earth = { }
 ##########################################################################
 # Global Static Modifiers
 ##########################################################################
+
+army_tradition = { }
+
+inflation = { }
+
+navy_tradition = { }
+
+peace = { }
+
+war_exhaustion = { }
 
 war_taxes = { }
 

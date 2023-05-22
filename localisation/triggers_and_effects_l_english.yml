@@ -75,7 +75,6 @@
  HAVE_TRANSPORTS_IN:0 "$COUNTRY$ have transport ships in $PROVINCE$."
  HAVE_NO_TRANSPORTS_IN:0 "$COUNTRY$ have NO transport ships in $PROVINCE$."
  ADD_CORE_CONSTRUCTION_EFFECT:0 "Start core construction for §Y$COST$%§! of the cost, and §Y$SPEED$%§! of the time.\n"
- ADD_BUILDING_CONSTRUCTION_EFFECT:0 "Start construction of §Y$BUILDING$§! for §Y$COST$%§! of the cost, and §Y$SPEED$%§! of the time.\n"
  ADD_CULTURE_CONSTRUCTION_EFFECT:0 "Start culture conversion for §Y$COST$%§! of the cost, and §Y$SPEED$%§! of the time.\n"
  SIBIERIAN_EFFECT:0 "$VAL|Y$ colonists join a Frontier in $WHERE|Y$.\n"
  SEND_MISSIONARY_EFFECT:0 "A missionary starts to convert the province\n"

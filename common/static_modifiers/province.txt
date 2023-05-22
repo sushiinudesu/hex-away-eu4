@@ -49,6 +49,8 @@ provincial_production_size = {
 	naval_forcelimit = 0.1
 }
 
+provincial_tax_income = { }
+
 recent_uprising = {
 	local_unrest = -100
 	picture = "recent_uprising"
