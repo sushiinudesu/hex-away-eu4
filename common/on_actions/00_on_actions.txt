@@ -9,6 +9,8 @@ on_startup = {
 	}
 	every_province = { set_in_empire = no }
 
+	A01 = { hex_setup_factions = yes }
+
 	hex_setup_vision = yes
 }
 
