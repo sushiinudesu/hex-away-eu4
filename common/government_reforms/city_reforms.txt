@@ -6,7 +6,7 @@ hex_city_first_camp_reform = {
 
 	potential = {
 		tag = A01
-		NOT = { is_institution_enabled = hex_institution_guilds }
+		has_reform = hex_city_first_camp_reform
 	}
 
 	modifiers = {
@@ -24,7 +24,7 @@ hex_city_under_construction_reform = {
 
 	potential = {
 		tag = A01
-		is_institution_enabled = hex_institution_guilds
+		has_reform = hex_city_under_construction_reform
 	}
 
 	modifiers = {

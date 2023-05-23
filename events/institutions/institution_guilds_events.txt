@@ -14,7 +14,9 @@ country_event = {
 	}
 
 	immediate = {
-		FROM = { save_event_target_as = institution_origin }
+		FROM = {
+			save_event_target_as = institution_origin
+		}
 	}
 
 	goto = institution_origin
@@ -23,18 +25,48 @@ country_event = {
 		name = hex_institution_guilds_events.1.a
 		custom_tooltip = hex_institution_guilds_events.1.a.tt
 
-		hidden_effect = {
-			FROM = {
-				add_permanent_province_modifier = {
-					name = hex_birthplace_of_guilds_institution
-					duration = -1
-				}
-			}
+		highlight = yes
 
-			hex_inner_city_area = {
-				limit = { NOT = { owned_by = ROOT } }
-				hex_add_to_city = yes
+		hidden_effect = {
+			country_event = { id = hex_institution_guilds_events.2 }
+		}
+	}
+
+	option = {
+		name = hex_institution_guilds_events.1.b
+		custom_tooltip = hex_institution_guilds_events.1.b.tt
+	}
+
+	after = {
+		FROM = {
+			add_permanent_province_modifier = {
+				name = hex_birthplace_of_guilds_institution
+				duration = -1
 			}
 		}
+
+		hex_inner_city_area = {
+			limit = { NOT = { owned_by = ROOT } }
+			hex_add_to_city = yes
+		}
+
+		add_government_reform = hex_city_under_construction_reform
+	}
+}
+
+country_event = {
+	id = hex_institution_guilds_events.2
+	title = hex_institution_guilds_events.2.t
+	desc = hex_institution_guilds_events.2.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	is_triggered_only = yes
+
+	goto = institution_origin
+
+	option = {
+		name = hex_institution_guilds_events.2.a
+		custom_tooltip = hex_institution_guilds_events.2.a.tt
 	}
 }
