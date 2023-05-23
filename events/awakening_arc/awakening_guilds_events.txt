@@ -70,7 +70,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.2.a
-		custom_tooltip = hex_institution_guilds_events.2.a.tt
+		custom_tooltip = hex_awakening_guilds_events.2.a.tt
 
 		hidden_effect = {
 			add_faction = hex_artisan_guild
@@ -92,7 +92,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.3.a
-		custom_tooltip = hex_institution_guilds_events.3.a.tt
+		custom_tooltip = hex_awakening_guilds_events.3.a.tt
 
 		hidden_effect = {
 			add_faction = hex_builders_guild
@@ -114,7 +114,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.4.a
-		custom_tooltip = hex_institution_guilds_events.4.a.tt
+		custom_tooltip = hex_awakening_guilds_events.4.a.tt
 
 		hidden_effect = {
 			add_faction = hex_farmers_guild
@@ -136,7 +136,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.5.a
-		custom_tooltip = hex_institution_guilds_events.5.a.tt
+		custom_tooltip = hex_awakening_guilds_events.5.a.tt
 
 		hidden_effect = {
 			add_faction = hex_hunters_guild
@@ -158,7 +158,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.6.a
-		custom_tooltip = hex_institution_guilds_events.6.a.tt
+		custom_tooltip = hex_awakening_guilds_events.6.a.tt
 
 		hidden_effect = {
 			add_faction = hex_miners_guild
@@ -180,7 +180,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.7.a
-		custom_tooltip = hex_institution_guilds_events.7.a.tt
+		custom_tooltip = hex_awakening_guilds_events.7.a.tt
 
 		hidden_effect = {
 			add_faction = hex_sailors_guild
