@@ -22,6 +22,6 @@ hex_is_void_season = {
 	NOT = { is_month = 10 }
 }
 
-hex_is_hollow_season = {
+hex_is_dust_season = {
 	is_month = 10
 }

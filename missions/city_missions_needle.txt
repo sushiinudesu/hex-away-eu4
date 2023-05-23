@@ -27,6 +27,7 @@ hex_missions_city_needle_awakening_left = {
 
 			hidden_effect = {
 				add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+				hex_mission_reward = yes
 			}
 		}
 	}
@@ -49,6 +50,10 @@ hex_missions_city_needle_awakening_right = {
 		position = 1
 		required_missions = { }
 
+		provinces_to_highlight = {
+			province_id = 13
+		}
+
 		trigger = {
 			13 = {
 				owned_by = ROOT
@@ -59,6 +64,7 @@ hex_missions_city_needle_awakening_right = {
 		effect = {
 			hidden_effect = {
 				add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+				hex_mission_reward = yes
 			}
 		}
 	}

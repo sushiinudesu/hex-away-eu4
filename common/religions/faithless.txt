@@ -1,4 +1,6 @@
 hex_faithless_religions = {
+	can_form_personal_unions = yes
+
 	hex_faithless = {
 		color = { 204 204 0 }
 		icon = 1

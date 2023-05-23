@@ -17,8 +17,8 @@ hex_missions_city_clay_awakening_left = {
 
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = HEX_IS_HOLLOW_SEASON
-				hex_is_hollow_season = yes
+				tooltip = HEX_IS_DUST_SEASON
+				hex_is_dust_season = yes
 			}
 		}
 
@@ -27,6 +27,7 @@ hex_missions_city_clay_awakening_left = {
 
 			hidden_effect = {
 				add_faction_influence = { faction = hex_builders_guild influence = 1 }
+				hex_mission_reward = yes
 			}
 		}
 	}
@@ -49,6 +50,10 @@ hex_missions_city_clay_awakening_right = {
 		position = 1
 		required_missions = { }
 
+		provinces_to_highlight = {
+			province_id = 11
+		}
+
 		trigger = {
 			11 = {
 				owned_by = ROOT
@@ -59,6 +64,7 @@ hex_missions_city_clay_awakening_right = {
 		effect = {
 			hidden_effect = {
 				add_faction_influence = { faction = hex_builders_guild influence = 1 }
+				hex_mission_reward = yes
 			}
 		}
 	}

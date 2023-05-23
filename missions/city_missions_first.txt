@@ -17,18 +17,15 @@ hex_missions_city_first_awakening_left = {
 
 		completed_by = 6.12.31
 
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = HEX_IS_HOLLOW_SEASON
-				hex_is_hollow_season = yes
-			}
-		}
+		trigger = { always = yes }
 
 		effect = {
+			custom_tooltip = HEX_MISSIONS_CITY_FIRST_FIREPLACE_STORIES_TT
 			country_event = { id = hex_city_missions_first_events.1 }
 
 			hidden_effect = {
 				add_faction_influence = { faction = hex_first_faction influence = 1 }
+				hex_mission_reward = yes
 			}
 		}
 	}
@@ -62,6 +59,7 @@ hex_missions_city_first_awakening_middle = {
 
 			hidden_effect = {
 				add_faction_influence = { faction = hex_first_faction influence = 1 }
+				hex_mission_reward = yes
 			}
 		}
 	}
@@ -79,7 +77,7 @@ hex_missions_city_first_awakening_right = {
 		faction_in_power = hex_first_faction
 	}
 	
-	hex_missions_city_first_camp_guards = {
+	hex_missions_city_first_a_leader = {
 		icon = mission_sio_camp_circles
 		position = 1
 		required_missions = { }
@@ -87,7 +85,9 @@ hex_missions_city_first_awakening_right = {
 		completed_by = 6.12.31
 
 		trigger = {
-			max_manpower = 5
+			adm = 2
+			dip = 2
+			mil = 2
 		}
 
 		effect = {
@@ -95,6 +95,7 @@ hex_missions_city_first_awakening_right = {
 
 			hidden_effect = {
 				add_faction_influence = { faction = hex_first_faction influence = 1 }
+				hex_mission_reward = yes
 			}
 		}
 	}
