@@ -11,8 +11,5 @@ trade_goods = hex_trade_good_none
 	controller = A01
 	tribal_owner = A01
 
-	base_manpower = 2
-	base_production = 2
-	base_tax = 2
 	culture = hex_awake_culture
 }

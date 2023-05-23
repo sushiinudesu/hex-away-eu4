@@ -11,3 +11,9 @@ religion = hex_faithless
 trade_goods = hex_trade_good_none
 
 is_city = yes
+
+7.1.1 = {
+	base_manpower = 8
+	base_production = 8
+	base_tax = 8
+}
