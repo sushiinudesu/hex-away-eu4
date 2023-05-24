@@ -1,4 +1,4 @@
 ﻿l_english:
   hex_awakening_events.1.t:0 "The Awakening"
-  hex_awakening_events.1.d:0 "You started seeing the light before you had eyes. You started feeling the cold texture of Obsidian before you had a body. You reached out before you had hands.\n\nAs you came out into the World, you saw a man waving you from afar. He came closer and hugged you:\n\n- Welcome to the World, my friend! My name is First. I'm sure you have a lot of questions. I promise to explain what I can. But now let us go to the others. They are waiting for you at the camp."
-  hex_awakening_events.1.a:0 "Let's Go"
+  hex_awakening_events.1.d:0 "You started seeing the light before you had eyes. You started feeling the cold texture of Obsidian before you had a body. You reached out before you had hands.\n\nAs you came out into the World, you saw a man waving you from afar. He came closer and hugged you:\n\n§R - Welcome to the World, my friend! My name is First. I'm sure you have a lot of questions. I promise to explain what I can. But now let us go to the others. They are waiting for you at the camp.§!"
+  hex_awakening_events.1.a:0 "Okay..."
