@@ -12,6 +12,10 @@ on_startup = {
 	A01 = { hex_setup_factions = yes }
 
 	hex_setup_vision = yes
+
+	events = {
+		hex_awakening_events.1
+	}
 }
 
 on_religion_change = { }
