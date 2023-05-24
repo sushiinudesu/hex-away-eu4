@@ -1,0 +1,8 @@
+﻿l_english:
+  hex_great_projects_events.1.t:0 "First Event to Spawn Great Project"
+  hex_great_projects_events.1.d:0 "To spawn a great project Paradox wants to hidden events..."
+  hex_great_projects_events.1.a:0 "OK"
+
+  hex_great_projects_events.2.t:0 "Second Event to Spawn Great Project"
+  hex_great_projects_events.2.d:0 "Now spawning Great Project for real."
+  hex_great_projects_events.2.a:0 "OK"

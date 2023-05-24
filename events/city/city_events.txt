@@ -16,7 +16,6 @@ country_event = {
 
 	option = {
 		name = hex_city_events.1.a
-		custom_tooltip = hex_city_events.1.a.tt
 
 		trigger = { hex_native_mechanic_available = yes }
 
@@ -30,7 +29,6 @@ country_event = {
 
 	option = {
 		name = hex_city_events.1.b
-		custom_tooltip = hex_city_events.1.b.tt
 
 		trigger = { hex_native_mechanic_available = no }
 

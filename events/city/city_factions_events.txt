@@ -17,7 +17,6 @@ country_event = {
 
 	option = {
 		name = hex_city_factions_events.1.chef
-		custom_tooltip = hex_city_factions_events.1.chef.tt
 
 		trigger = { faction_in_power = hex_farmers_guild }
 
@@ -32,7 +31,6 @@ country_event = {
 
 	option = {
 		name = hex_city_factions_events.1.clay
-		custom_tooltip = hex_city_factions_events.1.clay.tt
 
 		trigger = { faction_in_power = hex_builders_guild }
 
@@ -47,7 +45,6 @@ country_event = {
 
 	option = {
 		name = hex_city_factions_events.1.first_one
-		custom_tooltip = hex_city_factions_events.1.first_one.tt
 
 		trigger = { faction_in_power = hex_first_faction }
 
@@ -62,7 +59,6 @@ country_event = {
 
 	option = {
 		name = hex_city_factions_events.1.lion
-		custom_tooltip = hex_city_factions_events.1.lion.tt
 
 		trigger = { faction_in_power = hex_hunters_guild }
 
@@ -77,7 +73,6 @@ country_event = {
 
 	option = {
 		name = hex_city_factions_events.1.longbeard
-		custom_tooltip = hex_city_factions_events.1.longbeard.tt
 
 		trigger = { faction_in_power = hex_miners_guild }
 
@@ -92,7 +87,6 @@ country_event = {
 
 	option = {
 		name = hex_city_factions_events.1.needle
-		custom_tooltip = hex_city_factions_events.1.needle.tt
 
 		trigger = { faction_in_power = hex_artisan_guild }
 
@@ -107,7 +101,6 @@ country_event = {
 
 	option = {
 		name = hex_city_factions_events.1.seawatcher
-		custom_tooltip = hex_city_factions_events.1.seawatcher.tt
 
 		trigger = { faction_in_power = hex_sailors_guild }
 
