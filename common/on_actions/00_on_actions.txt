@@ -1,16 +1,20 @@
 on_startup = {
-	every_country = {
-		add_war_exhaustion = -100
-	
-		if = {
-			limit = { NOT = { has_reform_on_level = 0 }}
-			hex_setup_administration = yes
-		}
+	if = {
+		limit = { tag = REB }
+		every_province = { set_in_empire = no }
 	}
-	every_province = { set_in_empire = no }
 
-	A01 = { hex_setup_factions = yes }
+	if = {
+		limit = { tag = A01 }
+		hex_setup_factions = yes
+	}
 
+	if = {
+		limit = { NOT = { has_reform_on_level = 0 }}
+		hex_setup_administration = yes
+	}
+
+	add_war_exhaustion = -100
 	hex_setup_vision = yes
 
 	events = {
