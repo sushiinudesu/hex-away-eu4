@@ -5,7 +5,7 @@ country_event = {
 	title = hex_awakening_guilds_events.1.t
 	desc = hex_awakening_guilds_events.1.d
 	
-	picture = ELECTION_REPUBLICAN_eventPicture
+	picture = HEX_EVENT_PICTURE_MAGPIE_AWAKE
 
 	hidden = yes
 	is_triggered_only = yes
@@ -63,7 +63,7 @@ country_event = {
 	title = hex_awakening_guilds_events.2.t
 	desc = hex_awakening_guilds_events.2.d
 	
-	picture = ELECTION_REPUBLICAN_eventPicture
+	picture = HEX_EVENT_PICTURE_NEEDLE_AWAKE
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -100,7 +100,7 @@ country_event = {
 	title = hex_awakening_guilds_events.3.t
 	desc = hex_awakening_guilds_events.3.d
 	
-	picture = ELECTION_REPUBLICAN_eventPicture
+	picture = HEX_EVENT_PICTURE_CLAY_AWAKE
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -137,7 +137,7 @@ country_event = {
 	title = hex_awakening_guilds_events.4.t
 	desc = hex_awakening_guilds_events.4.d
 	
-	picture = ELECTION_REPUBLICAN_eventPicture
+	picture = HEX_EVENT_PICTURE_CHEF_AWAKE
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -174,7 +174,7 @@ country_event = {
 	title = hex_awakening_guilds_events.5.t
 	desc = hex_awakening_guilds_events.5.d
 	
-	picture = ELECTION_REPUBLICAN_eventPicture
+	picture = HEX_EVENT_PICTURE_LION_AWAKE
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -211,7 +211,7 @@ country_event = {
 	title = hex_awakening_guilds_events.6.t
 	desc = hex_awakening_guilds_events.6.d
 	
-	picture = ELECTION_REPUBLICAN_eventPicture
+	picture = HEX_EVENT_PICTURE_LONGBEARD_AWAKE
 
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -248,7 +248,7 @@ country_event = {
 	title = hex_awakening_guilds_events.7.t
 	desc = hex_awakening_guilds_events.7.d
 	
-	picture = ELECTION_REPUBLICAN_eventPicture
+	picture = HEX_EVENT_PICTURE_SEAWATCHER_AWAKE
 
 	fire_only_once = yes
 	is_triggered_only = yes

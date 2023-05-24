@@ -4,7 +4,8 @@ province_event = {
 	id = hex_city_projects_events.1
 	title = hex_city_projects_events.1.t
 	desc = hex_city_projects_events.1.d
-	picture = CAVE_eventPicture
+
+	picture = HEX_EVENT_PICTURE_LION_AWAKE
 	
 	is_triggered_only = yes
 
@@ -23,7 +24,8 @@ province_event = {
 	id = hex_city_projects_events.2
 	title = hex_city_projects_events.2.t
 	desc = hex_city_projects_events.2.d
-	picture = CAVE_eventPicture
+
+	picture = HEX_EVENT_PICTURE_CHEF_AWAKE
 	
 	is_triggered_only = yes
 
@@ -42,7 +44,8 @@ province_event = {
 	id = hex_city_projects_events.3
 	title = hex_city_projects_events.3.t
 	desc = hex_city_projects_events.3.d
-	picture = CAVE_eventPicture
+
+	picture = HEX_EVENT_PICTURE_CLAY_AWAKE
 	
 	is_triggered_only = yes
 
@@ -61,7 +64,8 @@ province_event = {
 	id = hex_city_projects_events.4
 	title = hex_city_projects_events.4.t
 	desc = hex_city_projects_events.4.d
-	picture = CAVE_eventPicture
+
+	picture = HEX_EVENT_PICTURE_LONGBEARD_AWAKE
 	
 	is_triggered_only = yes
 
@@ -80,7 +84,8 @@ province_event = {
 	id = hex_city_projects_events.5
 	title = hex_city_projects_events.5.t
 	desc = hex_city_projects_events.5.d
-	picture = CAVE_eventPicture
+
+	picture = HEX_EVENT_PICTURE_NEEDLE_AWAKE
 	
 	is_triggered_only = yes
 
@@ -99,7 +104,8 @@ province_event = {
 	id = hex_city_projects_events.6
 	title = hex_city_projects_events.6.t
 	desc = hex_city_projects_events.6.d
-	picture = CAVE_eventPicture
+
+	picture = HEX_EVENT_PICTURE_SEAWATCHER_AWAKE
 	
 	is_triggered_only = yes
 

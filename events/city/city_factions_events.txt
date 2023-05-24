@@ -5,7 +5,7 @@ country_event = {
 	title = hex_city_factions_events.1.t
 	desc = hex_city_factions_events.1.d
 	
-	picture = ELECTION_REPUBLICAN_eventPicture
+	picture = HEX_EVENT_PICTURE_MAGPIE_AWAKE
 
 	hidden = yes
 	is_triggered_only = yes
