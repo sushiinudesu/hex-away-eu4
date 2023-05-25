@@ -1,0 +1,3 @@
+# Empty Base EU4 file to avoid warnings
+
+type = infantry 
