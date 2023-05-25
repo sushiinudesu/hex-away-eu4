@@ -5,7 +5,6 @@ tags={
 	"Fantasy"
 }
 
-replace_path="common/countries"
 replace_path="common/custom_ideas"
 replace_path="common/disasters"
 replace_path="common/estate_agendas"
@@ -20,7 +19,6 @@ replace_path="decisions"
 replace_path="events"
 replace_path="gfx/sprite_packs"
 replace_path="history/advisors"
-replace_path="history/countries"
 replace_path="history/diplomacy"
 replace_path="history/wars"
 replace_path="missions"
