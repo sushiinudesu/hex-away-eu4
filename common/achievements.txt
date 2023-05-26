@@ -1,0 +1,12 @@
+hex_achievement_just_a_little_patience = {
+	id = 56
+	localization = HEX_ACHIEVEMENT_1
+	
+	possible = {
+		start_date = 2.2.2
+	}
+	
+	happened = {
+		is_year = 7
+	}
+}
