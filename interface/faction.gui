@@ -222,7 +222,7 @@ guiTypes = {
 		iconType = {
 			name ="faction_bg"
 			spriteType = "GFX_faction_bg_temples"
-			position = { x= -1000 y = -52 }
+			position = { x= -10000 y = -52 }
 			Orientation = "CENTER"
 		}		
 		
@@ -275,7 +275,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="faction_boost"
 			quadTextureSprite= "GFX_standard_button_105"
-			position = { x= -1000 y = 60 }
+			position = { x= -10000 y = 60 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "BOOST"
 			buttonFont = "vic_18"

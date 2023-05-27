@@ -206,7 +206,7 @@ guiTypes = {
 		{
 			name ="strengthen_government"
 			quadTextureSprite= "GFX_standard_button_224"
-			position = { x= -1000 y = 188 }
+			position = { x= -10000 y = 188 }
 			buttonText = "STRENGTHEN_GOVERNMENT"
 			buttonFont = "vic_18"
 		}
