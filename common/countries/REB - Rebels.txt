@@ -3,7 +3,7 @@ graphical_culture = westerngfx
 color = { 30 30 30 }
 
 historical_idea_groups = {
-	hex_awakening_ideas
+	
 }
 
 historical_units = {
