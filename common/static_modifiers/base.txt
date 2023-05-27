@@ -4,8 +4,12 @@ ai_nation = {
 }
 
 all_nations = {
-	manpower_recovery_speed = 11
+	can_not_build_buildings = yes
+	capped_by_forcelimit = yes
 	may_explore = yes
+	may_not_reduce_inflation = yes
 }
 
-base_values = { }
+base_values = {
+	manpower_recovery_speed = 11
+}
