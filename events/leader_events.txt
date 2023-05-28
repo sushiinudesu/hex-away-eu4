@@ -1,0 +1,131 @@
+namespace = hex_leaders_events
+
+country_event = {
+	id = hex_leaders_events.0
+	title = hex_leaders_events.0.t
+	desc = hex_leaders_events.0.d
+	
+	picture = HEX_EVENT_PICTURE_MAGPIE_AWAKE
+
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_leaders_events.0.a
+
+		country_event = { id = hex_leaders_events.1 }
+	}
+}
+
+country_event = {
+	id = hex_leaders_events.1
+	title = hex_leaders_events.1.t
+	desc = hex_leaders_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_MAGPIE_AWAKE
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_leaders_events.1.back
+
+		highlight = yes
+	}
+
+	option = {
+		name = hex_leaders_events.1.chef
+
+		trigger = {
+			has_faction = hex_farmers_guild
+			NOT = { has_leader = "Chef" }
+		}
+
+		hidden_effect = {
+			hex_hire_leader_finish = { name = "Chef" female = no }
+		}
+	}
+
+	option = {
+		name = hex_leaders_events.1.clay
+
+		trigger = {
+			has_faction = hex_builders_guild
+			NOT = { has_leader = "Clay" }
+		}
+
+		hidden_effect = {
+			hex_hire_leader_finish = { name = "Clay" female = no }
+		}
+	}
+
+	option = {
+		name = hex_leaders_events.1.first
+
+		trigger = {
+			has_faction = hex_first_faction
+			NOT = { has_leader = "First" }
+		}
+
+		hidden_effect = {
+			hex_hire_leader_finish = { name = "First" female = no }
+		}
+	}
+
+	option = {
+		name = hex_leaders_events.1.lion
+
+		trigger = {
+			has_faction = hex_hunters_guild
+			NOT = { has_leader = "Lion" }
+		}
+
+		hidden_effect = {
+			hex_hire_leader_finish = { name = "Lion" female = no }
+		}
+	}
+
+	option = {
+		name = hex_leaders_events.1.longbeard
+
+		trigger = {
+			has_faction = hex_miners_guild
+			NOT = { has_leader = "Longbeard" }
+		}
+
+		hidden_effect = {
+			hex_hire_leader_finish = { name = "Longbeard" female = no }
+		}
+	}
+
+	option = {
+		name = hex_leaders_events.1.needle
+
+		trigger = {
+			has_faction = hex_artisan_guild
+			NOT = { has_leader = "Needle" }
+		}
+
+		hidden_effect = {
+			hex_hire_leader_finish = { name = "Needle" female = yes }
+		}
+	}
+
+	option = {
+		name = hex_leaders_events.1.seawatcher
+
+		trigger = {
+			has_faction = hex_sailors_guild
+			NOT = { has_leader = "Seawatcher" }
+		}
+
+		hidden_effect = {
+			hex_hire_leader_finish = { name = "Seawatcher" female = no }
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			hex_clear_hiring_leader = yes
+		}
+	}
+}

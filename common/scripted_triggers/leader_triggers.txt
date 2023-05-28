@@ -1,0 +1,8 @@
+hex_hiring_leader = {
+	OR = {
+		has_country_flag = hex_hiring_general
+		has_country_flag = hex_hiring_conquistador
+		has_country_flag = hex_hiring_admiral
+		has_country_flag = hex_hiring_explorer
+	}
+}

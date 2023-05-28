@@ -315,15 +315,29 @@ on_accept_tribute = { }
 
 on_refuse_tribute = { }
 
-on_leader_recruited = { }
+on_leader_recruited = {
+	kill_leader = { type = "--- ---" }
+}
 
-on_general_recruited = { }
+on_general_recruited = {
+	hex_hire_leader_start = { type = general }
+	events = { hex_leaders_events.0 }
+}
 
-on_admiral_recruited = { }
+on_admiral_recruited = {
+	hex_hire_leader_start = { type = admiral }
+	events = { hex_leaders_events.0 }
+}
 
-on_conquistador_recruited = { }
+on_conquistador_recruited = {
+	hex_hire_leader_start = { type = conquistador }
+	events = { hex_leaders_events.0 }
+}
 
-on_explorer_recruited = { }
+on_explorer_recruited = {
+	hex_hire_leader_start = { type = explorer }
+	events = { hex_leaders_events.0 }
+}
 
 on_regiment_recruited = { }
 

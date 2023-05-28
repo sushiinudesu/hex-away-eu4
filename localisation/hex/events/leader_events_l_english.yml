@@ -1,0 +1,26 @@
+﻿l_english:
+  hex_leaders_events.0.t:0 "Hidden Event"
+  hex_leaders_events.0.d:0 "Title of the next event depends on a flag, which is set at the same ime as this event, so we need to wait."
+  hex_leaders_events.0.a:0 "OK"
+
+  hex_leaders_events.1.t:0 "[Root.HexLeaderEventTitle]"
+  hex_leaders_events.1.d:0 "[Root.HexLeaderEventDesc]"
+  hex_leaders_events.1.back:0 "Back"
+
+  HEX_LEADER_EVENT_TITLE_GENERAL:0 "Hiring General"
+  HEX_LEADER_EVENT_TITLE_ADMIRAL:0 "Hiring Admiral"
+  HEX_LEADER_EVENT_TITLE_CONQUISTADOR:0 "Hiring Pathfinder"
+  HEX_LEADER_EVENT_TITLE_EXPLORER:0 "Hiring Navigator"
+
+  HEX_LEADER_EVENT_DESC_GENERAL:0 "Hiring General"
+  HEX_LEADER_EVENT_DESC_ADMIRAL:0 "Hiring Admiral"
+  HEX_LEADER_EVENT_DESC_CONQUISTADOR:0 "Hiring Pathfinder"
+  HEX_LEADER_EVENT_DESC_EXPLORER:0 "Hiring Navigator"
+
+  hex_leaders_events.1.chef:0 "Chef"
+  hex_leaders_events.1.clay:0 "Clay"
+  hex_leaders_events.1.first:0 "First"
+  hex_leaders_events.1.lion:0 "Lion"
+  hex_leaders_events.1.longbeard:0 "Longbeard"
+  hex_leaders_events.1.needle:0 "Needle"
+  hex_leaders_events.1.seawatcher:0 "Seawatcher"

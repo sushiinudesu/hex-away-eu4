@@ -5,7 +5,7 @@ country_event = {
 	title = hex_city_missions_first_events.1.t
 	desc = hex_city_missions_first_events.1.d
 
-	picture = HEX_EVENT_PICTURE_FIRST_ONE_AWAKE
+	picture = HEX_EVENT_PICTURE_FIRST_AWAKE
 	
 	is_triggered_only = yes
 	
@@ -22,7 +22,7 @@ country_event = {
 	title = hex_city_missions_first_events.2.t
 	desc = hex_city_missions_first_events.2.d
 
-	picture = HEX_EVENT_PICTURE_FIRST_ONE_AWAKE
+	picture = HEX_EVENT_PICTURE_FIRST_AWAKE
 	
 	is_triggered_only = yes
 	
@@ -40,7 +40,7 @@ country_event = {
 	title = hex_city_missions_first_events.3.t
 	desc = hex_city_missions_first_events.3.d
 
-	picture = HEX_EVENT_PICTURE_FIRST_ONE_AWAKE
+	picture = HEX_EVENT_PICTURE_FIRST_AWAKE
 	
 	is_triggered_only = yes
 	

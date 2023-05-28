@@ -5,7 +5,7 @@ country_event = {
 	title = hex_institution_guilds_events.1.t
 	desc = hex_institution_guilds_events.1.d
 	
-	picture = HEX_EVENT_PICTURE_FIRST_ONE_AWAKE
+	picture = HEX_EVENT_PICTURE_FIRST_AWAKE
 
 	is_triggered_only = yes
 
@@ -59,7 +59,7 @@ country_event = {
 	title = hex_institution_guilds_events.2.t
 	desc = hex_institution_guilds_events.2.d
 	
-	picture = HEX_EVENT_PICTURE_FIRST_ONE_AWAKE
+	picture = HEX_EVENT_PICTURE_FIRST_AWAKE
 
 	is_triggered_only = yes
 

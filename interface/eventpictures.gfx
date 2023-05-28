@@ -772,8 +772,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "HEX_EVENT_PICTURE_FIRST_ONE_AWAKE"
-		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_FIRST_ONE_AWAKE.dds"
+		name = "HEX_EVENT_PICTURE_FIRST_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_FIRST_AWAKE.dds"
 	}
 
 	spriteType = {

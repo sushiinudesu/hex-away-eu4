@@ -3,7 +3,7 @@
   hex_city_factions_events.1.d:0 "Changes City Ruler based on leading faction"
   hex_city_factions_events.1.chef:0 "Chef"
   hex_city_factions_events.1.clay:0 "Clay"
-  hex_city_factions_events.1.first_one:0 "First One"
+  hex_city_factions_events.1.first:0 "First"
   hex_city_factions_events.1.lion:0 "Lion"
   hex_city_factions_events.1.longbeard:0 "Longbeard"
   hex_city_factions_events.1.needle:0 "Needle"

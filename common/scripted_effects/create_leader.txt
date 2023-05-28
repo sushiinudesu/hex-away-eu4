@@ -1,0 +1,35 @@
+hex_hire_leader_start = {
+	if = {
+		limit = { NOT = { hex_hiring_leader = yes } }
+		set_country_flag = hex_hiring_$type$
+	}
+}
+
+hex_hire_leader_finish = {
+	if = {
+		limit = { has_country_flag = hex_hiring_general }
+		create_general = { name = $name$ tradition = 0 female = $female$ }
+	}
+
+	if = {
+		limit = { has_country_flag = hex_hiring_conquistador }
+		create_conquistador = { name = $name$ tradition = 0 female = $female$ }
+	}
+
+	if = {
+		limit = { has_country_flag = hex_hiring_admiral }
+		create_admiral = { name = $name$ tradition = 0 female = $female$ }
+	}
+
+	if = {
+		limit = { has_country_flag = hex_hiring_explorer }
+		create_explorer = { name = $name$ tradition = 0 female = $female$ }
+	}
+}
+
+hex_clear_hiring_leader = {
+	clr_country_flag = hex_hiring_general
+	clr_country_flag = hex_hiring_conquistador
+	clr_country_flag = hex_hiring_admiral
+	clr_country_flag = hex_hiring_explorer
+}

@@ -1,0 +1,43 @@
+defined_text = {
+    name = HexLeaderEventTitle
+	random = no
+	
+	text = {
+        localisation_key = HEX_LEADER_EVENT_TITLE_GENERAL
+        trigger = { has_country_flag = hex_hiring_general }
+    }
+	text = {
+        localisation_key = HEX_LEADER_EVENT_TITLE_ADMIRAL
+        trigger = { has_country_flag = hex_hiring_admiral }
+    }
+	text = {
+        localisation_key = HEX_LEADER_EVENT_TITLE_CONQUISTADOR
+        trigger = { has_country_flag = hex_hiring_conquistador }
+    }
+	text = {
+        localisation_key = HEX_LEADER_EVENT_TITLE_EXPLORER
+        trigger = { has_country_flag = hex_hiring_explorer }
+    }
+}
+
+defined_text = {
+    name = HexLeaderEventDesc
+	random = no
+	
+	text = {
+        localisation_key = HEX_LEADER_EVENT_DESC_GENERAL
+        trigger = { has_country_flag = hex_hiring_general }
+    }
+	text = {
+        localisation_key = HEX_LEADER_EVENT_DESC_ADMIRAL
+        trigger = { has_country_flag = hex_hiring_admiral }
+    }
+	text = {
+        localisation_key = HEX_LEADER_EVENT_DESC_CONQUISTADOR
+        trigger = { has_country_flag = hex_hiring_conquistador }
+    }
+	text = {
+        localisation_key = HEX_LEADER_EVENT_DESC_EXPLORER
+        trigger = { has_country_flag = hex_hiring_explorer }
+    }
+}

@@ -44,15 +44,15 @@ country_event = {
 	}
 
 	option = {
-		name = hex_city_factions_events.1.first_one
+		name = hex_city_factions_events.1.first
 
 		trigger = { faction_in_power = hex_first_faction }
 
 		hidden_effect = {
 			if = {
-				limit = { NOT = { has_ruler = "First One" } }
+				limit = { NOT = { has_ruler = "First" } }
 				hex_exile_character = yes
-				hex_set_character_first_one = yes
+				hex_set_character_first = yes
 			}
 		}
 	}

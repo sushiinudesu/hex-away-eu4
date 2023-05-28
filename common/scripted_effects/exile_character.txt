@@ -8,8 +8,8 @@ hex_exile_character = {
 		exile_ruler_as = { name = clay kill_monarch = no }
 	}
 	else_if = {
-		limit = { has_ruler = "First One" }
-		exile_ruler_as = { name = first_one kill_monarch = no }
+		limit = { has_ruler = "First" }
+		exile_ruler_as = { name = first kill_monarch = no }
 	}
 	else_if = {
 		limit = { has_ruler = "Lion" }
@@ -41,8 +41,8 @@ hex_set_character_clay = {
 	swap_non_generic_missions = yes
 }
 
-hex_set_character_first_one = {
-	set_ruler = first_one
+hex_set_character_first = {
+	set_ruler = first
 	hex_setup_ruler = { ai = ai_balanced }
 	swap_non_generic_missions = yes
 }
