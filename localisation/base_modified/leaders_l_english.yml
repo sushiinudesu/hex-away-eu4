@@ -9,4 +9,4 @@
   RECRUIT_GENERAL_DRO:0 ""
   MIL_COST_MAINT:2 ""
   LEADER_STATS_BASE:0 "Open menu to manage leaders"
-  LEADER_ACTIVATION:0 "Hired $DATE|Y$\n"
+  LEADER_ACTIVATION:0 "Since $DATE|Y$\n$AGE|Y$ years of service\n"

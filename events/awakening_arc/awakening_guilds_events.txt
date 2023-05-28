@@ -5,7 +5,7 @@ country_event = {
 	title = hex_awakening_guilds_events.1.t
 	desc = hex_awakening_guilds_events.1.d
 	
-	picture = HEX_EVENT_PICTURE_MAGPIE_AWAKE
+	picture = HEX_EVENT_PICTURE_EMPTY
 
 	hidden = yes
 	is_triggered_only = yes

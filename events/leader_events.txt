@@ -5,7 +5,7 @@ country_event = {
 	title = hex_leaders_events.0.t
 	desc = hex_leaders_events.0.d
 	
-	picture = HEX_EVENT_PICTURE_MAGPIE_AWAKE
+	picture = HEX_EVENT_PICTURE_EMPTY
 
 	hidden = yes
 	is_triggered_only = yes
@@ -22,7 +22,7 @@ country_event = {
 	title = hex_leaders_events.1.t
 	desc = hex_leaders_events.1.d
 	
-	picture = HEX_EVENT_PICTURE_MAGPIE_AWAKE
+	picture = HEX_EVENT_PICTURE_EMPTY
 
 	is_triggered_only = yes
 

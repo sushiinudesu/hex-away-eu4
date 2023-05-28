@@ -12,10 +12,10 @@
   HEX_LEADER_EVENT_TITLE_CONQUISTADOR:0 "Hiring Pathfinder"
   HEX_LEADER_EVENT_TITLE_EXPLORER:0 "Hiring Navigator"
 
-  HEX_LEADER_EVENT_DESC_GENERAL:0 "Hiring General"
-  HEX_LEADER_EVENT_DESC_ADMIRAL:0 "Hiring Admiral"
-  HEX_LEADER_EVENT_DESC_CONQUISTADOR:0 "Hiring Pathfinder"
-  HEX_LEADER_EVENT_DESC_EXPLORER:0 "Hiring Navigator"
+  HEX_LEADER_EVENT_DESC_GENERAL:0 "The council has gathered to select a new General. You vote for:"
+  HEX_LEADER_EVENT_DESC_ADMIRAL:0 "The council has gathered to select a new Admiral. You vote for:"
+  HEX_LEADER_EVENT_DESC_CONQUISTADOR:0 "The council has gathered to select a new Pathfinder. You vote for:"
+  HEX_LEADER_EVENT_DESC_EXPLORER:0 "The council has gathered to select a new Navigator. You vote for:"
 
   hex_leaders_events.1.chef:0 "Chef"
   hex_leaders_events.1.clay:0 "Clay"

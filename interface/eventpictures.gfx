@@ -762,6 +762,11 @@ spriteTypes = {
 	# HEX
 
 	spriteType = {
+		name = "HEX_EVENT_PICTURE_EMPTY"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_EMPTY.dds"
+	}
+
+	spriteType = {
 		name = "HEX_EVENT_PICTURE_CHEF_AWAKE"
 		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_CHEF_AWAKE.dds"
 	}
@@ -784,11 +789,6 @@ spriteTypes = {
 	spriteType = {
 		name = "HEX_EVENT_PICTURE_LONGBEARD_AWAKE"
 		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_LONGBEARD_AWAKE.dds"
-	}
-
-	spriteType = {
-		name = "HEX_EVENT_PICTURE_MAGPIE_AWAKE"
-		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_MAGPIE_AWAKE.dds"
 	}
 
 	spriteType = {

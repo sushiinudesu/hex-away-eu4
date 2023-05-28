@@ -1148,8 +1148,7 @@
 
 -- 	FORT_PER_DEV_RATIO = 50						-- 1 non-obsolete maintained fort per this amount of development = +1 AT
 -- 	MOVE_LOCK_PERCENTAGE = 0.5						-- Unit movement is locked after this percentage of progress
--- 	REGULAR_LEADER_POWER = 1						-- Used for generals & admirals (affects total pips)
--- 	EXPLORER_LEADER_POWER = 0.8					-- Used for conquistadors & explorers (affects total pips)
+
 -- 	SIEGE_ATTRITION = 1
 -- 	SIEGE_DISEASE_IMPACT = 0.05						-- Fraction of besieging soldiers lost in a disease outbraek
 -- 	ARMY_ATTRITION_AT_COAST = 1					-- How many percent attrition units take while loaded onto ships along the coast
@@ -1164,7 +1163,6 @@
 -- 	SIEGE_WIN = 20
 -- 	UNLOAD_COST_FRIENDLY = 12						-- cost to unload to friendly territory
 -- 	UNLOAD_COST_ENEMY = 36							-- cost to hostile.
--- 	LEADER_MAINTENANCE_COST = 1					-- how much mil power each leader costs.
 -- 	GARRISON_SIZE = 1000 							-- GARRISON_SIZE
 -- 	SIEGE_FORCE_NEEDED_MULTIPLIER = 3				-- x times garrison to be able to siege.
 -- 	MAX_BREACH = 3
@@ -1428,11 +1426,6 @@
 -- 	NAVAL_BASE_DISENGAGEMENT_CHANCE = 0.1			-- Chance of disengaging from naval battles every day when out of morale	0-1 range
 -- 	NAVAL_MORALE_DISENGAGEMENT_CHANCE = 0.5			-- What morale is needed to be hit before the ships try to retreat.
 
--- 	LEADER_MINIMUM_AGE = 16						-- Minimum age of a leader in years
--- 	LEADER_MAX_RANDOM_YEARS = 25
--- 	LEADER_MAX_RANDOM_DAYS = 730
--- 	LEADER_WORK_YEARS_DEATH_FACTOR = 2					-- Divides how many years he has been working to calculate chance
--- 	LEADER_AGE_DEATH_FACTOR = 3					-- Divides age with this to calculate chance
 
 -- 	MERCENARY_COMPANY_ARMY_TRADITION = 50.0		-- At what army tradition mercenaries leaders are generated on.
 	
@@ -1584,12 +1577,8 @@
 -- 	ARMY_BUDGET_FRACTION = 0.6 -- AI will spend a maximum of this fraction of monthly income on army maintenance (based off wartime costs)
 -- 	NAVY_BUDGET_FRACTION = 0.3 -- AI will spend a maximum of this fraction of monthly income on navy maintenance (based off wartime costs)
 -- 	FORT_BUDGET_FRACTION = 0.3 -- AI will spend a maximum of this fraction of monthly income on forts
--- 	REGIMENTS_PER_GENERAL = 15 -- AI will want one general for every this number of regiments (will not exceed free leader pool)
--- 	MIN_SHIPS_FOR_ADMIRAL = 10 -- The minimum navy size for the AI to bother with an admiral
 -- 	MIN_SHIPS_FOR_TEST_MONARCH_MILITARY_SKILL = 25
--- 	MIN_AI_ADMIRALS_WANTED = 1
--- 	MAX_AI_ADMIRALS_WANTED_WARTIME = 4
--- 	MAX_AI_ADMIRALS_WANTED_PEACETIME = 2
+
 -- 	BONUS_ADMIRAL_SCORE_SHIP_COUNT_START = 50
 -- 	REGIMENTS_FOR_CONQUISTADOR = 5 --The maximum size of army AI will use for an exploring conquistador.
 -- 	CANCEL_CONSTRUCTION_SIEGE_PROGRESS = 0 -- If chance of fort falling is at least this AI will cancel constructions in the province
