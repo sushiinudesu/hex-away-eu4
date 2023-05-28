@@ -1,0 +1,13 @@
+﻿l_english:
+  CREATELEADER_DESC:0 "His undoubted loyalty and military education will serve the nation well"
+  CREATELEADER_SKILL_DESC:0 "especially his skill in $SKILL$"
+
+  CREATELEADER_TITLE:0 "Leader Recruited"
+  CREATELEADER_SETUP:0 "When the Council is gathered to discuss military issues."
+  CREATELEADER_HEADER:0 "Magpie News"
+
+  CREATELEADER_1:0 "Council Gathering"
+  CREATELEADER_2:1 "The Council has been gathered to discuss military issues."
+  CREATELEADER_LOG:0 "Council gathered to discuss military issues."
+  CREATELEADER_BTN1:0 "OK"
+  CREATELEADER_BTN2:0 "OK"

@@ -734,7 +734,7 @@
  estate_privileges_and_agendas_events.7.m:0 "Seize it from the Janissaries"
  estate_privileges_and_agendas_events.7.n:0 "Seize it from the Eunuchs"
  LEADER_ENTRY_NAME:0 "$NAME|Y$"
- LEADER_ACTIVATION:0 "Hired $DATE|Y$. (Age: $AGE|Y$)\n"
+
  GOTO_PROVINCE:0 "Go to $PROV|Y$."
  CORE_ALL:0 "Core All"
  CORE_ALL_DESC:0 "Coring $NUM|Y$ Provinces will cost $COST|Y0$ £adm£"

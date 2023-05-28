@@ -47,11 +47,7 @@
  PROVINCECORECOSTINCREASE:0 "§YIncreased Coring Cost§!\nThe national traditions of §Y$COUNTRY$§! will make this province more expensive to turn into a core if conquered."
  RECRUIT_CANT_AFFORD_D:0 "You need at least §Y$COST$§W£dip ."
  RECRUIT_CANT_AFFORD_M:0 "You need at least §Y$COST$§W£mil ."
- RECRUIT_EXPLORER_IRO:1 "§YRecruiting an Explorer§!\nThis will cost you §Y$COST$§!£dip \n"
- RECRUIT_CONQUISTADOR_IRO:1 "§YRecruiting a Conquistador§!\nThis will cost you §Y$COST$§!£mil \n"
- RECRUIT_GENERAL_IRO:1 "§YRecruit a General§!\nThis will cost you §Y$COST$§!£mil \n"
- RECRUIT_ADMIRAL_IRO:1 "§YRecruit an Admiral§!\nThis will cost you §Y$COST$§!£dip \n"
- LEADER_STATS_BASE:0 "This leader will get between $MIN|Y$ and $MAX|Y$ pips as base.\n"
+
  LEADER_STATS_FIRE:0 "Fire Skill increased by $VAL$ due to:\n"
  LEADER_STATS_SHOCK:0 "Shock Skill increased by $VAL$ due to:\n"
  LEADER_STATS_MANNY:0 "Manuever Skill increased by $VAL$ due to:\n"
