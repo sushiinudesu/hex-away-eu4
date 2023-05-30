@@ -1,0 +1,76 @@
+defined_text = {
+    name = HexLeaderChef
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_CHEF_LEADER
+        trigger = { has_leader = "Chef" }
+    }
+	text = { localisation_key = HEX_CHARACTER_CHEF }
+}
+
+defined_text = {
+    name = HexLeaderClay
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_CLAY_LEADER
+        trigger = { has_leader = "Clay" }
+    }
+	text = { localisation_key = HEX_CHARACTER_CLAY }
+}
+
+defined_text = {
+    name = HexLeaderFirst
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_FIRST_LEADER
+        trigger = { has_leader = "First" }
+    }
+	text = { localisation_key = HEX_CHARACTER_FIRST }
+}
+
+defined_text = {
+    name = HexLeaderLion
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_LION_LEADER
+        trigger = { has_leader = "Lion" }
+    }
+	text = { localisation_key = HEX_CHARACTER_LION }
+}
+
+defined_text = {
+    name = HexLeaderLongbeard
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_LONGBEARD_LEADER
+        trigger = { has_leader = "Longbeard" }
+    }
+	text = { localisation_key = HEX_CHARACTER_LONGBEARD }
+}
+
+defined_text = {
+    name = HexLeaderNeedle
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_NEEDLE_LEADER
+        trigger = { has_leader = "Needle" }
+    }
+	text = { localisation_key = HEX_CHARACTER_NEEDLE }
+}
+
+defined_text = {
+    name = HexLeaderSeawatcher
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_SEAWATCHER_LEADER
+        trigger = { has_leader = "Seawatcher" }
+    }
+	text = { localisation_key = HEX_CHARACTER_SEAWATCHER }
+}

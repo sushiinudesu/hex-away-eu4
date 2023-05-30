@@ -5,6 +5,28 @@ hex_hire_leader_start = {
 	}
 }
 
+hex_hire_leader_kill = {
+	if = {
+		limit = { has_country_flag = hex_hiring_general }
+		kill_leader = { type = general }
+	}
+
+	if = {
+		limit = { has_country_flag = hex_hiring_conquistador }
+		kill_leader = { type = conquistador }
+	}
+
+	if = {
+		limit = { has_country_flag = hex_hiring_admiral }
+		kill_leader = { type = admiral }
+	}
+
+	if = {
+		limit = { has_country_flag = hex_hiring_explorer }
+		kill_leader = { type = explorer }
+	}
+}
+
 hex_hire_leader_finish = {
 	if = {
 		limit = { has_country_flag = hex_hiring_general }

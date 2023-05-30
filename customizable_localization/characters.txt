@@ -1,0 +1,48 @@
+defined_text = {
+    name = HexCharacterChef
+	random = no
+	
+	text = { localisation_key = HEX_CHARACTER_CHEF }
+}
+
+defined_text = {
+    name = HexCharacterClay
+	random = no
+	
+	text = { localisation_key = HEX_CHARACTER_CLAY }
+}
+
+defined_text = {
+    name = HexCharacterFirst
+	random = no
+	
+	text = { localisation_key = HEX_CHARACTER_FIRST }
+}
+
+defined_text = {
+    name = HexCharacterLion
+	random = no
+	
+	text = { localisation_key = HEX_CHARACTER_LION }
+}
+
+defined_text = {
+    name = HexCharacterLongbeard
+	random = no
+	
+	text = { localisation_key = HEX_CHARACTER_LONGBEARD }
+}
+
+defined_text = {
+    name = HexCharacterNeedle
+	random = no
+	
+	text = { localisation_key = HEX_CHARACTER_NEEDLE }
+}
+
+defined_text = {
+    name = HexCharacterSeawatcher
+	random = no
+	
+	text = { localisation_key = HEX_CHARACTER_SEAWATCHER }
+}
