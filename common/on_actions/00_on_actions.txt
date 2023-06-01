@@ -14,7 +14,6 @@ on_startup = {
 		hex_setup_administration = yes
 	}
 
-	add_war_exhaustion = -100
 	hex_setup_vision = yes
 
 	events = {
