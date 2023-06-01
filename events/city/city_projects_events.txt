@@ -16,7 +16,10 @@ province_event = {
 	option = {
         name = hex_city_projects_events.1.a
         ai_chance = { factor = 100 }
-		owner = { country_event = { id = hex_great_projects_events.1 } }
+
+		hidden_effect = {
+			owner = { country_event = { id = hex_great_projects_events.1 } }
+		}
 	}
 }
 
@@ -36,7 +39,10 @@ province_event = {
 	option = {
         name = hex_city_projects_events.2.a
         ai_chance = { factor = 100 }
-		owner = { country_event = { id = hex_great_projects_events.1 } }
+
+		hidden_effect = {
+			owner = { country_event = { id = hex_great_projects_events.1 } }
+		}
 	}
 }
 
@@ -56,7 +62,10 @@ province_event = {
 	option = {
         name = hex_city_projects_events.3.a
         ai_chance = { factor = 100 }
-		owner = { country_event = { id = hex_great_projects_events.1 } }
+
+		hidden_effect = {
+			owner = { country_event = { id = hex_great_projects_events.1 } }
+		}
 	}
 }
 
@@ -76,7 +85,10 @@ province_event = {
 	option = {
         name = hex_city_projects_events.4.a
         ai_chance = { factor = 100 }
-		owner = { country_event = { id = hex_great_projects_events.1 } }
+
+		hidden_effect = {
+			owner = { country_event = { id = hex_great_projects_events.1 } }
+		}
 	}
 }
 
@@ -96,7 +108,10 @@ province_event = {
 	option = {
         name = hex_city_projects_events.5.a
         ai_chance = { factor = 100 }
-		owner = { country_event = { id = hex_great_projects_events.1 } }
+
+		hidden_effect = {
+			owner = { country_event = { id = hex_great_projects_events.1 } }
+		}
 	}
 }
 
@@ -116,6 +131,9 @@ province_event = {
 	option = {
         name = hex_city_projects_events.6.a
         ai_chance = { factor = 100 }
-		owner = { country_event = { id = hex_great_projects_events.1 } }
+
+		hidden_effect = {
+			owner = { country_event = { id = hex_great_projects_events.1 } }
+		}
 	}
 }
