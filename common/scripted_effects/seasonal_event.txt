@@ -1,0 +1,91 @@
+hex_seasonal_country_event = {
+	[[wind]
+		if = { limit = { is_month = 11 } country_event = { id = $event$.$id$ days = 31 } }
+		if = { limit = { is_month = 10 NOT = { is_month = 11 } } country_event = { id = $event$.$id$ days = 61 random = 28 } }
+		if = { limit = { is_month = 9 NOT = { is_month = 10 } } country_event = { id = $event$.$id$ days = 92 } }
+		if = { limit = { is_month = 8 NOT = { is_month = 9 } } country_event = { id = $event$.$id$ days = 122 random = 28 } }
+		if = { limit = { is_month = 7 NOT = { is_month = 8 } } country_event = { id = $event$.$id$ days = 153 } }
+		if = { limit = { is_month = 6 NOT = { is_month = 7 } } country_event = { id = $event$.$id$ days = 184 random = 28 } }
+		if = { limit = { is_month = 5 NOT = { is_month = 6 } } country_event = { id = $event$.$id$ days = 214 } }
+		if = { limit = { is_month = 4 NOT = { is_month = 5 } } country_event = { id = $event$.$id$ days = 245 random = 28 } }
+		if = { limit = { is_month = 3 NOT = { is_month = 4 } } country_event = { id = $event$.$id$ days = 275 } }
+		if = { limit = { is_month = 2 NOT = { is_month = 3 } } country_event = { id = $event$.$id$ days = 306 random = 28 } }
+		if = { limit = { is_month = 1 NOT = { is_month = 2 } } country_event = { id = $event$.$id$ days = 1 } }
+		if = { limit = { is_month = 0 NOT = { is_month = 1 } } country_event = { id = $event$.$id$ days = 1 random = 28 } }
+	]
+
+	[[water]
+		if = { limit = { is_month = 11 } country_event = { id = $event$.$id$ days = 90 } }
+		if = { limit = { is_month = 10 NOT = { is_month = 11 } } country_event = { id = $event$.$id$ days = 120 random = 30 } }
+		if = { limit = { is_month = 9 NOT = { is_month = 10 } } country_event = { id = $event$.$id$ days = 151 } }
+		if = { limit = { is_month = 8 NOT = { is_month = 9 } } country_event = { id = $event$.$id$ days = 181 random = 30 } }
+		if = { limit = { is_month = 7 NOT = { is_month = 8 } } country_event = { id = $event$.$id$ days = 212 } }
+		if = { limit = { is_month = 6 NOT = { is_month = 7 } } country_event = { id = $event$.$id$ days = 243 random = 30 } }
+		if = { limit = { is_month = 5 NOT = { is_month = 6 } } country_event = { id = $event$.$id$ days = 273 } }
+		if = { limit = { is_month = 4 NOT = { is_month = 5 } } country_event = { id = $event$.$id$ days = 304 random = 30 } }
+		if = { limit = { is_month = 3 NOT = { is_month = 4 } } country_event = { id = $event$.$id$ days = 1 } }
+		if = { limit = { is_month = 2 NOT = { is_month = 3 } } country_event = { id = $event$.$id$ days = 1 random = 30 } }
+		if = { limit = { is_month = 1 NOT = { is_month = 2 } } country_event = { id = $event$.$id$ days = 28 } }
+		if = { limit = { is_month = 0 NOT = { is_month = 1 } } country_event = { id = $event$.$id$ days = 59 random = 30 } }
+	]
+
+	[[earth]
+		if = { limit = { is_month = 11 } country_event = { id = $event$.$id$ days = 151 } }
+		if = { limit = { is_month = 10 NOT = { is_month = 11 } } country_event = { id = $event$.$id$ days = 181 random = 30 } }
+		if = { limit = { is_month = 9 NOT = { is_month = 10 } } country_event = { id = $event$.$id$ days = 212 } }
+		if = { limit = { is_month = 8 NOT = { is_month = 9 } } country_event = { id = $event$.$id$ days = 242 random = 30 } }
+		if = { limit = { is_month = 7 NOT = { is_month = 8 } } country_event = { id = $event$.$id$ days = 273 } }
+		if = { limit = { is_month = 6 NOT = { is_month = 7 } } country_event = { id = $event$.$id$ days = 304 random = 30 } }
+		if = { limit = { is_month = 5 NOT = { is_month = 6 } } country_event = { id = $event$.$id$ days = 1 } }
+		if = { limit = { is_month = 4 NOT = { is_month = 5 } } country_event = { id = $event$.$id$ days = 1 random = 30 } }
+		if = { limit = { is_month = 3 NOT = { is_month = 4 } } country_event = { id = $event$.$id$ days = 30 } }
+		if = { limit = { is_month = 2 NOT = { is_month = 3 } } country_event = { id = $event$.$id$ days = 61 random = 30 } }
+		if = { limit = { is_month = 1 NOT = { is_month = 2 } } country_event = { id = $event$.$id$ days = 89 } }
+		if = { limit = { is_month = 0 NOT = { is_month = 1 } } country_event = { id = $event$.$id$ days = 120 random = 30 } }
+	]
+
+	[[fire]
+		if = { limit = { is_month = 11 } country_event = { id = $event$.$id$ days = 212 } }
+		if = { limit = { is_month = 10 NOT = { is_month = 11 } } country_event = { id = $event$.$id$ days = 242 random = 30 } }
+		if = { limit = { is_month = 9 NOT = { is_month = 10 } } country_event = { id = $event$.$id$ days = 273 } }
+		if = { limit = { is_month = 8 NOT = { is_month = 9 } } country_event = { id = $event$.$id$ days = 303 random = 30 } }
+		if = { limit = { is_month = 7 NOT = { is_month = 8 } } country_event = { id = $event$.$id$ days = 1 } }
+		if = { limit = { is_month = 6 NOT = { is_month = 7 } } country_event = { id = $event$.$id$ days = 1 random = 30 } }
+		if = { limit = { is_month = 5 NOT = { is_month = 6 } } country_event = { id = $event$.$id$ days = 30 } }
+		if = { limit = { is_month = 4 NOT = { is_month = 5 } } country_event = { id = $event$.$id$ days = 61 random = 30 } }
+		if = { limit = { is_month = 3 NOT = { is_month = 4 } } country_event = { id = $event$.$id$ days = 91 } }
+		if = { limit = { is_month = 2 NOT = { is_month = 3 } } country_event = { id = $event$.$id$ days = 122 random = 30 } }
+		if = { limit = { is_month = 1 NOT = { is_month = 2 } } country_event = { id = $event$.$id$ days = 150 } }
+		if = { limit = { is_month = 0 NOT = { is_month = 1 } } country_event = { id = $event$.$id$ days = 181 random = 30 } }
+	]
+
+	[[void]
+		if = { limit = { is_month = 11 } country_event = { id = $event$.$id$ days = 274 } }
+		if = { limit = { is_month = 10 NOT = { is_month = 11 } } country_event = { id = $event$.$id$ days = 304 random = 30 } }
+		if = { limit = { is_month = 9 NOT = { is_month = 10 } } country_event = { id = $event$.$id$ days = 1 } }
+		if = { limit = { is_month = 8 NOT = { is_month = 9 } } country_event = { id = $event$.$id$ days = 1 random = 30 } }
+		if = { limit = { is_month = 7 NOT = { is_month = 8 } } country_event = { id = $event$.$id$ days = 31 } }
+		if = { limit = { is_month = 6 NOT = { is_month = 7 } } country_event = { id = $event$.$id$ days = 62 random = 30 } }
+		if = { limit = { is_month = 5 NOT = { is_month = 6 } } country_event = { id = $event$.$id$ days = 92 } }
+		if = { limit = { is_month = 4 NOT = { is_month = 5 } } country_event = { id = $event$.$id$ days = 123 random = 30 } }
+		if = { limit = { is_month = 3 NOT = { is_month = 4 } } country_event = { id = $event$.$id$ days = 153 } }
+		if = { limit = { is_month = 2 NOT = { is_month = 3 } } country_event = { id = $event$.$id$ days = 184 random = 30 } }
+		if = { limit = { is_month = 1 NOT = { is_month = 2 } } country_event = { id = $event$.$id$ days = 212 } }
+		if = { limit = { is_month = 0 NOT = { is_month = 1 } } country_event = { id = $event$.$id$ days = 243 random = 30 } }
+	]
+
+	[[dust]
+		if = { limit = { is_month = 11 } country_event = { id = $event$.$id$ days = 1 } }
+		if = { limit = { is_month = 10 NOT = { is_month = 11 } } country_event = { id = $event$.$id$ days = 1 random = 30 } }
+		if = { limit = { is_month = 9 NOT = { is_month = 10 } } country_event = { id = $event$.$id$ days = 31 } }
+		if = { limit = { is_month = 8 NOT = { is_month = 9 } } country_event = { id = $event$.$id$ days = 62 random = 30 } }
+		if = { limit = { is_month = 7 NOT = { is_month = 8 } } country_event = { id = $event$.$id$ days = 92 } }
+		if = { limit = { is_month = 6 NOT = { is_month = 7 } } country_event = { id = $event$.$id$ days = 123 random = 30 } }
+		if = { limit = { is_month = 5 NOT = { is_month = 6} } country_event = { id = $event$.$id$ days = 153 } }
+		if = { limit = { is_month = 4 NOT = { is_month = 5 } } country_event = { id = $event$.$id$ days = 184 random = 30 } }
+		if = { limit = { is_month = 3 NOT = { is_month = 4 } } country_event = { id = $event$.$id$ days = 214 } }
+		if = { limit = { is_month = 2 NOT = { is_month = 3 } } country_event = { id = $event$.$id$ days = 245 random = 30 } }
+		if = { limit = { is_month = 1 NOT = { is_month = 2 } } country_event = { id = $event$.$id$ days = 273 } }
+		if = { limit = { is_month = 0 NOT = { is_month = 1 } } country_event = { id = $event$.$id$ days = 304 random = 30 } }
+	]
+}

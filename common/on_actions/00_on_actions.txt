@@ -186,7 +186,11 @@ on_monthly_pulse = {
 	}
 }
 
-on_yearly_pulse = { }
+on_yearly_pulse = {
+	events = {
+		hex_awakening_first_events.1
+	}
+}
 
 on_yearly_pulse_2 = { }
 
