@@ -10,9 +10,7 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	trigger = {
-		ai = no
-	}
+	trigger = { ai = no }
 
 	option = {
 		name = hex_awakening_events.1.a

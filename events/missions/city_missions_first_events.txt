@@ -33,21 +33,3 @@ country_event = {
         ai_chance = { factor = 100 }
 	}
 }
-
-
-country_event = {
-	id = hex_city_missions_first_events.3
-	title = hex_city_missions_first_events.3.t
-	desc = hex_city_missions_first_events.3.d
-
-	picture = HEX_EVENT_PICTURE_FIRST_AWAKE
-	
-	is_triggered_only = yes
-	
-	option = {
-        name = hex_city_missions_first_events.3.a
-		custom_tooltip = hex_city_missions_first_events.3.tt
-
-        ai_chance = { factor = 100 }
-	}
-}
