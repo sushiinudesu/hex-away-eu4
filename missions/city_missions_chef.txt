@@ -1,40 +1,5 @@
-hex_missions_city_chef_awakening_left = {
-	slot = 1
-
-	ai = yes
-	generic = no
-	has_country_shield = yes
-
-	potential = {
-		tag = A01
-		faction_in_power = hex_farmers_guild
-	}
-	
-	hex_missions_city_chef_picnic = {
-		icon = mission_sio_camp_circles
-		position = 1
-		required_missions = { }
-
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = HEX_IS_WATER_SEASON
-				hex_is_water_season = yes
-			}
-		}
-
-		effect = {
-			country_event = { id = hex_city_missions_chef_events.1 }
-
-			hidden_effect = {
-				add_faction_influence = { faction = hex_farmers_guild influence = 1 }
-				hex_mission_reward = yes
-			}
-		}
-	}
-}
-
 hex_missions_city_chef_awakening_right = {
-	slot = 5
+	slot = 3
 
 	ai = yes
 	generic = no

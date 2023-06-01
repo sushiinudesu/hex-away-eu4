@@ -1,40 +1,5 @@
-hex_missions_city_seawatcher_awakening_left = {
-	slot = 1
-
-	ai = yes
-	generic = no
-	has_country_shield = yes
-
-	potential = {
-		tag = A01
-		faction_in_power = hex_sailors_guild
-	}
-	
-	hex_missions_city_seawatcher_fishing = {
-		icon = mission_sio_camp_circles
-		position = 1
-		required_missions = { }
-
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = HEX_IS_VOID_SEASON
-				hex_is_void_season = yes
-			}
-		}
-
-		effect = {
-			country_event = { id = hex_city_missions_seawatcher_events.1 }
-
-			hidden_effect = {
-				add_faction_influence = { faction = hex_sailors_guild influence = 1 }
-				hex_mission_reward = yes
-			}
-		}
-	}
-}
-
 hex_missions_city_seawatcher_awakening_right = {
-	slot = 5
+	slot = 3
 
 	ai = yes
 	generic = no

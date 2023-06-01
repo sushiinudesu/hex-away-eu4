@@ -1,38 +1,5 @@
-hex_missions_city_first_awakening_left = {
-	slot = 1
-
-	ai = yes
-	generic = no
-	has_country_shield = yes
-
-	potential = {
-		tag = A01
-		faction_in_power = hex_first_faction
-	}
-	
-	hex_missions_city_first_fireplace_stories = {
-		icon = mission_sio_camp_circles
-		position = 1
-		required_missions = { }
-
-		completed_by = 6.12.31
-
-		trigger = { always = yes }
-
-		effect = {
-			custom_tooltip = HEX_MISSIONS_CITY_FIRST_FIREPLACE_STORIES_TT
-			country_event = { id = hex_city_missions_first_events.1 }
-
-			hidden_effect = {
-				add_faction_influence = { faction = hex_first_faction influence = 1 }
-				hex_mission_reward = yes
-			}
-		}
-	}
-}
-
 hex_missions_city_first_awakening_middle = {
-	slot = 3
+	slot = 2
 
 	ai = yes
 	generic = no
@@ -66,7 +33,7 @@ hex_missions_city_first_awakening_middle = {
 }
 
 hex_missions_city_first_awakening_right = {
-	slot = 5
+	slot = 4
 
 	ai = yes
 	generic = no

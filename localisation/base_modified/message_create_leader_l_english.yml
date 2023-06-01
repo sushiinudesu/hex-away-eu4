@@ -4,7 +4,7 @@
 
   CREATELEADER_TITLE:0 "Leader Recruited"
   CREATELEADER_SETUP:0 "When the Council is gathered to discuss military issues."
-  CREATELEADER_HEADER:0 "Magpie News"
+  CREATELEADER_HEADER:0 "§MMagpie News§!"
 
   CREATELEADER_1:0 "Council Gathering"
   CREATELEADER_2:1 "The Council has been gathered to discuss military issues."
