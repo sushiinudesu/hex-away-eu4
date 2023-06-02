@@ -1966,7 +1966,6 @@
  ABANDON_IDEA_GROUP_REFUND:0 "Abandoning this idea group will refund §Y$VALUE$§! $POWER$."
  PRIMITIVES_CANT_BUILD_SHIPS:0 "Primitive nations can't build ships."
  PRIMITIVES_CANT_BUY_SHIPS:0 "Primitive nations can't buy ships."
- CV_TECH_RESEARCH_MAXED:0 "You have researched all technologies in this group."
  CV_RESEARCH_TECH:0 "Research technology $NAME$"
  CV_RESEARCH_TECH_DESC:0 "Researching $NAME$ will cost §Y$POWER_COST$§! $TYPE$ power."
  CV_RESEARCH_TECH_NOPOWER:0 "You don't have enough $TYPE$ power to research this level! You need §Y$POWER_COST$§! power and have §Y$POWER_AVAILABLE$§! available."

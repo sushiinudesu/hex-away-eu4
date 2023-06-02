@@ -2,3 +2,4 @@
   CV_DIPLOMACY_TECH_LEVEL:0 " $LEVEL|Y$ $NAME$ Advancements"
   HAVE_TECHNOLOGY_GROUP:0 "In "
   FROM_TECH:0 "From Advancements: $VAL|%=+1$"
+  CV_TECH_RESEARCH_MAXED:0 "No available Advancements"

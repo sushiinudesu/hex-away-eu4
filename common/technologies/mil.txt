@@ -7,10 +7,10 @@ technology = {
 	year = 1
 	
 	combat_width = 1
-	infantry_shock = 0.1
+	# infantry_shock = 0.1
 	land_morale = 1
 	may_force_march = yes
 	sprite_level = 1
 
-	enable = hex_unit_city_1_camp_guards
+	# enable = hex_unit_city_1_camp_guards
 }
