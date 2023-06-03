@@ -7,15 +7,16 @@ hex_city_rule_reform = {
 	custom_attributes = { }
 	modifiers = {
 		diplomats = 1
+		reform_progress_growth = -1
 	}
 
 	assimilation_cultures = {
 		hex_awake_culture_group = {
-			global_unrest = 0.25
+			min_autonomy = 1
 			tribal_development_growth = 0.25
 		}
 		hex_vagabond_culture_group = {
-			global_unrest = 0.25
+			min_autonomy = 1
 		}
 	}
 }

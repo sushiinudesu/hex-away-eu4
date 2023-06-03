@@ -7,3 +7,4 @@
   EXPENSE_CORRUPTION:0 "Calm Ruler Corruption"
   root_out_corruption:0 "Calming Ruler Corruption"
   CORRUPTION_SLIDER_TOOLTIP:1 "This will Calm Ruler Corruption for free each month.\nCurrently we reduce Ruler Corruption by $ROOTOUT$ yearly.\nIn total Ruler Corruption changes by $CHANGE$ yearly."
+  MODIFIER_YEARLY_CORRUPTION:0 "Yearly Ruler Corruption"

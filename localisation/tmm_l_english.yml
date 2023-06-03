@@ -1665,9 +1665,7 @@
  tolerance_heretic:0 "Tolerance of Heretics"
  tolerance_heathen:0 "Tolerance of Heathens"
  num_accepted_cultures:0 "Number of accepted Cultures"
- ruler_adm:0 "Ruler Administrative ability"
- ruler_dip:0 "Ruler Diplomatic ability"
- ruler_mil:0 "Ruler Military ability"
+
  heir_adm:0 "Heir Administrative ability"
  heir_dip:0 "Heir Diplomatic ability"
  heir_mil:0 "Heir Military ability"

@@ -3,6 +3,7 @@ corruption = {
 	country_admin_power	= 6
 	country_diplomatic_power = 6
 	country_military_power	= 6
+	min_autonomy = 100
 }
 
 root_out_corruption = {

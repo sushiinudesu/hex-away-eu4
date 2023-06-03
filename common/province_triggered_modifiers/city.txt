@@ -1,0 +1,22 @@
+hex_city_province = {
+	potential = {
+		owner = {
+			capital_scope = { region = hex_city_region }
+		}
+	}
+
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = HEX_OWNED_BY_CITY
+			owner = {
+				capital_scope = { region = hex_city_region }
+			}
+		}
+	}
+
+	local_governing_cost = -1
+
+	on_activation = { }
+	
+	on_deactivation = { }
+}

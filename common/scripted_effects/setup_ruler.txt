@@ -4,4 +4,5 @@ hex_setup_ruler = {
 	clear_scripted_personalities = yes
 	add_ruler_personality = hex_awake_personality
 	set_ai_personality = { personality = $ai$ locked = yes }
+	add_corruption = -100
 }

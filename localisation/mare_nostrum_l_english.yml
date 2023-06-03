@@ -72,7 +72,6 @@
  ICON_REQUESTSHAREMAP:0 "A §Yrequest§! to share your maps of $REGION$"
  AUTO_DUE_TO_MOD:1 "$WHAT$"
  AUTO_HEADER:0 "Cannot be lower than §Y$VAL$%§! due to:\n$WHAT$"
- MODIFIER_YEARLY_CORRUPTION:0 "Yearly Corruption"
 
  STEALMAPTITLE:0 "Steal Maps"
  SPYCOST:0 "Will reduce the size of our $ADJ|Y$ Spy Network by $COST$."

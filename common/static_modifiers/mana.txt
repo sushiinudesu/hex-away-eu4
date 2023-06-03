@@ -1,0 +1,11 @@
+ruler_adm = {
+	yearly_corruption = 0.33
+}
+
+ruler_dip = {
+	yearly_corruption = 0.33
+}
+
+ruler_mil = {
+	yearly_corruption = 0.33
+}

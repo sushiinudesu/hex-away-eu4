@@ -12,6 +12,8 @@ trade_goods = hex_trade_good_none
 
 is_city = yes
 
+add_province_triggered_modifier = hex_city_province
+
 7.1.1 = {
 	base_manpower = 8
 	base_production = 8

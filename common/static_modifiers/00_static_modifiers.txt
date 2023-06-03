@@ -703,12 +703,6 @@ tolerance_heathen = { }
 
 num_accepted_cultures = { }
 
-ruler_adm = { }
-
-ruler_dip = { }
-
-ruler_mil = { }
-
 heir_adm = { }
 
 heir_dip = { }

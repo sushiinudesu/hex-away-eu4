@@ -1,0 +1,4 @@
+﻿l_english:
+  hex_city_province:0 "Province in the City"
+  desc_hex_city_province:0 "§MThis province is an integral part of the City.§!"
+  HEX_OWNED_BY_CITY:0 "Is ruled by the City"
