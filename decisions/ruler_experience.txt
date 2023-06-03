@@ -1,7 +1,7 @@
 country_decisions = {
 	hex_improve_adm = {
-		color = { 195 160 20 }
-
+		color = { 209 113 151 }
+		
 		potential = {
 			OR = {
 				AND = { adm = 1 NOT = { adm = 2 } adm_power = 60 }
@@ -12,12 +12,7 @@ country_decisions = {
 			}
 		}
 
-		allow = {
-			custom_trigger_tooltip = {
-				tooltip = HEX_IMPROVE_ADM_TT
-				always = yes
-			}
-		}
+		allow = { always = yes }
 
 		effect = {
 			custom_tooltip = HEX_IMPROVE_ADM_EFFECT_TT
@@ -36,7 +31,7 @@ country_decisions = {
 	}
 
 	hex_improve_dip = {
-		color = { 195 160 20 }
+		color = { 209 113 151 }
 
 		potential = {
 			OR = {
@@ -48,12 +43,7 @@ country_decisions = {
 			}
 		}
 
-		allow = {
-			custom_trigger_tooltip = {
-				tooltip = HEX_IMPROVE_DIP_TT
-				always = yes
-			}
-		}
+		allow = { always = yes }
 
 		effect = {
 			custom_tooltip = HEX_IMPROVE_DIP_EFFECT_TT
@@ -72,7 +62,7 @@ country_decisions = {
 	}
 
 	hex_improve_mil = {
-		color = { 195 160 20 }
+		color = { 209 113 151 }
 
 		potential = {
 			OR = {
@@ -84,12 +74,7 @@ country_decisions = {
 			}
 		}
 
-		allow = {
-			custom_trigger_tooltip = {
-				tooltip = HEX_IMPROVE_MIL_TT
-				always = yes
-			}
-		}
+		allow = { always = yes }
 
 		effect = {
 			custom_tooltip = HEX_IMPROVE_MIL_EFFECT_TT

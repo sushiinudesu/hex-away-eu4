@@ -1,6 +1,6 @@
 country_decisions = {
 	hex_build_lion_fort = {
-		color = { 195 160 20 }
+		color = { 207 130 89 }
 
 		potential = {
 			has_faction = hex_hunters_guild
@@ -29,7 +29,7 @@ country_decisions = {
 	}
 
 	hex_build_first_farm = {
-		color = { 195 160 20 }
+		color = { 207 130 89 }
 
 		potential = {
 			has_faction = hex_farmers_guild
@@ -58,7 +58,7 @@ country_decisions = {
 	}
 
 	hex_build_white_tower = {
-		color = { 195 160 20 }
+		color = { 207 130 89 }
 
 		potential = {
 			has_faction = hex_builders_guild
@@ -87,7 +87,7 @@ country_decisions = {
 	}
 
 	hex_build_city_mine = {
-		color = { 195 160 20 }
+		color = { 207 130 89 }
 
 		potential = {
 			has_faction = hex_miners_guild
@@ -116,7 +116,7 @@ country_decisions = {
 	}
 
 	hex_build_yarn_club = {
-		color = { 195 160 20 }
+		color = { 207 130 89 }
 
 		potential = {
 			has_faction = hex_artisan_guild
@@ -145,7 +145,7 @@ country_decisions = {
 	}
 
 	hex_build_salt_shipyard = {
-		color = { 195 160 20 }
+		color = { 207 130 89 }
 
 		potential = {
 			has_faction = hex_sailors_guild
