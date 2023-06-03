@@ -1,9 +1,0 @@
-hex_setup_factions = {
-	if = {
-		limit = {
-			is_year = 2
-			NOT = { has_faction = hex_first_faction }
-		}
-		add_faction = hex_first_faction
-	}
-}

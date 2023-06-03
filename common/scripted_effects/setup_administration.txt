@@ -5,8 +5,8 @@ hex_setup_administration = {
 		A01 = { 
 			trigger_switch = {
 				on_trigger = is_year
-				2 = { add_government_reform = hex_city_first_camp_reform }
 				7 = { add_government_reform = hex_city_under_construction_reform }
+				2 = { add_government_reform = hex_city_first_camp_reform }
 			}
 		}
 		REB = {}

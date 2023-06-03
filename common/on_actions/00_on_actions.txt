@@ -5,11 +5,6 @@ on_startup = {
 	}
 
 	if = {
-		limit = { tag = A01 }
-		hex_setup_factions = yes
-	}
-
-	if = {
 		limit = { NOT = { has_reform_on_level = 0 }}
 		hex_setup_administration = yes
 	}

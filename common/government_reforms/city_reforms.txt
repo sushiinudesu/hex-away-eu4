@@ -4,6 +4,10 @@ hex_city_first_camp_reform = {
 	fixed_rank = 1
 	lock_level_when_selected = yes
 
+	factions = {
+		hex_first_faction
+	}
+
 	potential = {
 		tag = A01
 		has_reform = hex_city_first_camp_reform
@@ -19,6 +23,16 @@ hex_city_under_construction_reform = {
 
 	fixed_rank = 1
 	lock_level_when_selected = yes
+
+	factions = {
+		hex_first_faction
+		hex_artisan_guild
+		hex_builders_guild
+		hex_farmers_guild
+		hex_hunters_guild
+		hex_miners_guild
+		hex_sailors_guild
+	}
 
 	potential = {
 		tag = A01
