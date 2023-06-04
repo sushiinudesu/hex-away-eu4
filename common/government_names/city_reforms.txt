@@ -16,9 +16,9 @@ hex_city_first_camp_reform = {
 	}
 }
 
-hex_city_under_construction_reform = {
+hex_city_grand_construction_reform = {
 	rank = {
-		1 = HEX_CITY_UNDER_CONSTRUCTION
+		1 = HEX_CITY_GRAND_CONSTRUCTION
 	}
 
 	ruler_male = {
@@ -30,6 +30,6 @@ hex_city_under_construction_reform = {
 	}
 
 	trigger = {
-		has_reform = hex_city_under_construction_reform
+		has_reform = hex_city_grand_construction_reform
 	}
 }

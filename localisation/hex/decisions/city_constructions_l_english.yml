@@ -1,5 +1,5 @@
 ﻿l_english:
-  hex_build_lion_fort_desc:0 "§YLion§! §Mwants to fortify his camp. I promised to look for help. But what is he going to fight there?§!"
+  hex_build_lion_fort_desc:0 "§YLion§! §Mwants to fortify his camp. I promised to look for help. But what is he going to fight against?§!"
   hex_build_lion_fort_title:0 "Build Lion Fort"
   hex_build_first_farm_desc:0 "§YChef§! §Mis looking for help with his small farm. Something about new veggies, I think. Damn, I think I'm hungry now...§!"
   hex_build_first_farm_title:0 "Build First Farm"
@@ -7,7 +7,7 @@
   hex_build_white_tower_title:0 "Build White Tower"
   hex_build_city_mine_desc:0 "§YLongbeard§! §Mfound a new iron vein in the caves and needs some help. Want to go to look at his beard?§!"
   hex_build_city_mine_title:0 "Build City Mine"
-  hex_build_yarn_club_desc:0 "§YNeedle§! §Mcomplained to me that she hates living in a tent. I promised to help, but I don't know how to build. Will you, please?§!"
+  hex_build_yarn_club_desc:0 "§YNeedle§! §Mcomplained to me that she hates living in a tent. I promised to help, but I don't know how to build. Will you please?§!"
   hex_build_yarn_club_title:0 "Build Yarn Club"
   hex_build_salt_shipyard_desc:0 "§YSeawatcher§! §Mmade a new boat. Now everyone wants it. I don't understand fishing, why do you even... Never mind. He wants help. Will you check on him?§!"
   hex_build_salt_shipyard_title:0 "Build Salt Shipyard"

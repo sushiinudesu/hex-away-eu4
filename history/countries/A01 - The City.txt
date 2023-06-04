@@ -39,5 +39,5 @@ add_government_reform = hex_city_first_camp_reform
 }
 
 7.1.1 = {
-	add_government_reform = hex_city_under_construction_reform
+	add_government_reform = hex_city_grand_construction_reform
 }

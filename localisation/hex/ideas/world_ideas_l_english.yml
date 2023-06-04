@@ -13,7 +13,7 @@ l_english:
   hex_idea_world_magic:0 "§JLaw of Magic§!"
   hex_idea_world_magic_desc:0 "\n§JMagic§! is one of the §JLaws of the World§!. Through §JElements§! the World presents itself. There are five of them - §YWind§!, §MWater§!, §GEarth§!, §RFire§! and §PVoid§!."
   hex_idea_world_obsidian:0 "§JObsidian Law§!"
-  hex_idea_world_obsidian_desc:0 "\nThe Tower that stands at the center of the World is made of §JObsidian§!. It is unbreakable, but flexible."
+  hex_idea_world_obsidian_desc:0 "\nThe Tower that stands at the center of the World is made of §JObsidian§!. It is unbreakable."
   hex_world_ideas:0 "§JLaws of the World§!"
   hex_world_ideas_start:0 "§YWe Have§!"
   hex_world_ideas_bonus:0 "§RBut Also§!"

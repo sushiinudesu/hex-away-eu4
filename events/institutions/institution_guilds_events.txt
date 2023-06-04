@@ -50,7 +50,7 @@ country_event = {
 			hex_add_to_city = yes
 		}
 
-		add_government_reform = hex_city_under_construction_reform
+		add_government_reform = hex_city_grand_construction_reform
 	}
 }
 
