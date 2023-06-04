@@ -22,8 +22,6 @@ hex_missions_city_first_awakening_middle = {
 		}
 
 		effect = {
-			country_event = { id = hex_city_missions_first_events.1 }
-
 			hidden_effect = {
 				add_faction_influence = { faction = hex_first_faction influence = 1 }
 				hex_mission_reward = yes
@@ -58,8 +56,6 @@ hex_missions_city_first_awakening_right = {
 		}
 
 		effect = {
-			country_event = { id = hex_city_missions_first_events.2 }
-
 			hidden_effect = {
 				add_faction_influence = { faction = hex_first_faction influence = 1 }
 				hex_mission_reward = yes
