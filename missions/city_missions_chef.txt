@@ -28,8 +28,7 @@ hex_missions_city_chef_awakening_right = {
 
 		effect = {
 			hidden_effect = {
-				add_faction_influence = { faction = hex_farmers_guild influence = 1 }
-				hex_mission_reward = yes
+				hex_mission_reward = { faction = hex_farmers_guild }
 			}
 		}
 	}

@@ -28,8 +28,7 @@ hex_missions_city_lion_awakening_right = {
 
 		effect = {
 			hidden_effect = {
-				add_faction_influence = { faction = hex_hunters_guild influence = 1 }
-				hex_mission_reward = yes
+				hex_mission_reward = { faction = hex_hunters_guild }
 			}
 		}
 	}
