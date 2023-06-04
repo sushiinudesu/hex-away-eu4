@@ -11,7 +11,7 @@ add_government_reform = hex_city_first_camp_reform
 2.1.1 = {
 	monarch = {
 		name = "First"
-		dynasty = "'the Awake'"
+		dynasty = "'the Awake One'"
 		birth_date = 1.1.2
 		adm = 1
 		dip = 1
@@ -19,7 +19,6 @@ add_government_reform = hex_city_first_camp_reform
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}
-	export_to_variable = { variable_name = first_adm value = ADM who = REB }
 	exile_ruler_as = { name = first kill_monarch = no }
 }
 
