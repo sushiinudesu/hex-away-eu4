@@ -19,11 +19,25 @@ add_government_reform = hex_city_first_camp_reform
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}
+
+	define_heir = {
+		name = "First"
+		dynasty = "'the Awake One'"
+		birth_date = 1.1.2
+		claim = 50
+		adm = 1
+		dip = 1
+		mil = 1
+		culture = hex_awake_culture
+		religion = hex_faithless
+	}
+
 	exile_ruler_as = { name = first kill_monarch = no }
+	exile_heir_as = first_heir
+	set_heir = first_heir
 }
 
 2.2.2 = {
-	add_ruler_personality = hex_awake_personality
 	set_ai_personality = { personality = ai_balanced locked = yes }
 
 	add_faction = hex_first_faction

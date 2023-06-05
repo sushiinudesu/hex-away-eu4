@@ -1,5 +1,6 @@
 ﻿l_english:
   native_desc:1 "This is part of the City. It has a unique identity, tying itself to the political and economic development of the City."
+  WE_HAVE_GOV_TRIBAL:0 "This is part of the City. It has a unique identity, tying itself to the political and economic development of the City."
   TRIBAL_DEVELOPMENT_TITLE:0 "City Development"
   HEADER_NATIVES:0 "The City"
   NATIVE_TRIBE_SETTLED_DEVELOPMENT_HEADER_TOOLTIP:1 "§YCity Development§!"

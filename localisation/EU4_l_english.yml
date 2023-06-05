@@ -1730,7 +1730,6 @@
  STABILITY_BOOST_SPEND:0 "Spend §Y$POWER_COST$§! of your §Y$POWER_AVAILABLE$§! £adm£ to boost Stability."
  STABILITY_BOOST_MAXED:0 "You already have maximum Stability."
  WE_HAVE_GOV_NOMADS:0 "We have a Nomad government."
- WE_HAVE_GOV_TRIBAL:0 "We have a Tribal government."
  WE_HAVE_GOV_RELIGIOUS:0 "We have a Religious government."
  WE_HAVE_GOV_REBUBLIC:0 "We have a Republic."
  WE_HAVE_GOV_MONARCHY:0 "We have a Monarchy."

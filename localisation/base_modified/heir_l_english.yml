@@ -1,0 +1,6 @@
+﻿l_english:
+  HEIR:0 "Loyalty"
+  HEIR_CLAIM:0 "$CLAIM$"
+  CLAIM_WEAK:0 "§REnemy§W"
+  CLAIM_AVERAGE:0 "§YNeutral§W"
+  CLAIM_STRONG:0 "§GFriend§W"
