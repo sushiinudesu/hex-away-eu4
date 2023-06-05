@@ -1,0 +1,3 @@
+hex_first_capable_ruler = {
+	tribal_development_growth = 1
+}

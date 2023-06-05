@@ -5,3 +5,26 @@ hex_add_to_city = {
 	change_religion = ROOT
 	change_trade_goods = hex_trade_good_none
 }
+
+hex_add_random_dev = {
+	export_to_variable = {
+		which = hex_add_random_dev_times
+		value = $amount$
+	}
+
+	while = {
+		limit = { check_variable = { which = hex_add_random_dev_times value = 1 } }
+
+		random_province = {
+			limit = { region = hex_city_region owned_by = $owner$ }
+	
+			random_list = {
+				1 = { add_base_tax = 1 } 
+				1 = { add_base_production = 1 } 
+				1 = { add_base_manpower = 1 } 
+			}
+		}
+
+		subtract_variable = { which = hex_add_random_dev_times value = 1 }
+	}
+}

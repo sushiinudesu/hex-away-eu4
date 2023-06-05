@@ -1,11 +1,14 @@
 ruler_adm = {
+	tribal_development_growth = 0.02
 	yearly_corruption = 0.33
 }
 
 ruler_dip = {
+	tribal_development_growth = 0.02
 	yearly_corruption = 0.33
 }
 
 ruler_mil = {
+	tribal_development_growth = 0.02
 	yearly_corruption = 0.33
 }

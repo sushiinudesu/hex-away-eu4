@@ -33,18 +33,7 @@ country_event = {
 		trigger = { hex_native_mechanic_available = no }
 
 		hidden_effect = {
-			random_province = {
-				limit = {
-					region = hex_city_region
-					owned_by = ROOT
-				}
-
-				random_list = { 
-					33 = { add_base_tax = 1 } 
-					33 = { add_base_production = 1 } 
-					33 = { add_base_manpower = 1 } 
-				}
-			}
+			hex_add_random_dev = { owner = ROOT amount = 1 }
 		}
 	}
 }

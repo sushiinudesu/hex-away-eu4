@@ -18,7 +18,7 @@ hex_missions_city_first_awakening_middle = {
 		completed_by = 6.12.31
 
 		trigger = {
-			total_development = 75
+			total_development = 100
 		}
 
 		effect = {
@@ -41,7 +41,7 @@ hex_missions_city_first_awakening_right = {
 		faction_in_power = hex_first_faction
 	}
 	
-	hex_missions_city_first_a_leader = {
+	hex_missions_city_first_capable_ruler = {
 		icon = mission_sio_camp_circles
 		position = 1
 		required_missions = { }
@@ -55,6 +55,17 @@ hex_missions_city_first_awakening_right = {
 		}
 
 		effect = {
+			if = {
+				limit = { hex_native_mechanic_available = yes }
+				add_ruler_modifier = { name = hex_first_capable_ruler duration = 365}
+			}
+			else = {
+				custom_tooltip = HEX_ADD_RANDOM_DEV_12_TT
+				hidden_effect = {
+					hex_add_random_dev = { owner = ROOT amount = 12 }
+				}
+			}
+
 			hidden_effect = {
 				hex_mission_reward = { faction = hex_first_faction }
 			}
