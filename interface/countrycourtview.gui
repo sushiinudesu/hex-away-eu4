@@ -211,7 +211,6 @@ guiTypes = {
 			maxHeight = 16
 			format = centre
 		}	
-
 		iconType = {
 			name ="monarch_dip_icon"
 			spriteType = "GFX_HEX_INTELLIGENCE_ATTRIBUTE"
@@ -248,7 +247,6 @@ guiTypes = {
 			maxHeight = 16
 			format = centre
 		}
-
 		iconType = {
 			name ="monarch_mil_icon"
 			spriteType = "GFX_HEX_CHARISMA_ATTRIBUTE"
@@ -301,12 +299,11 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-
 		# PERSONALITIES
 
 		listboxType = {
 			name ="monarch_ruler_personality_list"
-			position = { x=0 y = 600 }
+			position = { x=40 y = 510 }
 			backGround=""
 			size = { x=500 y = 100}
 			Orientation = "UPPER_LEFT"
@@ -655,13 +652,13 @@ guiTypes = {
 		{
 			name ="no_personality_icon"
 			spriteType = "GFX_no_personality_chart"
-			position = { x= 26 y = 3 }
+			position = { x= -10000 y = 3 }
 		}
 		iconType =
 		{
 			name ="no_personality_overlay"
 			spriteType = "GFX_no_provinceView_chart_overlay_0.9"
-			position = { x= 6 y = 2 }
+			position = { x= -10000 y = 2 }
 #			scale = 0.86
 		}
 
