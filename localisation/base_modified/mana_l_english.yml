@@ -5,7 +5,7 @@
   POWER_INCREASE:0 "Monthly Increase: $TOTAL|+=$\n-----\n"
   MAX_POWER_STORE:0 "§YLearning Cap§! - $MAX|G$"
   MODIFIER_ALL_POWER_COST:0 "Learning Cap"
-  CV_COURT_POWER:0 "$POWER$ exp"
+  CV_COURT_POWER:0 "$POWER$ xp"
   RULER_ADM_EFFECT:0 "§MStrength is being able to crush a tomato.§!\n"
   RULER_DIP_EFFECT:0 "§MDexterity is being able to dodge a tomato.§!\n"
   RULER_MIL_EFFECT:0 "§MWisdom is knowing not to put a tomato in a fruit salad.§!\n"
