@@ -1,14 +1,32 @@
 ruler_adm = {
-	tribal_development_growth = 0.02
+	tribal_development_growth = 0.01
 	yearly_corruption = 0.33
 }
 
 ruler_dip = {
-	tribal_development_growth = 0.02
+	tribal_development_growth = 0.01
 	yearly_corruption = 0.33
 }
 
 ruler_mil = {
-	tribal_development_growth = 0.02
+	tribal_development_growth = 0.01
+	yearly_corruption = 0.33
+}
+
+heir_adm = {
+	country_admin_power = 1
+	tribal_development_growth = 0.01
+	yearly_corruption = 0.33
+}
+
+heir_dip = {
+	country_diplomatic_power = 1
+	tribal_development_growth = 0.01
+	yearly_corruption = 0.33
+}
+
+heir_mil = { 
+	country_military_power = 1
+	tribal_development_growth = 0.01
 	yearly_corruption = 0.33
 }

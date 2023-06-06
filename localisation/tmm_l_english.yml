@@ -946,7 +946,6 @@
  HAS_OR_BUILDING_FLAGSHIP:0 "Country has or is building a Flagship"
  HAS_NOT_OR_BUILDING_FLAGSHIP:0 "Country does not have a Flagship and is not building one"
  GREAT_PROJECT_CANNOT_BE_MOVED:0 "$GREATPROJECT|Y$ cannot be moved, it is too large."
- CLAIM_STRENGTH_TOOLTIP:2 "$NAME|Y$ has a claim strength of $VAL|Y$. This will become [Root.Heir.GetHerHis] Legitimacy when [Root.Heir.GetSheHe] ascends to the throne."
  CLAIM_STRENGTH_INCREASE_TOOLTIP:0 "Claim strength increases by $AMOUNT|Y$ per month."
  MOVE_GREAT_PROJECT_EXPLANATION:0 "It will cost $CASH|Y$¤ to move $GREATPROJECT|Y$ to your capital. This is based on a distance of $DIST$ and an estimate of $DAYS$ days to move each unit of distance, multiplied by a cost of $COSTPERDAY$¤ per day to move it."
  TRADE_FAVORS_FOR_HEIR_CANNOT_DYNASTY_LOCKED:0 "§Y$COUNTRY$§! cannot have an heir from a different Dynasty."
@@ -1665,10 +1664,6 @@
  tolerance_heretic:0 "Tolerance of Heretics"
  tolerance_heathen:0 "Tolerance of Heathens"
  num_accepted_cultures:0 "Number of accepted Cultures"
-
- heir_adm:0 "Heir Administrative ability"
- heir_dip:0 "Heir Diplomatic ability"
- heir_mil:0 "Heir Military ability"
  consort_adm:0 "Consort Administrative ability"
  consort_dip:0 "Consort Diplomatic ability"
  consort_mil:0 "Consort Military ability"
