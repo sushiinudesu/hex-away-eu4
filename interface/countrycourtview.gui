@@ -44,7 +44,7 @@ guiTypes = {
 
 		iconType = {
 			name ="monarch_gender"
-			spriteType = "GFX_gender_icon"
+			spriteType = "GFX_HEX_RULER"
 			position = { x= 16 y = 120 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -86,7 +86,7 @@ guiTypes = {
 		
 		iconType = {
 			name ="heir_gender"
-			spriteType = "GFX_gender_icon"
+			spriteType = "GFX_HEX_LOYALTY"
 			position = { x= 16 y = 142 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -137,18 +137,54 @@ guiTypes = {
 			fixedsize = yes
 		}
 
+		# FOCUS
+
+		guiButtonType = {
+			name = "national_focus_ADM"
+			position = { x = 35 y = 170 }
+			quadTextureSprite ="GFX_icon_national_focus_dip"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "national_focus_DIP"
+			position = { x= 205	y = 170 }
+			quadTextureSprite ="GFX_icon_national_focus_dip"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			
+			clicksound = back_click
+		}
+		guiButtonType = {
+			name = "national_focus_MIL"
+			position = { x= 375	y = 170 }
+			quadTextureSprite ="GFX_icon_national_focus_dip"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			
+			clicksound = back_click
+		}
+
 		# SKILLS
 
 		iconType = {
 			name ="monarch_adm_icon"
-			spriteType = "GFX_icon_powers_administrative"
-			position = { x= 55 y = 180 }
+			spriteType = "GFX_HEX_STRENGTH_ATTRIBUTE"
+			position = { x= 60 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 		instantTextBoxType = {
 			name = "monarch_adm_value"
-			position = { x = 69 y = 182 }
+			position = { x = 75 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -159,14 +195,14 @@ guiTypes = {
 		}
 		iconType = {
 			name ="monarch_heir_adm_icon"
-			spriteType = "GFX_icon_powers_administrative"
-			position = { x= 135 y = 180 }
+			spriteType = "GFX_HEX_DEXTERITY_ATTRIBUTE"
+			position = { x= 120 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_heir"
 		}
 		instantTextBoxType = {
 			name = "monarch_heir_adm_value"
-			position = { x = 149 y = 182 }
+			position = { x = 135 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -178,14 +214,14 @@ guiTypes = {
 
 		iconType = {
 			name ="monarch_dip_icon"
-			spriteType = "GFX_icon_powers_diplomatic"
-			position = { x= 215 y = 180 }
+			spriteType = "GFX_HEX_INTELLIGENCE_ATTRIBUTE"
+			position = { x= 230 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 		instantTextBoxType = {
 			name = "monarch_dip_value"
-			position = { x = 229 y = 182 }
+			position = { x = 245 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -196,14 +232,14 @@ guiTypes = {
 		}
 		iconType = {
 			name ="monarch_heir_dip_icon"
-			spriteType = "GFX_icon_powers_diplomatic"
-			position = { x= 295 y = 180 }
+			spriteType = "GFX_HEX_PERCEPTION_ATTRIBUTE"
+			position = { x= 285 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_heir"
 		}
 		instantTextBoxType = {
 			name = "monarch_heir_dip_value"
-			position = { x = 309 y = 182 }
+			position = { x = 300 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -215,14 +251,14 @@ guiTypes = {
 
 		iconType = {
 			name ="monarch_mil_icon"
-			spriteType = "GFX_icon_powers_military"
-			position = { x= 375 y = 180 }
+			spriteType = "GFX_HEX_CHARISMA_ATTRIBUTE"
+			position = { x= 400 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 		instantTextBoxType = {
 			name = "monarch_mil_value"
-			position = { x = 389 y = 182 }
+			position = { x = 415 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -233,14 +269,14 @@ guiTypes = {
 		}
 		iconType = {
 			name ="monarch_heir_mil_icon"
-			spriteType = "GFX_icon_powers_military"
+			spriteType = "GFX_HEX_LUCK_ATTRIBUTE"
 			position = { x= 455 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_heir"
 		}
 		instantTextBoxType = {
 			name = "monarch_heir_mil_value"
-			position = { x = 469 y = 182 }
+			position = { x = 470 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -255,8 +291,8 @@ guiTypes = {
 		listboxType = {
 			name = "abilities_listbox"
 			backGround = ""
-			position = { x=26 y=220 }
-			size = { x=480 y=420 }
+			position = { x=26 y=215 }
+			size = { x=510 y=420 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 1
 			spacing = 2.5
@@ -265,73 +301,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		# EXPERIENCE FOCUS
-
-		guiButtonType = {
-			name = "national_focus_ADM"
-			position = { x = 95 y = 250 }
-			quadTextureSprite ="GFX_icon_national_focus_adm"	
-			tooltip = ""
-			tooltipText =""
-			delayedTooltipText = ""
-			buttonFont = "vic_18"
-			
-			clicksound = back_click
-		}			
-		iconType = {
-			name ="icon_ADM"
-			spriteType = "GFX_icon_powers_administrative"
-			tooltip = ""
-			tooltipText =""
-			delayedTooltipText = ""
-			position = { x= 95 y = 250 }
-			Orientation = "UPPER_LEFT"
-			hint_tag = "hint_adm"
-		}
-		
-		guiButtonType = {
-			name = "national_focus_DIP"
-			position = { x= 255	y = 250 }
-			quadTextureSprite ="GFX_icon_national_focus_dip"	
-			tooltip = ""
-			tooltipText =""
-			delayedTooltipText = ""
-			buttonFont = "vic_18"
-			
-			clicksound = back_click
-		}			
-		iconType = {
-			name ="icon_DIP"
-			spriteType = "GFX_icon_powers_diplomatic"
-			tooltip = ""
-			tooltipText =""
-			delayedTooltipText = ""
-			position = { x= 255 y = 250 }
-			Orientation = "UPPER_LEFT"
-			hint_tag = "hint_dip"
-		}
-		
-		guiButtonType = {
-			name = "national_focus_MIL"
-			position = { x= 415	y = 250 }
-			quadTextureSprite ="GFX_icon_national_focus_mil"	
-			tooltip = ""
-			tooltipText =""
-			delayedTooltipText = ""
-			buttonFont = "vic_18"
-			
-			clicksound = back_click
-		}		
-		iconType = {
-			name ="icon_MIL"
-			spriteType = "GFX_icon_powers_military"
-			tooltip = ""
-			tooltipText =""
-			delayedTooltipText = ""
-			position = { x= 415 y = 250 }
-			Orientation = "UPPER_LEFT"
-			hint_tag = "hint_mil"
-		}
 
 		# PERSONALITIES
 
@@ -371,9 +340,42 @@ guiTypes = {
 			maxWidth = 400
 			maxHeight = 16
 			format = centre
-		}			
+		}	
+		
+		# EXPERIENCE FOCUS ICONS
 
-				### REMOVED BUTTONS
+		iconType = {
+			name ="icon_ADM"
+			spriteType = "GFX_icon_powers_administrative"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= -10000 y = 250 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_adm"
+		}
+		iconType = {
+			name ="icon_DIP"
+			spriteType = "GFX_icon_powers_diplomatic"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= -10000 y = 250 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_dip"
+		}
+		iconType = {
+			name ="icon_MIL"
+			spriteType = "GFX_icon_powers_military"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			position = { x= -10000 y = 250 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_mil"
+		}
+
+		### REMOVED BUTTONS
 		
 		guiButtonType = {
 			name = "abdicate_ruler_button"
@@ -427,7 +429,6 @@ guiTypes = {
 			clicksound = back_click
 		}	
 
-
 		### Queen ###
 
 		iconType = {
@@ -437,8 +438,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="queen_gender"
 			spriteType = "GFX_gender_icon"
 			position = { x= 16 y = 246 }
@@ -483,8 +483,7 @@ guiTypes = {
 			format = centre
 		}	
 
-		iconType =
-		{
+		iconType = {
 			name ="monarch_queen_adm_icon"
 			spriteType = "GFX_icon_powers_administrative"
 			position = { x= 14 y = 272 }
@@ -504,8 +503,7 @@ guiTypes = {
 			format = centre
 		}
 
-		iconType =
-		{
+		iconType = {
 			name ="monarch_queen_dip_icon"
 			spriteType = "GFX_icon_powers_diplomatic"
 			position = { x= 64 y = 272 }
@@ -525,8 +523,7 @@ guiTypes = {
 			format = centre
 		}
 
-		iconType =
-		{
+		iconType = {
 			name ="monarch_queen_mil_icon"
 			spriteType = "GFX_icon_powers_military"
 			position = { x= 114 y = 272 }
@@ -534,8 +531,7 @@ guiTypes = {
 			hint_tag = "hint_heir"
 		}
 
-		iconType =
-		{
+		iconType = {
 			name = "monarch_queen_crown_icon"
 			spriteType = "GFX_monarch_heir_crown_icon"
 			position = { x = 430 y = 247 }
@@ -543,8 +539,7 @@ guiTypes = {
 
 		}
 
-		listboxType = 
-		{
+		listboxType = {
 			name ="monarch_queen_personality_list"
 			position = { x=170 y =265}
 			backGround=""
@@ -678,7 +673,7 @@ guiTypes = {
 		name = "countrycourtview_abilitylistitem"
 		backGround =""
 		position = { x=0 y=0 }	
-		size = { x=160 y=420 }
+		size = { x=170 y=420 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -829,18 +824,18 @@ guiTypes = {
 		iconType = {
 			name ="power_progress"
 			spriteType = "GFX_default_progressbar"
-			position = { x= 30 y = 3 }
+			position = { x= 25 y = 3 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "power"
-			position = { x = 6  y = 0 }
+			position = { x = 0  y = 0 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
 			text = "325 power"	
-			maxWidth = 160
+			maxWidth = 165
 			maxHeight = 32
 			format = center
 			alwaystransparent = yes
@@ -852,7 +847,7 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x= 15 y = 0 }
+			position = { x= 10 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 	}
