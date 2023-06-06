@@ -1,0 +1,187 @@
+country_decisions = {
+	hex_improve_strength = {
+		color = { 209 113 151 }
+		
+		potential = {
+			OR = {
+				AND = { adm = 1 NOT = { adm = 2 } adm_power = 60 }
+				AND = { adm = 2 NOT = { adm = 3 } adm_power = 360 }
+				AND = { adm = 3 NOT = { adm = 4 } adm_power = 2160 }
+				AND = { adm = 4 NOT = { adm = 5 } adm_power = 12960 }
+				AND = { adm = 5 NOT = { adm = 6 } adm_power = 77760 }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			custom_tooltip = HEX_IMPROVE_STR_EFFECT_TT
+			hidden_effect = {
+				if = { limit = { adm = 5 } add_adm_power = -77760 }
+				else_if = { limit = { adm = 4 } add_adm_power = -12960 }
+				else_if = { limit = { adm = 3 } add_adm_power = -2160 }
+				else_if = { limit = { adm = 2 } add_adm_power = -360 }
+				else_if = { limit = { adm = 1 } add_adm_power = -60 }
+
+				change_adm = 1
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_improve_constitution = {
+		color = { 209 113 151 }
+		
+		potential = {
+			OR = {
+				AND = { adm = 1 NOT = { heir_adm = 2 } adm_power = 60 }
+				AND = { heir_adm = 2 NOT = { heir_adm = 3 } adm_power = 360 }
+				AND = { heir_adm = 3 NOT = { heir_adm = 4 } adm_power = 2160 }
+				AND = { heir_adm = 4 NOT = { heir_adm = 5 } adm_power = 12960 }
+				AND = { heir_adm = 5 NOT = { heir_adm = 6 } adm_power = 77760 }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			custom_tooltip = HEX_IMPROVE_CON_EFFECT_TT
+			hidden_effect = {
+				if = { limit = { heir_adm = 5 } add_adm_power = -77760 }
+				else_if = { limit = { heir_adm = 4 } add_adm_power = -12960 }
+				else_if = { limit = { heir_adm = 3 } add_adm_power = -2160 }
+				else_if = { limit = { heir_adm = 2 } add_adm_power = -360 }
+				else_if = { limit = { heir_adm = 1 } add_adm_power = -60 }
+
+				change_heir_adm = 1
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_improve_dexterity = {
+		color = { 209 113 151 }
+
+		potential = {
+			OR = {
+				AND = { dip = 1 NOT = { dip = 2 } dip_power = 60 }
+				AND = { dip = 2 NOT = { dip = 3 } dip_power = 360 }
+				AND = { dip = 3 NOT = { dip = 4 } dip_power = 2160 }
+				AND = { dip = 4 NOT = { dip = 5 } dip_power = 12960 }
+				AND = { dip = 5 NOT = { dip = 6 } dip_power = 77760 }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			custom_tooltip = HEX_IMPROVE_DEX_EFFECT_TT
+			hidden_effect = {
+				if = { limit = { dip = 5 } add_dip_power = -77760 }
+				else_if = { limit = { dip = 4 } add_dip_power = -12960 }
+				else_if = { limit = { dip = 3 } add_dip_power = -2160 }
+				else_if = { limit = { dip = 2 } add_dip_power = -360 }
+				else_if = { limit = { dip = 1 } add_dip_power = -60 }
+
+				change_dip = 1
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_improve_intelligence = {
+		color = { 209 113 151 }
+
+		potential = {
+			OR = {
+				AND = { heir_dip = 1 NOT = { heir_dip = 2 } dip_power = 60 }
+				AND = { heir_dip = 2 NOT = { heir_dip = 3 } dip_power = 360 }
+				AND = { heir_dip = 3 NOT = { heir_dip = 4 } dip_power = 2160 }
+				AND = { heir_dip = 4 NOT = { heir_dip = 5 } dip_power = 12960 }
+				AND = { heir_dip = 5 NOT = { heir_dip = 6 } dip_power = 77760 }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			custom_tooltip = HEX_IMPROVE_INT_EFFECT_TT
+			hidden_effect = {
+				if = { limit = { heir_dip = 5 } add_dip_power = -77760 }
+				else_if = { limit = { heir_dip = 4 } add_dip_power = -12960 }
+				else_if = { limit = { heir_dip = 3 } add_dip_power = -2160 }
+				else_if = { limit = { heir_dip = 2 } add_dip_power = -360 }
+				else_if = { limit = { heir_dip = 1 } add_dip_power = -60 }
+
+				change_heir_dip = 1
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_improve_wisdom = {
+		color = { 209 113 151 }
+
+		potential = {
+			OR = {
+				AND = { mil = 1 NOT = { mil = 2 } mil_power = 60 }
+				AND = { mil = 2 NOT = { mil = 3 } mil_power = 360 }
+				AND = { mil = 3 NOT = { mil = 4 } mil_power = 2160 }
+				AND = { mil = 4 NOT = { mil = 5 } mil_power = 12960 }
+				AND = { mil = 5 NOT = { mil = 6 } mil_power = 77760 }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			custom_tooltip = HEX_IMPROVE_WIS_EFFECT_TT
+			hidden_effect = {
+				if = { limit = { mil = 5 } add_mil_power = -77760 }
+				else_if = { limit = { mil = 4 } add_mil_power = -12960 }
+				else_if = { limit = { mil = 3 } add_mil_power = -2160 }
+				else_if = { limit = { mil = 2 } add_mil_power = -360 }
+				else_if = { limit = { mil = 1 } add_mil_power = -60 }
+
+				change_mil = 1
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_improve_charisma = {
+		color = { 209 113 151 }
+
+		potential = {
+			OR = {
+				AND = { heir_mil = 1 NOT = { heir_mil = 2 } mil_power = 60 }
+				AND = { heir_mil = 2 NOT = { heir_mil = 3 } mil_power = 360 }
+				AND = { heir_mil = 3 NOT = { heir_mil = 4 } mil_power = 2160 }
+				AND = { heir_mil = 4 NOT = { heir_mil = 5 } mil_power = 12960 }
+				AND = { heir_mil = 5 NOT = { heir_mil = 6 } mil_power = 77760 }
+			}
+		}
+
+		allow = { always = yes }
+
+		effect = {
+			custom_tooltip = HEX_IMPROVE_CHA_EFFECT_TT
+			hidden_effect = {
+				if = { limit = { heir_mil = 5 } add_mil_power = -77760 }
+				else_if = { limit = { heir_mil = 4 } add_mil_power = -12960 }
+				else_if = { limit = { heir_mil = 3 } add_mil_power = -2160 }
+				else_if = { limit = { heir_mil = 2 } add_mil_power = -360 }
+				else_if = { limit = { heir_mil = 1 } add_mil_power = -60 }
+
+				change_heir_mil = 1
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+}
