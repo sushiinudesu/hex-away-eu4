@@ -212,4 +212,14 @@ spriteTypes = {
 		name = "GFX_colony_terrain_hex_terrain_savannah"
 		texturefile = "gfx/interface/colony_terrain_hex_terrain_savannah.dds"
 	}
+
+	spriteType = {
+		name = "GFX_colony_terrain_hex_terrain_city"
+		texturefile = "gfx/interface/colony_terrain_hex_terrain_city.dds"
+	}
+
+	spriteType = {
+		name = "GFX_colony_terrain_hex_terrain_tower"
+		texturefile = "gfx/interface/colony_terrain_hex_terrain_tower.dds"
+	}
 }
