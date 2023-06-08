@@ -20,158 +20,158 @@ country_event = {
 
 		hidden_effect = {
 			random_list = {
-				36 = { }
+				6 = { }
 
 				1 = {
-					trigger = { has_faction = hex_artisan_guild }
-					country_event = { id = hex_awakening_random_events.2 days = 1 random = 25 }
+					trigger = { has_faction = hex_artisan_guild hex_is_wind_season = yes }
+					country_event = { id = hex_awakening_random_events.2 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_artisan_guild }
-					country_event = { id = hex_awakening_random_events.3 days = 1 random = 25 }
+					trigger = { has_faction = hex_artisan_guild hex_is_water_season = yes }
+					country_event = { id = hex_awakening_random_events.3 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_artisan_guild }
-					country_event = { id = hex_awakening_random_events.4 days = 1 random = 25 }
+					trigger = { has_faction = hex_artisan_guild hex_is_earth_season = yes }
+					country_event = { id = hex_awakening_random_events.4 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_artisan_guild }
-					country_event = { id = hex_awakening_random_events.5 days = 1 random = 25 }
+					trigger = { has_faction = hex_artisan_guild hex_is_fire_season = yes }
+					country_event = { id = hex_awakening_random_events.5 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_artisan_guild }
-					country_event = { id = hex_awakening_random_events.6 days = 1 random = 25 }
+					trigger = { has_faction = hex_artisan_guild hex_is_void_season = yes }
+					country_event = { id = hex_awakening_random_events.6 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_artisan_guild }
-					country_event = { id = hex_awakening_random_events.7 days = 1 random = 25 }
-				}
-
-				1 = {
-					trigger = { has_faction = hex_builders_guild }
-					country_event = { id = hex_awakening_random_events.8 days = 1 random = 25 }
-				}
-				1 = {
-					trigger = { has_faction = hex_builders_guild }
-					country_event = { id = hex_awakening_random_events.9 days = 1 random = 25 }
-				}
-				1 = {
-					trigger = { has_faction = hex_builders_guild }
-					country_event = { id = hex_awakening_random_events.10 days = 1 random = 25 }
-				}
-				1 = {
-					trigger = { has_faction = hex_builders_guild }
-					country_event = { id = hex_awakening_random_events.11 days = 1 random = 25 }
-				}
-				1 = {
-					trigger = { has_faction = hex_builders_guild }
-					country_event = { id = hex_awakening_random_events.12 days = 1 random = 25 }
-				}
-				1 = {
-					trigger = { has_faction = hex_builders_guild }
-					country_event = { id = hex_awakening_random_events.13 days = 1 random = 25 }
+					trigger = { has_faction = hex_artisan_guild hex_is_dust_season = yes }
+					country_event = { id = hex_awakening_random_events.7 days = 1 random = 15 }
 				}
 
-
 				1 = {
-					trigger = { has_faction = hex_farmers_guild }
-					country_event = { id = hex_awakening_random_events.14 days = 1 random = 25 }
+					trigger = { has_faction = hex_builders_guild hex_is_wind_season = yes }
+					country_event = { id = hex_awakening_random_events.8 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_farmers_guild }
-					country_event = { id = hex_awakening_random_events.15 days = 1 random = 25 }
+					trigger = { has_faction = hex_builders_guild hex_is_water_season = yes }
+					country_event = { id = hex_awakening_random_events.9 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_farmers_guild }
-					country_event = { id = hex_awakening_random_events.16 days = 1 random = 25 }
+					trigger = { has_faction = hex_builders_guild hex_is_earth_season = yes }
+					country_event = { id = hex_awakening_random_events.10 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_farmers_guild }
-					country_event = { id = hex_awakening_random_events.17 days = 1 random = 25 }
+					trigger = { has_faction = hex_builders_guild hex_is_fire_season = yes }
+					country_event = { id = hex_awakening_random_events.11 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_farmers_guild }
-					country_event = { id = hex_awakening_random_events.18 days = 1 random = 25 }
+					trigger = { has_faction = hex_builders_guild hex_is_void_season = yes }
+					country_event = { id = hex_awakening_random_events.12 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_farmers_guild }
-					country_event = { id = hex_awakening_random_events.19 days = 1 random = 25 }
+					trigger = { has_faction = hex_builders_guild hex_is_dust_season = yes }
+					country_event = { id = hex_awakening_random_events.13 days = 1 random = 15 }
 				}
 
 
 				1 = {
-					trigger = { has_faction = hex_hunters_guild }
-					country_event = { id = hex_awakening_random_events.20 days = 1 random = 25 }
+					trigger = { has_faction = hex_farmers_guild hex_is_wind_season = yes }
+					country_event = { id = hex_awakening_random_events.14 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_hunters_guild }
-					country_event = { id = hex_awakening_random_events.21 days = 1 random = 25 }
+					trigger = { has_faction = hex_farmers_guild hex_is_water_season = yes }
+					country_event = { id = hex_awakening_random_events.15 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_hunters_guild }
-					country_event = { id = hex_awakening_random_events.22 days = 1 random = 25 }
+					trigger = { has_faction = hex_farmers_guild hex_is_earth_season = yes }
+					country_event = { id = hex_awakening_random_events.16 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_hunters_guild }
-					country_event = { id = hex_awakening_random_events.23 days = 1 random = 25 }
+					trigger = { has_faction = hex_farmers_guild hex_is_fire_season = yes }
+					country_event = { id = hex_awakening_random_events.17 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_hunters_guild }
-					country_event = { id = hex_awakening_random_events.24 days = 1 random = 25 }
+					trigger = { has_faction = hex_farmers_guild hex_is_void_season = yes }
+					country_event = { id = hex_awakening_random_events.18 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_hunters_guild }
-					country_event = { id = hex_awakening_random_events.25 days = 1 random = 25 }
+					trigger = { has_faction = hex_farmers_guild hex_is_dust_season = yes }
+					country_event = { id = hex_awakening_random_events.19 days = 1 random = 15 }
+				}
+
+
+				1 = {
+					trigger = { has_faction = hex_hunters_guild hex_is_wind_season = yes }
+					country_event = { id = hex_awakening_random_events.20 days = 1 random = 15 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild hex_is_water_season = yes }
+					country_event = { id = hex_awakening_random_events.21 days = 1 random = 15 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild hex_is_earth_season = yes }
+					country_event = { id = hex_awakening_random_events.22 days = 1 random = 15 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild hex_is_fire_season = yes }
+					country_event = { id = hex_awakening_random_events.23 days = 1 random = 15 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild hex_is_void_season = yes }
+					country_event = { id = hex_awakening_random_events.24 days = 1 random = 15 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild hex_is_dust_season = yes }
+					country_event = { id = hex_awakening_random_events.25 days = 1 random = 15 }
 				}
 
 				1 = {
-					trigger = { has_faction = hex_miners_guild }
-					country_event = { id = hex_awakening_random_events.26 days = 1 random = 25 }
+					trigger = { has_faction = hex_miners_guild hex_is_wind_season = yes }
+					country_event = { id = hex_awakening_random_events.26 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_miners_guild }
-					country_event = { id = hex_awakening_random_events.27 days = 1 random = 25 }
+					trigger = { has_faction = hex_miners_guild hex_is_water_season = yes }
+					country_event = { id = hex_awakening_random_events.27 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_miners_guild }
-					country_event = { id = hex_awakening_random_events.28 days = 1 random = 25 }
+					trigger = { has_faction = hex_miners_guild hex_is_earth_season = yes }
+					country_event = { id = hex_awakening_random_events.28 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_miners_guild }
-					country_event = { id = hex_awakening_random_events.29 days = 1 random = 25 }
+					trigger = { has_faction = hex_miners_guild hex_is_fire_season = yes }
+					country_event = { id = hex_awakening_random_events.29 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_miners_guild }
-					country_event = { id = hex_awakening_random_events.30 days = 1 random = 25 }
+					trigger = { has_faction = hex_miners_guild hex_is_void_season = yes }
+					country_event = { id = hex_awakening_random_events.30 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_miners_guild }
-					country_event = { id = hex_awakening_random_events.31 days = 1 random = 25 }
+					trigger = { has_faction = hex_miners_guild hex_is_dust_season = yes }
+					country_event = { id = hex_awakening_random_events.31 days = 1 random = 15 }
 				}
 
 				1 = {
-					trigger = { has_faction = hex_sailors_guild }
-					country_event = { id = hex_awakening_random_events.32 days = 1 random = 25 }
+					trigger = { has_faction = hex_sailors_guild hex_is_wind_season = yes }
+					country_event = { id = hex_awakening_random_events.32 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_sailors_guild }
-					country_event = { id = hex_awakening_random_events.33 days = 1 random = 25 }
+					trigger = { has_faction = hex_sailors_guild hex_is_water_season = yes }
+					country_event = { id = hex_awakening_random_events.33 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_sailors_guild }
-					country_event = { id = hex_awakening_random_events.34 days = 1 random = 25 }
+					trigger = { has_faction = hex_sailors_guild hex_is_earth_season = yes }
+					country_event = { id = hex_awakening_random_events.34 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_sailors_guild }
-					country_event = { id = hex_awakening_random_events.35 days = 1 random = 25 }
+					trigger = { has_faction = hex_sailors_guild hex_is_fire_season = yes }
+					country_event = { id = hex_awakening_random_events.35 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_sailors_guild }
-					country_event = { id = hex_awakening_random_events.36 days = 1 random = 25 }
+					trigger = { has_faction = hex_sailors_guild hex_is_void_season = yes }
+					country_event = { id = hex_awakening_random_events.36 days = 1 random = 15 }
 				}
 				1 = {
-					trigger = { has_faction = hex_sailors_guild }
-					country_event = { id = hex_awakening_random_events.37 days = 1 random = 25 }
+					trigger = { has_faction = hex_sailors_guild hex_is_dust_season = yes }
+					country_event = { id = hex_awakening_random_events.37 days = 1 random = 15 }
 				}
 			}
 		}
@@ -190,9 +190,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.2.a
-		custom_tooltip = hex_awakening_random_events.2.a.tt
+		custom_tooltip = HEX_INCREASE_ARTISAN_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_artisan_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.2.b
 	}
 }
 
@@ -208,9 +216,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.3.a
-		custom_tooltip = hex_awakening_random_events.3.a.tt
+		custom_tooltip = HEX_INCREASE_ARTISAN_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_artisan_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.3.b
 	}
 }
 
@@ -226,9 +242,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.4.a
-		custom_tooltip = hex_awakening_random_events.4.a.tt
+		custom_tooltip = HEX_INCREASE_ARTISAN_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_artisan_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.4.b
 	}
 }
 
@@ -244,9 +268,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.5.a
-		custom_tooltip = hex_awakening_random_events.5.a.tt
+		custom_tooltip = HEX_INCREASE_ARTISAN_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_artisan_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.5.b
 	}
 }
 
@@ -262,9 +294,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.6.a
-		custom_tooltip = hex_awakening_random_events.6.a.tt
+		custom_tooltip = HEX_INCREASE_ARTISAN_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_artisan_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.6.b
 	}
 }
 
@@ -280,9 +320,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.7.a
-		custom_tooltip = hex_awakening_random_events.7.a.tt
+		custom_tooltip = HEX_INCREASE_ARTISAN_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_artisan_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.7.b
 	}
 }
 
@@ -298,9 +346,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.8.a
-		custom_tooltip = hex_awakening_random_events.8.a.tt
+		custom_tooltip = HEX_INCREASE_BUILDERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_builders_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.8.b
 	}
 }
 
@@ -316,9 +372,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.9.a
-		custom_tooltip = hex_awakening_random_events.9.a.tt
+		custom_tooltip = HEX_INCREASE_BUILDERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_builders_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.9.b
 	}
 }
 
@@ -334,9 +398,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.10.a
-		custom_tooltip = hex_awakening_random_events.10.a.tt
+		custom_tooltip = HEX_INCREASE_BUILDERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_builders_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.10.b
 	}
 }
 
@@ -352,9 +424,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.11.a
-		custom_tooltip = hex_awakening_random_events.11.a.tt
+		custom_tooltip = HEX_INCREASE_BUILDERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_builders_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.11.b
 	}
 }
 
@@ -370,9 +450,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.12.a
-		custom_tooltip = hex_awakening_random_events.12.a.tt
+		custom_tooltip = HEX_INCREASE_BUILDERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_builders_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.12.b
 	}
 }
 
@@ -388,9 +476,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.13.a
-		custom_tooltip = hex_awakening_random_events.13.a.tt
+		custom_tooltip = HEX_INCREASE_BUILDERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_builders_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.13.b
 	}
 }
 
@@ -406,9 +502,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.14.a
-		custom_tooltip = hex_awakening_random_events.14.a.tt
+		custom_tooltip = HEX_INCREASE_FARMERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_farmers_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.14.b
 	}
 }
 
@@ -424,9 +528,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.15.a
-		custom_tooltip = hex_awakening_random_events.15.a.tt
+		custom_tooltip = HEX_INCREASE_FARMERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_farmers_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.15.b
 	}
 }
 
@@ -442,9 +554,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.16.a
-		custom_tooltip = hex_awakening_random_events.16.a.tt
+		custom_tooltip = HEX_INCREASE_FARMERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_farmers_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.16.b
 	}
 }
 
@@ -460,9 +580,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.17.a
-		custom_tooltip = hex_awakening_random_events.17.a.tt
+		custom_tooltip = HEX_INCREASE_FARMERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_farmers_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.17.b
 	}
 }
 
@@ -478,9 +606,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.18.a
-		custom_tooltip = hex_awakening_random_events.18.a.tt
+		custom_tooltip = HEX_INCREASE_FARMERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_farmers_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.18.b
 	}
 }
 
@@ -496,9 +632,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.19.a
-		custom_tooltip = hex_awakening_random_events.19.a.tt
+		custom_tooltip = HEX_INCREASE_FARMERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_farmers_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.19.b
 	}
 }
 
@@ -514,9 +658,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.20.a
-		custom_tooltip = hex_awakening_random_events.20.a.tt
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.20.b
 	}
 }
 
@@ -532,9 +684,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.21.a
-		custom_tooltip = hex_awakening_random_events.21.a.tt
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.21.b
 	}
 }
 
@@ -550,9 +710,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.22.a
-		custom_tooltip = hex_awakening_random_events.22.a.tt
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.22.b
 	}
 }
 
@@ -568,9 +736,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.23.a
-		custom_tooltip = hex_awakening_random_events.23.a.tt
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.23.b
 	}
 }
 
@@ -586,9 +762,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.24.a
-		custom_tooltip = hex_awakening_random_events.24.a.tt
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.24.b
 	}
 }
 
@@ -604,9 +788,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.25.a
-		custom_tooltip = hex_awakening_random_events.25.a.tt
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.25.b
 	}
 }
 
@@ -622,9 +814,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.26.a
-		custom_tooltip = hex_awakening_random_events.26.a.tt
+		custom_tooltip = HEX_INCREASE_MINERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_miners_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.26.b
 	}
 }
 
@@ -640,9 +840,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.27.a
-		custom_tooltip = hex_awakening_random_events.27.a.tt
+		custom_tooltip = HEX_INCREASE_MINERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_miners_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.27.b
 	}
 }
 
@@ -658,9 +866,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.28.a
-		custom_tooltip = hex_awakening_random_events.28.a.tt
+		custom_tooltip = HEX_INCREASE_MINERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_miners_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.28.b
 	}
 }
 
@@ -676,9 +892,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.29.a
-		custom_tooltip = hex_awakening_random_events.29.a.tt
+		custom_tooltip = HEX_INCREASE_MINERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_miners_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.29.b
 	}
 }
 
@@ -694,9 +918,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.30.a
-		custom_tooltip = hex_awakening_random_events.30.a.tt
+		custom_tooltip = HEX_INCREASE_MINERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_miners_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.30.b
 	}
 }
 
@@ -712,9 +944,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.31.a
-		custom_tooltip = hex_awakening_random_events.31.a.tt
+		custom_tooltip = HEX_INCREASE_MINERS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_miners_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.31.b
 	}
 }
 
@@ -730,9 +970,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.32.a
-		custom_tooltip = hex_awakening_random_events.32.a.tt
+		custom_tooltip = HEX_INCREASE_SAILORS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_sailors_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.32.b
 	}
 }
 
@@ -748,9 +996,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.33.a
-		custom_tooltip = hex_awakening_random_events.33.a.tt
+		custom_tooltip = HEX_INCREASE_SAILORS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_sailors_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.33.b
 	}
 }
 
@@ -766,9 +1022,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.34.a
-		custom_tooltip = hex_awakening_random_events.34.a.tt
+		custom_tooltip = HEX_INCREASE_SAILORS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_sailors_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.34.b
 	}
 }
 
@@ -784,9 +1048,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.35.a
-		custom_tooltip = hex_awakening_random_events.35.a.tt
+		custom_tooltip = HEX_INCREASE_SAILORS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_sailors_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.35.b
 	}
 }
 
@@ -802,9 +1074,17 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.36.a
-		custom_tooltip = hex_awakening_random_events.36.a.tt
+		custom_tooltip = HEX_INCREASE_SAILORS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_sailors_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.36.b
 	}
 }
 
@@ -820,8 +1100,16 @@ country_event = {
 
 	option = {
 		name = hex_awakening_random_events.37.a
-		custom_tooltip = hex_awakening_random_events.37.a.tt
+		custom_tooltip = HEX_INCREASE_SAILORS_INFLUENCE_TT
 
-		hidden_effect = { }
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_sailors_guild influence = 5 }
+		}
+	}
+
+	option = {
+		name = hex_awakening_random_events.37.b
 	}
 }

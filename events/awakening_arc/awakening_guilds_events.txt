@@ -81,7 +81,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.2.b
-		custom_tooltip = hex_awakening_guilds_events.2.b.tt
+		custom_tooltip = HEX_INCREASE_ARTISAN_INFLUENCE_TT
 
 		highlight = yes
 
@@ -118,7 +118,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.3.b
-		custom_tooltip = hex_awakening_guilds_events.3.b.tt
+		custom_tooltip = HEX_INCREASE_BUILDERS_INFLUENCE_TT
 
 		highlight = yes
 
@@ -155,7 +155,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.4.b
-		custom_tooltip = hex_awakening_guilds_events.4.b.tt
+		custom_tooltip = HEX_INCREASE_FARMERS_INFLUENCE_TT
 
 		highlight = yes
 
@@ -192,7 +192,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.5.b
-		custom_tooltip = hex_awakening_guilds_events.5.b.tt
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
 
 		highlight = yes
 
@@ -229,7 +229,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.6.b
-		custom_tooltip = hex_awakening_guilds_events.6.b.tt
+		custom_tooltip = HEX_INCREASE_MINERS_INFLUENCE_TT
 
 		highlight = yes
 
@@ -266,7 +266,7 @@ country_event = {
 
 	option = {
 		name = hex_awakening_guilds_events.7.b
-		custom_tooltip = hex_awakening_guilds_events.7.b.tt
+		custom_tooltip = HEX_INCREASE_SAILORS_INFLUENCE_TT
 
 		highlight = yes
 
