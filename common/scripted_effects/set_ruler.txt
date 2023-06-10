@@ -1,0 +1,25 @@
+hex_set_ruler = {
+	if = { limit = { ai = no } exile_heir_as = exiled_heir }
+
+	set_ruler = $ruler$
+	set_ruler_culture = hex_awake_culture
+	set_ruler_religion = hex_faithless
+	add_ruler_personality = hex_awake_personality
+	set_ai_personality = { personality = $behavior$ locked = yes }
+
+	if = {
+		limit = { ai = yes }
+
+		add_corruption = -100
+		hex_set_heir = { $ruler$ = yes culture = hex_awake_culture religion = hex_faithless }
+	}
+	else = { set_heir = exiled_heir }
+}
+
+hex_set_ruler_chef = { hex_set_ruler = { ruler = chef behavior = ai_capitalist } }
+hex_set_ruler_clay = { hex_set_ruler = { ruler = clay behavior = ai_balanced } }
+hex_set_ruler_first = { hex_set_ruler = { ruler = first behavior = ai_balanced } }
+hex_set_ruler_lion = { hex_set_ruler = { ruler = lion behavior = ai_militarist } }
+hex_set_ruler_longbeard = { hex_set_ruler = { ruler = longbeard behavior = ai_capitalist } }
+hex_set_ruler_needle = { hex_set_ruler = { ruler = needle behavior = ai_diplomat } }
+hex_set_ruler_seawatcher = { hex_set_ruler = { ruler = seawatcher behavior = ai_diplomat } }

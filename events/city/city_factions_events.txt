@@ -23,8 +23,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { has_ruler = "Chef" } }
-				hex_exile_character = yes
-				hex_set_character_chef = yes
+				hex_set_ruler_chef = yes
 			}
 		}
 	}
@@ -37,8 +36,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { has_ruler = "Clay" } }
-				hex_exile_character = yes
-				hex_set_character_clay = yes
+				hex_set_ruler_clay = yes
 			}
 		}
 	}
@@ -51,8 +49,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { has_ruler = "First" } }
-				hex_exile_character = yes
-				hex_set_character_first = yes
+				hex_set_ruler_first = yes
 			}
 		}
 	}
@@ -65,8 +62,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { has_ruler = "Lion" } }
-				hex_exile_character = yes
-				hex_set_character_lion = yes
+				hex_set_ruler_lion = yes
 			}
 		}
 	}
@@ -79,8 +75,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { has_ruler = "Longbeard" } }
-				hex_exile_character = yes
-				hex_set_character_longbeard = yes
+				hex_set_ruler_longbeard = yes
 			}
 		}
 	}
@@ -93,8 +88,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { has_ruler = "Needle" } }
-				hex_exile_character = yes
-				hex_set_character_needle = yes
+				hex_set_ruler_needle = yes
 			}
 		}
 	}
@@ -107,8 +101,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { has_ruler = "Seawatcher" } }
-				hex_exile_character = yes
-				hex_set_character_seawatcher = yes
+				hex_set_ruler_seawatcher = yes
 			}
 		}
 	}

@@ -14,10 +14,12 @@ government = native
 	}
 	exile_ruler_as = { name = needle kill_monarch = no }
 
-	define_heir = {
+	heir = {
 		name = "Needle"
+		monarch_name = "Needle"
 		dynasty = "'the Elegant Clothier'"
 		birth_date = 2.1.1
+		death_date = 9999.12.31
 		claim = 50
 		adm = 1
 		dip = 1
@@ -25,6 +27,4 @@ government = native
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}
-	exile_heir_as = needle_heir
-	set_heir = needle_heir
 }

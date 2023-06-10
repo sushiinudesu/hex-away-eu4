@@ -1,0 +1,106 @@
+hex_set_heir = {
+	[[first]
+		define_heir = {
+			name = "First"
+			dynasty = "'the Awake One'"
+			birth_date = 1.1.2
+			claim = 50
+			adm = 1
+			dip = 1
+			mil = 1
+			culture = $culture$
+			religion = $religion$
+		}
+	]
+
+	[[chef]
+		define_heir = {
+			name = "Chef"
+			dynasty = "'the Cauldron Master'"
+			birth_date = 2.1.1
+			claim = 50
+			adm = 1
+			dip = 1
+			mil = 1
+			culture = $culture$
+			religion = $religion$
+		}
+	]
+
+	
+	[[clay]
+		define_heir = {
+			name = "Clay"
+			dynasty = "'the Architect'"
+			birth_date = 2.1.1
+			claim = 50
+			adm = 1
+			dip = 1
+			mil = 1
+			culture = $culture$
+			religion = $religion$
+		}
+	]
+
+	
+	[[lion]
+		define_heir = {
+			name = "Lion"
+			dynasty = "'the Two-Headed Hunter'"
+			birth_date = 2.1.1
+			claim = 50
+			adm = 1
+			dip = 1
+			mil = 1
+			culture = $culture$
+			religion = $religion$
+		}
+	]
+
+	
+	[[longbeard]
+		define_heir = {
+			name = "Longbeard"
+			dynasty = "'the Bald'"
+			birth_date = 2.1.1
+			claim = 50
+			adm = 1
+			dip = 1
+			mil = 1
+			culture = $culture$
+			religion = $religion$
+		}
+	]
+
+	
+	[[needle]
+		define_heir = {
+			name = "Needle"
+			dynasty = "'the Elegant Clothier'"
+			birth_date = 2.1.1
+			claim = 50
+			adm = 1
+			dip = 1
+			mil = 1
+			culture = $culture$
+			religion = $religion$
+		}
+	]
+
+	[[seawatcher]
+		define_heir = {
+			name = "Seawatcher"
+			dynasty = "'of the Horizon'"
+			birth_date = 2.1.1
+			claim = 50
+			adm = 1
+			dip = 1
+			mil = 1
+			culture = $culture$
+			religion = $religion$
+		}
+	]
+
+	add_heir_personality = hex_awake_personality
+	swap_non_generic_missions = yes
+}

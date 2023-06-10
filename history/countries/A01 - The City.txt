@@ -21,10 +21,12 @@ add_government_reform = hex_city_first_camp_reform
 	}
 	exile_ruler_as = { name = first kill_monarch = no }
 
-	define_heir = {
+	heir = {
 		name = "First"
+		monarch_name = "First"
 		dynasty = "'the Awake One'"
 		birth_date = 1.1.2
+		death_date = 9999.12.31
 		claim = 50
 		adm = 1
 		dip = 1
@@ -32,8 +34,6 @@ add_government_reform = hex_city_first_camp_reform
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}
-	exile_heir_as = first_heir
-	set_heir = first_heir
 }
 
 2.2.2 = {

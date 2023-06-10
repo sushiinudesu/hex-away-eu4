@@ -13,10 +13,12 @@ government = native
 	}
 	exile_ruler_as = { name = lion kill_monarch = no }
 
-	define_heir = {
+	heir = {
 		name = "Lion"
+		monarch_name = "Lion"
 		dynasty = "'the Two-Headed Hunter'"
 		birth_date = 2.1.1
+		death_date = 9999.12.31
 		claim = 50
 		adm = 1
 		dip = 1
@@ -24,6 +26,4 @@ government = native
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}
-	exile_heir_as = lion_heir
-	set_heir = lion_heir
 }
