@@ -12,4 +12,18 @@ government = native
 		religion = hex_faithless
 	}
 	exile_ruler_as = { name = longbeard kill_monarch = no }
+
+	define_heir = {
+		name = "Longbeard"
+		dynasty = "'the Bald'"
+		birth_date = 2.1.1
+		claim = 50
+		adm = 1
+		dip = 1
+		mil = 1
+		culture = hex_awake_culture
+		religion = hex_faithless
+	}
+	exile_heir_as = longbeard_heir
+	set_heir = longbeard_heir
 }

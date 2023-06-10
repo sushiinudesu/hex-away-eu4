@@ -19,6 +19,7 @@ add_government_reform = hex_city_first_camp_reform
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}
+	exile_ruler_as = { name = first kill_monarch = no }
 
 	define_heir = {
 		name = "First"
@@ -31,8 +32,6 @@ add_government_reform = hex_city_first_camp_reform
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}
-
-	exile_ruler_as = { name = first kill_monarch = no }
 	exile_heir_as = first_heir
 	set_heir = first_heir
 }
