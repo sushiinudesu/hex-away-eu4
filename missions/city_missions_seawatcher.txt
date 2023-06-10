@@ -7,7 +7,7 @@ hex_missions_city_seawatcher_awakening_right = {
 
 	potential = {
 		tag = A01
-		faction_in_power = hex_sailors_guild
+		has_heir = "Seawatcher"
 	}
 	
 	hex_missions_city_seawatcher_salt_shipyard = {

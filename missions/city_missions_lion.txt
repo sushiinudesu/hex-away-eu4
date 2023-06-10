@@ -7,7 +7,7 @@ hex_missions_city_lion_awakening_right = {
 
 	potential = {
 		tag = A01
-		faction_in_power = hex_hunters_guild
+		has_heir = "Lion"
 	}
 	
 	hex_missions_city_lion_lion_fort = {

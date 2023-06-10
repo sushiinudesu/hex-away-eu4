@@ -7,7 +7,7 @@ hex_missions_city_chef_awakening_right = {
 
 	potential = {
 		tag = A01
-		faction_in_power = hex_farmers_guild
+		has_heir = "Chef"
 	}
 	
 	hex_missions_city_chef_first_farm = {

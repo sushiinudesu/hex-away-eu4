@@ -7,7 +7,7 @@ hex_missions_city_first_awakening_middle = {
 
 	potential = {
 		tag = A01
-		faction_in_power = hex_first_faction
+		has_heir = "First"
 	}
 	
 	hex_missions_city_first_early_development = {
@@ -38,7 +38,7 @@ hex_missions_city_first_awakening_right = {
 
 	potential = {
 		tag = A01
-		faction_in_power = hex_first_faction
+		has_heir = "First"
 	}
 	
 	hex_missions_city_first_capable_ruler = {

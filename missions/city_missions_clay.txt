@@ -7,7 +7,7 @@ hex_missions_city_clay_awakening_right = {
 
 	potential = {
 		tag = A01
-		faction_in_power = hex_builders_guild
+		has_heir = "Clay"
 	}
 	
 	hex_missions_city_clay_white_tower = {
