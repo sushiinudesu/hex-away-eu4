@@ -21,3 +21,9 @@ add_province_triggered_modifier = hex_city_province
 	base_production = 4
 	base_tax = 4
 }
+
+13.1.1 = {
+	base_manpower = 8
+	base_production = 8
+	base_tax = 8
+}
