@@ -76,18 +76,19 @@ country_event = {
 	}
 
 	option = {
+		name = hex_awakening_guilds_events.2.a
+	}
+
+	option = {
 		name = hex_awakening_guilds_events.2.b
-		custom_tooltip = HEX_INCREASE_ARTISAN_INFLUENCE_TT
+		custom_tooltip = HEX_JOIN_ARTISANS_TT
 
 		highlight = yes
 
 		hidden_effect = {
+			hex_set_heir = { needle = yes culture = hex_awake_culture religion = hex_faithless }
 			add_faction_influence = { faction = hex_artisan_guild influence = 10 }
 		}
-	}
-
-	option = {
-		name = hex_awakening_guilds_events.2.a
 	}
 
 	after = {
@@ -113,18 +114,19 @@ country_event = {
 	}
 
 	option = {
+		name = hex_awakening_guilds_events.3.a
+	}
+
+	option = {
 		name = hex_awakening_guilds_events.3.b
-		custom_tooltip = HEX_INCREASE_BUILDERS_INFLUENCE_TT
+		custom_tooltip = HEX_JOIN_BUILDERS_TT
 
 		highlight = yes
 
 		hidden_effect = {
+			hex_set_heir = { clay = yes culture = hex_awake_culture religion = hex_faithless }
 			add_faction_influence = { faction = hex_builders_guild influence = 10 }
 		}
-	}
-
-	option = {
-		name = hex_awakening_guilds_events.3.a
 	}
 
 	after = {
@@ -150,18 +152,19 @@ country_event = {
 	}
 
 	option = {
+		name = hex_awakening_guilds_events.4.a
+	}
+
+	option = {
 		name = hex_awakening_guilds_events.4.b
-		custom_tooltip = HEX_INCREASE_FARMERS_INFLUENCE_TT
+		custom_tooltip = HEX_JOIN_FARMERS_TT
 
 		highlight = yes
 
 		hidden_effect = {
+			hex_set_heir = { chef = yes culture = hex_awake_culture religion = hex_faithless }
 			add_faction_influence = { faction = hex_farmers_guild influence = 10 }
 		}
-	}
-
-	option = {
-		name = hex_awakening_guilds_events.4.a
 	}
 
 	after = {
@@ -187,18 +190,19 @@ country_event = {
 	}
 
 	option = {
+		name = hex_awakening_guilds_events.5.a
+	}
+
+	option = {
 		name = hex_awakening_guilds_events.5.b
-		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
+		custom_tooltip = HEX_JOIN_HUNTERS_TT
 
 		highlight = yes
 
 		hidden_effect = {
+			hex_set_heir = { lion = yes culture = hex_awake_culture religion = hex_faithless }
 			add_faction_influence = { faction = hex_hunters_guild influence = 10 }
 		}
-	}
-
-	option = {
-		name = hex_awakening_guilds_events.5.a
 	}
 
 	after = {
@@ -224,18 +228,19 @@ country_event = {
 	}
 
 	option = {
+		name = hex_awakening_guilds_events.6.a
+	}
+
+	option = {
 		name = hex_awakening_guilds_events.6.b
-		custom_tooltip = HEX_INCREASE_MINERS_INFLUENCE_TT
+		custom_tooltip = HEX_JOIN_MINERS_TT
 
 		highlight = yes
 
 		hidden_effect = {
+			hex_set_heir = { longbeard = yes culture = hex_awake_culture religion = hex_faithless }
 			add_faction_influence = { faction = hex_miners_guild influence = 10 }
 		}
-	}
-
-	option = {
-		name = hex_awakening_guilds_events.6.a
 	}
 
 	after = {
@@ -261,18 +266,19 @@ country_event = {
 	}
 
 	option = {
+		name = hex_awakening_guilds_events.7.a
+	}
+
+	option = {
 		name = hex_awakening_guilds_events.7.b
-		custom_tooltip = HEX_INCREASE_SAILORS_INFLUENCE_TT
+		custom_tooltip = HEX_JOIN_SAILORS_TT
 
 		highlight = yes
 
 		hidden_effect = {
+			hex_set_heir = { seawatcher = yes culture = hex_awake_culture religion = hex_faithless }
 			add_faction_influence = { faction = hex_sailors_guild influence = 10 }
 		}
-	}
-
-	option = {
-		name = hex_awakening_guilds_events.7.a
 	}
 
 	after = {
