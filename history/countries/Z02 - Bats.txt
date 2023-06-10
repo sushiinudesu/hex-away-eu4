@@ -1,0 +1,2 @@
+technology_group = hex_technology_group_nature
+primary_culture = hex_nature_bat_culture

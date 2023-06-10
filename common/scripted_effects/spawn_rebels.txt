@@ -1,0 +1,25 @@
+hex_spawn_rebels = {
+	export_to_variable = {
+		which = prev_culture
+		value = culture
+	}
+
+	hex_add_$type$_core = yes
+	change_culture = hex_nature_$type$_culture
+
+	add_nationalism = 10
+	spawn_rebels = {
+		type = hex_$type$_rebels
+		size = $size$
+	}
+	add_nationalism = -10
+
+	change_culture = variable:prev_culture
+	hex_remove_$type$_core = yes
+}
+
+hex_add_badger_core = { add_core = Z01 }
+hex_remove_badger_core = { remove_core = Z01 }
+
+hex_add_lion_core = { add_core = Z12 }
+hex_remove_lion_core = { remove_core = Z12 }

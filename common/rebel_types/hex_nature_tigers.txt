@@ -1,0 +1,44 @@
+hex_tiger_rebels = {
+	color = { 25 180 25 }
+
+	area = nation_rebel_tag
+	government = any
+	defection = nation_rebel_tag
+	independence = nation_rebel_tag
+	defect_delay = 12000
+	unit_transfer = no
+	gfx_type = culture_province	
+	will_relocate = no	
+	
+	resilient = no
+	reinforcing = no
+	general = no				
+	smart = yes
+	
+	artillery = 0
+	infantry = 0
+	cavalry = 1
+	
+	morale = 1.0
+
+	handle_action_negotiate = no
+	handle_action_stability = no
+	handle_action_build_core = no
+	handle_action_send_missionary = no		
+	handle_action_change_culture = no
+	
+	spawn_chance = { factor = 1 }
+ 
+	movement_evaluation = { factor = 1 }
+ 
+ 	siege_won_trigger = { always = no }
+	siege_won_effect = {
+		clear_rebels = yes
+	}
+	
+	can_negotiate_trigger = { always = no }	
+	can_enforce_trigger = { always = no }
+	
+	demands_description = "hex_nature_demands"	
+	demands_enforced_effect = { }
+}

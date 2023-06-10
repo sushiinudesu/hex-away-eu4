@@ -1,0 +1,199 @@
+hex_nature_culture_group = {
+	graphical_culture = northamericagfx
+
+	hex_nature_badger_culture = {
+		primary = Z01
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_bat_culture = {
+		primary = Z02
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_bear_culture = {
+		primary = Z03
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_boar_culture = {
+		primary = Z04
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_cat_culture = {
+		primary = Z05
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_crab_culture = {
+		primary = Z06
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_deer_culture = {
+		primary = Z07
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_elephant_culture = {
+		primary = Z08
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_fox_culture = {
+		primary = Z09
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_goat_culture = {
+		primary = Z10
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_griffon_culture = {
+		primary = Z11
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_lion_culture = {
+		primary = Z12
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_owl_culture = {
+		primary = Z13
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_panther_culture = {
+		primary = Z14
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_prairie_dog_culture = {
+		primary = Z15
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_rabbit_culture = {
+		primary = Z16
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_wyvern_culture = {
+		primary = Z17
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_wolf_culture = {
+		primary = Z18
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_rat_culture = {
+		primary = Z19
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_raven_culture = {
+		primary = Z20
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_snake_culture = {
+		primary = Z21
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_spider_culture = {
+		primary = Z22
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_tiger_culture = {
+		primary = Z23
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_nature_toad_culture = {
+		primary = Z24
+
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	male_names = { "---" }
+	female_names = { "---" }
+	dynasty_names = { "---" }
+}

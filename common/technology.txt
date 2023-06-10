@@ -3,6 +3,11 @@ groups = {
 		start_cost_modifier = 0
 		start_level = 0
 	}
+
+	hex_technology_group_nature = {
+		start_cost_modifier = 0
+		start_level = 0
+	}
 }
 
 tables = {

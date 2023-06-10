@@ -6,11 +6,37 @@ ahead_of_time = { }
 technology = {
 	year = 1
 	
+	# cavalry_shock = 0.5
 	combat_width = 1
 	# infantry_shock = 0.1
 	land_morale = 1
 	may_force_march = yes
 	sprite_level = 1
+
+	enable = hex_unit_nature_1_badger
+	enable = hex_unit_nature_1_bat
+	enable = hex_unit_nature_1_bear
+	enable = hex_unit_nature_1_boar
+	enable = hex_unit_nature_1_cat
+	enable = hex_unit_nature_1_crab
+	enable = hex_unit_nature_1_deer
+	enable = hex_unit_nature_1_elephant
+	enable = hex_unit_nature_1_fox
+	enable = hex_unit_nature_1_goat
+	enable = hex_unit_nature_1_griffon
+	enable = hex_unit_nature_1_lion
+	enable = hex_unit_nature_1_owl
+	enable = hex_unit_nature_1_panther
+	enable = hex_unit_nature_1_prairie_dog
+	enable = hex_unit_nature_1_rabbit
+	enable = hex_unit_nature_1_wyvern
+	enable = hex_unit_nature_1_wolf
+	enable = hex_unit_nature_1_rat
+	enable = hex_unit_nature_1_raven
+	enable = hex_unit_nature_1_snake
+	enable = hex_unit_nature_1_spider
+	enable = hex_unit_nature_1_tiger
+	enable = hex_unit_nature_1_toad
 
 	# enable = hex_unit_city_1_camp_guards
 }

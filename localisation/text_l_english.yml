@@ -1547,7 +1547,6 @@
  PROV_PROD_TOTAL:0 "Total:"
  IDEA_NOT_AVAILIABLE:0 "We are not advanced enough for this idea."
  IDEA_ALLREADY_SELECTED:0 "We have already embraced this idea."
- REGIMENT_NAME:0 "$HOME$'s $NUM$$ORDER$ Regiment"
  ARMY_NAME:0 "$NUM$$ORDER$ Army"
  NAVY_NAME:0 "$NUM$$ORDER$ Fleet"
  MERCENARY_NAME:0 "$LEADER$'s $NUM$$ORDER$ $TYPE$"

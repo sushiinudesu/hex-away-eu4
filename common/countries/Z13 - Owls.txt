@@ -1,0 +1,15 @@
+graphical_culture = northamericagfx
+
+color = { 58 50 45 } #3a322d obsidian
+
+historical_idea_groups = { }
+
+historical_units = { hex_unit_nature_1_owl }
+
+monarch_names = {
+	"--- #0" = 1000
+}
+
+leader_names = { "---" "---" "---" "---" "---" "---" "---" "---" "---" "---" }
+
+ship_names = { Ship Ship Ship Ship Ship Ship Ship Ship Ship Ship }
