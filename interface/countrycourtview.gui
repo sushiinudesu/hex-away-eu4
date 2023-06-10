@@ -141,8 +141,8 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "national_focus_ADM"
-			position = { x = 35 y = 170 }
-			quadTextureSprite ="GFX_icon_national_focus_dip"	
+			position = { x = 35 y = 165 }
+			quadTextureSprite ="GFX_HEX_FOCUS"	
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -152,8 +152,8 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "national_focus_DIP"
-			position = { x= 205	y = 170 }
-			quadTextureSprite ="GFX_icon_national_focus_dip"	
+			position = { x= 205	y = 165 }
+			quadTextureSprite ="GFX_HEX_FOCUS"	
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -163,8 +163,8 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "national_focus_MIL"
-			position = { x= 375	y = 170 }
-			quadTextureSprite ="GFX_icon_national_focus_dip"	
+			position = { x= 375	y = 165 }
+			quadTextureSprite ="GFX_HEX_FOCUS"	
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -178,13 +178,13 @@ guiTypes = {
 		iconType = {
 			name ="monarch_adm_icon"
 			spriteType = "GFX_HEX_STRENGTH_ATTRIBUTE"
-			position = { x= 60 y = 180 }
+			position = { x= 50 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 		instantTextBoxType = {
 			name = "monarch_adm_value"
-			position = { x = 75 y = 182 }
+			position = { x = 65 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -196,13 +196,13 @@ guiTypes = {
 		iconType = {
 			name ="monarch_heir_adm_icon"
 			spriteType = "GFX_HEX_DEXTERITY_ATTRIBUTE"
-			position = { x= 120 y = 180 }
+			position = { x= 135 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_heir"
 		}
 		instantTextBoxType = {
 			name = "monarch_heir_adm_value"
-			position = { x = 135 y = 182 }
+			position = { x = 150 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -214,13 +214,13 @@ guiTypes = {
 		iconType = {
 			name ="monarch_dip_icon"
 			spriteType = "GFX_HEX_INTELLIGENCE_ATTRIBUTE"
-			position = { x= 230 y = 180 }
+			position = { x= 220 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 		instantTextBoxType = {
 			name = "monarch_dip_value"
-			position = { x = 245 y = 182 }
+			position = { x = 235 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -232,13 +232,13 @@ guiTypes = {
 		iconType = {
 			name ="monarch_heir_dip_icon"
 			spriteType = "GFX_HEX_PERCEPTION_ATTRIBUTE"
-			position = { x= 285 y = 180 }
+			position = { x= 300 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_heir"
 		}
 		instantTextBoxType = {
 			name = "monarch_heir_dip_value"
-			position = { x = 300 y = 182 }
+			position = { x = 315 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -250,13 +250,13 @@ guiTypes = {
 		iconType = {
 			name ="monarch_mil_icon"
 			spriteType = "GFX_HEX_CHARISMA_ATTRIBUTE"
-			position = { x= 400 y = 180 }
+			position = { x= 390 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 		instantTextBoxType = {
 			name = "monarch_mil_value"
-			position = { x = 415 y = 182 }
+			position = { x = 405 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -268,13 +268,13 @@ guiTypes = {
 		iconType = {
 			name ="monarch_heir_mil_icon"
 			spriteType = "GFX_HEX_LUCK_ATTRIBUTE"
-			position = { x= 455 y = 180 }
+			position = { x= 470 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_heir"
 		}
 		instantTextBoxType = {
 			name = "monarch_heir_mil_value"
-			position = { x = 470 y = 182 }
+			position = { x = 485 y = 182 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	

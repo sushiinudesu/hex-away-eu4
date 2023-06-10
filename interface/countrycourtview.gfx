@@ -355,6 +355,14 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
+	# FOCUS
+
+	spriteType = {
+		name = "GFX_HEX_FOCUS"
+		texturefile = "gfx//interface//hex_focus.dds"
+		noOfFrames = 2
+	}
+
 	# SKILLS
 	
 	spriteType = {
