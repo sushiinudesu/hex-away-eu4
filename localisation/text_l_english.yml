@@ -4197,12 +4197,7 @@
  HAVE_MORE_PROTS_THAN:0 "Number of protectorates at least "
  HAVE_LESS_COLSUB_THAN:0 "Have fewer colonial subjects than "
  HAVE_MORE_COLSUB_THAN:0 "Number of colonial subjects at least "
- HAVE_MONARCH_WITH_LOWER_ADM_THEN:0 "Ruler has lower Administrative Skill than "
- HAVE_MONARCH_WITH_HIGHER_ADM_THEN:0 "Ruler has Administrative Skill of at least"
- HAVE_MONARCH_WITH_LOWER_DIP_THEN:0 "Ruler has lower Diplomatic Skill than "
- HAVE_MONARCH_WITH_HIGHER_DIP_THEN:0 "Ruler has Diplomatic Skill of at least"
- HAVE_MONARCH_WITH_LOWER_MIL_THEN:0 "Ruler has lower Military skill than "
- HAVE_MONARCH_WITH_HIGHER_MIL_THEN:0 "Ruler has Military skill of at least"
+
  HAVNT_CULTURE:0 "The culture is NOT "
  HAVE_CULTURE:0 "The culture is "
  IS_NOT_PRIMARY_CULTURE:0 "The primary culture is NOT "

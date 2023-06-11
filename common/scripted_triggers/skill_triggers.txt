@@ -1,0 +1,53 @@
+hex_skill_check = {
+	[[strength]
+		adm = $strength$
+	]
+
+	[[constitution]
+		heir_adm = $constitution$
+	]
+	
+	[[dexterity]
+		dip = $dexterity$
+	]
+
+	[[intelligence]
+		heir_dip = $intelligence$
+	]
+
+	[[wisdom]
+		mil = $wisdom$
+	]
+
+	[[charisma]
+		heir_mil = $charisma$
+	]
+}
+
+hex_or_skill_check = {
+	OR = {
+		[[strength]
+			adm = $strength$
+		]
+
+		[[constitution]
+			heir_adm = $constitution$
+		]
+		
+		[[dexterity]
+			dip = $dexterity$
+		]
+
+		[[intelligence]
+			heir_dip = $intelligence$
+		]
+
+		[[wisdom]
+			mil = $wisdom$
+		]
+
+		[[charisma]
+			heir_mil = $charisma$
+		]
+	}
+}
