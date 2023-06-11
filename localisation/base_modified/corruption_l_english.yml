@@ -2,7 +2,7 @@
   corruption:0 "Corruption"
   CORRUPTION_IRO:0 "§YCorruption§!\nCorruption changes by $CHANGE$ every year due to:\n$WHY$"
   CORRUPTION_DRO:0 "This level of Corruption gives the following effects:"
-  CORRUPTION_EXPLANATION:0 "\nThis represents how corrupted you are by your own power and how much your are willing to bend the rules in order to gain more.\n\nHaving high Corruption expands Learning Cap and allows to gain more experience over time."
+  CORRUPTION_EXPLANATION:0 "\nThis represents how corrupted you are by your own powers and how much your are willing to bend the rules for your own gain.\n\nHaving high Corruption expands Learning Cap and allows to gain more experience over time."
   NOTHING:0 ""
   EXPENSE_CORRUPTION:0 "Calm Corruption"
   root_out_corruption:0 "Calming Corruption"
