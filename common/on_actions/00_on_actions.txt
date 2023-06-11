@@ -4,12 +4,7 @@ on_startup = {
 		every_province = { set_in_empire = no }
 	}
 
-	if = {
-		limit = { NOT = { has_reform_on_level = 0 }}
-		hex_setup_administration = yes
-	}
-
-	hex_setup_vision = yes
+	hex_setup_country = yes
 
 	events = {
 		hex_awakening_events.1

@@ -32,6 +32,9 @@ NDefines.NCountry.NEW_HEIR_QUEEN_CHANCE = 0
 NDefines.NCountry.PLAYER_CAN_MOVE_FIXED_CAPITAL = 0
 NDefines.NCountry.POWER_MAX = 10000
 NDefines.NCountry.PROMOTE_MERCANTILISM_INCREASE = 0
+NDefines.NCountry.PROVINCE_DISCOVERY_PRESTIGE = 0
+NDefines.NCountry.PROVINCE_DISCOVERY_YEARS_RELIGION = 10000
+NDefines.NCountry.PROVINCE_DISCOVERY_YEARS_TECHNOLOGY = 0
 NDefines.NCountry.PS_ADD_ACCEPTED_CULTURE = 0
 NDefines.NCountry.PS_ADD_TRIBAL_LAND = 0
 NDefines.NCountry.PS_ADD_TRIBAL_LAND_EXTRA_COST_PER_PROVINCE = 0
@@ -86,6 +89,10 @@ NDefines.NCountry.PS_SET_PRIMARY_CULTURE = 0
 NDefines.NCountry.PS_STRENGTHEN_GOVERNMENT = 0
 NDefines.NCountry.PS_WAR_TAXES_LIMIT_MIN = 0
 NDefines.NCountry.ROYAL_MARRIAGE_QUEEN_CHANCE = 0
+NDefines.NCountry.STATE_MAINTENANCE_CONTINENT_FACTOR = 0
+NDefines.NCountry.STATE_MAINTENANCE_CULTURE_FACTOR = 0
+NDefines.NCountry.STATE_MAINTENANCE_DEV_FACTOR = 0
+NDefines.NCountry.STATE_MAINTENANCE_DISTANCE_FACTOR = 0
 NDefines.NCountry.STRENGTHEN_GOVERNMENT_DEVOTION = 0
 NDefines.NCountry.STRENGTHEN_GOVERNMENT_HORDE_UNITY = 0
 NDefines.NCountry.STRENGTHEN_GOVERNMENT_LEGITIMACY = 0
@@ -99,6 +106,8 @@ NDefines.NCountry.TRIBE_SETTLE_MIL_COST = 0
 NDefines.NCountry.TRIBE_STARTING_DEV = 0
 NDefines.NCountry.WAREXHAUSTION_REDUCTION = 0
 NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 100
+
+
 
 -- 	CLEAR_PROVINCE_VARIABLES_ON_CLEAR_OWNER = 1 	--set to 0 to avoid clearing province variables when a province's owner is set to none (modder request)
 -- 	CLEAR_PROVINCE_FLAGS_ON_CLEAR_OWNER = 1	 	--set to 0 to avoid clearing province flags when a province's owner is set to none (modder request)
@@ -174,10 +183,6 @@ NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 100
 
 -- 	EMBRACE_INSTITUTION_COST = 2.5				-- 2.5 per development (autonomy modified)
 -- 	MAXIMUM_CONDOTTIERI = 20					-- Base number of units you can rent out
--- 	STATE_MAINTENANCE_DEV_FACTOR = 0.007		-- per dev
--- 	STATE_MAINTENANCE_DISTANCE_FACTOR = 0.001	-- distance
--- 	STATE_MAINTENANCE_CONTINENT_FACTOR = 0.25	-- different continet
--- 	STATE_MAINTENANCE_CULTURE_FACTOR = 0.25		-- non accepted culture
 
 -- 	ALLOW_ZERO_BASE_VALUES = 0						-- Affects base tax base manpower and base production
 
@@ -358,9 +363,6 @@ NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 100
 -- 	FORM_MARRIAGE_HIGHER_PRESTIGE = -2				-- Legitimacy Change when forming a royal marriage while having more Prestige than the other country.
 -- 	FORM_MARRIAGE_HIGHER_LEGITIMACY = -3			-- Legitimacy Change when forming a royal marriage while having more legitimacy than the other country.
 -- 	ANNEX_OR_INTEGRATE_PRESTIGE = 5.0				-- Prestige gain on diplomatic annex or integrate
--- 	PROVINCE_DISCOVERY_PRESTIGE = 0.1				-- Prestige change when first in tech group to discover first province in a region
--- 	PROVINCE_DISCOVERY_YEARS_TECHNOLOGY = 50		-- Years until discoveries spread within technology group
--- 	PROVINCE_DISCOVERY_YEARS_RELIGION = 100		-- Years until discoveries spread with religion
 
 -- 	START_YEARLY_INFLATION = 0.0 					-- _CDEF_START_YEARLY
 
