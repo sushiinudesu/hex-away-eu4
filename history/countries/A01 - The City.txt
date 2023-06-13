@@ -40,6 +40,7 @@ add_government_reform = hex_city_first_camp_reform
 	set_ai_personality = { personality = ai_balanced locked = yes }
 
 	add_faction = hex_first_faction
+	add_country_modifier = { name = hex_first_loyalty duration = -1 }
 }
 
 4.1.1 = {

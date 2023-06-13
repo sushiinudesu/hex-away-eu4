@@ -1,3 +1,38 @@
 hex_switched_loyalty = {
 	# TBD picture
 }
+
+hex_first_loyalty = {
+	# TBD picture
+	hex_first_faction_influence = 0.1
+}
+
+hex_needle_loyalty = {
+	# TBD picture
+	hex_artisan_guild_influence = 0.1
+}
+
+hex_clay_loyalty = {
+	# TBD picture
+	hex_builders_guild_influence = 0.1
+}
+
+hex_chef_loyalty = {
+	# TBD picture
+	hex_farmers_guild_influence = 0.1
+}
+
+hex_lion_loyalty = {
+	# TBD picture
+	hex_hunters_guild_influence = 0.1
+}
+
+hex_longbeard_loyalty = {
+	# TBD picture
+	hex_miners_guild_influence = 0.1
+}
+
+hex_seawatcher_loyalty = {
+	# TBD picture
+	hex_sailors_guild_influence = 0.1
+}

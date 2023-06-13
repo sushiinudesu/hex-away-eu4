@@ -1,3 +1,24 @@
 ﻿l_english:
   hex_switched_loyalty:0 "Changed Loyalty"
   desc_hex_switched_loyalty:0 "You have switched loyalty recently"
+
+  hex_first_loyalty:0 "Loyal to §YFirst§!"
+  desc_hex_first_loyalty:0 "You are loyal to §YFirst§!"
+
+  hex_needle_loyalty:0 "Loyal to §YNeedle§!"
+  desc_hex_needle_loyalty:0 "You are loyal to §YNeedle§!"
+
+  hex_clay_loyalty:0 "Loyal to §YClay§!"
+  desc_hex_clay_loyalty:0 "You are loyal to §YClay§!"
+
+  hex_chef_loyalty:0 "Loyal to §YChef§!"
+  desc_hex_chef_loyalty:0 "You are loyal to §YChef§!"
+
+  hex_lion_loyalty:0 "Loyal to §YLion§!"
+  desc_hex_lion_loyalty:0 "You are loyal to §YLion§!"
+
+  hex_longbeard_loyalty:0 "Loyal to §YLongbeard§!"
+  desc_hex_longbeard_loyalty:0 "You are loyal to §YLongbeard§!"
+
+  hex_seawatcher_loyalty:0 "Loyal to §YSeawatcher§!"
+  desc_hex_seawatcher_loyalty:0 "You are loyal to §YSeawatcher§!"

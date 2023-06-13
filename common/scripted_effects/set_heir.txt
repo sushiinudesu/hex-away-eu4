@@ -10,6 +10,7 @@ hex_set_heir = {
 			birth_date = 1.1.2
 			claim = 50
 		}
+		hex_add_faction_modifier = { character = first }
 	]
 
 	[[chef]
@@ -19,6 +20,7 @@ hex_set_heir = {
 			birth_date = 2.1.1
 			claim = 50
 		}
+		hex_add_faction_modifier = { character = chef }
 	]
 
 	
@@ -29,6 +31,7 @@ hex_set_heir = {
 			birth_date = 2.1.1
 			claim = 50
 		}
+		hex_add_faction_modifier = { character = clay }
 	]
 
 	
@@ -39,6 +42,7 @@ hex_set_heir = {
 			birth_date = 2.1.1
 			claim = 50
 		}
+		hex_add_faction_modifier = { character = lion }
 	]
 
 	
@@ -49,6 +53,7 @@ hex_set_heir = {
 			birth_date = 2.1.1
 			claim = 50
 		}
+		hex_add_faction_modifier = { character = longbeard }
 	]
 
 	
@@ -59,6 +64,7 @@ hex_set_heir = {
 			birth_date = 2.1.1
 			claim = 50
 		}
+		hex_add_faction_modifier = { character = needle }
 	]
 
 	[[seawatcher]
@@ -68,6 +74,7 @@ hex_set_heir = {
 			birth_date = 2.1.1
 			claim = 50
 		}
+		hex_add_faction_modifier = { character = seawatcher }
 	]
 
 	hex_set_heir_skills = yes

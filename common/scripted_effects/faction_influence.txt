@@ -2,3 +2,18 @@ hex_change_faction_influence = {
 	add_faction_influence = { faction = $from$ influence = -$value$ perform_readjustment = no }
 	add_faction_influence = { faction = $to$ influence = $value$ perform_readjustment = no }
 }
+
+hex_clear_faction_modifiers = {
+	remove_country_modifier = hex_first_loyalty
+	remove_country_modifier = hex_needle_loyalty
+	remove_country_modifier = hex_clay_loyalty
+	remove_country_modifier = hex_chef_loyalty
+	remove_country_modifier = hex_lion_loyalty
+	remove_country_modifier = hex_longbeard_loyalty
+	remove_country_modifier = hex_seawatcher_loyalty
+}
+
+hex_add_faction_modifier = {
+	hex_clear_faction_modifiers = yes
+	add_country_modifier = { name = hex_$character$_loyalty duration = -1 }
+}
