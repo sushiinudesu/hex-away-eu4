@@ -14,3 +14,5 @@
   HAVE_MONARCH_WITH_HIGHER_DIP_THEN:0 "§WDexterity equal or higher than"
   HAVE_MONARCH_WITH_LOWER_MIL_THEN:0 "§WWisdom lower than"
   HAVE_MONARCH_WITH_HIGHER_MIL_THEN:0 "§WWisdom equal or higher than"
+  THE_RULER_IS:0 "§GCountry is ruled by §!"
+  THE_RULERIS_NOT:0 "§RCountry is not ruled by §!"

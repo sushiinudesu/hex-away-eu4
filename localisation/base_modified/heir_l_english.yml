@@ -19,3 +19,5 @@
   HAVE_HEIR_WITH_HIGHER_DIP_THEN:0 "§WIntelligence equal or higher than $VALUE|Y$"
   HAVE_HEIR_WITH_LOWER_MIL_THEN:0 "§WCharisma lower than $VALUE|Y$"
   HAVE_HEIR_WITH_HIGHER_MIL_THEN:0 "§WCharisma equal or higher than $VALUE|Y$"
+  THE_HEIR_IS:0 "§GLoyal to §!"
+  THE_HEIR_IS_NOT:0 "§RLoyal to someone other than §!"

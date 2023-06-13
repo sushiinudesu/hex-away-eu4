@@ -109,19 +109,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
+	}
+
 	option = {
 		name = hex_awakening_first_events.2.a
-		custom_tooltip = hex_awakening_first_events.2.a.tt
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.2.int
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { intelligence = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.2.longbeard
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Longbeard" } }
 
 		highlight = yes
 
 		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
+			hex_change_faction_influence = { from = hex_first_faction to = hex_miners_guild value = 1 }
+			add_heir_claim = 1
 		}
-	}
 
-	option = {
-		name = hex_awakening_first_events.2.b
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -135,19 +162,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.3.a
-		custom_tooltip = hex_awakening_first_events.3.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.3.b
+		name = hex_awakening_first_events.3.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.3.wis
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { wisdom = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.3.clay
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Clay" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_builders_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -161,19 +215,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.4.a
-		custom_tooltip = hex_awakening_first_events.4.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.4.b
+		name = hex_awakening_first_events.4.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.4.dex
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { dexterity = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.4.lion
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Lion" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_hunters_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -187,19 +268,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.5.a
-		custom_tooltip = hex_awakening_first_events.5.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.5.b
+		name = hex_awakening_first_events.5.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.5.int
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { intelligence = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.5.lion
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Lion" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_hunters_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -213,19 +321,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.6.a
-		custom_tooltip = hex_awakening_first_events.6.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.6.b
+		name = hex_awakening_first_events.6.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.6.int
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { intelligence = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.6.chef
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Chef" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_farmers_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -239,19 +374,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.7.a
-		custom_tooltip = hex_awakening_first_events.7.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.7.b
+		name = hex_awakening_first_events.7.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.7.int
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { intelligence = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.7.seawatcher
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Seawatcher" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_sailors_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -265,19 +427,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.8.a
-		custom_tooltip = hex_awakening_first_events.8.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.8.b
+		name = hex_awakening_first_events.8.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.8.dex
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { dexterity = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.8.lion
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Lion" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_hunters_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -291,19 +480,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.9.a
-		custom_tooltip = hex_awakening_first_events.9.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.9.b
+		name = hex_awakening_first_events.9.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.9.int
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { intelligence = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.9.longbeard
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Longbeard" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_miners_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -317,19 +533,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.10.a
-		custom_tooltip = hex_awakening_first_events.10.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.10.b
+		name = hex_awakening_first_events.10.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.10.cha
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { charisma = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.10.needle
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Needle" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_artisan_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -343,19 +586,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.11.a
-		custom_tooltip = hex_awakening_first_events.11.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.11.b
+		name = hex_awakening_first_events.11.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.11.int
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { intelligence = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.11.lion
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Lion" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_hunters_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -369,19 +639,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.12.a
-		custom_tooltip = hex_awakening_first_events.12.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.12.b
+		name = hex_awakening_first_events.12.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.12.con
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.12.chef
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Chef" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_farmers_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -395,19 +692,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.13.a
-		custom_tooltip = hex_awakening_first_events.13.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.13.b
+		name = hex_awakening_first_events.13.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.13.cha
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { charisma = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.13.needle
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Needle" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_artisan_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -421,19 +745,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.14.a
-		custom_tooltip = hex_awakening_first_events.14.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.14.b
+		name = hex_awakening_first_events.14.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.14.str
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { strength = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.14.longbeard
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Longbeard" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_miners_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -447,19 +798,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.15.a
-		custom_tooltip = hex_awakening_first_events.15.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.15.b
+		name = hex_awakening_first_events.15.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.15.wis
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { wisdom = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.15.lion
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Lion" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_hunters_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -473,19 +851,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.16.a
-		custom_tooltip = hex_awakening_first_events.16.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.16.b
+		name = hex_awakening_first_events.16.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.16.con
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.16.seawatcher
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Seawatcher" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_sailors_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -499,19 +904,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.17.a
-		custom_tooltip = hex_awakening_first_events.17.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.17.b
+		name = hex_awakening_first_events.17.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.17.cha
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { charisma = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.17.clay
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Clay" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_builders_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -525,19 +957,46 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 
-	option = {
-		name = hex_awakening_first_events.18.a
-		custom_tooltip = hex_awakening_first_events.18.a.tt
-
-		highlight = yes
-		
-		hidden_effect = {
-			add_faction_influence = { faction = hex_first_faction influence = 5 }
-		}
+	immediate = {
+		add_faction_influence = { faction = hex_first_faction influence = 1 }
 	}
 
 	option = {
-		name = hex_awakening_first_events.18.b
+		name = hex_awakening_first_events.18.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.18.cha
+		custom_tooltip = HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "First" }
+			hex_skill_check = { charisma = 2 }
+		}
+
+		highlight = yes
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+
+	option = {
+		name = hex_awakening_first_events.18.longbeard
+		custom_tooltip = HEX_DECREASE_FIRST_FOLLOWERS_INFLUENCE_TT
+
+		trigger = { hex_loyal = { to = "Longbeard" } }
+
+		highlight = yes
+
+		hidden_effect = {
+			hex_change_faction_influence = { from = hex_first_faction to = hex_miners_guild value = 1 }
+			add_heir_claim = 1
+		}
+
+		ai_chance = { factor = 100 }
 	}
 }
 

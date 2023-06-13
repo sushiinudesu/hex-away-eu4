@@ -1242,10 +1242,7 @@
  CONFIRMJOINHREWOULDMEMBERWARN:0 "§RThis would turn us into a member state in the Empire and reduce our Government Rank to §Y$RANK$§R level.§W"
  CONFIRMLEAVEHRE:0 "Abandon the Holy Roman Empire"
  CONFIRMLEAVEHRETEXT:0 "The incessant strife, both religious and political, within the Holy Roman Empire is draining the morale of $PROV$'s population. The relation with the Emperor has reached an all-time low and $TITLE$ $MONARCHNAME$'s dishonorable reputation hasn't improved our situation. Many considered it to be in $PROV$'s best interest to leave the confederation.\nAre you really sure?"
- THE_RULER_IS:0 "The ruler is "
- THE_RULERIS_NOT:0 "The ruler is NOT "
- THE_HEIR_IS:0 "The heir is "
- THE_HEIR_IS_NOT:0 "The heir is NOT "
+
  CANT_DETACH_WITH_TROOPS_ON:0 "Cannot detach obsolete ships while the fleet has troops loaded."
  form_union_with_lithuania_title:0 "Form Union with Lithuania"
  form_union_with_lithuania_desc:0 "The death of the childless King Wladyslaw III on the battlefield of Varna split the union between Poland and Hungary and left Poland in an interregnum. His brother Kazimierz, the Grand Duke of Lithuania, was asked by the Polish nobility to assume the throne but found their conditions unacceptable. In 1447, after three years of negotiations, Kazimierz was finally crowned King of Poland on his own terms and ruled both kingdoms as a union."

@@ -1,0 +1,3 @@
+hex_loyal = {
+	has_heir = $to$
+}
