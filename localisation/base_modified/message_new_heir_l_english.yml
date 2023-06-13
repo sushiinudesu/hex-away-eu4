@@ -1,0 +1,18 @@
+﻿l_english:
+  NEWHEIR_TITLE:0 "Change of Loyalty"
+  NEWHEIR_SETUP:0 "When your loyalty changes."
+  NEWHEIR_HEADER:0 "§MMagpie News§!"
+
+  NEWHEIR_1:0 "Change of Loyalty"
+  NEWHEIR_2:0 "You are now loyal to"
+  NEWHEIR_3:0 " $HEIRNAME|Y$"
+  NEWHEIR_4:0 "Let's hope it's going to be worthwhile."
+
+  NEWHEIR_LOG:1 "You are now loyal to $HEIRNAME|Y$"
+  NEWHEIR_BTN1:0 "OK"
+  NEWHEIR_BTN2:0 "OK"
+  NEWHEIR_BTN3:0 "Go to"
+
+  NEWHEIR_MAP:0 "Glory to $HEIRNAME$!"
+  NEWHEIR_NAME_1:0 "$STATS$"
+  NEWHEIR_NAME_2:0 "$COUNTRY$ has a new heir. $PRONOUN$ shall be called:"

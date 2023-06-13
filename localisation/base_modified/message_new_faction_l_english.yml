@@ -1,0 +1,12 @@
+﻿l_english:
+  NEWFACTION_TITLE:0 "Faction Take Over!"
+  NEWFACTION_SETUP:0 "When a faction gains power in the City."
+  NEWFACTION_HEADER:0 "§MMagpie News§!"
+
+  NEWFACTION_1:0 "Faction Take Over!"
+  NEWFACTION_2:0 "$FACTION|Y$"
+  NEWFACTION_3:0 "have gained a dominant position in the City."
+
+  NEWFACTION_LOG:0 "$FACTION|Y$ took over the City!"
+  NEWFACTION_BTN1:0 "OK"
+  NEWFACTION_BTN2:0 "OK"

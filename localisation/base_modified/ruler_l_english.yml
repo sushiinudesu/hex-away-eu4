@@ -1,6 +1,4 @@
 ﻿l_english:
-  NEWMON_INFERIOR:0 "Let's hope it won't be a disaster."
-  NEWMON_MOURN:0 "As for our previous ruler - I hope $OLD$ won't hold a grudge."
   INAUGURATED_ON:0 "Since §Y$DATE$§W (Age: §Y$AGE$§!)."
   RULER_ADM_EFFECT:0 "§MStrength is being able to crush a tomato.§!\n"
   RULER_DIP_EFFECT:0 "§MDexterity is being able to dodge a tomato.§!\n"
