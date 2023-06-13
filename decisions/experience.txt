@@ -27,8 +27,6 @@ country_decisions = {
 				change_adm = 1
 			}
 		}
-
-		ai_will_do = { factor = 100 }
 	}
 
 	hex_improve_constitution = {
@@ -59,8 +57,6 @@ country_decisions = {
 				change_heir_adm = 1
 			}
 		}
-
-		ai_will_do = { factor = 100 }
 	}
 
 	hex_improve_dexterity = {
@@ -91,8 +87,6 @@ country_decisions = {
 				change_dip = 1
 			}
 		}
-
-		ai_will_do = { factor = 100 }
 	}
 
 	hex_improve_intelligence = {
@@ -123,8 +117,6 @@ country_decisions = {
 				change_heir_dip = 1
 			}
 		}
-
-		ai_will_do = { factor = 100 }
 	}
 
 	hex_improve_wisdom = {
@@ -155,8 +147,6 @@ country_decisions = {
 				change_mil = 1
 			}
 		}
-
-		ai_will_do = { factor = 100 }
 	}
 
 	hex_improve_charisma = {
@@ -187,7 +177,5 @@ country_decisions = {
 				change_heir_mil = 1
 			}
 		}
-
-		ai_will_do = { factor = 100 }
 	}
 }
