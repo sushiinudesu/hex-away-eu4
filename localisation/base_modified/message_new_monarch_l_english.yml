@@ -15,11 +15,11 @@
 
   NEWMON_MAP:0 "Glory to $MONARCHNAME$!"
 
-  NEWMON_INFERIOR:0 "Let's hope it won't be a disaster."
-  NEWMON_GOODDIP:0 "$MONARCHNAME$'s great cunning and silver tongue shall aid us in forming strong alliances with our friends."
-  NEWMON_GOODMIL:0 "$MONARCHNAME$'s good leadership skills and superior tactical knowledge will help us vanquish those that dare stand against us."
-  NEWMON_GOODADM:0 "$MONARCHNAME$'s attention to detail and superior administrative skill will aid us in reforming our administration and maximizing our taxes."
-  NEWMON_SUPERIOR:0 "$MONARCHNAME$ is truly blessed."
-  NEWMON_AVARAGE:0 "[Root.Monarch.GetHerHisCap] tutors could not make a great [Root.Monarch.GetWomanMan] out of [Root.Monarch.GetHerHim] though we hope ruling our great nation will."
+  NEWMON_INFERIOR:0 ""
+  NEWMON_GOODDIP:0 ""
+  NEWMON_GOODMIL:0 ""
+  NEWMON_GOODADM:0 ""
+  NEWMON_SUPERIOR:0 ""
+  NEWMON_AVARAGE:0 ""
 
-  NEWMON_MOURN:0 "I hope $OLD$ won't hold a grudge."
+  NEWMON_MOURN:0 "I hope $OLD|Y$ won't hold a grudge."
