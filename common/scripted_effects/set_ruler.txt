@@ -1,19 +1,42 @@
 hex_set_ruler = {
-	if = { limit = { ai = no } exile_heir_as = exiled_heir }
+	if = {
+		limit = { ai = yes }
+		add_corruption = -100
+		hex_set_heir = { $ruler$ = yes }
+	}
+	exile_heir_as = exiled_heir
 
+	export_to_variable = { variable_name = hex_ruler_adm value = ADM }
+	export_to_variable = { variable_name = hex_ruler_dip value = DIP }
+	export_to_variable = { variable_name = hex_ruler_mil value = MIL }
+	
 	set_ruler = $ruler$
 	set_ruler_culture = hex_awake_culture
 	set_ruler_religion = hex_faithless
 	add_ruler_personality = hex_awake_personality
 	set_ai_personality = { personality = $behavior$ locked = yes }
 
-	if = {
-		limit = { ai = yes }
+	hex_set_ruler_skills = yes
 
-		add_corruption = -100
-		hex_set_heir = { $ruler$ = yes culture = hex_awake_culture religion = hex_faithless }
-	}
-	else = { set_heir = exiled_heir }
+	set_heir = exiled_heir
+}
+
+
+hex_set_ruler_skills = {
+	hex_change_ruler_skill = { skill = adm }
+	hex_change_ruler_skill = { skill = dip }
+	hex_change_ruler_skill = { skill = mil }
+}
+
+hex_change_ruler_skill = {
+	change_$skill$ = -6
+
+	if = { limit = { check_variable = { which = hex_ruler_$skill$ value = 6 } } change_$skill$ = 6 }
+	else_if = { limit = { check_variable = { which = hex_ruler_$skill$ value = 5 } } change_$skill$ = 5 }
+	else_if = { limit = { check_variable = { which = hex_ruler_$skill$ value = 4 } } change_$skill$ = 4 }
+	else_if = { limit = { check_variable = { which = hex_ruler_$skill$ value = 3 } } change_$skill$ = 3 }
+	else_if = { limit = { check_variable = { which = hex_ruler_$skill$ value = 2 } } change_$skill$ = 2 }
+	else = { change_$skill$ = 1 }
 }
 
 hex_set_ruler_chef = { hex_set_ruler = { ruler = chef behavior = ai_capitalist } }

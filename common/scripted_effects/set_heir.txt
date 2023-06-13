@@ -1,15 +1,14 @@
 hex_set_heir = {
+	export_to_variable = { variable_name = hex_heir_adm value = heir_adm }
+	export_to_variable = { variable_name = hex_heir_dip value = heir_dip }
+	export_to_variable = { variable_name = hex_heir_mil value = heir_mil }
+
 	[[first]
 		define_heir = {
 			name = "First"
 			dynasty = "'the Awake One'"
 			birth_date = 1.1.2
 			claim = 50
-			adm = 1
-			dip = 1
-			mil = 1
-			culture = $culture$
-			religion = $religion$
 		}
 	]
 
@@ -19,11 +18,6 @@ hex_set_heir = {
 			dynasty = "'the Cauldron Master'"
 			birth_date = 2.1.1
 			claim = 50
-			adm = 1
-			dip = 1
-			mil = 1
-			culture = $culture$
-			religion = $religion$
 		}
 	]
 
@@ -34,11 +28,6 @@ hex_set_heir = {
 			dynasty = "'the Architect'"
 			birth_date = 2.1.1
 			claim = 50
-			adm = 1
-			dip = 1
-			mil = 1
-			culture = $culture$
-			religion = $religion$
 		}
 	]
 
@@ -49,11 +38,6 @@ hex_set_heir = {
 			dynasty = "'the Two-Headed Hunter'"
 			birth_date = 2.1.1
 			claim = 50
-			adm = 1
-			dip = 1
-			mil = 1
-			culture = $culture$
-			religion = $religion$
 		}
 	]
 
@@ -64,11 +48,6 @@ hex_set_heir = {
 			dynasty = "'the Bald'"
 			birth_date = 2.1.1
 			claim = 50
-			adm = 1
-			dip = 1
-			mil = 1
-			culture = $culture$
-			religion = $religion$
 		}
 	]
 
@@ -79,11 +58,6 @@ hex_set_heir = {
 			dynasty = "'the Elegant Clothier'"
 			birth_date = 2.1.1
 			claim = 50
-			adm = 1
-			dip = 1
-			mil = 1
-			culture = $culture$
-			religion = $religion$
 		}
 	]
 
@@ -93,14 +67,27 @@ hex_set_heir = {
 			dynasty = "'of the Horizon'"
 			birth_date = 2.1.1
 			claim = 50
-			adm = 1
-			dip = 1
-			mil = 1
-			culture = $culture$
-			religion = $religion$
 		}
 	]
 
+	hex_set_heir_skills = yes
 	add_heir_personality = hex_awake_personality
 	swap_non_generic_missions = yes
+}
+
+hex_set_heir_skills = {
+	hex_change_heir_skill = { skill = adm }
+	hex_change_heir_skill = { skill = dip }
+	hex_change_heir_skill = { skill = mil }
+}
+
+hex_change_heir_skill = {
+	change_heir_$skill$ = -6
+
+	if = { limit = { check_variable = { which = hex_heir_$skill$ value = 6 } } change_heir_$skill$ = 6 }
+	else_if = { limit = { check_variable = { which = hex_heir_$skill$ value = 5 } } change_heir_$skill$ = 5 }
+	else_if = { limit = { check_variable = { which = hex_heir_$skill$ value = 4 } } change_heir_$skill$ = 4 }
+	else_if = { limit = { check_variable = { which = hex_heir_$skill$ value = 3 } } change_heir_$skill$ = 3 }
+	else_if = { limit = { check_variable = { which = hex_heir_$skill$ value = 2 } } change_heir_$skill$ = 2 }
+	else = { change_heir_$skill$ = 1 }
 }

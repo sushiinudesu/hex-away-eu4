@@ -86,7 +86,7 @@ country_event = {
 		highlight = yes
 
 		hidden_effect = {
-			hex_set_heir = { needle = yes culture = hex_awake_culture religion = hex_faithless }
+			hex_set_heir = { needle = yes }
 			add_faction_influence = { faction = hex_artisan_guild influence = 5 }
 		}
 	}
@@ -124,7 +124,7 @@ country_event = {
 		highlight = yes
 
 		hidden_effect = {
-			hex_set_heir = { clay = yes culture = hex_awake_culture religion = hex_faithless }
+			hex_set_heir = { clay = yes }
 			add_faction_influence = { faction = hex_builders_guild influence = 5 }
 		}
 	}
@@ -162,7 +162,7 @@ country_event = {
 		highlight = yes
 
 		hidden_effect = {
-			hex_set_heir = { chef = yes culture = hex_awake_culture religion = hex_faithless }
+			hex_set_heir = { chef = yes }
 			add_faction_influence = { faction = hex_farmers_guild influence = 5 }
 		}
 	}
@@ -200,7 +200,7 @@ country_event = {
 		highlight = yes
 
 		hidden_effect = {
-			hex_set_heir = { lion = yes culture = hex_awake_culture religion = hex_faithless }
+			hex_set_heir = { lion = yes }
 			add_faction_influence = { faction = hex_hunters_guild influence = 5 }
 		}
 	}
@@ -238,7 +238,7 @@ country_event = {
 		highlight = yes
 
 		hidden_effect = {
-			hex_set_heir = { longbeard = yes culture = hex_awake_culture religion = hex_faithless }
+			hex_set_heir = { longbeard = yes }
 			add_faction_influence = { faction = hex_miners_guild influence = 5 }
 		}
 	}
@@ -276,7 +276,7 @@ country_event = {
 		highlight = yes
 
 		hidden_effect = {
-			hex_set_heir = { seawatcher = yes culture = hex_awake_culture religion = hex_faithless }
+			hex_set_heir = { seawatcher = yes }
 			add_faction_influence = { faction = hex_sailors_guild influence = 5 }
 		}
 	}
