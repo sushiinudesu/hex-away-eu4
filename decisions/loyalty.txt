@@ -1,0 +1,17 @@
+country_decisions = {
+	hex_switch_loyalty = {
+		color = { 65 140 135 }
+		
+		potential = { ai = no }
+
+		allow = { NOT = { has_country_modifier = hex_switched_loyalty } }
+
+		effect = {
+			country_event = { id = hex_switched_loyalty_events.1 }
+
+			hidden_effect = {
+				add_country_modifier = { name = hex_switched_loyalty duration = 365 }
+			}	
+		}
+	}
+}

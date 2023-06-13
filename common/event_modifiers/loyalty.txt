@@ -1,0 +1,3 @@
+hex_switched_loyalty = {
+	# TBD picture
+}

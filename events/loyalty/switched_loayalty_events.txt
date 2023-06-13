@@ -1,0 +1,134 @@
+namespace = hex_switched_loyalty_events
+
+country_event = {
+	id = hex_switched_loyalty_events.1
+	title = hex_switched_loyalty_events.1.t
+	desc = hex_switched_loyalty_events.1.d
+
+	picture = HEX_EVENT_PICTURE_EMPTY
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hex_switched_loyalty_events.1.back
+
+		highlight = yes
+
+		hidden_effect = {
+			remove_country_modifier = hex_switched_loyalty
+		}
+	}
+
+	option = {
+		name = hex_switched_loyalty_events.1.chef
+
+		trigger = {
+			has_faction = hex_farmers_guild
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { hex_loyal = { to = "Chef" } } }
+				hex_set_heir = { chef = yes }
+			}
+			else = { remove_country_modifier = hex_switched_loyalty }
+		}
+	}
+
+	option = {
+		name = hex_switched_loyalty_events.1.clay
+
+		trigger = {
+			has_faction = hex_builders_guild
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { hex_loyal = { to = "Clay" } } }
+				hex_set_heir = { clay = yes }
+			}
+			else = { remove_country_modifier = hex_switched_loyalty }
+		}
+	}
+
+	option = {
+		name = hex_switched_loyalty_events.1.first
+
+		trigger = {
+			has_faction = hex_first_faction
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { hex_loyal = { to = "First" } } }
+				hex_set_heir = { first = yes }
+			}
+			else = { remove_country_modifier = hex_switched_loyalty }
+		}
+	}
+
+	option = {
+		name = hex_switched_loyalty_events.1.lion
+
+		trigger = {
+			has_faction = hex_hunters_guild
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { hex_loyal = { to = "Lion" } } }
+				hex_set_heir = { lion = yes }
+			}
+			else = { remove_country_modifier = hex_switched_loyalty }
+		}
+	}
+
+	option = {
+		name = hex_switched_loyalty_events.1.longbeard
+
+		trigger = {
+			has_faction = hex_miners_guild
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { hex_loyal = { to = "Longbeard" } } }
+				hex_set_heir = { longbeard = yes }
+			}
+			else = { remove_country_modifier = hex_switched_loyalty }
+		}
+	}
+
+	option = {
+		name = hex_switched_loyalty_events.1.needle
+
+		trigger = {
+			has_faction = hex_artisan_guild
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { hex_loyal = { to = "Needle" } } }
+				hex_set_heir = { needle = yes }
+			}
+			else = { remove_country_modifier = hex_switched_loyalty }
+		}
+	}
+
+	option = {
+		name = hex_switched_loyalty_events.1.seawatcher
+
+		trigger = {
+			has_faction = hex_sailors_guild
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { hex_loyal = { to = "Seawatcher" } } }
+				hex_set_heir = { seawatcher = yes }
+			}
+			else = { remove_country_modifier = hex_switched_loyalty }
+		}
+	}
+}
+

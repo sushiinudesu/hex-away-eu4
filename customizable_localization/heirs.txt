@@ -1,0 +1,76 @@
+defined_text = {
+    name = HexHeirChef
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_CHEF_HEIR
+        trigger = { hex_loyal = { to = "Chef" } }
+    }
+	text = { localisation_key = HEX_CHARACTER_CHEF }
+}
+
+defined_text = {
+    name = HexHeirClay
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_CLAY_HEIR
+        trigger = { hex_loyal = { to = "Clay" } }
+    }
+	text = { localisation_key = HEX_CHARACTER_CLAY }
+}
+
+defined_text = {
+    name = HexHeirFirst
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_FIRST_HEIR
+        trigger = { hex_loyal = { to = "First" } }
+    }
+	text = { localisation_key = HEX_CHARACTER_FIRST }
+}
+
+defined_text = {
+    name = HexHeirLion
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_LION_HEIR
+        trigger = { hex_loyal = { to = "Lion" } }
+    }
+	text = { localisation_key = HEX_CHARACTER_LION }
+}
+
+defined_text = {
+    name = HexHeirLongbeard
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_LONGBEARD_HEIR
+        trigger = { hex_loyal = { to = "Longbeard" } }
+    }
+	text = { localisation_key = HEX_CHARACTER_LONGBEARD }
+}
+
+defined_text = {
+    name = HexHeirNeedle
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_NEEDLE_HEIR
+        trigger = { hex_loyal = { to = "Needle" } }
+    }
+	text = { localisation_key = HEX_CHARACTER_NEEDLE }
+}
+
+defined_text = {
+    name = HexHeirSeawatcher
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_SEAWATCHER_HEIR
+        trigger = { hex_loyal = { to = "Seawatcher" } }
+    }
+	text = { localisation_key = HEX_CHARACTER_SEAWATCHER }
+}

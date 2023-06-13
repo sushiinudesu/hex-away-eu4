@@ -88,6 +88,7 @@ country_event = {
 		hidden_effect = {
 			hex_set_heir = { needle = yes }
 			add_faction_influence = { faction = hex_artisan_guild influence = 5 }
+			add_country_modifier = { name = hex_switched_loyalty duration = 365 }
 		}
 	}
 
@@ -126,6 +127,7 @@ country_event = {
 		hidden_effect = {
 			hex_set_heir = { clay = yes }
 			add_faction_influence = { faction = hex_builders_guild influence = 5 }
+			add_country_modifier = { name = hex_switched_loyalty duration = 365 }
 		}
 	}
 
@@ -164,6 +166,7 @@ country_event = {
 		hidden_effect = {
 			hex_set_heir = { chef = yes }
 			add_faction_influence = { faction = hex_farmers_guild influence = 5 }
+			add_country_modifier = { name = hex_switched_loyalty duration = 365 }
 		}
 	}
 
@@ -202,6 +205,7 @@ country_event = {
 		hidden_effect = {
 			hex_set_heir = { lion = yes }
 			add_faction_influence = { faction = hex_hunters_guild influence = 5 }
+			add_country_modifier = { name = hex_switched_loyalty duration = 365 }
 		}
 	}
 
@@ -240,6 +244,7 @@ country_event = {
 		hidden_effect = {
 			hex_set_heir = { longbeard = yes }
 			add_faction_influence = { faction = hex_miners_guild influence = 5 }
+			add_country_modifier = { name = hex_switched_loyalty duration = 365 }
 		}
 	}
 
@@ -278,6 +283,7 @@ country_event = {
 		hidden_effect = {
 			hex_set_heir = { seawatcher = yes }
 			add_faction_influence = { faction = hex_sailors_guild influence = 5 }
+			add_country_modifier = { name = hex_switched_loyalty duration = 365 }
 		}
 	}
 
