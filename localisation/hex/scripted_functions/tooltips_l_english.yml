@@ -9,3 +9,4 @@
   HEX_CANT_MOVE_TRADE_PORT:0 "§RCan't manually Move Trade Capital§!"
   HEX_CANT_REDUCE_INFLATION:0 "§RCan't manually Reduce Inflation§!"
   HEX_CANT_REDUCE_WAR_EXHAUSTION:0 "§RCan't manually Reduce War Exhaustion§!"
+  HEX_CANT_REACH_THE_TOWER:0 "§RCan't reach the Tower§!"

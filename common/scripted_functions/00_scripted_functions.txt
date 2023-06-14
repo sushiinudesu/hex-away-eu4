@@ -146,9 +146,21 @@ can_seize_colony = { }
 
 can_burn_colony = { }
 
-can_colonize_province = { }
+can_colonize_province = {
+	condition = {
+		tooltip = "HEX_CANT_REACH_THE_TOWER"
+		potential = { province_id = 1 }
+		allow = { always = no }
+	}
+}
 
-can_colonize_province_siberian_frontier = { }
+can_colonize_province_siberian_frontier = {
+	condition = {
+		tooltip = "HEX_CANT_REACH_THE_TOWER"
+		potential = { province_id = 1 }
+		allow = { always = no }
+	}
+}
 
 can_add_seat_in_parliament = { }
 
