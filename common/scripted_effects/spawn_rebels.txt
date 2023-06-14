@@ -21,5 +21,71 @@ hex_spawn_rebels = {
 hex_add_badger_core = { add_core = Z01 }
 hex_remove_badger_core = { remove_core = Z01 }
 
+hex_add_bat_core = { add_core = Z02 }
+hex_remove_bat_core = { remove_core = Z02 }
+
+hex_add_bear_core = { add_core = Z03 }
+hex_remove_bear_core = { remove_core = Z03 }
+
+hex_add_boar_core = { add_core = Z04 }
+hex_remove_boar_core = { remove_core = Z04 }
+
+hex_add_cat_core = { add_core = Z05 }
+hex_remove_cat_core = { remove_core = Z05 }
+
+hex_add_crab_core = { add_core = Z06 }
+hex_remove_crab_core = { remove_core = Z06 }
+
+hex_add_deer_core = { add_core = Z07 }
+hex_remove_deer_core = { remove_core = Z07 }
+
+hex_add_elephant_core = { add_core = Z08 }
+hex_remove_elephant_core = { remove_core = Z08 }
+
+hex_add_fox_core = { add_core = Z09 }
+hex_remove_fox_core = { remove_core = Z09 }
+
+hex_add_goat_core = { add_core = Z10 }
+hex_remove_goat_core = { remove_core = Z10 }
+
+hex_add_griffon_core = { add_core = Z11 }
+hex_remove_griffon_core = { remove_core = Z11 }
+
 hex_add_lion_core = { add_core = Z12 }
 hex_remove_lion_core = { remove_core = Z12 }
+
+hex_add_owl_core = { add_core = Z13 }
+hex_remove_owl_core = { remove_core = Z13 }
+
+hex_add_panther_core = { add_core = Z14 }
+hex_remove_panther_core = { remove_core = Z14 }
+
+hex_add_prairie_dog_core = { add_core = Z15 }
+hex_remove_prairie_dog_core = { remove_core = Z15 }
+
+hex_add_rabbit_core = { add_core = Z16 }
+hex_remove_rabbit_core = { remove_core = Z16 }
+
+hex_add_wyvern_core = { add_core = Z17 }
+hex_remove_wyvern_core = { remove_core = Z17 }
+
+hex_add_wolf_core = { add_core = Z18 }
+hex_remove_wolf_core = { remove_core = Z18 }
+
+hex_add_rat_core = { add_core = Z19 }
+hex_remove_rat_core = { remove_core = Z19 }
+
+hex_add_raven_core = { add_core = Z20 }
+hex_remove_raven_core = { remove_core = Z20 }
+
+hex_add_snake_core = { add_core = Z21 }
+hex_remove_snake_core = { remove_core = Z21 }
+
+hex_add_spider_core = { add_core = Z22 }
+hex_remove_spider_core = { remove_core = Z22 }
+
+hex_add_tiger_core = { add_core = Z23 }
+hex_remove_tiger_core = { remove_core = Z23 }
+
+hex_add_toad_core = { add_core = Z24 }
+hex_remove_toad_core = { remove_core = Z24 }
