@@ -1,0 +1,12 @@
+hex_birthplace_of_guilds_institution = {
+	# TBD picture
+	tribal_development_growth = 0.5
+}
+
+hex_birthplace_of_banks_institution = {
+	# TBD picture
+}
+
+hex_birthplace_of_guards_institution = {
+	# TBD picture
+}

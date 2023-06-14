@@ -41,6 +41,13 @@ country_event = {
 		add_faction = hex_city_watch
 		add_mil_tech = 1
 		2 = { infantry = ROOT }
+
+		FROM = {
+			add_permanent_province_modifier = {
+				name = hex_birthplace_of_guards_institution
+				duration = -1
+			}
+		}
 	}
 }
 
