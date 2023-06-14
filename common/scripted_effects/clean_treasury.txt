@@ -1,0 +1,42 @@
+hex_clean_treasury = {
+	export_to_variable = {
+		which = hex_money
+		value = treasury
+	}
+
+	while = {
+		limit = { check_variable = { which = hex_money value = 1000 } }
+		add_treasury = -1000
+		subtract_variable = { which = hex_money value = 1000 }
+	}
+
+	while = {
+		limit = { check_variable = { which = hex_money value = 100 } }
+		add_treasury = -100
+		subtract_variable = { which = hex_money value = 100 }
+	}
+
+	while = {
+		limit = { check_variable = { which = hex_money value = 10 } }
+		add_treasury = -10
+		subtract_variable = { which = hex_money value = 10 }
+	}
+
+	while = {
+		limit = { check_variable = { which = hex_money value = 1 } }
+		add_treasury = -1
+		subtract_variable = { which = hex_money value = 1 }
+	}
+
+	while = {
+		limit = { check_variable = { which = hex_money value = 0.1 } }
+		add_treasury = -0.1
+		subtract_variable = { which = hex_money value = 0.1 }
+	}
+
+	while = {
+		limit = { check_variable = { which = hex_money value = 0.01 } }
+		add_treasury = -0.01
+		subtract_variable = { which = hex_money value = 0.01 }
+	}
+}

@@ -12,6 +12,7 @@ hex_setup_country = {
 		add_mil_power = -10000
 		add_war_exhaustion = -100
 
+		hex_clean_treasury = yes
 		hex_setup_vision = yes
 
 		set_country_flag = hex_setup_finished
