@@ -1,0 +1,68 @@
+namespace = hex_institution_guards_events
+
+country_event = {
+	id = hex_institution_guards_events.1
+	title = hex_institution_guards_events.1.t
+	desc = hex_institution_guards_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_FIRST_AWAKE
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		FROM = {
+			save_event_target_as = institution_origin
+		}
+	}
+
+	goto = institution_origin
+
+	option = {
+		name = hex_institution_guards_events.1.a
+		custom_tooltip = hex_institution_guards_events.1.a.tt
+
+		highlight = yes
+
+		hidden_effect = {
+			country_event = { id = hex_institution_guards_events.2 }
+		}
+	}
+
+	option = {
+		name = hex_institution_guards_events.1.b
+		custom_tooltip = hex_institution_guards_events.1.b.tt
+	}
+
+	after = {
+		add_faction = hex_city_watch
+		add_mil_tech = 1
+		2 = { infantry = ROOT }
+	}
+}
+
+country_event = {
+	id = hex_institution_guards_events.2
+	title = hex_institution_guards_events.2.t
+	desc = hex_institution_guards_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_SPEAR_AWAKE
+
+	is_triggered_only = yes
+
+	goto = institution_origin
+
+	option = {
+		name = hex_institution_guards_events.2.a
+	}
+
+	option = {
+		name = hex_institution_guards_events.2.b
+		custom_tooltip = HEX_JOIN_CITY_WATCH_TT
+
+		highlight = yes
+	}
+}

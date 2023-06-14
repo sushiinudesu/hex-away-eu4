@@ -1,0 +1,45 @@
+hex_institution_guards = {
+	bonus = {
+		yearly_army_professionalism = 0.01
+	}
+
+	trade_company_efficiency = 0
+
+	historical_start_date = "11.1.1"
+	historical_start_province = 6
+
+	history = { is_year = 11 }
+	
+	can_start = {
+		is_year = 11
+		province_id = 6
+		owned_by = A01
+	}
+
+	start_chance = 100
+	on_start = hex_institution_guards_events.1
+
+	can_embrace = { always = yes }
+
+	embracement_speed = {
+		modifier = {
+			factor = 1000
+			custom_trigger_tooltip = {
+				tooltip = HEX_GUARDS_HISTORICAL_PROVINCE
+				province_id = 6
+			}
+		}
+
+		modifier = {
+			factor = 50
+			custom_trigger_tooltip = {
+				tooltip = HEX_GUARDS_BORDER_PROVINCE
+				any_neighbor_province = {
+					hex_institution_guards = 50
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { factor = 1000 }
+}

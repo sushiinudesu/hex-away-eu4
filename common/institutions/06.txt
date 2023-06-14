@@ -1,0 +1,21 @@
+hex_institution_6 = {
+	bonus = { }
+
+	trade_company_efficiency = 0
+
+	historical_start_date = "1000.1.1"
+	historical_start_province = 1
+
+	history = { is_year = 1000 }
+	
+	can_start = { always = no }
+
+	start_chance = 100
+	# on_start = hex_institution_6_events.1
+
+	can_embrace = { always = yes }
+
+	embracement_speed = { }
+	
+	ai_will_do = { factor = 1000 }
+}

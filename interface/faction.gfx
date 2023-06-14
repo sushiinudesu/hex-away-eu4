@@ -208,4 +208,24 @@ spriteTypes = {
 		name = "GFX_faction_hex_sailors_guild"	
 		texturefile = "gfx//interface//hex_sailors_guild.dds"
 	}
+
+	spriteType = {
+		name = "GFX_faction_bg_hex_city_bank"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_hex_city_bank"	
+		texturefile = "gfx//interface//hex_city_bank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_faction_bg_hex_city_watch"	
+		texturefile = "gfx//interface//faction_blue_frame.tga"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_faction_hex_city_watch"	
+		texturefile = "gfx//interface//hex_city_watch.dds"
+	}
 }

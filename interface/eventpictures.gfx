@@ -800,4 +800,14 @@ spriteTypes = {
 		name = "HEX_EVENT_PICTURE_SEAWATCHER_AWAKE"
 		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_SEAWATCHER_AWAKE.dds"
 	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_GOLD_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_GOLD_AWAKE.dds"
+	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_SPEAR_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_SPEAR_AWAKE.dds"
+	}
 }

@@ -38,5 +38,11 @@ technology = {
 	enable = hex_unit_nature_1_tiger
 	enable = hex_unit_nature_1_toad
 
-	# enable = hex_unit_city_1_camp_guards
+}
+
+# Tech 1
+technology = {
+	year = 11
+
+	enable = hex_unit_city_1_camp_guards
 }

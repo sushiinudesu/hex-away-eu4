@@ -1,0 +1,45 @@
+hex_institution_banks = {
+	bonus = {
+		global_tax_modifier = 1
+	}
+
+	trade_company_efficiency = 0
+
+	historical_start_date = "9.1.1"
+	historical_start_province = 5
+
+	history = { is_year = 9	}
+	
+	can_start = {
+		is_year = 9
+		province_id = 5
+		owned_by = A01
+	}
+
+	start_chance = 100
+	on_start = hex_institution_banks_events.1
+
+	can_embrace = { always = yes }
+
+	embracement_speed = {
+		modifier = {
+			factor = 1000
+			custom_trigger_tooltip = {
+				tooltip = HEX_BANKS_HISTORICAL_PROVINCE
+				province_id = 5
+			}
+		}
+
+		modifier = {
+			factor = 50
+			custom_trigger_tooltip = {
+				tooltip = HEX_BANKS_BORDER_PROVINCE
+				any_neighbor_province = {
+					hex_institution_banks = 50
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { factor = 1000 }
+}

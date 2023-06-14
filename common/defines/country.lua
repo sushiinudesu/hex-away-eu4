@@ -10,6 +10,7 @@ NDefines.NCountry.COUNTRIES_GETTING_SCORE = 0
 NDefines.NCountry.DEBT_LIMIT_ADM = 0
 NDefines.NCountry.DEBT_LIMIT_DIP = 0
 NDefines.NCountry.DEBT_LIMIT_MIL = 0
+NDefines.NCountry.EMBRACE_INSTITUTION_COST = 2.5
 NDefines.NCountry.EXPLOIT_ADM_INCOME = 0
 NDefines.NCountry.EXPLOIT_COOLDOWN_MONTHS = 0
 NDefines.NCountry.EXPLOIT_DIP_SAILORS = 0
@@ -38,7 +39,7 @@ NDefines.NCountry.PROVINCE_DISCOVERY_YEARS_TECHNOLOGY = 0
 NDefines.NCountry.PS_ADD_ACCEPTED_CULTURE = 0
 NDefines.NCountry.PS_ADD_TRIBAL_LAND = 0
 NDefines.NCountry.PS_ADD_TRIBAL_LAND_EXTRA_COST_PER_PROVINCE = 0
-NDefines.NCountry.PS_ADVANCE_TECH = 0
+NDefines.NCountry.PS_ADVANCE_TECH = 1000000
 NDefines.NCountry.PS_ARTILLERY_BARRAGE = 0
 NDefines.NCountry.PS_ASSAULT = 0
 NDefines.NCountry.PS_ATTACK_NATIVES = 0
@@ -181,7 +182,6 @@ NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 100
 -- 	INSTITUTION_CAP_IMP_DEVELOPMENT = 10
 -- 	INSTITUTION_BASE_IMP_DEVELOPMENT = 30
 
--- 	EMBRACE_INSTITUTION_COST = 2.5				-- 2.5 per development (autonomy modified)
 -- 	MAXIMUM_CONDOTTIERI = 20					-- Base number of units you can rent out
 
 -- 	ALLOW_ZERO_BASE_VALUES = 0						-- Affects base tax base manpower and base production

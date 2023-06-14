@@ -1,0 +1,12 @@
+﻿l_english:
+  hex_institution_banks_events.1.t:0 "Another Invitation"
+  hex_institution_banks_events.1.d:0 ""
+  hex_institution_banks_events.1.a:0 "Accept the invitation"
+  hex_institution_banks_events.1.a.tt:0 "§MAre you sure?§!"
+  hex_institution_banks_events.1.b:0 "Throw it away"
+  hex_institution_banks_events.1.b.tt:0 "§MSounds boring...§!"
+
+  hex_institution_banks_events.2.t:0 "City Bank"
+  hex_institution_banks_events.2.d:0 ""
+  hex_institution_banks_events.2.a:0 ""
+  hex_institution_banks_events.2.b:0 ""

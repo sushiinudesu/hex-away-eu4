@@ -8,22 +8,18 @@ hex_institution_guilds = {
 	historical_start_date = "7.1.1"
 	historical_start_province = 2
 
-	history = {
-		is_year = 7
-	}
+	history = { is_year = 7 }
 	
 	can_start = {
 		is_year = 7
 		province_id = 2
-		A01 = { exists = yes }
+		owned_by = A01
 	}
 
 	start_chance = 100
 	on_start = hex_institution_guilds_events.1
 
-	can_embrace = {
-		always = yes
-	}
+	can_embrace = { always = yes }
 
 	embracement_speed = {
 		modifier = {
@@ -45,7 +41,5 @@ hex_institution_guilds = {
 		}
 	}
 	
-	ai_will_do = {
-		factor = 1000
-	}
+	ai_will_do = { factor = 1000 }
 }

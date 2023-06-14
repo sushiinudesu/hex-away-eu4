@@ -1,0 +1,17 @@
+hex_city_bank = {
+	always = yes
+	monarch_power = DIP
+
+	allow = { tag = A01 }
+
+	modifier = { }
+}
+
+hex_city_watch = {
+	always = yes
+	monarch_power = DIP
+
+	allow = { tag = A01 }
+
+	modifier = { }
+}
