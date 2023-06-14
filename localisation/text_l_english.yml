@@ -3289,8 +3289,6 @@
  defeat_saruhan_title:0 "Defeat Saruhan"
  defeat_saruhan_desc:0 "Saruhan sounds a lot like a threat to the Lords of the West. If Aragon is ever to fulfill their destiny Saruhan must be defeated."
  desc_powerful_shogun:0 "A powerful Shogun will bolster morale among his troops and attract new recruits willing to serve in his army."
- IS_RULING_FACTION:0 "§Y$FACTION$§W is the ruling faction."
- IS_NOT_RULING_FACTION:0 "§Y$FACTION$§W is not the ruling faction."
  NOMAD_COLONIST_PEACE:0 "You cannot send a colonist here while at peace with the owner"
  FACTION_CANNOT_BUILD_BUILDINGS:0 "§RThe faction currently in power doesn't allow building construction.§W"
  WT_NOMADS_WARTAX:0 "War taxes? To the horde, all taxes are war taxes!"

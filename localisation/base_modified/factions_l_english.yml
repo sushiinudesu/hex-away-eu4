@@ -1,0 +1,3 @@
+﻿l_english:
+  IS_RULING_FACTION:0 "§Y$FACTION$§W is §Gdominant§! faction in the City"
+  IS_NOT_RULING_FACTION:0 "§Y$FACTION$§W is §Rnot dominant§! faction in the City"

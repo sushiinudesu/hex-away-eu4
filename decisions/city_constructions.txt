@@ -4,16 +4,22 @@ country_decisions = {
 
 		potential = {
 			has_faction = hex_hunters_guild
-			faction_in_power = hex_hunters_guild
+			hex_loyal = { to = "Lion" }
 			17 = {
 				owned_by = ROOT
 				NOT = { has_construction = hex_building_lion_fort }
 				NOT = { has_province_flag = hex_lion_fort_flag }
-				NOT = { has_great_project = { type = hex_project_lion_fort tier = 0 } }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_lion_fort_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_lion_fort tier = 0 } }
+				}
 			}
 		}
 
-		allow = { always = yes }
+		allow = { faction_in_power = hex_hunters_guild }
 
 		effect = {
 			17 = {
@@ -33,16 +39,22 @@ country_decisions = {
 
 		potential = {
 			has_faction = hex_farmers_guild
-			faction_in_power = hex_farmers_guild
+			hex_loyal = { to = "Chef" }
 			8 = {
 				owned_by = ROOT
 				NOT = { has_construction = hex_building_first_farm }
 				NOT = { has_province_flag = hex_first_farm_flag }
-				NOT = { has_great_project = { type = hex_project_first_farm tier = 0 } }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_first_farm_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_first_farm tier = 0 } }
+				}
 			}
 		}
 
-		allow = { always = yes }
+		allow = { faction_in_power = hex_farmers_guild }
 
 		effect = {
 			8 = {
@@ -62,16 +74,22 @@ country_decisions = {
 
 		potential = {
 			has_faction = hex_builders_guild
-			faction_in_power = hex_builders_guild
+			hex_loyal = { to = "Clay" }
 			11 = {
 				owned_by = ROOT
 				NOT = { has_construction = hex_building_white_tower }
 				NOT = { has_province_flag = hex_white_tower_flag }
-				NOT = { has_great_project = { type = hex_project_white_tower tier = 0 } }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_white_tower_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_white_tower tier = 0 } }
+				}
 			}
 		}
 
-		allow = { always = yes }
+		allow = { faction_in_power = hex_builders_guild }
 
 		effect = {
 			11 = {
@@ -91,16 +109,22 @@ country_decisions = {
 
 		potential = {
 			has_faction = hex_miners_guild
-			faction_in_power = hex_miners_guild
+			hex_loyal = { to = "Longbeard" }
 			15 = {
 				owned_by = ROOT
 				NOT = { has_construction = hex_building_city_mine }
 				NOT = { has_province_flag = hex_city_mine_flag }
-				NOT = { has_great_project = { type = hex_project_city_mine tier = 0 } }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_city_mine_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_city_mine tier = 0 } }
+				}
 			}
 		}
 
-		allow = { always = yes }
+		allow = { faction_in_power = hex_miners_guild }
 
 		effect = {
 			15 = {
@@ -120,16 +144,22 @@ country_decisions = {
 
 		potential = {
 			has_faction = hex_artisan_guild
-			faction_in_power = hex_artisan_guild
+			hex_loyal = { to = "Needle" }
 			13 = {
 				owned_by = ROOT
 				NOT = { has_construction = hex_building_yarn_club }
 				NOT = { has_province_flag = hex_yarn_club_flag }
-				NOT = { has_great_project = { type = hex_project_yarn_club tier = 0 } }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_yarn_club_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_yarn_club tier = 0 } }
+				}
 			}
 		}
 
-		allow = { always = yes }
+		allow = { faction_in_power = hex_artisan_guild }
 
 		effect = {
 			13 = {
@@ -149,16 +179,22 @@ country_decisions = {
 
 		potential = {
 			has_faction = hex_sailors_guild
-			faction_in_power = hex_sailors_guild
+			hex_loyal = { to = "Seawatcher" }
 			38 = {
 				owned_by = ROOT
 				NOT = { has_construction = hex_building_salt_shipyard }
 				NOT = { has_province_flag = hex_salt_shipyard_flag }
-				NOT = { has_great_project = { type = hex_project_salt_shipyard tier = 0 } }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_salt_shipyard_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_salt_shipyard tier = 0 } }
+				}
 			}
 		}
 
-		allow = { always = yes }
+		allow = { faction_in_power = hex_sailors_guild }
 
 		effect = {
 			38 = {

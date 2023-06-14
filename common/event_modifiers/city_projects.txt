@@ -1,0 +1,11 @@
+hex_lion_fort_modifier = { fort_level = 1 }
+
+hex_first_farm_modifier = { }
+
+hex_white_tower_modifier = { }
+
+hex_city_mine_modifier = { }
+
+hex_yarn_club_modifier = { }
+
+hex_salt_shipyard_modifier = { }
