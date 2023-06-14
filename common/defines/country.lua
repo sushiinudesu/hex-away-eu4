@@ -110,6 +110,7 @@ NDefines.NCountry.TRIBE_SETTLE_DIP_COST = 0
 NDefines.NCountry.TRIBE_SETTLE_MIL_COST = 0
 NDefines.NCountry.TRIBE_STARTING_DEV = 0
 NDefines.NCountry.WAREXHAUSTION_REDUCTION = 0
+NDefines.NCountry.YEARS_OF_NATIONALISM = 0
 NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 100
 
 
@@ -389,7 +390,6 @@ NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 100
 -- 	BANKRUPTCY_COLONIAL_GROWTH_PENALTY = -200 		-- growth penalty for bankruptcy
 -- 	MAX_NATIONALISM = 10
 -- 	MIN_NATIONALISM = -30
--- 	YEARS_OF_NATIONALISM = 30 						-- _CDEF_YEARS_OF_NATIONALISM_; Years of Nationalism
 -- 	YEARS_UNTIL_BROKEN = 2 						-- _CDEF_YEARS_UNTIL_BROKEN_; Years until rebel held capital results in broken country.
 -- 	BASE_HEIR_BIRTH = 120 							-- _CDEF_BASE_HEIR_BIRTH_
 
