@@ -1,0 +1,15 @@
+nature_sprite_pack = {
+	country_trigger = {
+		OR = {
+			culture_group = hex_nature_culture_group
+			tag = REB
+		}
+	}
+
+	sprite_cavalry = {
+		0 = south_east_asian_special_CAVALRY_1
+		1 = south_east_asian_special_CAVALRY_2
+		2 = south_east_asian_special_CAVALRY_3
+		3 = south_east_asian_special_CAVALRY_3
+	}
+}

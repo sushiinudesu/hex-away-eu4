@@ -1,0 +1,31 @@
+namespace = hex_rebel_events
+
+country_event = {
+	id = hex_rebel_events.1
+	title = hex_rebel_events.1.t
+	desc = hex_rebel_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	trigger = { rebel_progress_at_least = { value = 90 } }
+
+	immediate = {
+		hidden_effect = { 
+			add_rebel_progress = { rebel_type = hex_nature_rebels value = -100 }
+		}
+	}
+
+	option = {
+		name = hex_rebel_events.1.a
+	}
+
+	after = {
+		hidden_effect = {
+			random_owned_province = {
+				hex_spawn_rebels = { type = deer size = 1 }
+			}
+		}
+	}
+}

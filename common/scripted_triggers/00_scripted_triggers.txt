@@ -1,1 +1,13 @@
 # Empty Base EU4 file to avoid warnings
+
+has_dharma_elephants_trigger = {
+	OR = {
+		has_dlc = "Dharma"
+		has_dlc = "Dharma - Indian Sultanate Pack"
+		has_dlc = "Dharma - Hindu Unit Pack"
+	}
+	OR = {
+		culture_group = hex_nature_culture_group
+		tag = REB
+	}
+}

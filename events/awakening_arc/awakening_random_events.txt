@@ -189,7 +189,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -209,9 +211,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -228,7 +228,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -248,9 +250,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -267,7 +267,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -306,7 +308,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -326,9 +330,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -345,7 +347,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -384,7 +388,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_artisan_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -404,9 +410,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -423,7 +427,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -443,9 +449,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -462,7 +466,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -482,9 +488,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -501,7 +505,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -521,9 +527,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -540,7 +544,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -560,9 +566,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -579,7 +583,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -599,9 +605,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -618,7 +622,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_builders_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -638,9 +644,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -657,7 +661,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -677,9 +683,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -696,7 +700,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -716,9 +722,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -735,7 +739,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -755,9 +761,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -774,7 +778,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -794,9 +800,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -813,7 +817,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -833,9 +839,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -852,7 +856,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_farmers_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -872,9 +878,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -891,7 +895,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -911,9 +917,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -930,7 +934,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -969,7 +975,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -989,9 +997,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1008,7 +1014,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1028,9 +1036,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1047,7 +1053,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1067,9 +1075,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1086,7 +1092,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1106,9 +1114,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1125,7 +1131,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1145,9 +1153,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1164,7 +1170,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1184,9 +1192,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1203,7 +1209,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1242,7 +1250,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1262,9 +1272,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1281,7 +1289,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1301,9 +1311,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1320,7 +1328,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_miners_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1340,9 +1350,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1359,7 +1367,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1379,9 +1389,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1398,7 +1406,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1418,9 +1428,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1437,7 +1445,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1457,9 +1467,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1476,7 +1484,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1496,9 +1506,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}
@@ -1515,7 +1523,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1554,7 +1564,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_sailors_guild influence = 1 }
+		}
 	}
 
 	option = {
@@ -1574,9 +1586,7 @@ country_event = {
 
 		highlight = yes 
 
-		hidden_effect = {
-			hidden_effect = { add_heir_claim = 1 }
-		}
+		hidden_effect = { add_heir_claim = 1 }
 
 		ai_chance = { factor = 0 }
 	}

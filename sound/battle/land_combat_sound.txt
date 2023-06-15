@@ -4,7 +4,7 @@ tag_specific_effects = {
 	cavalry = {
 		default_effect = combat_cavalry_effect
 		specific_effect_trigger = {
-			always = no
+			has_dharma_elephants_trigger = yes
 		}
 		specific_effect = combat_elephants_effect
 	}

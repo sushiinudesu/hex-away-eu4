@@ -172,6 +172,8 @@ on_monthly_pulse = {
 
 		hex_city_events.1
 		hex_city_factions_events.1
+
+		hex_rebel_events.1
 	}
 }
 

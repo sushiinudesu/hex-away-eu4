@@ -3,6 +3,11 @@ infantry = {
 }
 cavalry = {
 	factor = 1
+
+	modifier = {
+		factor = 100
+		has_dharma_elephants_trigger = yes
+	}
 }
 artillery = {
 	factor = 1
