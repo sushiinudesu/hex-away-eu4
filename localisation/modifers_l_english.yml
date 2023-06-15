@@ -27,9 +27,7 @@
  PROVINCE_TRADE_EFFICIENCY:0 "Local Trade Efficiency"
  PROVINCE_TRADE_VALUE:0 "Local Trade Power"
  MODIFIER_TRADE_STEERING:0 "Trade Steering"
- INFANTRY_POWER:0 "Infantry Combat Ability"
- CAVALRY_POWER:0 "Cavalry Combat Ability"
- ARTILLERY_POWER:0 "Artillery Combat Ability"
+
  INFANTRY_POWER_NEW:0 "Infantry Combat Ability: $VALUE$"
  CAVALRY_POWER_NEW:0 "Cavalry Combat Ability: $VALUE$"
  ARTILLERY_POWER_NEW:0 "Artillery Combat Ability: $VALUE$"
@@ -74,7 +72,6 @@
  MODIFIER_AMOUNT_OF_BANNERS:0 "Possible Manchu Banners"
  MODIFIER_LOCAL_AMOUNT_OF_BANNERS:0 "Possible Manchu Banners"
  MODIFIER_HAS_BANNERS:1 "Allows Banners"
- MODIFIER_CAV_TO_INF_RATIO:0 "Cavalry to Infantry Ratio"
  MODIFIER_INSTITUTION_GROWTH:0 "Institution Growth"
  MODIFIER_SPECIAL_UNIT_FORCELIMIT:0 "Special Unit Force Limit"
  MODIFIER_EXPAND_INFRASTRUCTURE_COST_MODIFIER:0 "Expand Infrastructure Cost Modifier"

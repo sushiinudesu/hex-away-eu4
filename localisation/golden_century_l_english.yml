@@ -436,12 +436,7 @@
  war_against_the_world_government_desc:0 "The tyrants of the world must be unseated! We can no longer tolerate kings and despots making slaves of our fellow man. And so we shall adopt a new doctrine: war against the world!"
  black_market_consortium_government:0 "Black Market Consortium"
  black_market_consortium_government_desc:0 "The pirates that run amok in the Republic cannot be trusted to bathe themselves, let alone to govern a nation whose future hands on the edge of a cutlass. A Consortium formed of the most influential black market merchants shall be established as its true governors. Profit must come before liberty."
- MODIFIER_INFANTRY_FIRE:0 "Infantry Fire"
- MODIFIER_CAVALRY_FIRE:0 "Cavalry Fire"
- MODIFIER_ARTILLERY_FIRE:0 "Artillery Fire"
- MODIFIER_INFANTRY_SHOCK:0 "Infantry Shock"
- MODIFIER_CAVALRY_SHOCK:0 "Cavalry Shock"
- MODIFIER_ARTILLERY_SHOCK:0 "Artillery Shock"
+
  shadhili_order:0 "Shadhili"
  shadhili_order_desc:0 "A Sufi order founded in Morocco, focusing on intellectual pursuits, such as literature and poetry."
  qadiri_order:0 "Qadiri"

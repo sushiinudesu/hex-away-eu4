@@ -1628,7 +1628,6 @@
  SIEGE_CAPABILITY_DESC:0 "The actual fort level that can be sieged may be lower than this depending on the defending country's garrison size modifier."
  LOOT_CAPABILITY:0 "Maximum looting per month from this army"
  LOOT_CAPABILITY_DESC:0 "The actual amount of loot may be lower than this depending on the amount of loot remaining in the province, and the presence of other looting units."
- UNIT_LOOT_EXPLANATION:0 "$COUNT$ $UNIT$ regiments looting $VAL|Y$ each = §G$LOOT$§!"
  RR_SUPPRESSION_CAPABILITY:1 "§YProvincial unrest reduction§!"
  RR_SUPPRESSION_CAPABILITY_DESC:1 "Unrest reduction from this unit standing in a province: $BASE|G$.\nUnrest can never be reduced by more than $MAX_UNREST_REDUCTION|G$ per province."
  CUSTOMIZE_SUBJECT:0 "Customize name, flag and color of your subject."

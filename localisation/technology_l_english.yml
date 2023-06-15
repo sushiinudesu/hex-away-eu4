@@ -20,12 +20,7 @@
  TACCEPTED_CULTURES:0 "Max Promoted Cultures"
  COLONIAL_GROWTH_INCREASE:0 "Settler Growth Increased by §G+$VALUE$§W.\n"
  NAVAL_MAINTENANCE_INCREASE:0 "Naval Maintenance Increased by §R+$VALUE$%§W.\n"
- INF_FIRE_INCREASE:0 "Infantry Fire: §G+$VALUE$§W\n"
- CAV_FIRE_INCREASE:0 "Cavalry Fire: §G+$VALUE$§W\n"
- ART_FIRE_INCREASE:0 "Artillery Fire: §G+$VALUE$§W\n"
- INF_SHO_INCREASE:0 "Infantry Shock: §G+$VALUE$§W\n"
- CAV_SHO_INCREASE:0 "Cavalry Shock: §G+$VALUE$§W\n"
- ART_SHO_INCREASE:0 "Artillery Shock: §G+$VALUE$§W\n"
+
  TECH_SETUP:0 "When you have increased your technology level."
  WESTERN_NAVAL_TECH:0 "Naval Units"
  TECH_HEADER:0 "$MESSENGER$"
@@ -44,8 +39,7 @@
  MESSAGE_HEAD_DIP:0 "Our Chancellor reports"
  MESSAGE_HEAD_ADM:0 "Our Steward reports"
  MESSAGE_HEAD_MIL:0 "Our Marshal reports"
- mil_tech_cs_0_name:0 "Pre-Medieval Military"
- mil_tech_cs_1_name:0 "Medieval Military"
+
  mil_tech_cs_2_name:0 "Eastern Swarm"
  mil_tech_cs_3_name:0 "Late Medieval Military"
  mil_tech_cs_4_name:0 "Pike Square"
@@ -77,8 +71,7 @@
  mil_tech_cs_30_name:0 "Impulse Warfare"
  mil_tech_cs_31_name:0 "Rifle"
  mil_tech_cs_32_name:0 "Field Howitzer"
- mil_tech_cs_0_desc:0 "The citizen soldier, the tribal warrior, essentially the non-professional. The starting point for any military."
- mil_tech_cs_1_desc:0 "The creation of a professional military class is the first step to creation of a modern army."
+
  mil_tech_cs_2_desc:0 "Charging blindly at the enemy is perhaps not the greatest tactic known to man, but it is one of the simplest to master. It is also the stepping stone to more advanced strategies."
  mil_tech_cs_3_desc:0 "By the end of the middle ages the land armies had become more professional and well organized. Better systems are in place to support the mix of levies and professional soldiers that now dominate the battle fields and the power of infantry is slowly but steadily gaining on the cavalry arm."
  mil_tech_cs_4_desc:0 "Throughout the middle ages cavalry's dominance was being challenged by disciplined pikemen. In battles such as Bannockburn or the Golden Spurs, cavalry was defeated by pikes. A combination of improved training and discipline, and the addition of swordsmen to provide close combat support has raised this formation to the peak of its efficiency."

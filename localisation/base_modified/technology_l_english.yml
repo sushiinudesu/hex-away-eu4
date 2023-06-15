@@ -3,3 +3,9 @@
   HAVE_TECHNOLOGY_GROUP:0 "In "
   FROM_TECH:0 "From Advancements: $VAL|%=+1$"
   CV_TECH_RESEARCH_MAXED:0 "No available Advancements"
+
+  mil_tech_cs_0_name:0 "The Awakening"
+  mil_tech_cs_0_desc:0 "IN THE BEGINNING THERE WAS NO WAR"
+
+  mil_tech_cs_1_name:0 "City Guards"
+  mil_tech_cs_1_desc:0 "BUT WE WANTED TO FEEL SAFE"
