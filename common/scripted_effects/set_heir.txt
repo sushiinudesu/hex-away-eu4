@@ -78,7 +78,7 @@ hex_set_heir = {
 	]
 
 	hex_set_heir_skills = yes
-	add_heir_personality = hex_awake_personality
+	add_heir_personality = hex_awakening_awake_personality
 	swap_non_generic_missions = yes
 }
 

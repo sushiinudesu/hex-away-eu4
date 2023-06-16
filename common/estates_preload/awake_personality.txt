@@ -1,7 +1,0 @@
-hex_awake_personality_modifier = {
-	modifier_definition = {
-		type = personality
-		key = hex_awake_personality_modifier
-		trigger = { always = no }
-	}
-}

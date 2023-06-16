@@ -1,0 +1,27 @@
+hex_estate_personalities_hidden = {
+	trigger = { always = no }
+
+	modifier_definition = {
+		type = personality
+		key = hex_awakening_awake_personality_modifier
+		trigger = { always = no }
+	}
+
+	modifier_definition = {
+		type = personality
+		key = hex_basis_guild_founder_personality_modifier
+		trigger = { always = no }
+	}
+
+	modifier_definition = {
+		type = personality
+		key = hex_basis_guild_member_personality_modifier
+		trigger = { always = no }
+	}
+
+	modifier_definition = {
+		type = personality
+		key = hex_basis_guildless_personality_modifier
+		trigger = { always = no }
+	}
+}

@@ -1,6 +1,6 @@
-hex_awakening_awake_personality = {
+hex_basis_guild_founder_personality = {
 	ruler_allow = {
-		allow = { always = yes }
+		allow = { always = no }
 
 		chance = {
 			modifier = {
@@ -11,7 +11,7 @@ hex_awakening_awake_personality = {
 	}
 
 	heir_allow = {
-		allow = { always = yes }
+		allow = { always = no }
 
 		chance = {
 			modifier = {
@@ -35,5 +35,5 @@ hex_awakening_awake_personality = {
 	nation_designer_cost = 0
 	static = yes
 
-	hex_awakening_awake_personality_modifier = 1
+	hex_basis_guild_founder_personality_modifier = 1
 }

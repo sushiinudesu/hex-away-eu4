@@ -38,19 +38,22 @@ country_event = {
 	}
 
 	after = {
-		FROM = {
-			add_permanent_province_modifier = {
-				name = hex_birthplace_of_guilds_institution
-				duration = -1
+		hidden_effect = {
+			FROM = {
+				add_permanent_province_modifier = {
+					name = hex_birthplace_of_guilds_institution
+					duration = -1
+				}
 			}
+	
+			hex_inner_city_area = {
+				limit = { NOT = { owned_by = ROOT } }
+				hex_add_to_city = yes
+			}
+	
+			add_government_reform = hex_city_grand_construction_reform
+			add_ruler_personality = hex_basis_guild_founder_personality
 		}
-
-		hex_inner_city_area = {
-			limit = { NOT = { owned_by = ROOT } }
-			hex_add_to_city = yes
-		}
-
-		add_government_reform = hex_city_grand_construction_reform
 	}
 }
 
