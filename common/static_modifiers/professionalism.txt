@@ -1,10 +1,24 @@
-high_army_professionalism = { }
+high_army_professionalism = {
+	garrison_size = 0.99
+	global_manpower_modifier = 1
+	global_sailors_modifier = 1
+	land_forcelimit_modifier = 1
+	land_maintenance_modifier = 1
+	naval_forcelimit_modifier = 1
+	naval_maintenance_modifier = 1
+}
 
 low_army_professionalism = {
-	global_manpower_modifier = -1
-	global_sailors_modifier = -1
-	land_forcelimit_modifier = -1
-	land_maintenance_modifier = -1
-	naval_forcelimit_modifier = -1
-	naval_maintenance_modifier = -1
+	land_maintenance_modifier = -9
+	naval_maintenance_modifier = -9
 }
+
+drilling_armies = {
+	land_maintenance_modifier = 1
+	naval_maintenance_modifier = 1
+	yearly_army_professionalism = 0.01
+}
+
+regiment_drill_modifier = { }
+
+army_drill_modifier = { }

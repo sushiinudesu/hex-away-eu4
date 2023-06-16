@@ -442,7 +442,7 @@ revolution_target = { }
 
 dishonoured_alliance =  { }
 
-drilling_armies = { }
+
 
 ##################################################################################################
 # Scripted and used from Diplomatic System
@@ -616,10 +616,6 @@ zaidi_scholar_modifier = { }
 # Regiment Types Modifiers
 ########################################
 
-regiment_drill_modifier = { }
-
-army_drill_modifier = { }
-
 janissary_regiment = { }
 
 cawa_regiment = { }
@@ -723,7 +719,6 @@ negative_imperial_authority_emperor = { }
 
 negative_imperial_authority_member = { }
 
-slackening_modifier = { }
 
 royal_council_meeting_mod = { }
 

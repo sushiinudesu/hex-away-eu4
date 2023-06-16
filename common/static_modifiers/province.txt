@@ -1,6 +1,7 @@
 capital_city = { }
 
 city = {
+	garrison_growth = 0.5
 	local_manpower_modifier = 1
 	local_sailors_modifier = 1
 	local_tax_modifier = 1

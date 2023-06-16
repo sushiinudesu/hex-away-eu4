@@ -161,8 +161,7 @@
  SCHOOL_RELATION_LIST_ENTRY:0 "$RELATION$: $SCHOOLS$\n"
  religious_school_relation:0 "Religious School Relation"
  same_religious_school_relation:0 "Same Religious School"
- low_army_professionalism:0 "Army Professionalism"
- high_army_professionalism:0 "Army Professionalism"
+
  ARMY_PROFESSIONALISM_DESC:1 "Army Professionalism is how dependent your country is on mercenary or professional armies. It increases by drilling units or recruiting generals but decreases if you recruit mercenaries."
  ARMY_PROFESSIONALISM_ICON_TIP:1 "$TITLE|Y$\nOur §YArmy Professionalism§! is currently $VAL|Y%0$, giving the following effects:\n$MOD$"
  ARMY_PROFESSIONALISM_TITLE:0 "§YArmy Professionalism§!"

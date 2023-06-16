@@ -502,9 +502,13 @@ on_raze = { }
 
 on_concentrate_development = { }
 
-on_slacken_start = { }
+on_slacken_start = {
+	add_country_modifier = { name = hex_slacken_modifier duration = -1 }
+}
 
-on_slacken_stop = { }
+on_slacken_stop = {
+	remove_country_modifier = hex_slacken_modifier
+}
 
 on_colony_finished = { }
 

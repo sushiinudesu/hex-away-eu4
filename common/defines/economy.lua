@@ -1,6 +1,9 @@
 NDefines.NEconomy.BANKRUPTCY_BUILDING_DESTRUCTION_THRESHOLD = 0
 NDefines.NEconomy.BANKRUPTCY_DURATION = 1
 NDefines.NEconomy.BANKRUPTCY_PROVINCE_DEVASTATION_GAIN = 90
+NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0
+NDefines.NEconomy.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0
+NDefines.NEconomy.NAVAL_TECH_MAINTENANCE_IMPACT = 0
 
 -- 	EDICTS_COST_INCREASE = 2.0				-- % increase on state maintenance.
 -- 	EDICTS_DURATION_MONTHS = 12				-- months lastin at least.
@@ -33,9 +36,7 @@ NDefines.NEconomy.BANKRUPTCY_PROVINCE_DEVASTATION_GAIN = 90
 -- 	INCREASE_AUTONOMY_STEP = 25
 -- 	INCREASE_AUTONOMY_MAX = 91
 -- 	AUTONOMY_CHANGE_DURATION = 10950			-- about 30 years
--- 	LAND_TECH_MAINTENANCE_IMPACT = 0.02 			-- % each tech increases it.
--- 	NAVAL_TECH_MAINTENANCE_IMPACT = 0.02 			-- % each tech increases it.
--- 	LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.08 			-- % each tech increases it.
+
 -- 	ADVISOR_COST = 1.0								-- Advisor cost modifier
 -- 	GOLD_INFLATION_THRESHOLD = 0.0					-- _EDEF_GOLD_INFLATION_THRESHOLD_
 -- 	GOLD_INFLATION = 0.5							-- _EDEF_GOLD_INFLATION_

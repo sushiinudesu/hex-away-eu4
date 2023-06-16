@@ -1,0 +1,5 @@
+hex_slacken_modifier = {
+	yearly_army_professionalism = 0.005
+	land_maintenance_modifier = 0.5
+	naval_maintenance_modifier = 0.5
+}
