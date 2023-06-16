@@ -1,3 +1,9 @@
 ﻿l_english:
   alert_high_unrest_instant:0 "§YNature Disturbance§!"
   alert_high_unrest_delayed:0 "$LIST$"
+
+  alert_corruption_growing_instant:0 "§YCorruption is growing§!"
+  alert_corruption_growing_delayed:0 "§MIt can become a trouble...§!"
+
+  alert_corruption_high_instant:0 "§RCorruption is very high§!"
+  alert_corruption_high_delayed:0 "§MSeems like you went completely mad...§!"

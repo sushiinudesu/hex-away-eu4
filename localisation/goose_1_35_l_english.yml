@@ -30,8 +30,6 @@
  SLACKEN_TOO_MUCH_MANPOWER:0 "Slackening recruitment standards was stopped because manpower pool reached §Y$VALUE$%§!."
  SLACKEN_BELOW_MIN_AP:0 "You need at least $VALUE|Y$ Army Professionalism to slacken recruiting standards!"
  SLACKEN_ABOVE_MAX_MANPOWER:0 "You need to have less than §Y$VALUE$%§! manpower pool to slacken recruiting standards!"
- SLACK_TEXT_NODROP:0 "We will slacken recruiting standards giving us the following modifier:"
- SLACKEN_STOP:0 "Stop slacken recruiting standards"
  slackening_modifier:0 "Slacken recruiting standards"
  SLACKEN_AUTODISABLE_TITLE:0 "Slacken recruiting standards was disabled!"
  SLACKEN_AUTODISABLE_SETUP:0 "When Slacken recruiting standards gets disabled."

@@ -1,0 +1,7 @@
+﻿l_english:
+  SLACKENRECRUITSTANDS:0 "§YPassive Military Training§!"
+  CONFIRM_SLACKEN:0 "Passive Military Training"
+  SLACK_TEXT:1 "Passive Military Training will §GSTART§!s"
+  SLACK_TEXT_NODROP:0 "Passive Military Training will §GSTART§!"
+  SLACKEN_STOP:0 "Passive Military Training will §RSTOP§!"
+  CANT_SLACKEN_TOO_LOW:0 ""

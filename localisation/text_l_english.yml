@@ -3401,7 +3401,6 @@
  LEDGER_TRUCE_L:0 "We have a truce with the following countries. Declaring war on these countries will be considered a particularly dastardly act by the rest of the world. In addition, our people will also grow concerned that their ruler cannot be trusted to keep his word."
  LEDGER_TRUCE_S:0 "Truce"
  CANCELMILACCNEWDESC:0 "Do you wish to cancel the military access given to us by $COUNTRY$? Doing so will prevent our troops from accessing their country."
- city:0 "City"
  PROV_BASETAX_DESCR:0 "This is the base value of tax that this province will provide when it has developed into a full-fledged city."
  NO_EFFECT:0 "No Effect"
  SMIL_CONST_TIP:0 "A §Y$TYPE$§W will be put to sea here on §Y$DATE$§W."

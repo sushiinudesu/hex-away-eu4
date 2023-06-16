@@ -1,0 +1,9 @@
+﻿l_english:
+  ARMY_PROFESSIONALISM_TITLE:0 "§YMilitary Professionalism§!"
+  ARMY_PROFESSIONALISM_DESC:0 "Military Professionalism shows the quality of your army and navy.\nYou can §YDrill Army§! or use §YPassive Military Training§! in order to get a better and bigger military.\nThis, however, comes at a cost, as a more professional military will cost more."
+  ARMY_PROFESSIONALISM_VALUE:0 "Military Professionalism: $VALUE|Y%2$"
+  ARMY_PROFESSIONALISM_YEARLY_MODIFIERS_DESC:0 "§YYearly Gain:§!\n$MODIFIER$"
+  ARMY_PROFESSIONALISM_STATIC_MODIFIERS_DESC:0 ""
+  PROFESSIONALISM_MARKER_TOOLTIP:0 "$NAME|Y$\nUnlocked at $VALUE|Y%1$ Military Professionalism"
+  MODIFIER_YEARLY_ARMY_PROFESSIONALISM:0 "Yearly Military Professionalism"
+
