@@ -1,3 +1,5 @@
+NDefines.NCountry.ADVISOR_COST_INCREASE_PER_YEAR = 0
+NDefines.NCountry.ADVISOR_CUT_OFF_AGE = 1000
 NDefines.NCountry.ADVISOR_MAX_DEFAULT_AGE = 1
 NDefines.NCountry.ADVISOR_MIN_DEFAULT_AGE = 0
 NDefines.NCountry.AGE_OF_ADULTHOOD = 0
@@ -17,7 +19,7 @@ NDefines.NCountry.EXPLOIT_COOLDOWN_MONTHS = 0
 NDefines.NCountry.EXPLOIT_DIP_SAILORS = 0
 NDefines.NCountry.EXPLOIT_MIL_MANPOWER = 0
 NDefines.NCountry.FACTION_BOOST_SIZE = 0
-NDefines.NCountry.FEMALE_ADVISOR_CHANCE = 50
+NDefines.NCountry.FEMALE_ADVISOR_CHANCE = 0
 NDefines.NCountry.FIRST_EXTRA_PERSONALITY = 100
 NDefines.NCountry.FREE_IDEA_GROUP_COST = 1
 NDefines.NCountry.HEIR_DEATH = 0
@@ -31,6 +33,9 @@ NDefines.NCountry.MAX_ARMY_PROFESSIONALISM = 1.0
 NDefines.NCountry.MAX_EXTRA_PERSONALITIES = 15
 NDefines.NCountry.MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 1
 NDefines.NCountry.MAX_QUEEN_AGE = 1000
+NDefines.NCountry.MAXIMUM_ADVISOR_SKILL = 3
+NDefines.NCountry.MINIMUM_ADVISOR_DURATION = 1000
+NDefines.NCountry.MINIMUM_ADVISOR_DURATION_CHANCE_VALUE = 1000
 NDefines.NCountry.MONARCH_DEATH = 0
 NDefines.NCountry.MONARCH_DEATH_MIN_CHANCE_MODIFIER = 0
 NDefines.NCountry.NAT_FOCUS_YEARS = 1
@@ -38,6 +43,7 @@ NDefines.NCountry.NAT_FOCUS_YEARS_RANK = 0
 NDefines.NCountry.NEW_HEIR_QUEEN_CHANCE = 0
 NDefines.NCountry.PLAYER_CAN_MOVE_FIXED_CAPITAL = 0
 NDefines.NCountry.POWER_MAX = 10000
+NDefines.NCountry.PROMOTE_COST_MONTHS_ADVISOR_SALARY = 0
 NDefines.NCountry.PROMOTE_MERCANTILISM_INCREASE = 0
 NDefines.NCountry.PROVINCE_DISCOVERY_PRESTIGE = 0
 NDefines.NCountry.PROVINCE_DISCOVERY_YEARS_RELIGION = 10000
@@ -100,6 +106,7 @@ NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0
 NDefines.NCountry.REVOLT_TECH_IMPACT = 0
 NDefines.NCountry.REVOLT_TECH_MORALE = 0
 NDefines.NCountry.ROYAL_MARRIAGE_QUEEN_CHANCE = 0
+NDefines.NCountry.SCRIPTED_ADVISOR_DISCOUNT = 0
 NDefines.NCountry.STATE_MAINTENANCE_CONTINENT_FACTOR = 0
 NDefines.NCountry.STATE_MAINTENANCE_CULTURE_FACTOR = 0
 NDefines.NCountry.STATE_MAINTENANCE_DEV_FACTOR = 0
@@ -119,6 +126,8 @@ NDefines.NCountry.UPRISING_INCREASE = 10
 NDefines.NCountry.WAREXHAUSTION_REDUCTION = 0
 NDefines.NCountry.YEARS_OF_NATIONALISM = 0
 NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 100
+
+
 
 -- 	CLEAR_PROVINCE_VARIABLES_ON_CLEAR_OWNER = 1 	--set to 0 to avoid clearing province variables when a province's owner is set to none (modder request)
 -- 	CLEAR_PROVINCE_FLAGS_ON_CLEAR_OWNER = 1	 	--set to 0 to avoid clearing province flags when a province's owner is set to none (modder request)
@@ -321,13 +330,6 @@ NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 100
 -- 	PIETY_PERCENTAGE_AT_NEW_RULER = 0.0			-- percentage of piety kept at new ruler.
 -- 	PIETY_INCREASE_AT_GOOD_WAR = 0.0
 -- 	PIETY_DECREASE_AT_BAD_WAR = -0.0
--- 	ADVISOR_COST_INCREASE_PER_YEAR = 0.005			-- yearly increase in price in percent
--- 	SCRIPTED_ADVISOR_DISCOUNT = 0.5				-- Multiplier on cost for advisors scripted with discount=yes
--- 	MINIMUM_ADVISOR_DURATION = 10 					-- _CDEF_MINIMUM_ADVISOR_DURATION_
--- 	MINIMUM_ADVISOR_DURATION_CHANCE_VALUE = 15		-- Higher value here gives lower daily death chance after MINIMUM_ADVISOR_DURATION
--- 	ADVISOR_CUT_OFF_AGE = 30 						-- _CDEF_ADVISOR_CUT_OFF_AGE = 10
--- 	MAXIMUM_ADVISOR_SKILL = 5						-- Maximum advisor skill reachable through promotion
--- 	PROMOTE_COST_MONTHS_ADVISOR_SALARY = 60.0		-- Promote advisor cost in monthly salaries
 -- 	CULTURE_LOSS_THRESHOLD = 0.10 					-- _CDEF_CULTURE_LOSS_THRESHOLD = 10
 -- 	CULTURE_GAIN_THRESHOLD = 0.20 					-- _CDEF_CULTURE_GAIN_THRESHOLD = 10
 -- 	CULTURE_COST_DIFF_ORIGINAL = -50				-- Difference in cost in percent to convert to original culture.

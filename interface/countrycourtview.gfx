@@ -354,6 +354,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/hex_loyalty_icon.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_HEX_FAMILIAR"
+		texturefile = "gfx/interface/hex_familiar_icon.dds"
+		noOfFrames = 2
+	}
 
 	# FOCUS
 
@@ -393,5 +398,20 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HEX_LUCK_ATTRIBUTE"
 		texturefile = "gfx/interface/hex_luck_attribute.dds"
+	}
+
+	spriteType = {
+		name = "GFX_HEX_FAMILIAR_POWER_ATTRIBUTE"
+		texturefile = "gfx/interface/hex_familiar_power_attribute.dds"
+	}
+
+	spriteType = {
+		name = "GFX_HEX_FAMILIAR_SENSES_ATTRIBUTE"
+		texturefile = "gfx/interface/hex_familiar_senses_attribute.dds"
+	}
+
+	spriteType = {
+		name = "GFX_HEX_FAMILIAR_TRUST_ATTRIBUTE"
+		texturefile = "gfx/interface/hex_familiar_trust_attribute.dds"
 	}
 }

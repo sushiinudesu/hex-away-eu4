@@ -1,0 +1,14 @@
+hex_trinket_obsidian_ring = {
+	monarch_power = MIL
+
+	skill_scaled_modifier = {
+		trigger = { always = yes }
+		modifier = { }
+	}
+
+	prestige = 1
+	discipline = 0.05
+
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}

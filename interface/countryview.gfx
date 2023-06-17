@@ -770,4 +770,16 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+
+	# HEX
+
+		
+	spriteType = {
+		name = "GFX_advisor_hex_trinket_obsidian_ring"
+		texturefile = "gfx//interface//advisors//hex_trinket_obsidian_ring.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 }
