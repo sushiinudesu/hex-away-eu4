@@ -699,12 +699,6 @@ tolerance_heathen = { }
 
 num_accepted_cultures = { }
 
-consort_adm = { }
-
-consort_dip = { }
-
-consort_mil = { }
-
 mandate = { }
 
 imperial_authority_emperor = { }

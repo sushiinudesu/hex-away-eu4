@@ -1,0 +1,12 @@
+﻿l_english:
+  PRINCE:0 "Familiar"
+  CONSORT:0 "Familiar"
+  CONSORT_COUNTRY_OF_ORIGIN:0 ""
+  CONSORT_TO_RULER_DESC:0 "This is your Familiar.\nA spirit animal you befriended in your adventures.\n"
+  CONSORT_CLAIM_DESC:0 "You can change it anytime via a decision."
+  consort_adm:0 "Familiar's Power"
+  consort_dip:0 "Familiar's Senses"
+  consort_mil:0 "Familiar's Trust"
+  CONSORT_ADM_EFFECT:0 "§MPower is familiar's ability to crush a tomato with you.§!\n"
+  CONSORT_DIP_EFFECT:0 "§MSenses is familiar's ability to find a tomato with you.§!\n"
+  CONSORT_MIL_EFFECT:0 "§MTrust is familiar's desire to share a tomato with you.§!\n"

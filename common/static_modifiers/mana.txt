@@ -30,3 +30,18 @@ heir_mil = {
 	tribal_development_growth = 0.01
 	yearly_corruption = 0.25
 }
+
+consort_adm = {
+	country_admin_power = 1
+	yearly_corruption = 0.1
+}
+
+consort_dip = {
+	country_diplomatic_power = 1
+	yearly_corruption = 0.1
+}
+
+consort_mil = {
+	country_military_power = 1
+	yearly_corruption = 0.1
+}

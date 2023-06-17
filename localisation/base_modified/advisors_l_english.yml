@@ -1,0 +1,7 @@
+﻿l_english:
+  NO_ADVISOR:0 "Empty Slot"
+  NO_ADVISORS:0 "No Available Items"
+  RECRUIT_ADVISOR:0 "Select Item"
+  NO_ADVISOR_HIRED:0 "You have not selected any items"
+  SELECT_ADVISOR:0 "Select Item"
+  CANT_FIRE_ADVISOR:0 "You have recently selected an item and cannot change it until "

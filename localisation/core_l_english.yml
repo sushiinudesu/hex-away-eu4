@@ -541,7 +541,6 @@
  CULTURE_CONSTRUCTIONS:0 "Culture conversions"
  CORE_CONSTRUCTIONS:0 "Core constructions"
  ADVISOR_FIRE:0 "Fire Advisor"
- NO_ADVISOR_HIRED:0 "You have not hired any $POWER$ advisor."
  ECOVIEW_MAINT_TP_PENALTY:0 "Light Ship Trade Power: $VAL$"
  HRE_VOTE_SCORE_DESC:0 "Once a month §Y$ELECTOR$§W will change who they are backing to the country with the highest vote score."
  HRE_OTHER_VOTE_SELF:0 "The Elector of §Y$ELECTOR$§W is backing themselves for the Imperial Throne."

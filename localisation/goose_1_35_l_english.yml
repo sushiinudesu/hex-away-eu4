@@ -3,9 +3,7 @@
  TRIGGER_HAS_NOT_EVER_HUMILIATED:0 "Has never humiliated $WHO|Y$"
  DIPLOMATIC_REPUTATION_EFFECT:0 "§YEffects from Diplomatic Reputation:§W"
  NUM_ACCEPTED_CULTURES_EFFECT:0 "§YEffects from the number of accepted cultures:§W"
- CONSORT_ADM_EFFECT:0 "§YEffects from consort's administrative skill:§W"
- CONSORT_DIP_EFFECT:0 "§YEffects from consort's diplomatic skill:§W"
- CONSORT_MIL_EFFECT:0 "§YEffects from consort's military skill:§W"
+
  PAPAL_INFLUENCE_EFFECT:0 "§YEffects from Papal Influence:§W"
  CHURCH_POWER_EFFECT:0 "§YEffects from Church Power:§W"
  FERVOR_VALUE_EFFECT:0 "§YEffects from Fervor:§W"
