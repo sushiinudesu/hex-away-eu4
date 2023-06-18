@@ -1,0 +1,25 @@
+hex_items_culture_group = {
+	graphical_culture = northamericagfx
+
+	hex_armor_item_culture = {
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_weapon_item_culture = {
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	hex_trinket_item_culture = {
+		male_names = { "---" }
+		female_names = { "---" }
+		dynasty_names = { "---" }
+	}
+
+	male_names = { "---" }
+	female_names = { "---" }
+	dynasty_names = { "---" }
+}

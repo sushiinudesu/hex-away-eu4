@@ -13,7 +13,17 @@ hex_setup_country = {
 		add_war_exhaustion = -100
 
 		hex_clean_treasury = yes
+		add_treasury = 1
+
 		hex_setup_vision = yes
+
+		if = {
+			limit = { ai = no }
+
+			add_item = { city_clothes = yes skill = 1 }
+			add_item = { simple_bow = yes skill = 1 }
+			add_item = { obsidian_ring = yes skill = 1 }
+		}
 
 		set_country_flag = hex_setup_finished
 	}

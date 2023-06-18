@@ -34,17 +34,6 @@ add_government_reform = hex_city_first_camp_reform
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}
-
-	queen = {
-		country_of_origin = A01
-		name = "Bear"
-		dynasty = "'the Small Cub'"
-		birth_date = 1.1.2
-		death_date = 9999.12.31
-		adm = 1
-		dip = 1
-		mil = 1
-	}
 }
 
 2.2.2 = {

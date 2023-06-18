@@ -578,7 +578,6 @@
  HAVE_LESS_TRIBE_DEVELOPMENT_THAN_COMP:0 "Have less Tribal Development than $COUNTRYNAME|Y$ ($VAL|Y$). Currently you have $CURRENT|0Y$."
  HAVE_MORE_TRIBE_DEVELOPMENT_THAN_COMP:0 "Have more Tribal Development than $COUNTRYNAME|Y$ ($VAL|Y$). Currently you have $CURRENT|0Y$."
  SETTLE:0 "Settle"
- MODIFIER_TRIBAL_DEVELOPMENT_GROWTH:0 "Tribal Development Growth"
  mechanic_allow_migration_no:0 "No longer Migratory"
  default_federation_name:0 "The $FOUNDER$ Federation"
  NATIVE_COHESION_TOOLTIP:0 "§YFederal Cohesion: $COHESION|&1$§!"

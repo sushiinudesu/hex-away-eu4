@@ -10,3 +10,6 @@
   CONSORT_ADM_EFFECT:0 "§MPower is familiar's ability to crush a tomato with you.§!\n"
   CONSORT_DIP_EFFECT:0 "§MSenses is familiar's ability to find a tomato with you.§!\n"
   CONSORT_MIL_EFFECT:0 "§MTrust is familiar's desire to share a tomato with you.§!\n"
+  NO_QUEEN:0 "No Familiar"
+  NO_QUEEN_DESC:0 "We don't have a Familiar."
+  NO_QUEEN_DESC_DELAYED:0 "You can befriend one of the Nature creaures to get a Familiar."

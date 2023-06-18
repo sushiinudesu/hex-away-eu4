@@ -773,10 +773,27 @@ spriteTypes = {
 
 	# HEX
 
+	spriteType = {
+		name = "GFX_advisor_hex_armor_city_clothes"
+		texturefile = "gfx//interface//advisors//hex_armor_city_clothes.tga"
+		noOfFrames = 1
 		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
 	spriteType = {
 		name = "GFX_advisor_hex_trinket_obsidian_ring"
 		texturefile = "gfx//interface//advisors//hex_trinket_obsidian_ring.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_hex_weapon_simple_bow"
+		texturefile = "gfx//interface//advisors//hex_weapon_simple_bow.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"

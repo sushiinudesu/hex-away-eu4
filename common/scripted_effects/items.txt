@@ -1,0 +1,23 @@
+add_item = {
+	define_advisor = {
+		skill = $skill$
+
+		[[city_clothes]
+			type = hex_armor_city_clothes
+			name = "City Clothes"
+			culture = hex_armor_item_culture
+		]
+
+		[[obsidian_ring]
+			type = hex_trinket_obsidian_ring
+			name = "Obsidian Ring"
+			culture = hex_trinket_item_culture
+		]
+
+		[[simple_bow]
+			type = hex_weapon_simple_bow
+			name = "Simple Bow"
+			culture = hex_weapon_item_culture
+		]
+	}
+}

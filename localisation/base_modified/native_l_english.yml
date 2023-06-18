@@ -12,3 +12,4 @@
   CONFIRM_SETTLE_DESC:2 "Are you sure you want to develop $PROV|Y$?"
   ADD_TRIBAL_LAND_COL_WIN:0 "Add to City"
   TRIBAL_LAND_OF:0 "\nControlled by $WHO|Y$\n"
+  MODIFIER_TRIBAL_DEVELOPMENT_GROWTH:0 "City Development Growth"

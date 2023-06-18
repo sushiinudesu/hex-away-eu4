@@ -14,19 +14,5 @@ country_event = {
 
 	option = {
 		name = hex_awakening_events.1.a
-
-		define_advisor = {
-			type = hex_trinket_obsidian_ring
-			name = "Obsidian Ring"
-			culture = hex_awake_culture
-			skill = 2
-		}
-
-		define_advisor = {
-			type = hex_trinket_obsidian_ring
-			name = "Obsidian Ring 2"
-			culture = hex_awake_culture
-			skill = 0
-		}
 	}
 }

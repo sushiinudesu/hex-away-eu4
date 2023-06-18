@@ -483,7 +483,6 @@
  NOT_HAS_GOVERNMENT_MECHANIC:0 "Government doesn't have $MECHANIC$ mechanic.\n"
  CHAR_CULTURE_CHANGE:0 "$WHO$ becomes $CUL|Y$.\n"
  CHAR_RELIGION_CHANGE:0 "$WHO$ becomes $REL|Y$.\n"
- ADVISOR_CULTURE_RELIGION:1 "$NAME|Y$ is a $CUL|Y$ $REL|Y$."
  EMBRACED:0 "Embraced"
  PRESENT:0 "Present"
  NOT_CREATED:0 "§gNot created§!"
