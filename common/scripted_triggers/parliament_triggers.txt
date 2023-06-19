@@ -1,0 +1,56 @@
+hex_can_pick_quest = {
+	num_of_owned_provinces_with = {
+		value = $difficulty$
+		is_capital = no
+	}
+}
+
+hex_quest_provinces = {
+	num_of_owned_provinces_with = {
+		value = $amount$
+		is_capital = no
+		has_seat_in_parliament = yes
+	}
+}
+
+hex_quest_steps_needed = { 
+	num_of_owned_provinces_with = {
+		value = $amount$
+		is_capital = no
+		is_backing_current_issue = yes
+	}
+}
+
+hex_can_finish_quest = {
+	if = {
+		limit = { hex_quest_provinces = { amount = 8 } }
+		hex_quest_steps_needed = { amount = 5 }
+	}
+	else_if = {
+		limit = { hex_quest_provinces = { amount = 7 } }
+		hex_quest_steps_needed = { amount = 5 }
+	}
+	else_if = {
+		limit = { hex_quest_provinces = { amount = 6 } }
+		hex_quest_steps_needed = { amount = 4 }
+	}
+	else_if = {
+		limit = { hex_quest_provinces = { amount = 5 } }
+		hex_quest_steps_needed = { amount = 3 }
+	}
+	else_if = {
+		limit = { hex_quest_provinces = { amount = 4 } }
+		hex_quest_steps_needed = { amount = 3 }
+	}
+	else_if = {
+		limit = { hex_quest_provinces = { amount = 3 } }
+		hex_quest_steps_needed = { amount = 2 }
+	}
+	else_if = {
+		limit = { hex_quest_provinces = { amount = 2 } }
+		hex_quest_steps_needed = { amount = 1 }
+	}
+	else = {
+		hex_quest_steps_needed = { amount = 1 }
+	}
+}

@@ -274,15 +274,21 @@ on_convert_by_trade_policy = { }
 
 on_province_owner_change = { }
 
-on_parliament_debate_reset = { }
-
 on_parliament_seat_given = { }
 
 on_parliament_seat_lost = { }
 
-on_parliament_debate_failed = { }
+on_parliament_debate_failed = {
+	hex_clean_quest = yes
+}
 
-on_parliament_debate_succeeded = { }
+on_parliament_debate_succeeded = {
+	hex_clean_quest = yes
+}
+
+on_parliament_debate_reset = {
+	hex_clean_quest = yes
+}
 
 on_harmonized_pagan = { }
 

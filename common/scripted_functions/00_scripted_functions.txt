@@ -162,9 +162,21 @@ can_colonize_province_siberian_frontier = {
 	}
 }
 
-can_add_seat_in_parliament = { }
+can_add_seat_in_parliament = {
+	condition = {
+		tooltip = "HEX_CANT_CHANGE_QUEST"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-can_remove_seat_in_parliament = { }
+can_remove_seat_in_parliament = {
+	condition = {
+		tooltip = "HEX_CANT_CHANGE_QUEST"
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
 can_add_estate = { }
 

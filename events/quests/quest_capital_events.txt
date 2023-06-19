@@ -1,0 +1,61 @@
+namespace = hex_quest_events
+
+country_event = {
+	id = hex_quest_events.1
+	title = hex_quest_events.1.t
+	desc = hex_quest_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_quest_events.1.a
+	}
+
+	after = {
+		hidden_effect = {
+			clr_country_flag = hex_questing
+		}
+	}
+}
+
+country_event = {
+	id = hex_quest_events.2
+	title = hex_quest_events.2.t
+	desc = hex_quest_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = { hex_can_finish_quest = no }
+			hidden_effect = {
+				random_owned_province = {
+					limit = { is_capital = yes }
+					back_current_issue = no
+				}
+			}
+		}
+	}
+
+	option = {
+		name = hex_quest_events.1.a
+
+		trigger = { hex_can_finish_quest = no }
+	}
+
+	option = {
+		name = hex_quest_events.1.b
+
+		trigger = { hex_can_finish_quest = yes }
+	}
+
+	after = {
+		hidden_effect = {
+			clr_country_flag = hex_questing
+		}
+	}
+}

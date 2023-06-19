@@ -1,0 +1,29 @@
+hex_set_quest_provinces = {
+	export_to_variable = {
+		which = hex_num_of_quest_provinces
+		value = $amount$
+	}
+
+	while = {
+		limit = { check_variable = { which = hex_num_of_quest_provinces value = 1 } }
+
+		random_owned_province = {
+			limit = { has_seat_in_parliament = no }
+			set_seat_in_parliament = yes
+		}
+
+		subtract_variable = { which = hex_num_of_quest_provinces value = 1 }
+	}
+}
+
+hex_clean_quest = {
+	every_owned_province = {
+		limit = {
+			has_seat_in_parliament = yes
+			is_capital = no
+		}
+		set_seat_in_parliament = no
+	}
+
+	clr_country_flag = hex_questing
+}

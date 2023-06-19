@@ -23,7 +23,9 @@ base_values = {
 	land_forcelimit_modifier = -1
 	land_maintenance_modifier = -1
 	manpower_recovery_speed = 11
+	max_possible_parliament_seats = 1
 	naval_forcelimit_modifier = -1
 	naval_maintenance_modifier = -1	
+	num_of_parliament_issues = 5
 	state_maintenance_modifier = -1
 }

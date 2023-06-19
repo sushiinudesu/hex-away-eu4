@@ -1,0 +1,38 @@
+hex_bribe_capital = {
+	trigger = {
+		FROM = { is_capital = yes }
+		NOT = { has_country_flag = hex_questing }
+	}
+	
+	effect = {
+		country_event = { id = hex_quest_events.2 }
+
+		hidden_effect = {
+			set_country_flag = hex_questing
+		}
+	}
+
+	chance = { factor = 1 }
+	
+	ai_will_do = { factor = 0 }
+}
+
+hex_bribe_non_capital = {
+	trigger = {
+		FROM = { NOT = { is_capital = yes } }
+		NOT = { has_country_flag = hex_questing }
+		hex_can_finish_quest = no
+	}
+	
+	effect = {
+		country_event = { id = hex_quest_events.1 }
+
+		hidden_effect = {
+			set_country_flag = hex_questing
+		}
+	}
+
+	chance = { factor = 1 }
+	
+	ai_will_do = { factor = 0 }
+}

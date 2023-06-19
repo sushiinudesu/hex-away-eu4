@@ -5,7 +5,6 @@ hex_city_rule_reform = {
 	monarchy = yes
 	native_mechanic = yes
 	has_devotion = yes
-	# has_meritocracy = yes
 
 	custom_attributes = { }
 	modifiers = {

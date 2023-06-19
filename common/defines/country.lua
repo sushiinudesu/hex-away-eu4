@@ -129,6 +129,15 @@ NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 100
 
 
 
+NDefines.NCountry.PARLIAMENT_BACKING_PERCENTAGE = 0
+NDefines.NCountry.PARLIAMENT_EFFECT_DURATION = 0
+NDefines.NCountry.PARLIAMENT_DEBATE_DURATION = 1000
+NDefines.NCountry.NUM_PARLIAMENT_ISSUES = 5
+NDefines.NCountry.PARLIAMENT_PRESTIGE_HIT = 0
+NDefines.NCountry.PARLIAMENT_CHANCE_OF_DECISION = 0
+NDefines.NCountry.PARLIAMENT_RESET_COOLDOWN = 1000
+
+
 -- 	CLEAR_PROVINCE_VARIABLES_ON_CLEAR_OWNER = 1 	--set to 0 to avoid clearing province variables when a province's owner is set to none (modder request)
 -- 	CLEAR_PROVINCE_FLAGS_ON_CLEAR_OWNER = 1	 	--set to 0 to avoid clearing province flags when a province's owner is set to none (modder request)
 -- 	CLEAR_PROVINCE_SAVED_NAMES_ON_CLEAR_OWNER = 1 	--set to 0 to avoid clearing province saved names when a province's owner is set to none (modder request)
@@ -261,14 +270,6 @@ NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 100
 -- 	ADDITIONAL_MIN_DEVELOPMENT_FOR_GOV_RANK_X = 500	-- ADDITIONAL development needed to upgrade to government rank above 3
 -- 	MAX_GOV_RANK = 3									-- Max possible is 10
 
-
--- 	PARLIAMENT_BACKING_PERCENTAGE = 25			-- average percent of seats backing an issue (0-100)
--- 	PARLIAMENT_EFFECT_DURATION = 10				-- in years
--- 	PARLIAMENT_DEBATE_DURATION = 5				-- in years
--- 	NUM_PARLIAMENT_ISSUES = 5
--- 	PARLIAMENT_PRESTIGE_HIT = -20				-- penalty if failed debate.
--- 	PARLIAMENT_CHANCE_OF_DECISION = 10			-- % Chance debate is ended after PARLIAMENT_DEBATE_DURATION
--- 	PARLIAMENT_RESET_COOLDOWN = 20				-- how long before you can use reset again for parliament decisions
 
 
 
