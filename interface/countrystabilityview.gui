@@ -1137,7 +1137,7 @@ guiTypes = {
 		{
 			name ="handlethem"
 			quadTextureSprite= "GFX_button_straight_96_32"
-			position = { x= 377 y = 35 }
+			position = { x= -10000 y = 35 }
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"
 			buttonText = "HANDLE_THEM"
