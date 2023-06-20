@@ -70,6 +70,5 @@ country_event = {
 
 	option = {
 		name = hex_institution_guilds_events.2.a
-		custom_tooltip = hex_institution_guilds_events.2.a.tt
 	}
 }

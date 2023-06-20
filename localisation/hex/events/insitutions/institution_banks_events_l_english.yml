@@ -1,12 +1,12 @@
 ﻿l_english:
   hex_institution_banks_events.1.t:0 "Another Invitation"
-  hex_institution_banks_events.1.d:0 ""
+  hex_institution_banks_events.1.d:0 "You are holding another invitation from §YFirst§!. A golden coin is attached to the letter, similar to the one you have."
   hex_institution_banks_events.1.a:0 "Accept the invitation"
   hex_institution_banks_events.1.a.tt:0 "§MAre you sure?§!"
   hex_institution_banks_events.1.b:0 "Throw it away"
   hex_institution_banks_events.1.b.tt:0 "§MSounds boring...§!"
 
   hex_institution_banks_events.2.t:0 "City Bank"
-  hex_institution_banks_events.2.d:0 ""
-  hex_institution_banks_events.2.a:0 ""
-  hex_institution_banks_events.2.b:0 ""
+  hex_institution_banks_events.2.d:0 "You enter the building described in the invitation. There aren’t many people inside - it seems you are one of the early arrivals. In the far corner you see a man hunched over the table with food.\n\n§R -Ah, hello, -§! he jumps, almost dropping his plate, when you come near. §R- You are one of the guests?§!\n\nYou nod and the man gets more relaxed. He puts the food down and carefully cleans his hands before handshake.\n\n§R- Gold, nice to meet you.§!\n\nYou two spend some time talking about the City and guilds, until it’s finally time to start the meeting.\n\n§R- I have to go, -§! says Gold. §R- But I hope we’ll see each other again, friend.§!\n\nHe disappears in the crowd and you have nothing else to do but search for a seat. Fortunately you find one available near the stage.\n\nIn a moment a group of people climbs on it, Gold among them. They start talking about a new organization that is going to streamline the system of rewards for guild work. They call it a bank and it’s going to mint a new currency - Gold Coins, similar to those everyone found in their pockets after the Awakening.\n\nYou laugh to yourself if they are named after Gold, when the man in question comes forward and introduces himself as the head of City Bank. The crowd is cheering, but you remain speechless."
+  hex_institution_banks_events.2.a:0 "I did not expect that…"
+  hex_institution_banks_events.2.b:0 "Now you have my attention!"

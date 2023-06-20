@@ -1,12 +1,12 @@
 ﻿l_english:
   hex_institution_guards_events.1.t:0 "Invited Once More"
-  hex_institution_guards_events.1.d:0 ""
+  hex_institution_guards_events.1.d:0 "You receive one more invitation from §YFirst§!. But this time it's written by another hand. There is even a signature in the shape of a spear."
   hex_institution_guards_events.1.a:0 "Accept the invitation"
   hex_institution_guards_events.1.a.tt:0 "§MThis should be fun!§!"
   hex_institution_guards_events.1.b:0 "Throw it away"
   hex_institution_guards_events.1.b.tt:0 "§MYour loss, I'll go!§!"
 
   hex_institution_guards_events.2.t:0 "City Watch"
-  hex_institution_guards_events.2.d:0 ""
-  hex_institution_guards_events.2.a:0 ""
-  hex_institution_guards_events.2.b:0 ""
+  hex_institution_guards_events.2.d:0 "§R- Hey! -§! you see someone waving at you. §R- Do you want to join City Watch?§!\n\nYou look at your invitation - undoubtedly this is the place you’re supposed to be.\n\n§R- Oh, you have the invitation, -§! the girl notices a piece of paper in your hands. §R- I wrote that! I’m Spear. Yeah, like the signature. Do you like it? I’ve spent so much time making those…§!\n\nShe keeps talking for a while and you have time to take a glance at her armor. Absolutely clean white armor shines brightly under the midday sun. White feathers adorn the shoulders, yellow fabric slips from underneath the metal. The girl herself is absolutely stunning too - golden hair moves lightly in the wind, held only by a small red pin; blue eyes sparkle as she keeps talking. Wait.. what is she talking about?\n\n§R- …So I think you would be perfect as a guard. What do you say? Should I sign you up?§!\n\nYou come back to your senses and think about your options, while Spear is impatiently waiting for your answer."
+  hex_institution_guards_events.2.a:0 "Me as a guard? Absurd!"
+  hex_institution_guards_events.2.b:0 "Sure…"
