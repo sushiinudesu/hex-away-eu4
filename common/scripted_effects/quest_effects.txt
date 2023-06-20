@@ -16,6 +16,43 @@ hex_set_quest_provinces = {
 	}
 }
 
+hex_set_random_quest_provinces = {
+	random_list = {
+		1 = {
+			trigger = { hex_can_pick_quest = { difficulty = 8 } }
+			hex_set_quest_provinces = { amount = 8 }
+		}
+		1 = {
+			trigger = { hex_can_pick_quest = { difficulty = 7 } }
+			hex_set_quest_provinces = { amount = 7 }
+		}
+		1 = {
+			trigger = { hex_can_pick_quest = { difficulty = 6 } }
+			hex_set_quest_provinces = { amount = 6 }
+		}
+		1 = {
+			trigger = { hex_can_pick_quest = { difficulty = 5 } }
+			hex_set_quest_provinces = { amount = 5 }
+		}
+		1 = {
+			trigger = { hex_can_pick_quest = { difficulty = 4 } }
+			hex_set_quest_provinces = { amount = 4 }
+		}
+		1 = {
+			trigger = { hex_can_pick_quest = { difficulty = 3 } }
+			hex_set_quest_provinces = { amount = 3 }
+		}
+		1 = {
+			trigger = { hex_can_pick_quest = { difficulty = 2 } }
+			hex_set_quest_provinces = { amount = 2 }
+		}
+		1 = {
+			trigger = { hex_can_pick_quest = { difficulty = 1 } }
+			hex_set_quest_provinces = { amount = 1 }
+		}
+	}
+}
+
 hex_clean_quest = {
 	every_owned_province = {
 		limit = {

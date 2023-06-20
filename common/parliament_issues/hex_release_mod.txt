@@ -1,14 +1,16 @@
 hex_issue_release_mod = {
 	category = 1
 
-	allow = { hex_can_pick_quest = { difficulty = 8 } }
+	allow = { hex_can_pick_quest = { difficulty = 1 } }
 	
-	on_issue_taken = { hex_set_quest_provinces = { amount = 8 } }
+	on_issue_taken = { hex_set_random_quest_provinces = yes }
 
 	effect = { }
 	
 	modifier = { }
 
+	backing_percentage = 0
+	
 	chance = { factor = 1000 }
 	
 	ai_will_do = { factor = 0 }
