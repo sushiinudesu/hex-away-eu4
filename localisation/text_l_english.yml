@@ -5725,7 +5725,6 @@
  INDEF:0 "End Of"
  ADVISOR_LOCATION:0 " in $LOCATION$"
  CREATE_ADVISOR:0 "Gain §Y$WHICH$§W ($EFFECT$).\n"
- DEFINE_ADVISOR:1 "The$CULTURE|Y$$RELIGION|Y$ $TYPE$, $NAME|Y$, joins your court.\n(Skill $SKILL|Y$, $EFFECT$)"
  DEFINE_ADVISOR2:3 "Gain a skill $SKILL|Y$ $TYPE$ ($EFFECT$)$CULTURE_TEXT$$RELIGION_TEXT$$LOCATION$."
  improve_key_defensive_position_small_title:0 "Improve defenses in $PROVINCENAME$"
  improve_key_defensive_position_small_desc:0 "The people of $PROVINCENAME$ are concerned that their defenses are inadequate in the face of a possible invasion. They are begging that the fortifications be improved."

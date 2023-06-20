@@ -1,0 +1,53 @@
+namespace = hex_awakening_events
+
+country_event = {
+	id = hex_awakening_events.1
+	title = hex_awakening_events.1.t
+	desc = hex_awakening_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_FIRST_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = { ai = no }
+
+	option = {
+		name = hex_awakening_events.1.a
+
+		hidden_effect = {
+			country_event = { id = hex_awakening_events.2 days = 5 }
+		}
+	}
+}
+
+country_event = {
+	id = hex_awakening_events.2
+	title = hex_awakening_events.2.t
+	desc = hex_awakening_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_FIRST_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = { ai = no }
+
+	option = {
+		name = hex_awakening_events.2.daggers
+
+		add_item = { camp_daggers = yes skill = 1 }
+	}
+
+	option = {
+		name = hex_awakening_events.2.handaxe
+
+		add_item = { camp_handaxe = yes skill = 1 }
+	}
+
+	option = {
+		name = hex_awakening_events.2.shortbow
+
+		add_item = { camp_shortbow = yes skill = 1 }
+	}
+}

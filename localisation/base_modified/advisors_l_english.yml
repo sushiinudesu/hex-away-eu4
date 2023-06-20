@@ -6,3 +6,4 @@
   SELECT_ADVISOR:0 "Select"
   CANT_FIRE_ADVISOR:0 "You have recently selected an item and cannot change it until "
   ADVISOR_CULTURE_RELIGION:1 "$NAME|Y$ is of $CUL|Y$ type"
+  DEFINE_ADVISOR:1 "You receive a level $SKILL|Y$$CULTURE|Y$ - $NAME|Y$.\n$EFFECT$"
