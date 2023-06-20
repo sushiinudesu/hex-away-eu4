@@ -551,3 +551,5 @@ on_royal_marriage_broken = { }
 on_alliance_created = { }
 
 on_royal_marriage = { }
+
+on_heir_disinherited = { }
