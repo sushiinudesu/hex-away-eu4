@@ -1,13 +1,10 @@
-hex_armor_city_clothes = {
+hex_armor_awakening_robes = {
 	monarch_power = ADM
 
 	skill_scaled_modifier = {
 		trigger = { always = yes }
 		modifier = { }
 	}
-
-	prestige = 1
-	discipline = 0.05
 
 	chance = { factor = 0 }
 	ai_will_do = { factor = 0 }

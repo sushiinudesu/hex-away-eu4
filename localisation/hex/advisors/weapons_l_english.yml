@@ -1,3 +1,9 @@
 ﻿l_english:
-  hex_weapon_simple_bow:0 "Simple Bow"
-  hex_weapon_simple_bow_desc:0 "You came into the World with this."
+  hex_weapon_camp_daggers:0 "Camp Daggers"
+  hex_weapon_camp_daggers_desc:0 "You came into the World with this."
+
+  hex_weapon_camp_handaxe:0 "Camp Handaxe"
+  hex_weapon_camp_handaxe_desc:0 "You came into the World with this."
+
+  hex_weapon_camp_shortbow:0 "Camp Shortbow"
+  hex_weapon_camp_shortbow_desc:0 "You came into the World with this."

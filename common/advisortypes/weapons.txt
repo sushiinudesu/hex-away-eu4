@@ -1,4 +1,4 @@
-hex_weapon_simple_bow = {
+hex_weapon_camp_daggers = {
 	monarch_power = DIP
 
 	skill_scaled_modifier = {
@@ -6,8 +6,30 @@ hex_weapon_simple_bow = {
 		modifier = { }
 	}
 
-	prestige = 1
-	discipline = 0.05
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+
+hex_weapon_camp_handaxe = {
+	monarch_power = DIP
+
+	skill_scaled_modifier = {
+		trigger = { always = yes }
+		modifier = { }
+	}
+
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+
+
+hex_weapon_camp_shortbow = {
+	monarch_power = DIP
+
+	skill_scaled_modifier = {
+		trigger = { always = yes }
+		modifier = { }
+	}
 
 	chance = { factor = 0 }
 	ai_will_do = { factor = 0 }

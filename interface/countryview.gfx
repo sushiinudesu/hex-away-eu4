@@ -774,8 +774,8 @@ spriteTypes = {
 	# HEX
 
 	spriteType = {
-		name = "GFX_advisor_hex_armor_city_clothes"
-		texturefile = "gfx//interface//advisors//hex_armor_city_clothes.tga"
+		name = "GFX_advisor_hex_armor_awakening_robes"
+		texturefile = "gfx//interface//advisors//hex_armor_awakening_robes.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -783,8 +783,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_hex_trinket_obsidian_ring"
-		texturefile = "gfx//interface//advisors//hex_trinket_obsidian_ring.tga"
+		name = "GFX_advisor_hex_trinket_gold_coin"
+		texturefile = "gfx//interface//advisors//hex_trinket_gold_coin.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -792,8 +792,26 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_hex_weapon_simple_bow"
-		texturefile = "gfx//interface//advisors//hex_weapon_simple_bow.tga"
+		name = "GFX_advisor_hex_weapon_camp_daggers"
+		texturefile = "gfx//interface//advisors//hex_weapon_camp_daggers.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_hex_weapon_camp_handaxe"
+		texturefile = "gfx//interface//advisors//hex_weapon_camp_handaxe.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_hex_weapon_camp_shortbow"
+		texturefile = "gfx//interface//advisors//hex_weapon_camp_shortbow.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"
