@@ -8,10 +8,22 @@ hex_spawn_rebels = {
 	change_culture = hex_nature_$type$_culture
 
 	add_nationalism = 10
-	spawn_rebels = {
-		type = hex_$type$_rebels
-		size = $size$
+
+	if = {
+		limit = { NOT = { fort_level = 1 }}
+		spawn_rebels = {
+			type = hex_$type$_rebels
+			size = $size$
+			win = yes
+		}
 	}
+	else = {
+		spawn_rebels = {
+			type = hex_$type$_rebels
+			size = $size$
+		}
+	}
+
 	add_nationalism = -10
 
 	change_culture = variable:prev_culture

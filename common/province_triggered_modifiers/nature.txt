@@ -1,0 +1,12 @@
+hex_overrun_by_nature = {
+	potential = { always = yes }
+
+	trigger = { controlled_by = REB }
+
+	local_garrison_size = -1
+	local_unrest = -1000
+
+	on_activation = { }
+	
+	on_deactivation = { }
+}

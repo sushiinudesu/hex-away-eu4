@@ -61,7 +61,16 @@ on_siege_won_country = { }
 
 on_siege_lost_country = { }
 
-on_siege_won_province = { }
+on_siege_won_province = {
+	if = {
+		limit = { controller = { tag = REB }}
+		add_province_triggered_modifier = hex_overrun_by_nature 
+	}
+	else_if = {
+		limit = { from = { tag = REB }}
+		remove_province_triggered_modifier = hex_overrun_by_nature 
+	}
+}
 
 on_siege_lost_province =  { }
 
