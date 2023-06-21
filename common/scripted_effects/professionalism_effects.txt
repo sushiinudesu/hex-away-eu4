@@ -1,0 +1,211 @@
+hex_increase_professionalism = {
+	if = {
+		limit = { NOT = { check_variable = { which = hex_military_professionalism value = 50 } } }
+
+		if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 49 } }
+			hex_increase_professionalism_from_to = { from = 49 to = 50 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 48 } }
+			hex_increase_professionalism_from_to = { from = 48 to = 49 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 47 } }
+			hex_increase_professionalism_from_to = { from = 47 to = 48 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 46 } }
+			hex_increase_professionalism_from_to = { from = 46 to = 47 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 45 } }
+			hex_increase_professionalism_from_to = { from = 45 to = 46 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 44 } }
+			hex_increase_professionalism_from_to = { from = 44 to = 45 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 43 } }
+			hex_increase_professionalism_from_to = { from = 43 to = 44 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 42 } }
+			hex_increase_professionalism_from_to = { from = 42 to = 43 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 41 } }
+			hex_increase_professionalism_from_to = { from = 41 to = 42 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 40 } }
+			hex_increase_professionalism_from_to = { from = 40 to = 41 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 39 } }
+			hex_increase_professionalism_from_to = { from = 39 to = 40 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 38 } }
+			hex_increase_professionalism_from_to = { from = 38 to = 39 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 37 } }
+			hex_increase_professionalism_from_to = { from = 37 to = 38 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 36 } }
+			hex_increase_professionalism_from_to = { from = 36 to = 37 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 35 } }
+			hex_increase_professionalism_from_to = { from = 35 to = 36 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 34 } }
+			hex_increase_professionalism_from_to = { from = 34 to = 35 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 33 } }
+			hex_increase_professionalism_from_to = { from = 33 to = 34 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 32 } }
+			hex_increase_professionalism_from_to = { from = 32 to = 33 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 31 } }
+			hex_increase_professionalism_from_to = { from = 31 to = 32 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 30 } }
+			hex_increase_professionalism_from_to = { from = 30 to = 31 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 29 } }
+			hex_increase_professionalism_from_to = { from = 29 to = 30 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 28 } }
+			hex_increase_professionalism_from_to = { from = 28 to = 29 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 27 } }
+			hex_increase_professionalism_from_to = { from = 27 to = 28 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 26 } }
+			hex_increase_professionalism_from_to = { from = 26 to = 27 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 25 } }
+			hex_increase_professionalism_from_to = { from = 25 to = 26 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 24 } }
+			hex_increase_professionalism_from_to = { from = 24 to = 25 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 23 } }
+			hex_increase_professionalism_from_to = { from = 23 to = 24 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 22 } }
+			hex_increase_professionalism_from_to = { from = 22 to = 23 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 21 } }
+			hex_increase_professionalism_from_to = { from = 21 to = 22 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 20 } }
+			hex_increase_professionalism_from_to = { from = 20 to = 21 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 19 } }
+			hex_increase_professionalism_from_to = { from = 19 to = 20 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 18 } }
+			hex_increase_professionalism_from_to = { from = 18 to = 19 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 17 } }
+			hex_increase_professionalism_from_to = { from = 17 to = 18 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 16 } }
+			hex_increase_professionalism_from_to = { from = 16 to = 17 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 15 } }
+			hex_increase_professionalism_from_to = { from = 15 to = 16 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 14 } }
+			hex_increase_professionalism_from_to = { from = 14 to = 15 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 13 } }
+			hex_increase_professionalism_from_to = { from = 13 to = 14 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 12 } }
+			hex_increase_professionalism_from_to = { from = 12 to = 13 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 11 } }
+			hex_increase_professionalism_from_to = { from = 11 to = 12 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 10 } }
+			hex_increase_professionalism_from_to = { from = 10 to = 11 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 9 } }
+			hex_increase_professionalism_from_to = { from = 9 to = 10 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 8 } }
+			hex_increase_professionalism_from_to = { from = 8 to = 9 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 7 } }
+			hex_increase_professionalism_from_to = { from = 7 to = 8 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 6 } }
+			hex_increase_professionalism_from_to = { from = 6 to = 7 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 5 } }
+			hex_increase_professionalism_from_to = { from = 5 to = 6 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 4 } }
+			hex_increase_professionalism_from_to = { from = 4 to = 5 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 3 } }
+			hex_increase_professionalism_from_to = { from = 3 to = 4 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 2 } }
+			hex_increase_professionalism_from_to = { from = 2 to = 3 }
+		}
+		else_if = {
+			limit = { check_variable = { which = hex_military_professionalism value = 1 } }
+			hex_increase_professionalism_from_to = { from = 1 to = 2 }
+		}
+		else = {
+			hex_increase_professionalism_from_to = { from = 0 to = 1 }
+		}
+	}
+}
+
+hex_increase_professionalism_from_to = {
+	remove_country_modifier = hex_military_professionalism_$from$
+	add_country_modifier = { name = hex_military_professionalism_$to$ duration = -1 }
+	change_variable = { which = hex_military_professionalism value = 1 }
+}

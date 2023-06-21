@@ -5,3 +5,7 @@ hex_native_mechanic_available = {
 hex_monuments_mechanic_available = {
 	has_dlc = "Leviathan"
 }
+
+hex_professionalism_mechanic_available = {
+	has_dlc = "Cradle of Civilization"
+}

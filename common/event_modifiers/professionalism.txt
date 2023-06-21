@@ -3,3 +3,513 @@ hex_slacken_modifier = {
 	land_maintenance_modifier = 0.5
 	naval_maintenance_modifier = 0.5
 }
+
+hex_military_professionalism_0 = {
+	garrison_size = 0
+	global_manpower_modifier = 0
+	global_sailors_modifier = 0
+	land_forcelimit_modifier = 0
+	land_maintenance_modifier = 0
+	naval_forcelimit_modifier = 0
+	naval_maintenance_modifier = 0
+}
+
+hex_military_professionalism_1 = {
+	garrison_size = 0.02
+	global_manpower_modifier = 0.02
+	global_sailors_modifier = 0.02
+	land_forcelimit_modifier = 0.02
+	land_maintenance_modifier = 0.02
+	naval_forcelimit_modifier = 0.02
+	naval_maintenance_modifier = 0.02
+}
+
+hex_military_professionalism_2 = {
+	garrison_size = 0.04
+	global_manpower_modifier = 0.04
+	global_sailors_modifier = 0.04
+	land_forcelimit_modifier = 0.04
+	land_maintenance_modifier = 0.04
+	naval_forcelimit_modifier = 0.04
+	naval_maintenance_modifier = 0.04
+}
+
+hex_military_professionalism_3 = {
+	garrison_size = 0.06
+	global_manpower_modifier = 0.06
+	global_sailors_modifier = 0.06
+	land_forcelimit_modifier = 0.06
+	land_maintenance_modifier = 0.06
+	naval_forcelimit_modifier = 0.06
+	naval_maintenance_modifier = 0.06
+}
+
+hex_military_professionalism_4 = {
+	garrison_size = 0.08
+	global_manpower_modifier = 0.08
+	global_sailors_modifier = 0.08
+	land_forcelimit_modifier = 0.08
+	land_maintenance_modifier = 0.08
+	naval_forcelimit_modifier = 0.08
+	naval_maintenance_modifier = 0.08
+}
+
+hex_military_professionalism_5 = {
+	garrison_size = 0.1
+	global_manpower_modifier = 0.1
+	global_sailors_modifier = 0.1
+	land_forcelimit_modifier = 0.1
+	land_maintenance_modifier = 0.1
+	naval_forcelimit_modifier = 0.1
+	naval_maintenance_modifier = 0.1
+}
+
+hex_military_professionalism_6 = {
+	garrison_size = 0.12
+	global_manpower_modifier = 0.12
+	global_sailors_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	land_maintenance_modifier = 0.12
+	naval_forcelimit_modifier = 0.12
+	naval_maintenance_modifier = 0.12
+}
+
+hex_military_professionalism_7 = {
+	garrison_size = 0.14
+	global_manpower_modifier = 0.14
+	global_sailors_modifier = 0.14
+	land_forcelimit_modifier = 0.14
+	land_maintenance_modifier = 0.14
+	naval_forcelimit_modifier = 0.14
+	naval_maintenance_modifier = 0.14
+}
+
+hex_military_professionalism_8 = {
+	garrison_size = 0.16
+	global_manpower_modifier = 0.16
+	global_sailors_modifier = 0.16
+	land_forcelimit_modifier = 0.16
+	land_maintenance_modifier = 0.16
+	naval_forcelimit_modifier = 0.16
+	naval_maintenance_modifier = 0.16
+}
+
+hex_military_professionalism_9 = {
+	garrison_size = 0.18
+	global_manpower_modifier = 0.18
+	global_sailors_modifier = 0.18
+	land_forcelimit_modifier = 0.18
+	land_maintenance_modifier = 0.18
+	naval_forcelimit_modifier = 0.18
+	naval_maintenance_modifier = 0.18
+}
+
+hex_military_professionalism_10 = {
+	garrison_size = 0.2
+	global_manpower_modifier = 0.2
+	global_sailors_modifier = 0.2
+	land_forcelimit_modifier = 0.2
+	land_maintenance_modifier = 0.2
+	naval_forcelimit_modifier = 0.2
+	naval_maintenance_modifier = 0.2
+}
+
+hex_military_professionalism_11 = {
+	garrison_size = 0.22
+	global_manpower_modifier = 0.22
+	global_sailors_modifier = 0.22
+	land_forcelimit_modifier = 0.22
+	land_maintenance_modifier = 0.22
+	naval_forcelimit_modifier = 0.22
+	naval_maintenance_modifier = 0.22
+}
+
+hex_military_professionalism_12 = {
+	garrison_size = 0.24
+	global_manpower_modifier = 0.24
+	global_sailors_modifier = 0.24
+	land_forcelimit_modifier = 0.24
+	land_maintenance_modifier = 0.24
+	naval_forcelimit_modifier = 0.24
+	naval_maintenance_modifier = 0.24
+}
+
+hex_military_professionalism_13 = {
+	garrison_size = 0.26
+	global_manpower_modifier = 0.26
+	global_sailors_modifier = 0.26
+	land_forcelimit_modifier = 0.26
+	land_maintenance_modifier = 0.26
+	naval_forcelimit_modifier = 0.26
+	naval_maintenance_modifier = 0.26
+}
+
+hex_military_professionalism_14 = {
+	garrison_size = 0.28
+	global_manpower_modifier = 0.28
+	global_sailors_modifier = 0.28
+	land_forcelimit_modifier = 0.28
+	land_maintenance_modifier = 0.28
+	naval_forcelimit_modifier = 0.28
+	naval_maintenance_modifier = 0.28
+}
+
+hex_military_professionalism_15 = {
+	garrison_size = 0.3
+	global_manpower_modifier = 0.3
+	global_sailors_modifier = 0.3
+	land_forcelimit_modifier = 0.3
+	land_maintenance_modifier = 0.3
+	naval_forcelimit_modifier = 0.3
+	naval_maintenance_modifier = 0.3
+}
+
+hex_military_professionalism_16 = {
+	garrison_size = 0.32
+	global_manpower_modifier = 0.32
+	global_sailors_modifier = 0.32
+	land_forcelimit_modifier = 0.32
+	land_maintenance_modifier = 0.32
+	naval_forcelimit_modifier = 0.32
+	naval_maintenance_modifier = 0.32
+}
+
+hex_military_professionalism_17 = {
+	garrison_size = 0.34
+	global_manpower_modifier = 0.34
+	global_sailors_modifier = 0.34
+	land_forcelimit_modifier = 0.34
+	land_maintenance_modifier = 0.34
+	naval_forcelimit_modifier = 0.34
+	naval_maintenance_modifier = 0.34
+}
+
+hex_military_professionalism_18 = {
+	garrison_size = 0.36
+	global_manpower_modifier = 0.36
+	global_sailors_modifier = 0.36
+	land_forcelimit_modifier = 0.36
+	land_maintenance_modifier = 0.36
+	naval_forcelimit_modifier = 0.36
+	naval_maintenance_modifier = 0.36
+}
+
+hex_military_professionalism_19 = {
+	garrison_size = 0.38
+	global_manpower_modifier = 0.38
+	global_sailors_modifier = 0.38
+	land_forcelimit_modifier = 0.38
+	land_maintenance_modifier = 0.38
+	naval_forcelimit_modifier = 0.38
+	naval_maintenance_modifier = 0.38
+}
+
+hex_military_professionalism_20 = {
+	garrison_size = 0.4
+	global_manpower_modifier = 0.4
+	global_sailors_modifier = 0.4
+	land_forcelimit_modifier = 0.4
+	land_maintenance_modifier = 0.4
+	naval_forcelimit_modifier = 0.4
+	naval_maintenance_modifier = 0.4
+}
+
+hex_military_professionalism_21 = {
+	garrison_size = 0.42
+	global_manpower_modifier = 0.42
+	global_sailors_modifier = 0.42
+	land_forcelimit_modifier = 0.42
+	land_maintenance_modifier = 0.42
+	naval_forcelimit_modifier = 0.42
+	naval_maintenance_modifier = 0.42
+}
+
+hex_military_professionalism_22 = {
+	garrison_size = 0.44
+	global_manpower_modifier = 0.44
+	global_sailors_modifier = 0.44
+	land_forcelimit_modifier = 0.44
+	land_maintenance_modifier = 0.44
+	naval_forcelimit_modifier = 0.44
+	naval_maintenance_modifier = 0.44
+}
+
+hex_military_professionalism_23 = {
+	garrison_size = 0.46
+	global_manpower_modifier = 0.46
+	global_sailors_modifier = 0.46
+	land_forcelimit_modifier = 0.46
+	land_maintenance_modifier = 0.46
+	naval_forcelimit_modifier = 0.46
+	naval_maintenance_modifier = 0.46
+}
+
+hex_military_professionalism_24 = {
+	garrison_size = 0.48
+	global_manpower_modifier = 0.48
+	global_sailors_modifier = 0.48
+	land_forcelimit_modifier = 0.48
+	land_maintenance_modifier = 0.48
+	naval_forcelimit_modifier = 0.48
+	naval_maintenance_modifier = 0.48
+}
+
+hex_military_professionalism_25 = {
+	garrison_size = 0.5
+	global_manpower_modifier = 0.5
+	global_sailors_modifier = 0.5
+	land_forcelimit_modifier = 0.5
+	land_maintenance_modifier = 0.5
+	naval_forcelimit_modifier = 0.5
+	naval_maintenance_modifier = 0.5
+}
+
+hex_military_professionalism_26 = {
+	garrison_size = 0.52
+	global_manpower_modifier = 0.52
+	global_sailors_modifier = 0.52
+	land_forcelimit_modifier = 0.52
+	land_maintenance_modifier = 0.52
+	naval_forcelimit_modifier = 0.52
+	naval_maintenance_modifier = 0.52
+}
+
+hex_military_professionalism_27 = {
+	garrison_size = 0.54
+	global_manpower_modifier = 0.54
+	global_sailors_modifier = 0.54
+	land_forcelimit_modifier = 0.54
+	land_maintenance_modifier = 0.54
+	naval_forcelimit_modifier = 0.54
+	naval_maintenance_modifier = 0.54
+}
+
+hex_military_professionalism_28 = {
+	garrison_size = 0.56
+	global_manpower_modifier = 0.56
+	global_sailors_modifier = 0.56
+	land_forcelimit_modifier = 0.56
+	land_maintenance_modifier = 0.56
+	naval_forcelimit_modifier = 0.56
+	naval_maintenance_modifier = 0.56
+}
+
+hex_military_professionalism_29 = {
+	garrison_size = 0.58
+	global_manpower_modifier = 0.58
+	global_sailors_modifier = 0.58
+	land_forcelimit_modifier = 0.58
+	land_maintenance_modifier = 0.58
+	naval_forcelimit_modifier = 0.58
+	naval_maintenance_modifier = 0.58
+}
+
+hex_military_professionalism_30 = {
+	garrison_size = 0.6
+	global_manpower_modifier = 0.6
+	global_sailors_modifier = 0.6
+	land_forcelimit_modifier = 0.6
+	land_maintenance_modifier = 0.6
+	naval_forcelimit_modifier = 0.6
+	naval_maintenance_modifier = 0.6
+}
+
+hex_military_professionalism_31 = {
+	garrison_size = 0.62
+	global_manpower_modifier = 0.62
+	global_sailors_modifier = 0.62
+	land_forcelimit_modifier = 0.62
+	land_maintenance_modifier = 0.62
+	naval_forcelimit_modifier = 0.62
+	naval_maintenance_modifier = 0.62
+}
+
+hex_military_professionalism_32 = {
+	garrison_size = 0.64
+	global_manpower_modifier = 0.64
+	global_sailors_modifier = 0.64
+	land_forcelimit_modifier = 0.64
+	land_maintenance_modifier = 0.64
+	naval_forcelimit_modifier = 0.64
+	naval_maintenance_modifier = 0.64
+}
+
+hex_military_professionalism_33 = {
+	garrison_size = 0.66
+	global_manpower_modifier = 0.66
+	global_sailors_modifier = 0.66
+	land_forcelimit_modifier = 0.66
+	land_maintenance_modifier = 0.66
+	naval_forcelimit_modifier = 0.66
+	naval_maintenance_modifier = 0.66
+}
+
+hex_military_professionalism_34 = {
+	garrison_size = 0.68
+	global_manpower_modifier = 0.68
+	global_sailors_modifier = 0.68
+	land_forcelimit_modifier = 0.68
+	land_maintenance_modifier = 0.68
+	naval_forcelimit_modifier = 0.68
+	naval_maintenance_modifier = 0.68
+}
+
+hex_military_professionalism_35 = {
+	garrison_size = 0.7
+	global_manpower_modifier = 0.7
+	global_sailors_modifier = 0.7
+	land_forcelimit_modifier = 0.7
+	land_maintenance_modifier = 0.7
+	naval_forcelimit_modifier = 0.7
+	naval_maintenance_modifier = 0.7
+}
+
+hex_military_professionalism_36 = {
+	garrison_size = 0.72
+	global_manpower_modifier = 0.72
+	global_sailors_modifier = 0.72
+	land_forcelimit_modifier = 0.72
+	land_maintenance_modifier = 0.72
+	naval_forcelimit_modifier = 0.72
+	naval_maintenance_modifier = 0.72
+}
+
+hex_military_professionalism_37 = {
+	garrison_size = 0.74
+	global_manpower_modifier = 0.74
+	global_sailors_modifier = 0.74
+	land_forcelimit_modifier = 0.74
+	land_maintenance_modifier = 0.74
+	naval_forcelimit_modifier = 0.74
+	naval_maintenance_modifier = 0.74
+}
+
+hex_military_professionalism_38 = {
+	garrison_size = 0.76
+	global_manpower_modifier = 0.76
+	global_sailors_modifier = 0.76
+	land_forcelimit_modifier = 0.76
+	land_maintenance_modifier = 0.76
+	naval_forcelimit_modifier = 0.76
+	naval_maintenance_modifier = 0.76
+}
+
+hex_military_professionalism_39 = {
+	garrison_size = 0.78
+	global_manpower_modifier = 0.78
+	global_sailors_modifier = 0.78
+	land_forcelimit_modifier = 0.78
+	land_maintenance_modifier = 0.78
+	naval_forcelimit_modifier = 0.78
+	naval_maintenance_modifier = 0.78
+}
+
+hex_military_professionalism_40 = {
+	garrison_size = 0.8
+	global_manpower_modifier = 0.8
+	global_sailors_modifier = 0.8
+	land_forcelimit_modifier = 0.8
+	land_maintenance_modifier = 0.8
+	naval_forcelimit_modifier = 0.8
+	naval_maintenance_modifier = 0.8
+}
+
+hex_military_professionalism_41 = {
+	garrison_size = 0.82
+	global_manpower_modifier = 0.82
+	global_sailors_modifier = 0.82
+	land_forcelimit_modifier = 0.82
+	land_maintenance_modifier = 0.82
+	naval_forcelimit_modifier = 0.82
+	naval_maintenance_modifier = 0.82
+}
+
+hex_military_professionalism_42 = {
+	garrison_size = 0.84
+	global_manpower_modifier = 0.84
+	global_sailors_modifier = 0.84
+	land_forcelimit_modifier = 0.84
+	land_maintenance_modifier = 0.84
+	naval_forcelimit_modifier = 0.84
+	naval_maintenance_modifier = 0.84
+}
+
+hex_military_professionalism_43 = {
+	garrison_size = 0.86
+	global_manpower_modifier = 0.86
+	global_sailors_modifier = 0.86
+	land_forcelimit_modifier = 0.86
+	land_maintenance_modifier = 0.86
+	naval_forcelimit_modifier = 0.86
+	naval_maintenance_modifier = 0.86
+}
+
+hex_military_professionalism_44 = {
+	garrison_size = 0.88
+	global_manpower_modifier = 0.88
+	global_sailors_modifier = 0.88
+	land_forcelimit_modifier = 0.88
+	land_maintenance_modifier = 0.88
+	naval_forcelimit_modifier = 0.88
+	naval_maintenance_modifier = 0.88
+}
+
+hex_military_professionalism_45 = {
+	garrison_size = 0.9
+	global_manpower_modifier = 0.9
+	global_sailors_modifier = 0.9
+	land_forcelimit_modifier = 0.9
+	land_maintenance_modifier = 0.9
+	naval_forcelimit_modifier = 0.9
+	naval_maintenance_modifier = 0.9
+}
+
+hex_military_professionalism_46 = {
+	garrison_size = 0.92
+	global_manpower_modifier = 0.92
+	global_sailors_modifier = 0.92
+	land_forcelimit_modifier = 0.92
+	land_maintenance_modifier = 0.92
+	naval_forcelimit_modifier = 0.92
+	naval_maintenance_modifier = 0.92
+}
+
+hex_military_professionalism_47 = {
+	garrison_size = 0.94
+	global_manpower_modifier = 0.94
+	global_sailors_modifier = 0.94
+	land_forcelimit_modifier = 0.94
+	land_maintenance_modifier = 0.94
+	naval_forcelimit_modifier = 0.94
+	naval_maintenance_modifier = 0.94
+}
+
+hex_military_professionalism_48 = {
+	garrison_size = 0.96
+	global_manpower_modifier = 0.96
+	global_sailors_modifier = 0.96
+	land_forcelimit_modifier = 0.96
+	land_maintenance_modifier = 0.96
+	naval_forcelimit_modifier = 0.96
+	naval_maintenance_modifier = 0.96
+}
+
+hex_military_professionalism_49 = {
+	garrison_size = 0.98
+	global_manpower_modifier = 0.98
+	global_sailors_modifier = 0.98
+	land_forcelimit_modifier = 0.98
+	land_maintenance_modifier = 0.98
+	naval_forcelimit_modifier = 0.98
+	naval_maintenance_modifier = 0.98
+}
+
+hex_military_professionalism_50 = {
+	garrison_size = 0.99
+	global_manpower_modifier = 1
+	global_sailors_modifier = 1
+	land_forcelimit_modifier = 1
+	land_maintenance_modifier = 1
+	naval_forcelimit_modifier = 1
+	naval_maintenance_modifier = 1
+}
