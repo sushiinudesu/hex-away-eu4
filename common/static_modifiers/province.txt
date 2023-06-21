@@ -13,6 +13,7 @@ colonial_core = {
 }
 
 development = {
+	local_defensiveness = 1
 	fort_level = 0.1
 }
 

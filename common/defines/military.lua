@@ -28,7 +28,10 @@ NDefines.NMilitary.LEADER_MAX_RANDOM_DAYS = 1
 NDefines.NMilitary.LEADER_WORK_YEARS_DEATH_FACTOR = 1000000
 NDefines.NMilitary.LEADER_AGE_DEATH_FACTOR = 1000000
 
-
+NDefines.NMilitary.GARRISON_SIZE = 1000
+NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 3
+NDefines.NMilitary.SIEGE_GARRISON_SURRENDER = 100
+NDefines.NMilitary.DAYS_PER_SIEGE_PHASE = 1
 
 -- 	DEVELOPMENT_FOR_BLOCKADE_COST = 0.5
 -- 	COAST_RAID_RANGE = 2							-- default coastal raid range
@@ -82,10 +85,9 @@ NDefines.NMilitary.LEADER_AGE_DEATH_FACTOR = 1000000
 -- 	SIEGE_WIN = 20
 -- 	UNLOAD_COST_FRIENDLY = 12						-- cost to unload to friendly territory
 -- 	UNLOAD_COST_ENEMY = 36							-- cost to hostile.
--- 	GARRISON_SIZE = 1000 							-- GARRISON_SIZE
--- 	SIEGE_FORCE_NEEDED_MULTIPLIER = 3				-- x times garrison to be able to siege.
+
 -- 	MAX_BREACH = 3
--- 	SIEGE_GARRISON_SURRENDER = 100					-- A siege ends when there is less than 100 defenders left.
+
 -- 	ASSAULT_WIDTH_LIMIT = 5						-- how many times the garrison size that can effectively assault at the same time.
 -- 	ASSAULT_ATTACKER_LOSS = 1.0 					-- MDEF_ASSAULT_ATTACKER_LOSS = 10
 -- 	ASSAULT_DEFENDER_LOSS = 0.05 					-- _MDEF_ASSAULT_DEFENDER_LOSS = 10
@@ -163,7 +165,6 @@ NDefines.NMilitary.LEADER_AGE_DEATH_FACTOR = 1000000
 -- 	WAR_ENTHUSIASM_HIGH_THRESHOLD = -20			-- desire for peace must be less than this for high war enthuasiasm
 -- 	WAR_ENTHUSIASM_LOW_THRESHOLD = 0				-- desire for peace must be more than this for low war enthusiasm
 -- 	EXPLORATION_TRAVEL_TIME = 3					-- Multiplier for travel time when exploring
---  NMilitary.DAYS_PER_SIEGE_PHASE = 30						-- How many days each siege phase lasts
 
 -- 	BLOCKADE_FACTOR = 3								-- (Total sail speed / blockade_factor) * blockade_efficiency / province development
 -- 	REBEL_RELOCATION_TIME = 2.0						-- How long time it takes for rebels to relocate from island
