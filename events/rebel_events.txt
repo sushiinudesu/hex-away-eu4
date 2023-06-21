@@ -7,6 +7,7 @@ country_event = {
 	
 	picture = HEX_EVENT_PICTURE_EMPTY
 
+	hidden = yes
 	is_triggered_only = yes
 
 	trigger = { rebel_progress_at_least = { value = 90 } }
@@ -19,13 +20,646 @@ country_event = {
 
 	option = {
 		name = hex_rebel_events.1.a
+
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					NOT = { controlled_by = REB }
+					is_capital = no
+				}
+
+				random_list = {
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.2 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.3 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.4 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.5 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.6 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.7 days = 1 }
+					}
+	
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.8 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.9 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.10 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.11 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.12 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.13 days = 1 }
+					}
+	
+	
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.14 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.15 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.16 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.17 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.18 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.19 days = 1 }
+					}
+	
+	
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.20 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.21 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.22 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.23 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.24 days = 1 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.25 days = 1 }
+					}		
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.2
+	title = hex_rebel_events.2.t
+	desc = hex_rebel_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.2.a
+
+		ai_chance = { factor = 1 }
 	}
 
 	after = {
 		hidden_effect = {
-			random_owned_province = {
-				hex_spawn_rebels = { type = deer size = 1 }
-			}
+			hex_spawn_rebels = { type = badger size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.3
+	title = hex_rebel_events.3.t
+	desc = hex_rebel_events.3.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.3.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = bat size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.4
+	title = hex_rebel_events.4.t
+	desc = hex_rebel_events.4.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.4.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = bear size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.5
+	title = hex_rebel_events.5.t
+	desc = hex_rebel_events.5.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.5.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = boar size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.6
+	title = hex_rebel_events.6.t
+	desc = hex_rebel_events.6.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.6.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = cat size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.7
+	title = hex_rebel_events.7.t
+	desc = hex_rebel_events.7.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.7.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = crab size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.8
+	title = hex_rebel_events.8.t
+	desc = hex_rebel_events.8.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.8.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = deer size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.9
+	title = hex_rebel_events.9.t
+	desc = hex_rebel_events.9.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.9.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = elephant size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.10
+	title = hex_rebel_events.10.t
+	desc = hex_rebel_events.10.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.10.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = fox size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.11
+	title = hex_rebel_events.11.t
+	desc = hex_rebel_events.11.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.11.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = goat size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.12
+	title = hex_rebel_events.12.t
+	desc = hex_rebel_events.12.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.12.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = griffon size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.13
+	title = hex_rebel_events.13.t
+	desc = hex_rebel_events.13.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.13.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = lion size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.14
+	title = hex_rebel_events.14.t
+	desc = hex_rebel_events.14.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.14.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = owl size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.15
+	title = hex_rebel_events.15.t
+	desc = hex_rebel_events.15.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.15.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = panther size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.16
+	title = hex_rebel_events.16.t
+	desc = hex_rebel_events.16.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.16.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = prairie_dog size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.17
+	title = hex_rebel_events.17.t
+	desc = hex_rebel_events.17.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.17.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = rabbit size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.18
+	title = hex_rebel_events.18.t
+	desc = hex_rebel_events.18.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.18.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = wyvern size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.19
+	title = hex_rebel_events.19.t
+	desc = hex_rebel_events.19.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.19.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = wolf size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.20
+	title = hex_rebel_events.20.t
+	desc = hex_rebel_events.20.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.20.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = rat size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.21
+	title = hex_rebel_events.21.t
+	desc = hex_rebel_events.21.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.21.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = raven size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.22
+	title = hex_rebel_events.22.t
+	desc = hex_rebel_events.22.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.22.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = snake size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.23
+	title = hex_rebel_events.23.t
+	desc = hex_rebel_events.23.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.23.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = spider size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.24
+	title = hex_rebel_events.24.t
+	desc = hex_rebel_events.24.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.24.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = tiger size = 1 }
+		}
+	}
+}
+
+province_event = {
+	id = hex_rebel_events.25
+	title = hex_rebel_events.25.t
+	desc = hex_rebel_events.25.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_rebel_events.25.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			hex_spawn_rebels = { type = toad size = 1 }
 		}
 	}
 }
