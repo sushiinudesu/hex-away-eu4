@@ -9,3 +9,51 @@ hex_trinket_gold_coin = {
 	chance = { factor = 0 }
 	ai_will_do = { factor = 0 }
 }
+
+hex_trinket_blue_pot = {
+	monarch_power = MIL
+
+	skill_scaled_modifier = {
+		trigger = { always = yes }
+		modifier = { }
+	}
+
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+
+hex_trinket_tiny_bell = {
+	monarch_power = MIL
+
+	skill_scaled_modifier = {
+		trigger = { always = yes }
+		modifier = { }
+	}
+
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+
+hex_trinket_red_geode = {
+	monarch_power = MIL
+
+	skill_scaled_modifier = {
+		trigger = { always = yes }
+		modifier = { }
+	}
+
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}
+
+hex_trinket_black_pearl = {
+	monarch_power = MIL
+
+	skill_scaled_modifier = {
+		trigger = { always = yes }
+		modifier = { }
+	}
+
+	chance = { factor = 0 }
+	ai_will_do = { factor = 0 }
+}

@@ -8,6 +8,18 @@ add_item = {
 			culture = hex_armor_item_culture
 		]
 
+		[[black_pearl]
+			type = hex_trinket_black_pearl
+			name = "Black Pearl"
+			culture = hex_trinket_item_culture
+		]
+
+		[[blue_pot]
+			type = hex_trinket_blue_pot
+			name = "Blue Pot"
+			culture = hex_trinket_item_culture
+		]
+
 		[[camp_daggers]
 			type = hex_weapon_camp_daggers
 			name = "Camp Daggers"
@@ -28,7 +40,19 @@ add_item = {
 
 		[[gold_coin]
 			type = hex_trinket_gold_coin
-			name = "Obsidian Ring"
+			name = "Gold Coin"
+			culture = hex_trinket_item_culture
+		]
+
+		[[red_geode]
+			type = hex_trinket_red_geode
+			name = "Red Geode"
+			culture = hex_trinket_item_culture
+		]
+
+		[[tiny_bell]
+			type = hex_trinket_tiny_bell
+			name = "Tiny Bell"
 			culture = hex_trinket_item_culture
 		]
 	}

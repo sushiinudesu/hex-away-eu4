@@ -290,7 +290,7 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = {
-			# TBD
+			add_item = { blue_pot = yes skill = 1 }
 		}
 
 		ai_chance = { factor = 0 }
@@ -370,7 +370,7 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = {
-			# TBD
+			add_item = { tiny_bell = yes skill = 1 }
 		}
 
 		ai_chance = { factor = 0 }
@@ -1232,7 +1232,7 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = {
-			# TBD
+			add_item = { red_geode = yes skill = 1 }
 		}
 
 		ai_chance = { factor = 0 }
@@ -1546,7 +1546,7 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = {
-			# TBD
+			add_item = { black_pearl = yes skill = 1 }
 		}
 
 		ai_chance = { factor = 0 }

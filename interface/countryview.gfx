@@ -817,4 +817,40 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+
+	spriteType = {
+		name = "GFX_advisor_hex_trinket_blue_pot"
+		texturefile = "gfx//interface//advisors//hex_trinket_blue_pot.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_hex_trinket_tiny_bell"
+		texturefile = "gfx//interface//advisors//hex_trinket_tiny_bell.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_hex_trinket_red_geode"
+		texturefile = "gfx//interface//advisors//hex_trinket_red_geode.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_hex_trinket_black_pearl"
+		texturefile = "gfx//interface//advisors//hex_trinket_black_pearl.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 }

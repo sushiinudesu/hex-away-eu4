@@ -1,3 +1,15 @@
 ﻿l_english:
   hex_trinket_gold_coin:0 "Gold Coin"
   hex_trinket_gold_coin_desc:0 "You came into the World with this in your pockets."
+
+  hex_trinket_blue_pot:0 "Blue Pot"
+  hex_trinket_blue_pot_desc:0 "You found at pot maker with Needle."
+
+  hex_trinket_tiny_bell:0 "Tiny Bell"
+  hex_trinket_tiny_bell_desc:0 "You snatched it from Needle's dress."
+
+  hex_trinket_red_geode:0 "Red Geode"
+  hex_trinket_red_geode_desc:0 "Longbeard found this geode on a bet."
+
+  hex_trinket_black_pearl:0 "Black Pearl"
+  hex_trinket_black_pearl_desc:0 "You decided to keep it ignoring Seawatcher's warning."
