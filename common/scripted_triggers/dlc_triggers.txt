@@ -9,3 +9,7 @@ hex_monuments_mechanic_available = {
 hex_professionalism_mechanic_available = {
 	has_dlc = "Cradle of Civilization"
 }
+
+hex_consorts_mechanic_available = {
+	has_dlc = "Rights of Man"
+}

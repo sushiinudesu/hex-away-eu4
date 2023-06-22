@@ -5,6 +5,7 @@ hex_slacken_modifier = {
 }
 
 hex_military_professionalism_0 = {
+	# TBD picture
 	garrison_size = 0
 	global_manpower_modifier = 0
 	global_sailors_modifier = 0

@@ -1,0 +1,3 @@
+hex_familiar_bear_cub = {
+	# TBD picture
+}

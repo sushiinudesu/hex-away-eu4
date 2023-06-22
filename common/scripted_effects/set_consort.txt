@@ -1,0 +1,23 @@
+hex_set_familiar = {
+	if = {
+		limit = { hex_consorts_mechanic_available = yes }
+
+		[[bear_cub]
+			define_consort = {
+				name = "Bear"
+				country_of_origin = ROOT
+				dynasty = "'the Small Cub"
+				culture = hex_nature_bear_culture
+				adm = 1
+				dip = 1
+				mil = 1
+			}
+		]
+	}
+
+	else = {
+		[[bear_cub]
+			add_country_modifier = { name = hex_familiar_bear_cub duration = -1 }
+		]
+	}
+}

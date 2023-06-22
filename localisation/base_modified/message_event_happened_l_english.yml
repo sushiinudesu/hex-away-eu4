@@ -1,0 +1,12 @@
+﻿l_english:
+  EVENTHAPPENUS_TITLE:0 "New Event"
+  EVENTHAPPENUS_SETUP:0 "When an event happens."
+  EVENTHAPPENUS_HEADER:0 "§MMagpie News§!"
+
+  EVENTHAPPENUS_1:0 "New Event "
+  EVENTHAPPENUS_2:0 "You have a new event -"
+  EVENTHAPPENUS_3:0 "$EVENT|Y$"
+
+  EVENTHAPPENUS_LOG:0 "New Event - '$EVENT|Y$'"
+  EVENTHAPPENUS_BTN1:0 "OK"
+  EVENTHAPPENUS_BTN2:0 "OK"

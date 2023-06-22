@@ -957,7 +957,7 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = {
-			# TBD
+			hex_set_familiar = { bear_cub = yes }
 		}
 
 		ai_chance = { factor = 0 }

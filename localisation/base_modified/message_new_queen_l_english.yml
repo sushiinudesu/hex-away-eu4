@@ -1,0 +1,18 @@
+﻿l_english:
+  NEWQUEEN_TITLE:0 "New Familiar"
+  NEWQUEEN_SETUP:0 "When you change your Familiar."
+  NEWQUEEN_HEADER:0 "§MMagpie News§!"
+
+  NEWQUEEN_1:0 "New Familiar"
+  NEWQUEEN_2:0 "You chose"
+  NEWQUEEN_3:0 "$QUEENNAME|Y$"
+  NEWQUEEN_4:0 "to be your Familair."
+
+  NEWQUEEN_LOG:0 "$QUEENNAME$ is selected as Familiar."
+  NEWQUEEN_BTN1:0 "OK"
+  NEWQUEEN_BTN2:0 "OK"
+  NEWQUEEN_BTN3:0 "Go to"
+
+  NEWQUEEN_MAP:0 "Until death do us apart."
+  NEWQUEEN_NAME_1:0 "$STATS$"
+  NEWQUEEN_NAME_2:0 "$COUNTRY$ has a new $QUEENPRINCE$. $PRONOUN$ shall be called:"
