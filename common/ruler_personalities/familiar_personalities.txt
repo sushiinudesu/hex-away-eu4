@@ -1,0 +1,19 @@
+hex_familiar_bear_personality = {
+	ruler_allow = {
+		allow = { always = no }
+		chance = { modifier = { factor = 0 always = yes } }
+	}
+
+	heir_allow = {
+		allow = { always = no }
+		chance = { modifier = { factor = 0 always = yes } }
+	}
+
+	consort_allow = {
+		allow = { always = yes }
+		chance = { modifier = { factor = 1 always = yes } }
+	}
+
+	nation_designer_cost = 0
+	static = yes
+}

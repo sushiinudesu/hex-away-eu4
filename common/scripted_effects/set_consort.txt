@@ -12,6 +12,7 @@ hex_set_familiar = {
 				dip = 1
 				mil = 1
 			}
+			add_queen_personality = hex_familiar_bear_personality
 		]
 	}
 
