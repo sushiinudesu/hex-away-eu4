@@ -19,35 +19,35 @@ hex_set_quest_provinces = {
 hex_set_random_quest_provinces = {
 	random_list = {
 		1 = {
-			trigger = { hex_can_pick_quest = { difficulty = 8 } }
+			trigger = { hex_can_pick_quest = { amount = 15 } }
 			hex_set_quest_provinces = { amount = 8 }
 		}
 		1 = {
-			trigger = { hex_can_pick_quest = { difficulty = 7 } }
+			trigger = { hex_can_pick_quest = { amount = 13 } }
 			hex_set_quest_provinces = { amount = 7 }
 		}
 		1 = {
-			trigger = { hex_can_pick_quest = { difficulty = 6 } }
+			trigger = { hex_can_pick_quest = { amount = 11 } }
 			hex_set_quest_provinces = { amount = 6 }
 		}
 		1 = {
-			trigger = { hex_can_pick_quest = { difficulty = 5 } }
+			trigger = { hex_can_pick_quest = { amount = 9 } }
 			hex_set_quest_provinces = { amount = 5 }
 		}
 		1 = {
-			trigger = { hex_can_pick_quest = { difficulty = 4 } }
+			trigger = { hex_can_pick_quest = { amount = 7 } }
 			hex_set_quest_provinces = { amount = 4 }
 		}
 		1 = {
-			trigger = { hex_can_pick_quest = { difficulty = 3 } }
+			trigger = { hex_can_pick_quest = { amount = 5 } }
 			hex_set_quest_provinces = { amount = 3 }
 		}
 		1 = {
-			trigger = { hex_can_pick_quest = { difficulty = 2 } }
+			trigger = { hex_can_pick_quest = { amount = 3 } }
 			hex_set_quest_provinces = { amount = 2 }
 		}
 		1 = {
-			trigger = { hex_can_pick_quest = { difficulty = 1 } }
+			trigger = { hex_can_pick_quest = { amount = 1 } }
 			hex_set_quest_provinces = { amount = 1 }
 		}
 	}
@@ -63,4 +63,28 @@ hex_clean_quest = {
 	}
 
 	clr_country_flag = hex_questing
+}
+
+hex_quest_payment = {
+	custom_tooltip = HEX_QUEST_PAYMENT_TT
+	if = {
+		limit = { hex_quest_steps_needed = { amount = 5 } }
+		add_treasury = 50
+	}
+	else_if = {
+		limit = { hex_quest_steps_needed = { amount = 4 } }
+		add_treasury = 40
+	}
+	else_if = {
+		limit = { hex_quest_steps_needed = { amount = 3 } }
+		add_treasury = 30
+	}
+	else_if = {
+		limit = { hex_quest_steps_needed = { amount = 2 } }
+		add_treasury = 20
+	}
+	else_if = {
+		limit = { hex_quest_steps_needed = { amount = 1 } }
+		add_treasury = 10
+	}
 }

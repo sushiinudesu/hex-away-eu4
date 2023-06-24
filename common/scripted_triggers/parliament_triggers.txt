@@ -1,6 +1,6 @@
 hex_can_pick_quest = {
 	num_of_owned_provinces_with = {
-		value = $difficulty$
+		value = $amount$
 		is_capital = no
 	}
 }

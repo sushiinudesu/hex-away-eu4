@@ -1,6 +1,23 @@
 namespace = hex_quest_events
 
 country_event = {
+	id = hex_quest_events.0
+	title = hex_quest_events.0.t
+	desc = hex_quest_events.0.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_quest_events.0.a
+
+		clr_country_flag = hex_questing
+	}
+}
+
+country_event = {
 	id = hex_quest_events.1
 	title = hex_quest_events.1.t
 	desc = hex_quest_events.1.d
@@ -15,7 +32,7 @@ country_event = {
 
 	after = {
 		hidden_effect = {
-			clr_country_flag = hex_questing
+			country_event = { id = hex_quest_events.0 days = 30 }
 		}
 	}
 }
@@ -29,33 +46,23 @@ country_event = {
 
 	is_triggered_only = yes
 
-	immediate = {
-		if = {
-			limit = { hex_can_finish_quest = no }
-			hidden_effect = {
-				random_owned_province = {
-					limit = { is_capital = yes }
-					back_current_issue = no
-				}
-			}
-		}
-	}
-
 	option = {
 		name = hex_quest_events.1.a
 
 		trigger = { hex_can_finish_quest = no }
+
+		hidden_effect = {
+			country_event = { id = hex_quest_events.0 days = 1 }
+		}
 	}
 
 	option = {
 		name = hex_quest_events.1.b
 
 		trigger = { hex_can_finish_quest = yes }
-	}
 
-	after = {
 		hidden_effect = {
-			clr_country_flag = hex_questing
+			country_event = { id = hex_quest_events.0 days = 30 }
 		}
 	}
 }

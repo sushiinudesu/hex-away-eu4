@@ -1,0 +1,131 @@
+hex_artisan_quest = {
+	category = 1
+
+	allow = {
+		tag = A01
+		has_faction = hex_artisan_guild
+		hex_can_pick_quest = { amount = 1 }
+	}
+	
+	on_issue_taken = { hex_set_random_quest_provinces = yes }
+
+	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	
+	modifier = { hex_artisan_guild_influence = 0.1 }
+
+	backing_percentage = 0
+	
+	chance = { factor = 1 }
+	
+	ai_will_do = { factor = 0 }
+}
+
+hex_builders_quest = {
+	category = 1
+
+	allow = {
+		tag = A01
+		has_faction = hex_builders_guild
+		hex_can_pick_quest = { amount = 1 }
+	}
+	
+	on_issue_taken = { hex_set_random_quest_provinces = yes }
+
+	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	
+	modifier = { hex_builders_guild_influence = 0.1 }
+
+	backing_percentage = 0
+	
+	chance = { factor = 1 }
+	
+	ai_will_do = { factor = 0 }
+}
+
+hex_farmers_quest = {
+	category = 1
+
+	allow = {
+		tag = A01
+		has_faction = hex_farmers_guild
+		hex_can_pick_quest = { amount = 1 }
+	}
+	
+	on_issue_taken = { hex_set_random_quest_provinces = yes }
+
+	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	
+	modifier = { hex_farmers_guild_influence = 0.1 }
+
+	backing_percentage = 0
+	
+	chance = { factor = 1 }
+	
+	ai_will_do = { factor = 0 }
+}
+
+hex_hunters_quest = {
+	category = 1
+
+	allow = {
+		tag = A01
+		has_faction = hex_hunters_guild
+		hex_can_pick_quest = { amount = 1 }
+	}
+	
+	on_issue_taken = { hex_set_random_quest_provinces = yes }
+
+	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	
+	modifier = { hex_hunters_guild_influence = 0.1 }
+
+	backing_percentage = 0
+	
+	chance = { factor = 1 }
+	
+	ai_will_do = { factor = 0 }
+}
+
+hex_miners_quest = {
+	category = 1
+
+	allow = {
+		tag = A01
+		has_faction = hex_miners_guild
+		hex_can_pick_quest = { amount = 1 }
+	}
+	
+	on_issue_taken = { hex_set_random_quest_provinces = yes }
+
+	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	
+	modifier = { hex_miners_guild_influence = 0.1 }
+
+	backing_percentage = 0
+	
+	chance = { factor = 1 }
+	
+	ai_will_do = { factor = 0 }
+}
+
+hex_sailors_quest = {
+	category = 1
+
+	allow = {
+		tag = A01
+		has_faction = hex_sailors_guild
+		hex_can_pick_quest = { amount = 1 }
+	}
+	
+	on_issue_taken = { hex_set_random_quest_provinces = yes }
+
+	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	
+	modifier = { hex_sailors_guild_influence = 0.1 }
+
+	backing_percentage = 0
+	
+	chance = { factor = 1 }
+	
+	ai_will_do = { factor = 0 }
+}
