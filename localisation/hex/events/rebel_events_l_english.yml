@@ -1,0 +1,102 @@
+﻿l_english:
+  hex_rebel_events.1.t:0 "Nature Rebellion"
+  hex_rebel_events.1.d:0 "Hidden event to trigger nature rebellions."
+  hex_rebel_events.1.a:0 "OK"
+
+  hex_rebel_events.2.t:0 "The Badger Revolt"
+  hex_rebel_events.2.d:0 ""
+  hex_rebel_events.2.a:0 ""
+
+  hex_rebel_events.3.t:0 "The Bat Revolt"
+  hex_rebel_events.3.d:0 ""
+  hex_rebel_events.3.a:0 ""
+
+  hex_rebel_events.4.t:0 "The Bear Revolt"
+  hex_rebel_events.4.d:0 ""
+  hex_rebel_events.4.a:0 ""
+
+  hex_rebel_events.5.t:0 "The Boar Revolt"
+  hex_rebel_events.5.d:0 ""
+  hex_rebel_events.5.a:0 ""
+
+  hex_rebel_events.6.t:0 "The Cat Revolt"
+  hex_rebel_events.6.d:0 ""
+  hex_rebel_events.6.a:0 ""
+
+  hex_rebel_events.7.t:0 "The Crab Revolt"
+  hex_rebel_events.7.d:0 ""
+  hex_rebel_events.7.a:0 ""
+
+  hex_rebel_events.8.t:0 "The Deer Revolt"
+  hex_rebel_events.8.d:0 "You are silently sitting in a forest, when you notice a group of people coming towards you. Their clothes are all dirty and torn and it seems like they've been running for a long time. You offer them some water and they tell you about a group of deer that suddenly attacked them.\n\nThere was no time to prepare - it all happened so fast. Some tried to fight back, but there were just too many deer. So when the creatures finally found their food supplies, most of the camp simply ran away. Fortunately the deer did not do much damage aside from a few scratches and bruises."
+  hex_rebel_events.8.a:0 "Such elegant creatures fighting against us?"
+
+  hex_rebel_events.9.t:0 "The Elephant Revolt"
+  hex_rebel_events.9.d:0 ""
+  hex_rebel_events.9.a:0 ""
+
+  hex_rebel_events.10.t:0 "The Fox Revolt"
+  hex_rebel_events.10.d:0 ""
+  hex_rebel_events.10.a:0 ""
+
+  hex_rebel_events.11.t:0 "The Goat Revolt"
+  hex_rebel_events.11.d:0 ""
+  hex_rebel_events.11.a:0 ""
+
+  hex_rebel_events.12.t:0 "The Griffon Revolt"
+  hex_rebel_events.12.d:0 ""
+  hex_rebel_events.12.a:0 ""
+
+  hex_rebel_events.13.t:0 "The Lion Revolt"
+  hex_rebel_events.13.d:0 ""
+  hex_rebel_events.13.a:0 ""
+
+  hex_rebel_events.14.t:0 "The Owl Revolt"
+  hex_rebel_events.14.d:0 ""
+  hex_rebel_events.14.a:0 ""
+
+  hex_rebel_events.15.t:0 "The Panther Revolt"
+  hex_rebel_events.15.d:0 ""
+  hex_rebel_events.15.a:0 ""
+
+  hex_rebel_events.16.t:0 "The Prairie Dog Revolt"
+  hex_rebel_events.16.d:0 ""
+  hex_rebel_events.16.a:0 ""
+
+  hex_rebel_events.17.t:0 "The Rabbit Revolt"
+  hex_rebel_events.17.d:0 ""
+  hex_rebel_events.17.a:0 ""
+
+  hex_rebel_events.18.t:0 "The Wyvern Revolt"
+  hex_rebel_events.18.d:0 ""
+  hex_rebel_events.18.a:0 ""
+
+  hex_rebel_events.19.t:0 "The Wolf Revolt"
+  hex_rebel_events.19.d:0 ""
+  hex_rebel_events.19.a:0 ""
+
+  hex_rebel_events.20.t:0 "The Rat Revolt"
+  hex_rebel_events.20.d:0 ""
+  hex_rebel_events.20.a:0 ""
+
+  hex_rebel_events.21.t:0 "The Raven Revolt"
+  hex_rebel_events.21.d:0 ""
+  hex_rebel_events.21.a:0 ""
+
+  hex_rebel_events.22.t:0 "The Snake Revolt"
+  hex_rebel_events.22.d:0 ""
+  hex_rebel_events.22.a:0 ""
+
+  hex_rebel_events.23.t:0 "The Spider Revolt"
+  hex_rebel_events.23.d:0 ""
+  hex_rebel_events.23.a:0 ""
+
+  hex_rebel_events.24.t:0 "The Tiger Revolt"
+  hex_rebel_events.24.d:0 ""
+  hex_rebel_events.24.a:0 ""
+
+  hex_rebel_events.25.t:0 "The Toad Revolt"
+  hex_rebel_events.25.d:0 ""
+  hex_rebel_events.25.a:0 ""
+
+
