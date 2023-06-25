@@ -1,0 +1,1045 @@
+namespace = hex_farmers_quest_events
+
+province_event = {
+	id = hex_farmers_quest_events.1
+	title = hex_farmers_quest_events.1.t
+	desc = hex_farmers_quest_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.1.a
+
+		random_list = {
+			1 = { province_event = { id = hex_farmers_quest_events.2 } }
+			1 = { province_event = { id = hex_farmers_quest_events.3 } }
+			1 = { province_event = { id = hex_farmers_quest_events.4 } }
+			1 = { province_event = { id = hex_farmers_quest_events.5 } }
+			1 = { province_event = { id = hex_farmers_quest_events.6 } }
+			1 = { province_event = { id = hex_farmers_quest_events.7 } }
+			1 = { province_event = { id = hex_farmers_quest_events.8 } }
+			1 = { province_event = { id = hex_farmers_quest_events.9 } }
+			1 = { province_event = { id = hex_farmers_quest_events.10 } }
+			1 = { province_event = { id = hex_farmers_quest_events.11 } }
+			1 = { province_event = { id = hex_farmers_quest_events.12 } }
+			1 = { province_event = { id = hex_farmers_quest_events.13 } }
+			1 = { province_event = { id = hex_farmers_quest_events.14 } }
+			1 = { province_event = { id = hex_farmers_quest_events.15 } }
+			1 = { province_event = { id = hex_farmers_quest_events.16 } }
+			1 = { province_event = { id = hex_farmers_quest_events.17 } }
+			1 = { province_event = { id = hex_farmers_quest_events.18 } }
+			1 = { province_event = { id = hex_farmers_quest_events.19 } }
+			1 = { province_event = { id = hex_farmers_quest_events.20 } }
+			1 = { province_event = { id = hex_farmers_quest_events.21 } }
+			1 = { province_event = { id = hex_farmers_quest_events.21 } }
+			1 = { province_event = { id = hex_farmers_quest_events.22 } }
+			1 = { province_event = { id = hex_farmers_quest_events.23 } }
+			1 = { province_event = { id = hex_farmers_quest_events.24 } }
+			1 = { province_event = { id = hex_farmers_quest_events.25 } }
+			1 = { province_event = { id = hex_farmers_quest_events.26 } }
+			1 = { province_event = { id = hex_farmers_quest_events.27 } }
+			1 = { province_event = { id = hex_farmers_quest_events.28 } }
+			1 = { province_event = { id = hex_farmers_quest_events.29 } }
+			1 = { province_event = { id = hex_farmers_quest_events.30 } }
+			1 = { province_event = { id = hex_farmers_quest_events.31 } }
+			1 = { province_event = { id = hex_farmers_quest_events.32 } }
+			1 = { province_event = { id = hex_farmers_quest_events.33 } }
+			1 = { province_event = { id = hex_farmers_quest_events.34 } }
+			1 = { province_event = { id = hex_farmers_quest_events.35 } }
+			1 = { province_event = { id = hex_farmers_quest_events.36 } }
+			1 = { province_event = { id = hex_farmers_quest_events.37 } }
+			1 = { province_event = { id = hex_farmers_quest_events.38 } }
+			1 = { province_event = { id = hex_farmers_quest_events.39 } }
+			1 = { province_event = { id = hex_farmers_quest_events.40 } }
+			1 = { province_event = { id = hex_farmers_quest_events.41 } }
+			1 = { province_event = { id = hex_farmers_quest_events.42 } }
+			1 = { province_event = { id = hex_farmers_quest_events.43 } }
+			1 = { province_event = { id = hex_farmers_quest_events.44 } }
+			1 = { province_event = { id = hex_farmers_quest_events.45 } }
+			1 = { province_event = { id = hex_farmers_quest_events.46 } }
+			1 = { province_event = { id = hex_farmers_quest_events.47 } }
+			1 = { province_event = { id = hex_farmers_quest_events.48 } }
+			1 = { province_event = { id = hex_farmers_quest_events.49 } }
+			1 = { province_event = { id = hex_farmers_quest_events.50 } }
+			1 = { province_event = { id = hex_farmers_quest_events.51 } }
+			1 = { province_event = { id = hex_farmers_quest_events.52 } }
+			1 = { province_event = { id = hex_farmers_quest_events.53 } }
+			1 = { province_event = { id = hex_farmers_quest_events.54 } }
+			1 = { province_event = { id = hex_farmers_quest_events.55 } }
+			1 = { province_event = { id = hex_farmers_quest_events.56 } }
+			1 = { province_event = { id = hex_farmers_quest_events.57 } }
+			1 = { province_event = { id = hex_farmers_quest_events.58 } }
+			1 = { province_event = { id = hex_farmers_quest_events.59 } }
+			1 = { province_event = { id = hex_farmers_quest_events.60 } }
+			1 = { province_event = { id = hex_farmers_quest_events.61 } }
+		}
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.2
+	title = hex_farmers_quest_events.2.t
+	desc = hex_farmers_quest_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.2.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.3
+	title = hex_farmers_quest_events.3.t
+	desc = hex_farmers_quest_events.3.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.3.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.4
+	title = hex_farmers_quest_events.4.t
+	desc = hex_farmers_quest_events.4.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.4.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.5
+	title = hex_farmers_quest_events.5.t
+	desc = hex_farmers_quest_events.5.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.5.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.6
+	title = hex_farmers_quest_events.6.t
+	desc = hex_farmers_quest_events.6.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.6.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.7
+	title = hex_farmers_quest_events.7.t
+	desc = hex_farmers_quest_events.7.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.7.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.8
+	title = hex_farmers_quest_events.8.t
+	desc = hex_farmers_quest_events.8.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.8.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.9
+	title = hex_farmers_quest_events.9.t
+	desc = hex_farmers_quest_events.9.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.9.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.10
+	title = hex_farmers_quest_events.10.t
+	desc = hex_farmers_quest_events.10.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.10.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+
+province_event = {
+	id = hex_farmers_quest_events.11
+	title = hex_farmers_quest_events.11.t
+	desc = hex_farmers_quest_events.11.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.11.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.12
+	title = hex_farmers_quest_events.12.t
+	desc = hex_farmers_quest_events.12.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.12.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.13
+	title = hex_farmers_quest_events.13.t
+	desc = hex_farmers_quest_events.13.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.13.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.14
+	title = hex_farmers_quest_events.14.t
+	desc = hex_farmers_quest_events.14.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.14.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.15
+	title = hex_farmers_quest_events.15.t
+	desc = hex_farmers_quest_events.15.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.15.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.16
+	title = hex_farmers_quest_events.16.t
+	desc = hex_farmers_quest_events.16.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.16.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.17
+	title = hex_farmers_quest_events.17.t
+	desc = hex_farmers_quest_events.17.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.17.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.18
+	title = hex_farmers_quest_events.18.t
+	desc = hex_farmers_quest_events.18.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.18.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.19
+	title = hex_farmers_quest_events.19.t
+	desc = hex_farmers_quest_events.19.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.19.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+
+province_event = {
+	id = hex_farmers_quest_events.20
+	title = hex_farmers_quest_events.20.t
+	desc = hex_farmers_quest_events.20.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.20.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.21
+	title = hex_farmers_quest_events.21.t
+	desc = hex_farmers_quest_events.21.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.21.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.22
+	title = hex_farmers_quest_events.22.t
+	desc = hex_farmers_quest_events.22.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.22.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.23
+	title = hex_farmers_quest_events.23.t
+	desc = hex_farmers_quest_events.23.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.23.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.24
+	title = hex_farmers_quest_events.24.t
+	desc = hex_farmers_quest_events.24.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.24.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.25
+	title = hex_farmers_quest_events.25.t
+	desc = hex_farmers_quest_events.25.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.25.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.26
+	title = hex_farmers_quest_events.26.t
+	desc = hex_farmers_quest_events.26.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.26.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.27
+	title = hex_farmers_quest_events.27.t
+	desc = hex_farmers_quest_events.27.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.27.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.28
+	title = hex_farmers_quest_events.28.t
+	desc = hex_farmers_quest_events.28.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.28.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+
+province_event = {
+	id = hex_farmers_quest_events.29
+	title = hex_farmers_quest_events.29.t
+	desc = hex_farmers_quest_events.29.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.29.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.30
+	title = hex_farmers_quest_events.30.t
+	desc = hex_farmers_quest_events.30.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.30.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.31
+	title = hex_farmers_quest_events.31.t
+	desc = hex_farmers_quest_events.31.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.31.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.32
+	title = hex_farmers_quest_events.32.t
+	desc = hex_farmers_quest_events.32.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.32.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.33
+	title = hex_farmers_quest_events.33.t
+	desc = hex_farmers_quest_events.33.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.33.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.34
+	title = hex_farmers_quest_events.34.t
+	desc = hex_farmers_quest_events.34.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.34.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.35
+	title = hex_farmers_quest_events.35.t
+	desc = hex_farmers_quest_events.35.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.35.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.36
+	title = hex_farmers_quest_events.36.t
+	desc = hex_farmers_quest_events.36.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.36.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.37
+	title = hex_farmers_quest_events.37.t
+	desc = hex_farmers_quest_events.37.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.37.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+
+province_event = {
+	id = hex_farmers_quest_events.38
+	title = hex_farmers_quest_events.38.t
+	desc = hex_farmers_quest_events.38.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.38.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.39
+	title = hex_farmers_quest_events.39.t
+	desc = hex_farmers_quest_events.39.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.39.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.40
+	title = hex_farmers_quest_events.40.t
+	desc = hex_farmers_quest_events.40.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.40.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.41
+	title = hex_farmers_quest_events.41.t
+	desc = hex_farmers_quest_events.41.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.41.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.42
+	title = hex_farmers_quest_events.42.t
+	desc = hex_farmers_quest_events.42.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.42.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.43
+	title = hex_farmers_quest_events.43.t
+	desc = hex_farmers_quest_events.43.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.43.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.44
+	title = hex_farmers_quest_events.44.t
+	desc = hex_farmers_quest_events.44.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.44.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.45
+	title = hex_farmers_quest_events.45.t
+	desc = hex_farmers_quest_events.45.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.45.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.46
+	title = hex_farmers_quest_events.46.t
+	desc = hex_farmers_quest_events.46.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.46.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+
+province_event = {
+	id = hex_farmers_quest_events.47
+	title = hex_farmers_quest_events.47.t
+	desc = hex_farmers_quest_events.47.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.47.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.48
+	title = hex_farmers_quest_events.48.t
+	desc = hex_farmers_quest_events.48.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.48.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.49
+	title = hex_farmers_quest_events.49.t
+	desc = hex_farmers_quest_events.49.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.49.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.50
+	title = hex_farmers_quest_events.50.t
+	desc = hex_farmers_quest_events.50.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.50.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.51
+	title = hex_farmers_quest_events.51.t
+	desc = hex_farmers_quest_events.51.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.51.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.52
+	title = hex_farmers_quest_events.52.t
+	desc = hex_farmers_quest_events.52.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.52.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.53
+	title = hex_farmers_quest_events.53.t
+	desc = hex_farmers_quest_events.53.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.53.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.54
+	title = hex_farmers_quest_events.54.t
+	desc = hex_farmers_quest_events.54.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.54.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.55
+	title = hex_farmers_quest_events.55.t
+	desc = hex_farmers_quest_events.55.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.55.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.56
+	title = hex_farmers_quest_events.56.t
+	desc = hex_farmers_quest_events.56.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.56.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.57
+	title = hex_farmers_quest_events.57.t
+	desc = hex_farmers_quest_events.57.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.57.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.58
+	title = hex_farmers_quest_events.58.t
+	desc = hex_farmers_quest_events.58.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.58.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.59
+	title = hex_farmers_quest_events.59.t
+	desc = hex_farmers_quest_events.59.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.59.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.60
+	title = hex_farmers_quest_events.60.t
+	desc = hex_farmers_quest_events.60.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.60.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}
+
+province_event = {
+	id = hex_farmers_quest_events.61
+	title = hex_farmers_quest_events.61.t
+	desc = hex_farmers_quest_events.61.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_farmers_quest_events.61.a
+
+		hidden_effect = { hex_quest_step_done = yes }
+	}
+}

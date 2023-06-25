@@ -1,0 +1,75 @@
+namespace = hex_quest_events
+
+country_event = {
+	id = hex_quest_events.1
+	title = hex_quest_events.1.t
+	desc = hex_quest_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_quest_events.1.a
+
+		hidden_effect = { clr_country_flag = hex_questing }
+	}
+}
+
+province_event = {
+	id = hex_quest_events.2
+	title = hex_quest_events.2.t
+	desc = hex_quest_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = hex_quest_province
+	}
+
+	option = {
+		name = hex_quest_events.2.a
+
+		trigger = { is_capital = yes }
+
+		hidden_effect = {
+			owner = {
+				trigger_switch = {
+					on_trigger = current_debate
+					hex_artisan_quest = { event_target:hex_quest_province = { province_event = { id = hex_artisan_quest_capital_events.1 } } }
+					hex_builders_quest = { event_target:hex_quest_province = { province_event = { id = hex_builders_quest_capital_events.1 } } }
+					hex_farmers_quest = { event_target:hex_quest_province = { province_event = { id = hex_farmers_quest_capital_events.1 } } }
+					hex_hunters_quest = { event_target:hex_quest_province = { province_event = { id = hex_hunters_quest_capital_events.1 } } }
+					hex_miners_quest = { event_target:hex_quest_province = { province_event = { id = hex_miners_quest_capital_events.1 } } }
+					hex_sailors_quest = { event_target:hex_quest_province = { province_event = { id = hex_sailors_quest_capital_events.1 } } }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = hex_quest_events.2.b
+
+		trigger = { is_capital = no }
+
+		hidden_effect = {
+			owner = {
+				trigger_switch = {
+					on_trigger = current_debate
+					hex_artisan_quest = { event_target:hex_quest_province = { province_event = { id = hex_artisan_quest_events.1 } } }
+					hex_builders_quest = { event_target:hex_quest_province = { province_event = { id = hex_builders_quest_events.1 } } }
+					hex_farmers_quest = { event_target:hex_quest_province = { province_event = { id = hex_farmers_quest_events.1 } } }
+					hex_hunters_quest = { event_target:hex_quest_province = { province_event = { id = hex_hunters_quest_events.1 } } }
+					hex_miners_quest = { event_target:hex_quest_province = { province_event = { id = hex_miners_quest_events.1 } } }
+					hex_sailors_quest = { event_target:hex_quest_province = { province_event = { id = hex_sailors_quest_events.1 } } }
+				}
+			}
+		}
+	}
+
+
+}

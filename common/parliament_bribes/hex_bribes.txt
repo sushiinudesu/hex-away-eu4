@@ -6,9 +6,12 @@ hex_bribe_capital = {
 	
 	effect = {
 		hidden_effect = {
-			capital_scope = { back_current_issue = no }
 			set_country_flag = hex_questing
-			country_event = { id = hex_quest_events.2 }
+
+			FROM = {
+				back_current_issue = no
+				province_event = { id = hex_quest_events.2 }
+			}
 		}
 	}
 
@@ -27,7 +30,11 @@ hex_bribe_non_capital = {
 	effect = {
 		hidden_effect = {
 			set_country_flag = hex_questing
-			country_event = { id = hex_quest_events.1 }
+
+			FROM = {
+				back_current_issue = no
+				province_event = { id = hex_quest_events.2 }
+			}
 		}
 	}
 

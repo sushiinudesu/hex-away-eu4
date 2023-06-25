@@ -31,104 +31,104 @@ country_event = {
 				random_list = {
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.2 days = 1 }
+						province_event = { id = hex_rebel_events.2 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.3 days = 1 }
+						province_event = { id = hex_rebel_events.3 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.4 days = 1 }
+						province_event = { id = hex_rebel_events.4 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.5 days = 1 }
+						province_event = { id = hex_rebel_events.5 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.6 days = 1 }
+						province_event = { id = hex_rebel_events.6 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.7 days = 1 }
-					}
-	
-					1 = {
-						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.8 days = 1 }
-					}
-					1 = {
-						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.9 days = 1 }
-					}
-					1 = {
-						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.10 days = 1 }
-					}
-					1 = {
-						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.11 days = 1 }
-					}
-					1 = {
-						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.12 days = 1 }
-					}
-					1 = {
-						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.13 days = 1 }
+						province_event = { id = hex_rebel_events.7 }
 					}
 	
-	
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.14 days = 1 }
+						province_event = { id = hex_rebel_events.8 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.15 days = 1 }
+						province_event = { id = hex_rebel_events.9 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.16 days = 1 }
+						province_event = { id = hex_rebel_events.10 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.17 days = 1 }
+						province_event = { id = hex_rebel_events.11 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.18 days = 1 }
+						province_event = { id = hex_rebel_events.12 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.19 days = 1 }
+						province_event = { id = hex_rebel_events.13 }
 					}
 	
 	
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.20 days = 1 }
+						province_event = { id = hex_rebel_events.14 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.21 days = 1 }
+						province_event = { id = hex_rebel_events.15 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.22 days = 1 }
+						province_event = { id = hex_rebel_events.16 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.23 days = 1 }
+						province_event = { id = hex_rebel_events.17 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.24 days = 1 }
+						province_event = { id = hex_rebel_events.18 }
 					}
 					1 = {
 						trigger = { always = yes }
-						province_event = { id = hex_rebel_events.25 days = 1 }
+						province_event = { id = hex_rebel_events.19 }
+					}
+	
+	
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.20 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.21 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.22 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.23 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.24 }
+					}
+					1 = {
+						trigger = { always = yes }
+						province_event = { id = hex_rebel_events.25 }
 					}		
 				}
 			}

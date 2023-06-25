@@ -88,3 +88,8 @@ hex_quest_payment = {
 		add_treasury = 10
 	}
 }
+
+hex_quest_step_done = {
+	back_current_issue = yes
+	owner = { country_event = { id = hex_quest_events.1 days = 30 } }
+}
