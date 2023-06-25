@@ -119,9 +119,7 @@
  HAD_RULER_FLAG_AT_LEAST:1 "Had ruler flag '$FLAG|Y$' for at least $DAYS|Y$ days (Current: $CURRENT|Y$)"
  vassal_scutage_at_war:0 "Can't enable scutage if subject is at war!"
  OTHER_FORCES:0 "And $AMOUNT$ from $OTHER$ other countries"
- MAPMODE_PARLIAMENT_SEATS:0 "Parliament Seats"
- MAPMODE_PARLIAMENT_SEATS_DESC:0 "Displays which Provinces have a parliament seat assigned."
- PARLIAMENT_SEATS_TOOLTIP:0 "$PROVINCE|Y$ has a parliament seat."
+
  SPECIAL_UNIT_FORCELIMIT_MODIFIER_LABEL:0 "This number is further multiplied by $VAL|+%$ owning to:\n$MODIFIER$"
  TRADE_NODE_INCOME_EFFECT:0 "$DIRECTION$ $VALUE$ Ducats as $AMOUNT|0$ months of income from $NODE|Y$ trade node.\n"
  GRANT_PRIVILEGE_SHORT:0 "$PRIVILEGE|Y$ will be granted to $ESTATE|Y$ which does the following:"

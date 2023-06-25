@@ -5,6 +5,7 @@ hex_bribe_capital = {
 	}
 	
 	effect = {
+		custom_tooltip = HEX_QUEST_CAPITAL_TT
 		hidden_effect = {
 			set_country_flag = hex_questing
 
@@ -28,6 +29,7 @@ hex_bribe_non_capital = {
 	}
 	
 	effect = {
+		custom_tooltip = HEX_QUEST_NON_CAPITAL_TT
 		hidden_effect = {
 			set_country_flag = hex_questing
 

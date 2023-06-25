@@ -297,7 +297,9 @@ on_parliament_debate_succeeded = {
 }
 
 on_parliament_debate_reset = {
-	hex_clean_quest = yes
+	hidden_effect = {
+		hex_clean_quest = yes
+	}
 }
 
 on_harmonized_pagan = { }

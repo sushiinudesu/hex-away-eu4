@@ -813,8 +813,7 @@
  alert_lack_of_parliament_debate_delayed:0 "Not having an ongoing debate in $NAME$ has the following effects on your nation:"
  alert_too_few_seats_of_parliament_instant:0 "§YToo few Seats in $NAME$.§!"
  alert_too_few_seats_of_parliament_delayed:1 "Your country needs at least §Y$NUM$§! Seats in $NAME$ and you only have §R$AMT$§!. If you do not increase the number of seats, additional seats will be assigned automatically."
- START_DEBATE_TOOLTIP:0 "§YStart Debate§!"
- START_DEBATE_TOOLTIP_DELAYED:1 "A debate will continue for a few years (usually $YEARS|Y$), at the end of which you will have a chance to win the debate depending on the number of seats supporting you. Succeeding will give you the bonuses from the selected issue, while failing will cost you §R$PRESTIGE$§! prestige."
+
  PLACATE_RULERS:0 "Placate Local Rulers"
  PLACATE_RULERS_WHAT:0 "to placate us"
  PLACATE_RULERS_EFFECT:0 "Our Liberty Desire has changed by $LD$."
@@ -1508,8 +1507,6 @@
  fc_league_reforms:0 "City League Reforms"
  desc_fc_league_reforms:0 "The new City League reforms is spread throughout the Free Cities and will help all of these countries achieve greatness."
  ADD_SEAT_IN_PARLIAMENT_SHORT:0 "Grant Seat in $NAME$"
- SEAT_PARLIAMENT_DESC:0 "This has the following effects:\n"
- ADD_SEAT_IN_PARLIAMENT_LONG:0 "Giving a province a seat in $NAME$ will give some bonus, but at every issue, a majority of the seats have to be appeased."
  withdrawn_parliamentary_seat:0 "Withdrawn Parliamentary Seat"
  desc_withdrawn_parliamentary_seat:0 "The population of this province feel that they have been robbed of their rightful influence over the politics of our country."
  rotten_borough:0 "Rotten Borough"

@@ -1,3 +1,5 @@
 ﻿l_english:
   hex_bribe_capital:0 "Return"
   hex_bribe_non_capital:0 "Visit"
+  HEX_QUEST_CAPITAL_TT:0 "Return to the Quest Board when you're ready."
+  HEX_QUEST_NON_CAPITAL_TT:0 "Visit this Point of Interest to progress the quest.\nYou can only visit one place every §Y30§! days."
