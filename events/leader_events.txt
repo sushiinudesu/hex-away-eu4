@@ -266,6 +266,21 @@ country_event = {
 			}
 		}
 	}
+	
+	option = {
+		name = hex_leaders_events.5.snake
+
+		trigger = {
+			has_faction = hex_hunters_guild
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_leader = "Snake" } }
+				hex_hire_leader_finish = { name = "Snake" female = yes }
+			}
+		}
+	}
 
 	option = {
 		name = hex_leaders_events.5.spear

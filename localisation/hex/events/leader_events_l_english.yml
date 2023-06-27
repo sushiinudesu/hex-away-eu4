@@ -41,6 +41,7 @@
   hex_leaders_events.5.longbeard:0 "[Root.HexLeaderLongbeard]"
   hex_leaders_events.5.needle:0 "[Root.HexLeaderNeedle]"
   hex_leaders_events.5.seawatcher:0 "[Root.HexLeaderSeawatcher]"
+  hex_leaders_events.5.snake:0 "[Root.HexLeaderSnake]"
   hex_leaders_events.5.spear:0 "[Root.HexLeaderSpear]"
 
   hex_leaders_events.6.t:0 "[Root.HexLeaderEventTitle]"

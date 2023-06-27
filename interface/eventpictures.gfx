@@ -810,4 +810,49 @@ spriteTypes = {
 		name = "HEX_EVENT_PICTURE_SPEAR_AWAKE"
 		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_SPEAR_AWAKE.dds"
 	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_FOOL_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_FOOL_AWAKE.dds"
+	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_HAWK_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_HAWK_AWAKE.dds"
+	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_MAGPIE_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_MAGPIE_AWAKE.dds"
+	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_PREACHER_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_PREACHER_AWAKE.dds"
+	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_RIGHT_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_RIGHT_AWAKE.dds"
+	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_SCRIBE_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_SCRIBE_AWAKE.dds"
+	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_SNAKE_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_SNAKE_AWAKE.dds"
+	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_WIZARD_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_WIZARD_AWAKE.dds"
+	}
+
+	spriteType = {
+		name = "HEX_EVENT_PICTURE_WRONG_AWAKE"
+		texturefile = "gfx/event_pictures/Hex/HEX_EVENT_PICTURE_WRONG_AWAKE.dds"
+	}
 }

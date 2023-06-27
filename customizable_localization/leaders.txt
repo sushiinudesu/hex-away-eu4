@@ -87,6 +87,17 @@ defined_text = {
 }
 
 defined_text = {
+    name = HexLeaderSnake
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_SNAKE_LEADER
+        trigger = { has_leader = "Snake" }
+    }
+	text = { localisation_key = HEX_CHARACTER_SNAKE }
+}
+
+defined_text = {
     name = HexLeaderSpear
 	random = no
 	
