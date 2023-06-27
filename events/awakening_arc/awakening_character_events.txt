@@ -1,0 +1,71 @@
+namespace = hex_awakening_character_events
+
+country_event = {
+	id = hex_awakening_character_events.1
+	title = hex_awakening_character_events.1.t
+	desc = hex_awakening_character_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { is_institution_enabled = hex_institution_guilds }
+		tag = A01
+		has_faction = hex_artisan_guild
+		has_faction = hex_builders_guild
+		has_faction = hex_farmers_guild
+		has_faction = hex_hunters_guild
+		has_faction = hex_miners_guild
+		has_faction = hex_sailors_guild
+	}
+
+	option = {
+		name = hex_awakening_character_events.1.a
+
+		hidden_effect = {
+			random_list = {
+				1 = { }
+				1 = {
+					trigger = { NOT = { has_faction = hex_city_bank } }
+					country_event = { id = hex_awakening_character_events.2 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { NOT = { has_faction = hex_city_watch } }
+					country_event = { id = hex_awakening_character_events.3 days = 1 random = 25 }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = hex_awakening_character_events.2
+	title = hex_awakening_character_events.2.t
+	desc = hex_awakening_character_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_GOLD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_character_events.2.a
+	}
+}
+
+country_event = {
+	id = hex_awakening_character_events.3
+	title = hex_awakening_character_events.3.t
+	desc = hex_awakening_character_events.3.d
+	
+	picture = HEX_EVENT_PICTURE_SPEAR_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_character_events.3.a
+	}
+}
