@@ -16,6 +16,7 @@ country_event = {
 		name = hex_awakening_events.1.a
 
 		hidden_effect = {
+			country_event = { id = hex_awakening_events.3 days = 3 }
 			country_event = { id = hex_awakening_events.2 days = 5 }
 		}
 	}
@@ -49,5 +50,22 @@ country_event = {
 		name = hex_awakening_events.2.shortbow
 
 		add_item = { camp_shortbow = yes skill = 1 }
+	}
+}
+
+country_event = {
+	id = hex_awakening_events.3
+	title = hex_awakening_events.3.t
+	desc = hex_awakening_events.3.d
+	
+	picture = HEX_EVENT_PICTURE_MAGPIE_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_awakening_events.3.a
+
+		ai_chance = { factor = 1 }
 	}
 }

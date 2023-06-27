@@ -2,3 +2,14 @@
   hex_awakening_events.1.t:0 "The Awakening"
   hex_awakening_events.1.d:0 "You started seeing the light before you had eyes. You started feeling the cold texture of Obsidian before you had a body. You reached out before you had hands.\n\nAs you come out into the World, you see a man waving you from afar. He comes closer and hugs you:\n\n§R - Welcome to the World, my friend! My name is First. I'm sure you have a lot of questions. I promise to explain what I can. But for now, let us go to the others. They are waiting for you at the camp.§!"
   hex_awakening_events.1.a:0 "Okay..."
+
+  hex_awakening_events.2.t:0 "First Weapon"
+  hex_awakening_events.2.d:0 ""
+  hex_awakening_events.2.daggers:0 "Daggers"
+  hex_awakening_events.2.handaxe:0 "Handaxe"
+  hex_awakening_events.2.shortbow:0 "Shortbow"
+
+  hex_awakening_events.3.t:0 "Gossip Girl"
+  hex_awakening_events.3.d:0 ""
+  hex_awakening_events.3.a:0 "Nice to meet you"
+  hex_awakening_events.3.a.tt:0 "§MI think we'll be best friends!§!"

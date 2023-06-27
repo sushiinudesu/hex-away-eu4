@@ -174,8 +174,10 @@ on_monthly_pulse = {
 	events = {
 		hex_awakening_character_events.1
 		hex_awakening_guilds_events.1
+		hex_awakening_magpie_events.1
 		hex_awakening_random_events.1
 
+		hex_basis_magpie_events.1
 		hex_basis_random_events.1
 
 		hex_city_events.1
