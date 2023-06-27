@@ -12,7 +12,7 @@
   desc_hex_first_loyalty:0 "You are loyal to §YFirst§!"
 
   hex_gold_loyalty:0 "Loyal to §YGold§!"
-  desc_hex_first_loyalty:0 "You are loyal to §YGold§!"
+  desc_hex_gold_loyalty:0 "You are loyal to §YGold§!"
 
   hex_lion_loyalty:0 "Loyal to §YLion§!"
   desc_hex_lion_loyalty:0 "You are loyal to §YLion§!"

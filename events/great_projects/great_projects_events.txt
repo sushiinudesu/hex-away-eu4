@@ -43,6 +43,16 @@ country_event = {
 				hex_city_mine_flag = { add_great_project = { type = hex_project_city_mine instant = yes } clr_province_flag = hex_city_mine_flag }
 				hex_yarn_club_flag = { add_great_project = { type = hex_project_yarn_club instant = yes } clr_province_flag = hex_yarn_club_flag }
 				hex_salt_shipyard_flag = { add_great_project = { type = hex_project_salt_shipyard instant = yes } clr_province_flag = hex_salt_shipyard_flag }
+				hex_city_bank_flag = { add_great_project = { type = hex_project_city_bank instant = yes } clr_province_flag = hex_city_bank_flag }
+				hex_city_wall_flag = {
+					2 = { add_great_project = { type = hex_project_city_wall_2 instant = yes } clr_province_flag = hex_city_wall_flag }
+					3 = { add_great_project = { type = hex_project_city_wall_3 instant = yes } clr_province_flag = hex_city_wall_flag }
+					4 = { add_great_project = { type = hex_project_city_wall_4 instant = yes } clr_province_flag = hex_city_wall_flag }
+					5 = { add_great_project = { type = hex_project_city_wall_5 instant = yes } clr_province_flag = hex_city_wall_flag }
+					6 = { add_great_project = { type = hex_project_city_wall_6 instant = yes } clr_province_flag = hex_city_wall_flag }
+					7 = { add_great_project = { type = hex_project_city_wall_7 instant = yes } clr_province_flag = hex_city_wall_flag }
+				}
+
 			}
 		}
 	}
@@ -63,6 +73,12 @@ country_event = {
 				hex_city_mine_flag = { add_province_modifier = { name = hex_city_mine_modifier duration = -1 } clr_province_flag = hex_city_mine_flag }
 				hex_yarn_club_flag = { add_province_modifier = { name = hex_yarn_club_modifier duration = -1 } clr_province_flag = hex_yarn_club_flag }
 				hex_salt_shipyard_flag = { add_province_modifier = { name = hex_salt_shipyard_modifier duration = -1 } clr_province_flag = hex_salt_shipyard_flag }
+				hex_city_bank_flag = { add_province_modifier = { name = hex_city_bank_modifier duration = -1 } clr_province_flag = hex_city_bank_flag }
+				hex_city_wall_flag = {
+					hex_inner_city_area = {
+						add_province_modifier = { name = hex_city_wall_modifier duration = -1 } clr_province_flag = hex_city_wall_flag
+					}
+				}
 			}
 		}
 	}

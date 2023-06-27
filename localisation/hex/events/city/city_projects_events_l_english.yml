@@ -22,3 +22,12 @@
   hex_city_projects_events.6.t:0 "Salt Shipyard"
   hex_city_projects_events.6.d:0 "You look at the harbor and see many ships join the celebrations. Sailors from all over the coast have come to the island to see the shipyard open. And it is a wonderful sight - each ship has different sails and flags, forming a tapestry of many different colors.\n\nSeawatcher stands beside you and grins happily:\n\n§R- Look, so many of them have come! I did not expect it would be that many!§!\n\nYou laugh - it puzzles you sometimes how this man, loved by all the sailors, can be that naive. Of course they would come. They would follow even if he has told them to go into the Beyond tomorrow.\n\n§R- Hey! Let's go meet some friends of mine! They make amazing octopus balls...§!"
   hex_city_projects_events.6.a:0 "I can eat..."
+
+  hex_city_projects_events.7.t:0 "City Bank"
+  hex_city_projects_events.7.d:0 ""
+  hex_city_projects_events.7.a:0 ""
+
+
+  hex_city_projects_events.8.t:0 "City Wall"
+  hex_city_projects_events.8.d:0 ""
+  hex_city_projects_events.8.a:0 ""

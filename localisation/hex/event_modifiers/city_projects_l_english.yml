@@ -16,3 +16,9 @@
 
   hex_yarn_club_modifier:0 "Yarn Club"
   desc_hex_yarn_club_modifier:0 "Yarn Club"
+
+  hex_city_bank_modifier:0 "City Bank"
+  desc_hex_city_bank_modifier:0 "City Bank"
+
+  hex_city_wall_modifier:0 "City Wall"
+  desc_hex_city_wall_modifier:0 "City Wall"

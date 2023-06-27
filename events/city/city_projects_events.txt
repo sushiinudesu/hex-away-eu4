@@ -137,3 +137,56 @@ province_event = {
 		}
 	}
 }
+
+province_event = {
+	id = hex_city_projects_events.7
+	title = hex_city_projects_events.7.t
+	desc = hex_city_projects_events.7.d
+
+	picture = HEX_EVENT_PICTURE_GOLD_AWAKE
+	
+	is_triggered_only = yes
+
+	immediate = {
+		save_event_target_as = hex_great_project_province
+	}
+	
+	option = {
+        name = hex_city_projects_events.7.a
+        ai_chance = { factor = 100 }
+
+		hidden_effect = {
+			owner = { country_event = { id = hex_great_projects_events.1 } }
+		}
+	}
+}
+
+province_event = {
+	id = hex_city_projects_events.8
+	title = hex_city_projects_events.8.t
+	desc = hex_city_projects_events.8.d
+
+	picture = HEX_EVENT_PICTURE_SPEAR_AWAKE
+	
+	is_triggered_only = yes
+
+	trigger = {
+		hex_inner_city_area = {
+			type = all
+			has_province_flag = hex_city_wall_flag
+		}
+	}
+
+	immediate = {
+		save_event_target_as = hex_great_project_province
+	}
+	
+	option = {
+        name = hex_city_projects_events.8.a
+        ai_chance = { factor = 100 }
+
+		hidden_effect = {
+			owner = { country_event = { id = hex_great_projects_events.1 } }
+		}
+	}
+}

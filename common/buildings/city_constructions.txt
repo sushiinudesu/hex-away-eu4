@@ -177,3 +177,63 @@ hex_building_salt_shipyard = {
 
 	ai_will_do = { factor = 100 }
 }
+
+hex_building_city_bank = {
+	cost = 0
+	time = 6
+
+	indestructible = yes
+	one_per_country = yes
+
+	build_trigger = { always = no }
+	
+	on_construction_started = {
+		add_permanent_province_modifier = {
+			name = hex_faction_under_construction
+			duration = -1
+		}
+	}
+	on_construction_canceled = {
+		remove_province_modifier = hex_faction_under_construction
+	}
+	on_built = {
+		hidden_effect = { 
+			remove_building = hex_building_city_bank
+			remove_province_modifier = hex_faction_under_construction
+			set_province_flag = hex_city_bank_flag
+			province_event = { id = hex_city_projects_events.7 }
+		}
+	}
+
+	ai_will_do = { factor = 100 }
+}
+
+hex_building_city_wall = {
+	cost = 0
+	time = 6
+
+	indestructible = yes
+	one_per_country = yes
+
+	build_trigger = { always = no }
+	
+	on_construction_started = {
+		add_permanent_province_modifier = {
+			name = hex_faction_under_construction
+			duration = -1
+		}
+	}
+	on_construction_canceled = {
+		remove_province_modifier = hex_faction_under_construction
+	}
+	on_built = {
+		hidden_effect = { 
+			remove_building = hex_building_city_wall
+			remove_province_modifier = hex_faction_under_construction
+			set_province_flag = hex_city_wall_flag
+			province_event = { id = hex_city_projects_events.8 }
+		}
+	}
+
+	ai_will_do = { factor = 100 }
+}
