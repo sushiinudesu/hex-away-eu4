@@ -11,7 +11,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { is_institution_enabled = hex_institution_guilds }
+		hex_is_awakening_arc = yes
 		tag = A01
 		has_faction = hex_artisan_guild
 		has_faction = hex_builders_guild

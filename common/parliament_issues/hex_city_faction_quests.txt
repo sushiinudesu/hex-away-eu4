@@ -9,7 +9,7 @@ hex_artisan_quest = {
 	
 	on_issue_taken = { hex_set_random_quest_provinces = yes }
 
-	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	effect = { hex_quest_payment = yes }
 	
 	modifier = { hex_artisan_guild_influence = 0.1 }
 
@@ -31,7 +31,7 @@ hex_builders_quest = {
 	
 	on_issue_taken = { hex_set_random_quest_provinces = yes }
 
-	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	effect = { hex_quest_payment = yes }
 	
 	modifier = { hex_builders_guild_influence = 0.1 }
 
@@ -53,7 +53,7 @@ hex_farmers_quest = {
 	
 	on_issue_taken = { hex_set_random_quest_provinces = yes }
 
-	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	effect = { hex_quest_payment = yes }
 	
 	modifier = { hex_farmers_guild_influence = 0.1 }
 
@@ -75,7 +75,7 @@ hex_hunters_quest = {
 	
 	on_issue_taken = { hex_set_random_quest_provinces = yes }
 
-	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	effect = { hex_quest_payment = yes }
 	
 	modifier = { hex_hunters_guild_influence = 0.1 }
 
@@ -97,7 +97,7 @@ hex_miners_quest = {
 	
 	on_issue_taken = { hex_set_random_quest_provinces = yes }
 
-	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	effect = { hex_quest_payment = yes }
 	
 	modifier = { hex_miners_guild_influence = 0.1 }
 
@@ -119,7 +119,7 @@ hex_sailors_quest = {
 	
 	on_issue_taken = { hex_set_random_quest_provinces = yes }
 
-	effect = { if = { limit = { has_institution = hex_institution_banks } hex_quest_payment = yes } }
+	effect = { hex_quest_payment = yes }
 	
 	modifier = { hex_sailors_guild_influence = 0.1 }
 

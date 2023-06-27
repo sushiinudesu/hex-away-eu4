@@ -66,26 +66,28 @@ hex_clean_quest = {
 }
 
 hex_quest_payment = {
-	custom_tooltip = HEX_QUEST_PAYMENT_TT
-	if = {
-		limit = { hex_quest_steps_needed = { amount = 5 } }
-		add_treasury = 50
-	}
-	else_if = {
-		limit = { hex_quest_steps_needed = { amount = 4 } }
-		add_treasury = 40
-	}
-	else_if = {
-		limit = { hex_quest_steps_needed = { amount = 3 } }
-		add_treasury = 30
-	}
-	else_if = {
-		limit = { hex_quest_steps_needed = { amount = 2 } }
-		add_treasury = 20
-	}
-	else_if = {
-		limit = { hex_quest_steps_needed = { amount = 1 } }
-		add_treasury = 10
+	if = { limit = { has_institution = hex_institution_banks }
+		custom_tooltip = HEX_QUEST_PAYMENT_TT
+		if = {
+			limit = { hex_quest_steps_needed = { amount = 5 } }
+			add_treasury = 50
+		}
+		else_if = {
+			limit = { hex_quest_steps_needed = { amount = 4 } }
+			add_treasury = 40
+		}
+		else_if = {
+			limit = { hex_quest_steps_needed = { amount = 3 } }
+			add_treasury = 30
+		}
+		else_if = {
+			limit = { hex_quest_steps_needed = { amount = 2 } }
+			add_treasury = 20
+		}
+		else_if = {
+			limit = { hex_quest_steps_needed = { amount = 1 } }
+			add_treasury = 10
+		}
 	}
 }
 

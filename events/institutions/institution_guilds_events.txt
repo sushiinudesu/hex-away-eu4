@@ -39,6 +39,7 @@ country_event = {
 
 	after = {
 		hidden_effect = {
+			set_global_flag = hex_basis_arc_flag
 			FROM = {
 				add_permanent_province_modifier = {
 					name = hex_birthplace_of_guilds_institution

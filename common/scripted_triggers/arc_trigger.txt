@@ -1,0 +1,12 @@
+hex_is_awakening_arc = {
+	NOT = { has_global_flag = hex_basis_arc_flag }
+}
+
+hex_is_basis_arc = {
+	has_global_flag = hex_basis_arc_flag
+	NOT = { has_global_flag = hex_control_arc_flag }
+}
+
+hex_is_control_arc = {
+	has_global_flag = hex_control_arc_flag
+}

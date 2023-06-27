@@ -1,9 +1,5 @@
 on_startup = {
-	if = {
-		limit = { tag = REB }
-		every_province = { set_in_empire = no }
-	}
-
+	if = { limit = { tag = REB } hex_setup_world = yes }
 	hex_setup_country = yes
 
 	events = {
