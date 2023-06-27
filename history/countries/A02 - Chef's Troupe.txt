@@ -11,7 +11,7 @@ government = native
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}
-	exile_ruler_as = { name = chef kill_monarch = no }
+	exile_ruler_as = { name = character_chef kill_monarch = no }
 
 	heir = {
 		name = "Chef"

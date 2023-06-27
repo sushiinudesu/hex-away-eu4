@@ -5,6 +5,8 @@ A04 = "countries/A04 - Lion Company.txt"
 A05 = "countries/A05 - Longbeard Clan.txt"
 A06 = "countries/A06 - Needle Yarn.txt"
 A07 = "countries/A07 - Salt Circle.txt"
+A08 = "countries/A08 - City Bank.txt"
+A09 = "countries/A09 - City Watch.txt"
 
 Z01 = "countries/Z01 - Badgers.txt"
 Z02 = "countries/Z02 - Bats.txt"

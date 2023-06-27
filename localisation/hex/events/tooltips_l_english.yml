@@ -3,6 +3,8 @@
 
   HEX_INCREASE_ARTISAN_INFLUENCE_TT:0 "§GThis will increase Artisan influence§!"
   HEX_INCREASE_BUILDERS_INFLUENCE_TT:0 "§GThis will increase Builders influence§!"
+  HEX_INCREASE_CITY_BANK_INFLUENCE_TT:0 "§GThis will increase City Bank influence§!"
+  HEX_INCREASE_CITY_WATCH_INFLUENCE_TT:0 "§GThis will increase City Watch influence§!"
   HEX_INCREASE_FARMERS_INFLUENCE_TT:0 "§GThis will increase Farmers influence§!"
   HEX_INCREASE_FIRST_FOLLOWERS_INFLUENCE_TT:0 "§GThis will increase First Followers influence§!"
   HEX_INCREASE_HUNTERS_INFLUENCE_TT:0 "§GThis will increase Hunters influence§!"
@@ -12,6 +14,7 @@
   HEX_JOIN_ARTISANS_TT:0 "§GYou will join the Artisans§!"
   HEX_JOIN_BUILDERS_TT:0 "§GYou will join the Builders§!"
   HEX_JOIN_FARMERS_TT:0 "§GYou will join the Farmers§!"
+  HEX_JOIN_FIRST_FOLLOWERS_TT:0 "§GYou will join the First Followers§!"
   HEX_JOIN_HUNTERS_TT:0 "§GYou will join the Hunters§!"
   HEX_JOIN_MINERS_TT:0 "§GYou will join the Miners§!"
   HEX_JOIN_SAILORS_TT:0 "§GYou will join the Sailors§!"

@@ -32,6 +32,17 @@ defined_text = {
 }
 
 defined_text = {
+    name = HexHeirGold
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_GOLD_HEIR
+        trigger = { hex_loyal = { to = "Gold" } }
+    }
+	text = { localisation_key = HEX_CHARACTER_GOLD }
+}
+
+defined_text = {
     name = HexHeirLion
 	random = no
 	
@@ -73,4 +84,15 @@ defined_text = {
         trigger = { hex_loyal = { to = "Seawatcher" } }
     }
 	text = { localisation_key = HEX_CHARACTER_SEAWATCHER }
+}
+
+defined_text = {
+    name = HexHeirSpear
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_SPEAR_HEIR
+        trigger = { hex_loyal = { to = "Spear" } }
+    }
+	text = { localisation_key = HEX_CHARACTER_SPEAR }
 }

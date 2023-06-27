@@ -28,7 +28,7 @@ country_event = {
 
 		hidden_effect = {
 			random_list = {
-				6 = { }
+				1 = { }
 				1 = {
 					trigger = { NOT = { has_faction = hex_artisan_guild } }
 					country_event = { id = hex_awakening_guilds_events.2 days = 1 random = 25 }

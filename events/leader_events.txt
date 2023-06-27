@@ -193,6 +193,21 @@ country_event = {
 	}
 
 	option = {
+		name = hex_leaders_events.5.gold
+
+		trigger = {
+			has_faction = hex_city_bank
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_leader = "Gold" } }
+				hex_hire_leader_finish = { name = "Gold" female = no }
+			}
+		}
+	}
+
+	option = {
 		name = hex_leaders_events.5.lion
 
 		trigger = {
@@ -248,6 +263,21 @@ country_event = {
 			if = {
 				limit = { NOT = { has_leader = "Seawatcher" } }
 				hex_hire_leader_finish = { name = "Seawatcher" female = no }
+			}
+		}
+	}
+
+	option = {
+		name = hex_leaders_events.5.spear
+
+		trigger = {
+			has_faction = hex_city_watch
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_leader = "Spear" } }
+				hex_hire_leader_finish = { name = "Spear" female = yes }
 			}
 		}
 	}

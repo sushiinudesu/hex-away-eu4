@@ -3,16 +3,6 @@ hex_set_heir = {
 	export_to_variable = { variable_name = hex_heir_dip value = heir_dip }
 	export_to_variable = { variable_name = hex_heir_mil value = heir_mil }
 
-	[[first]
-		define_heir = {
-			name = "First"
-			dynasty = "'the Awake One'"
-			birth_date = 1.1.2
-			claim = 50
-		}
-		hex_add_faction_modifier = { character = first }
-	]
-
 	[[chef]
 		define_heir = {
 			name = "Chef"
@@ -34,7 +24,26 @@ hex_set_heir = {
 		hex_add_faction_modifier = { character = clay }
 	]
 
-	
+	[[first]
+		define_heir = {
+			name = "First"
+			dynasty = "'the Awake One'"
+			birth_date = 1.1.2
+			claim = 50
+		}
+		hex_add_faction_modifier = { character = first }
+	]
+
+	[[gold]
+		define_heir = {
+			name = "Gold"
+			dynasty = "'the Tax Collector'"
+			birth_date = 2.1.1
+			claim = 50
+		}
+		hex_add_faction_modifier = { character = event_target:mal_next_gold_target }
+	]
+
 	[[lion]
 		define_heir = {
 			name = "Lion"
@@ -63,6 +72,7 @@ hex_set_heir = {
 			dynasty = "'the Elegant Clothier'"
 			birth_date = 2.1.1
 			claim = 50
+			female =yes
 		}
 		hex_add_faction_modifier = { character = needle }
 	]
@@ -75,6 +85,17 @@ hex_set_heir = {
 			claim = 50
 		}
 		hex_add_faction_modifier = { character = seawatcher }
+	]
+
+	[[spear]
+		define_heir = {
+			name = "Spear"
+			dynasty = "'the Unbreakable'"
+			birth_date = 2.1.1
+			claim = 50
+			female = yes
+		}
+		hex_add_faction_modifier = { character = spear }
 	]
 
 	hex_set_heir_skills = yes

@@ -68,6 +68,22 @@ country_event = {
 	}
 
 	option = {
+		name = hex_switched_loyalty_events.1.gold
+
+		trigger = {
+			has_faction = hex_city_bank
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { hex_loyal = { to = "Gold" } } }
+				hex_set_heir = { gold = yes }
+			}
+			else = { remove_country_modifier = hex_switched_loyalty }
+		}
+	}
+
+	option = {
 		name = hex_switched_loyalty_events.1.lion
 
 		trigger = {
@@ -126,6 +142,22 @@ country_event = {
 			if = {
 				limit = { NOT = { hex_loyal = { to = "Seawatcher" } } }
 				hex_set_heir = { seawatcher = yes }
+			}
+			else = { remove_country_modifier = hex_switched_loyalty }
+		}
+	}
+
+	option = {
+		name = hex_switched_loyalty_events.1.spear
+
+		trigger = {
+			has_faction = hex_city_watch
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { hex_loyal = { to = "Spear" } } }
+				hex_set_heir = { spear = yes }
 			}
 			else = { remove_country_modifier = hex_switched_loyalty }
 		}

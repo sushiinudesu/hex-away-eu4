@@ -20,6 +20,13 @@ defined_text = {
 }
 
 defined_text = {
+    name = HexCharacterGold
+	random = no
+	
+	text = { localisation_key = HEX_CHARACTER_GOLD }
+}
+
+defined_text = {
     name = HexCharacterLion
 	random = no
 	
@@ -45,4 +52,11 @@ defined_text = {
 	random = no
 	
 	text = { localisation_key = HEX_CHARACTER_SEAWATCHER }
+}
+
+defined_text = {
+    name = HexCharacterSpear
+	random = no
+	
+	text = { localisation_key = HEX_CHARACTER_SPEAR }
 }

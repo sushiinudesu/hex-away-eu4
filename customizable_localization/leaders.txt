@@ -32,6 +32,17 @@ defined_text = {
 }
 
 defined_text = {
+    name = HexLeaderGold
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_GOLD_LEADER
+        trigger = { has_leader = "Gold" }
+    }
+	text = { localisation_key = HEX_CHARACTER_GOLD }
+}
+
+defined_text = {
     name = HexLeaderLion
 	random = no
 	
@@ -73,4 +84,15 @@ defined_text = {
         trigger = { has_leader = "Seawatcher" }
     }
 	text = { localisation_key = HEX_CHARACTER_SEAWATCHER }
+}
+
+defined_text = {
+    name = HexLeaderSpear
+	random = no
+	
+	text = {
+        localisation_key = HEX_CHARACTER_SPEAR_LEADER
+        trigger = { has_leader = "Spear" }
+    }
+	text = { localisation_key = HEX_CHARACTER_SPEAR }
 }

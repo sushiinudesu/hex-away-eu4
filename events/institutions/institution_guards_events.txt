@@ -38,14 +38,18 @@ country_event = {
 	}
 
 	after = {
-		add_faction = hex_city_watch
-		add_mil_tech = 1
-		2 = { infantry = ROOT }
+		hidden_effect = {
+			add_faction = hex_city_watch
+			add_faction_influence = { faction = hex_city_watch influence = 1 }
 
-		FROM = {
-			add_permanent_province_modifier = {
-				name = hex_birthplace_of_guards_institution
-				duration = -1
+			add_mil_tech = 1
+			2 = { infantry = ROOT }
+
+			FROM = {
+				add_permanent_province_modifier = {
+					name = hex_birthplace_of_guards_institution
+					duration = -1
+				}
 			}
 		}
 	}
@@ -71,5 +75,11 @@ country_event = {
 		custom_tooltip = HEX_JOIN_CITY_WATCH_TT
 
 		highlight = yes
+
+		hidden_effect = {
+			hex_set_heir = { spear = yes }
+			add_faction_influence = { faction = hex_city_watch influence = 5 }
+			add_country_modifier = { name = hex_switched_loyalty duration = 365 }
+		}
 	}
 }

@@ -55,6 +55,19 @@ country_event = {
 	}
 
 	option = {
+		name = hex_city_factions_events.1.gold
+
+		trigger = { faction_in_power = hex_city_bank }
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_ruler = "Gold" } }
+				hex_set_ruler_gold = yes
+			}
+		}
+	}
+
+	option = {
 		name = hex_city_factions_events.1.lion
 
 		trigger = { faction_in_power = hex_hunters_guild }
@@ -102,6 +115,19 @@ country_event = {
 			if = {
 				limit = { NOT = { has_ruler = "Seawatcher" } }
 				hex_set_ruler_seawatcher = yes
+			}
+		}
+	}
+
+	option = {
+		name = hex_city_factions_events.1.spear
+
+		trigger = { faction_in_power = hex_city_watch }
+
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_ruler = "Spear" } }
+				hex_set_ruler_spear = yes
 			}
 		}
 	}

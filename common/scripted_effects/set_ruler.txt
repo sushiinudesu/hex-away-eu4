@@ -10,7 +10,7 @@ hex_set_ruler = {
 	export_to_variable = { variable_name = hex_ruler_dip value = DIP }
 	export_to_variable = { variable_name = hex_ruler_mil value = MIL }
 	
-	set_ruler = $ruler$
+	set_ruler = character_$ruler$
 	set_ruler_culture = hex_awake_culture
 	set_ruler_religion = hex_faithless
 	add_ruler_personality = hex_awakening_awake_personality
@@ -42,7 +42,9 @@ hex_change_ruler_skill = {
 hex_set_ruler_chef = { hex_set_ruler = { ruler = chef behavior = ai_capitalist } }
 hex_set_ruler_clay = { hex_set_ruler = { ruler = clay behavior = ai_balanced } }
 hex_set_ruler_first = { hex_set_ruler = { ruler = first behavior = ai_balanced } }
+hex_set_ruler_gold = { hex_set_ruler = { ruler = gold behavior = ai_capitalist } }
 hex_set_ruler_lion = { hex_set_ruler = { ruler = lion behavior = ai_militarist } }
 hex_set_ruler_longbeard = { hex_set_ruler = { ruler = longbeard behavior = ai_capitalist } }
 hex_set_ruler_needle = { hex_set_ruler = { ruler = needle behavior = ai_diplomat } }
 hex_set_ruler_seawatcher = { hex_set_ruler = { ruler = seawatcher behavior = ai_diplomat } }
+hex_set_ruler_spear = { hex_set_ruler = { ruler = spear behavior = ai_militarist } }

@@ -36,10 +36,12 @@
   hex_leaders_events.5.chef:0 "[Root.HexLeaderChef]"
   hex_leaders_events.5.clay:0 "[Root.HexLeaderClay]"
   hex_leaders_events.5.first:0 "[Root.HexLeaderFirst]"
+  hex_leaders_events.5.gold:0 "[Root.HexLeaderGold]"
   hex_leaders_events.5.lion:0 "[Root.HexLeaderLion]"
   hex_leaders_events.5.longbeard:0 "[Root.HexLeaderLongbeard]"
   hex_leaders_events.5.needle:0 "[Root.HexLeaderNeedle]"
   hex_leaders_events.5.seawatcher:0 "[Root.HexLeaderSeawatcher]"
+  hex_leaders_events.5.spear:0 "[Root.HexLeaderSpear]"
 
   hex_leaders_events.6.t:0 "[Root.HexLeaderEventTitle]"
   hex_leaders_events.6.d:0 "We currently have this position filled in. Do you want to replace this leader?"

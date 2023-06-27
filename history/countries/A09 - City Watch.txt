@@ -2,8 +2,8 @@ government = native
 
 2.1.1 = {
 	monarch = {
-		name = "Needle"
-		dynasty = "'the Elegant Clothier'"
+		name = "Spear"
+		dynasty = "'the Unbreakable'"
 		birth_date = 2.1.1
 		adm = 1
 		dip = 1
@@ -12,18 +12,19 @@ government = native
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}
-	exile_ruler_as = { name = character_needle kill_monarch = no }
+	exile_ruler_as = { name = character_spear kill_monarch = no }
 
 	heir = {
-		name = "Needle"
-		monarch_name = "Needle"
-		dynasty = "'the Elegant Clothier'"
+		name = "Spear"
+		monarch_name = "Spear"
+		dynasty = "'the Unbreakable'"
 		birth_date = 2.1.1
 		death_date = 9999.12.31
 		claim = 50
 		adm = 1
 		dip = 1
 		mil = 1
+		female = yes
 		culture = hex_awake_culture
 		religion = hex_faithless
 	}

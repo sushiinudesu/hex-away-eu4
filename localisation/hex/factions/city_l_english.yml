@@ -1,0 +1,8 @@
+﻿l_english:
+  hex_city_bank:0 "City Bank"
+  hex_city_bank_influence:0 "Faction - City Bank Influence"
+  hex_city_bank_FACTION_DESC:0 "The bank of the City"
+
+  hex_city_watch:0 "City Watch"
+  hex_city_watch_influence:0 "Faction - City Watch Influence"
+  hex_city_watch_FACTION_DESC:0 "Guards of the City"
