@@ -4,13 +4,15 @@ hex_change_faction_influence = {
 }
 
 hex_clear_faction_modifiers = {
-	remove_country_modifier = hex_first_loyalty
-	remove_country_modifier = hex_needle_loyalty
 	remove_country_modifier = hex_clay_loyalty
 	remove_country_modifier = hex_chef_loyalty
+	remove_country_modifier = hex_first_loyalty
+	remove_country_modifier = hex_gold_loyalty
 	remove_country_modifier = hex_lion_loyalty
 	remove_country_modifier = hex_longbeard_loyalty
+	remove_country_modifier = hex_needle_loyalty
 	remove_country_modifier = hex_seawatcher_loyalty
+	remove_country_modifier = hex_spear_loyalty
 }
 
 hex_add_faction_modifier = {

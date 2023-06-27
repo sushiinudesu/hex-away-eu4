@@ -41,7 +41,7 @@ hex_set_heir = {
 			birth_date = 2.1.1
 			claim = 50
 		}
-		hex_add_faction_modifier = { character = event_target:mal_next_gold_target }
+		hex_add_faction_modifier = { character = gold }
 	]
 
 	[[lion]
