@@ -26,18 +26,10 @@ country_event = {
 
 		hidden_effect = {
 			random_list = {
-				1 = { }
+				9 = { }
 				1 = { country_event = { id = hex_awakening_character_events.2 days = 1 random = 25 } }
 				1 = { country_event = { id = hex_awakening_character_events.3 days = 1 random = 25 } }
 				1 = { country_event = { id = hex_awakening_character_events.4 days = 1 random = 25 } }
-				1 = { country_event = { id = hex_awakening_character_events.5 days = 1 random = 25 } }
-				1 = { country_event = { id = hex_awakening_character_events.6 days = 1 random = 25 } }
-				1 = { country_event = { id = hex_awakening_character_events.7 days = 1 random = 25 } }
-				1 = { country_event = { id = hex_awakening_character_events.8 days = 1 random = 25 } }
-				1 = { country_event = { id = hex_awakening_character_events.9 days = 1 random = 25 } }
-				1 = { country_event = { id = hex_awakening_character_events.10 days = 1 random = 25 } }
-				1 = { country_event = { id = hex_awakening_character_events.11 days = 1 random = 25 } }
-				1 = { country_event = { id = hex_awakening_character_events.12 days = 1 random = 25 } }
 			}
 		}
 	}
@@ -78,117 +70,12 @@ country_event = {
 	title = hex_awakening_character_events.4.t
 	desc = hex_awakening_character_events.4.d
 	
-	picture = HEX_EVENT_PICTURE_FOOL_AWAKE
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = hex_awakening_character_events.4.a
-	}
-}
-
-country_event = {
-	id = hex_awakening_character_events.5
-	title = hex_awakening_character_events.5.t
-	desc = hex_awakening_character_events.5.d
-	
-	picture = HEX_EVENT_PICTURE_HAWK_AWAKE
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = hex_awakening_character_events.5.a
-	}
-}
-
-country_event = {
-	id = hex_awakening_character_events.6
-	title = hex_awakening_character_events.6.t
-	desc = hex_awakening_character_events.6.d
-	
-	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = hex_awakening_character_events.6.a
-	}
-}
-
-country_event = {
-	id = hex_awakening_character_events.7
-	title = hex_awakening_character_events.7.t
-	desc = hex_awakening_character_events.7.d
-	
-	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = hex_awakening_character_events.7.a
-	}
-}
-
-country_event = {
-	id = hex_awakening_character_events.8
-	title = hex_awakening_character_events.8.t
-	desc = hex_awakening_character_events.8.d
-	
-	picture = HEX_EVENT_PICTURE_WRONG_AWAKE
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = hex_awakening_character_events.8.a
-	}
-}
-
-country_event = {
-	id = hex_awakening_character_events.9
-	title = hex_awakening_character_events.9.t
-	desc = hex_awakening_character_events.9.d
-	
-	picture = HEX_EVENT_PICTURE_SCRIBE_AWAKE
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = hex_awakening_character_events.9.a
-	}
-}
-
-country_event = {
-	id = hex_awakening_character_events.10
-	title = hex_awakening_character_events.10.t
-	desc = hex_awakening_character_events.10.d
-	
-	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = hex_awakening_character_events.10.a
-	}
-}
-
-country_event = {
-	id = hex_awakening_character_events.11
-	title = hex_awakening_character_events.11.t
-	desc = hex_awakening_character_events.11.d
-	
 	picture = HEX_EVENT_PICTURE_SNAKE_AWAKE
 
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = {
-		name = hex_awakening_character_events.11.a
+		name = hex_awakening_character_events.4.a
 	}
 }
