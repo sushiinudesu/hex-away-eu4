@@ -1,0 +1,64 @@
+﻿l_english:
+  hex_basis_random_events.1.t:0 "Basis Arc Random Event Check"
+  hex_basis_random_events.1.d:0 "Randomly triggers an event during Basis Arc"
+  hex_basis_random_events.1.a:0 "OK"
+
+  hex_basis_random_events.2.t:0 ""
+  hex_basis_random_events.2.d:0 ""
+  hex_basis_random_events.2.a:0 ""
+  hex_basis_random_events.2.cha:0 ""
+
+  hex_basis_random_events.3.t:0 ""
+  hex_basis_random_events.3.d:0 ""
+  hex_basis_random_events.3.a:0 ""
+  hex_basis_random_events.3.cha:0 ""
+
+  hex_basis_random_events.4.t:0 ""
+  hex_basis_random_events.4.d:0 ""
+  hex_basis_random_events.4.a:0 ""
+  hex_basis_random_events.4.wis:0 ""
+
+  hex_basis_random_events.5.t:0 ""
+  hex_basis_random_events.5.d:0 ""
+  hex_basis_random_events.5.a:0 ""
+  hex_basis_random_events.5.con:0 ""
+
+  hex_basis_random_events.6.t:0 ""
+  hex_basis_random_events.6.d:0 ""
+  hex_basis_random_events.6.a:0 ""
+  hex_basis_random_events.6.dex:0 ""
+
+  hex_basis_random_events.7.t:0 ""
+  hex_basis_random_events.7.d:0 ""
+  hex_basis_random_events.7.a:0 ""
+  hex_basis_random_events.7.con:0 ""
+
+  hex_basis_random_events.8.t:0 ""
+  hex_basis_random_events.8.d:0 ""
+  hex_basis_random_events.8.a:0 ""
+  hex_basis_random_events.8.wis:0 ""
+
+  hex_basis_random_events.9.t:0 ""
+  hex_basis_random_events.9.d:0 ""
+  hex_basis_random_events.9.a:0 ""
+  hex_basis_random_events.9.str:0 ""
+
+  hex_basis_random_events.10.t:0 ""
+  hex_basis_random_events.10.d:0 ""
+  hex_basis_random_events.10.a:0 ""
+  hex_basis_random_events.10.dex:0 ""
+
+  hex_basis_random_events.11.t:0 ""
+  hex_basis_random_events.11.d:0 ""
+  hex_basis_random_events.11.a:0 ""
+  hex_basis_random_events.11.con:0 ""
+
+  hex_basis_random_events.12.t:0 ""
+  hex_basis_random_events.12.d:0 ""
+  hex_basis_random_events.12.a:0 ""
+  hex_basis_random_events.12.int:0 ""
+
+  hex_basis_random_events.13.t:0 ""
+  hex_basis_random_events.13.d:0 ""
+  hex_basis_random_events.13.a:0 ""
+  hex_basis_random_events.13.con:0 ""

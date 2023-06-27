@@ -1,0 +1,545 @@
+namespace = hex_basis_random_events
+
+country_event = {
+	id = hex_basis_random_events.1
+	title = hex_basis_random_events.1.t
+	desc = hex_basis_random_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		hex_is_basis_arc = yes
+		tag = A01
+	}
+
+	option = {
+		name = hex_basis_random_events.1.a
+
+		hidden_effect = {
+			random_list = {
+				6 = { }
+
+				1 = {
+					trigger = { has_faction = hex_city_bank }
+					country_event = { id = hex_basis_random_events.2 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_city_bank }
+					country_event = { id = hex_basis_random_events.3 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_city_bank }
+					country_event = { id = hex_basis_random_events.4 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_city_bank }
+					country_event = { id = hex_basis_random_events.5 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_city_bank }
+					country_event = { id = hex_basis_random_events.6 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_city_bank }
+					country_event = { id = hex_basis_random_events.7 days = 1 random = 25 }
+				}
+
+				1 = {
+					trigger = { has_faction = hex_city_watch }
+					country_event = { id = hex_basis_random_events.8 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_city_watch }
+					country_event = { id = hex_basis_random_events.9 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_city_watch }
+					country_event = { id = hex_basis_random_events.10 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_city_watch }
+					country_event = { id = hex_basis_random_events.11 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_city_watch }
+					country_event = { id = hex_basis_random_events.12 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_city_watch }
+					country_event = { id = hex_basis_random_events.13 days = 1 random = 25 }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.2
+	title = hex_basis_random_events.2.t
+	desc = hex_basis_random_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_GOLD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_bank influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.2.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.2.cha
+		custom_tooltip = HEX_INCREASE_CITY_BANK_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Gold" }
+			hex_skill_check = { charisma = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.3
+	title = hex_basis_random_events.3.t
+	desc = hex_basis_random_events.3.d
+	
+	picture = HEX_EVENT_PICTURE_GOLD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_bank influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.3.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.3.cha
+		custom_tooltip = HEX_INCREASE_CITY_BANK_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Gold" }
+			hex_skill_check = { charisma = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.4
+	title = hex_basis_random_events.4.t
+	desc = hex_basis_random_events.4.d
+	
+	picture = HEX_EVENT_PICTURE_GOLD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_bank influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.4.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.4.wis
+		custom_tooltip = HEX_INCREASE_CITY_BANK_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Gold" }
+			hex_skill_check = { wisdom = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.5
+	title = hex_basis_random_events.5.t
+	desc = hex_basis_random_events.5.d
+	
+	picture = HEX_EVENT_PICTURE_GOLD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_bank influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.5.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.5.con
+		custom_tooltip = HEX_INCREASE_CITY_BANK_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Gold" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.6
+	title = hex_basis_random_events.6.t
+	desc = hex_basis_random_events.6.d
+	
+	picture = HEX_EVENT_PICTURE_GOLD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_bank influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.6.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.6.dex
+		custom_tooltip = HEX_INCREASE_CITY_BANK_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Gold" }
+			hex_skill_check = { dexterity = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.7
+	title = hex_basis_random_events.7.t
+	desc = hex_basis_random_events.7.d
+	
+	picture = HEX_EVENT_PICTURE_GOLD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_bank influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.7.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.7.con
+		custom_tooltip = HEX_INCREASE_CITY_BANK_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Gold" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.8
+	title = hex_basis_random_events.8.t
+	desc = hex_basis_random_events.8.d
+	
+	picture = HEX_EVENT_PICTURE_SPEAR_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_watch influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.8.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.8.wis
+		custom_tooltip = HEX_INCREASE_CITY_WATCH_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Spear" }
+			hex_skill_check = { wisdom = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.9
+	title = hex_basis_random_events.9.t
+	desc = hex_basis_random_events.9.d
+	
+	picture = HEX_EVENT_PICTURE_SPEAR_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_watch influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.9.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.9.str
+		custom_tooltip = HEX_INCREASE_CITY_WATCH_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Spear" }
+			hex_skill_check = { strength = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.10
+	title = hex_basis_random_events.10.t
+	desc = hex_basis_random_events.10.d
+	
+	picture = HEX_EVENT_PICTURE_SPEAR_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_watch influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.10.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.10.dex
+		custom_tooltip = HEX_INCREASE_CITY_WATCH_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Spear" }
+			hex_skill_check = { dexterity = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.11
+	title = hex_basis_random_events.11.t
+	desc = hex_basis_random_events.11.d
+	
+	picture = HEX_EVENT_PICTURE_SPEAR_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_watch influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.11.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.11.con
+		custom_tooltip = HEX_INCREASE_CITY_WATCH_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Spear" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.12
+	title = hex_basis_random_events.12.t
+	desc = hex_basis_random_events.12.d
+	
+	picture = HEX_EVENT_PICTURE_SPEAR_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_watch influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.12.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.12.int
+		custom_tooltip = HEX_INCREASE_CITY_WATCH_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Spear" }
+			hex_skill_check = { intelligence = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.13
+	title = hex_basis_random_events.13.t
+	desc = hex_basis_random_events.13.d
+	
+	picture = HEX_EVENT_PICTURE_SPEAR_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { 
+			add_faction_influence = { faction = hex_city_watch influence = 1 }
+		}
+	}
+
+	option = {
+		name = hex_basis_random_events.13.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.13.con
+		custom_tooltip = HEX_INCREASE_CITY_WATCH_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Spear" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
