@@ -1,0 +1,5 @@
+﻿l_english:
+  hex_kill_count_desc:0 "§MWhy would you even want to know that?§!"
+  hex_kill_count_title:0 "Kill Count"
+  HEX_KILL_COUNT_ALLOW_TT:0 "Not currently open"
+  HEX_KILL_COUNT_TT:0 "Opens §RKill Count§! window"

@@ -1,0 +1,207 @@
+namespace = hex_origin_right_wrong_events
+
+country_event = {
+	id = hex_origin_right_wrong_events.1
+	title = hex_origin_right_wrong_events.1.t
+	desc = hex_origin_right_wrong_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_right_wrong_events.1.a
+
+		hidden_effect = {
+			26 = { hex_add_to_city = yes }
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_right_wrong_events.2
+	title = hex_origin_right_wrong_events.2.t
+	desc = hex_origin_right_wrong_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_right_wrong_events.2.a
+
+		34 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_right_wrong_events.2.b
+
+		34 = {
+			random_list = {
+				1 = { add_base_tax = 3 } 
+				1 = { add_base_production = 3 } 
+				1 = { add_base_manpower = 3 } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_right_wrong_events.3
+	title = hex_origin_right_wrong_events.3.t
+	desc = hex_origin_right_wrong_events.3.d
+	
+	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_right_wrong_events.3.a
+
+		37 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_right_wrong_events.3.b
+
+		37 = {
+			random_list = {
+				1 = { add_base_tax = 3 } 
+				1 = { add_base_production = 3 } 
+				1 = { add_base_manpower = 3 } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_right_wrong_events.4
+	title = hex_origin_right_wrong_events.4.t
+	desc = hex_origin_right_wrong_events.4.d
+	
+	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_right_wrong_events.4.a
+
+		21 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_right_wrong_events.4.b
+
+		21 = {
+			random_list = {
+				1 = { add_base_tax = 3 } 
+				1 = { add_base_production = 3 } 
+				1 = { add_base_manpower = 3 } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_right_wrong_events.5
+	title = hex_origin_right_wrong_events.5.t
+	desc = hex_origin_right_wrong_events.5.d
+	
+	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_right_wrong_events.5.a
+
+		29 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_right_wrong_events.5.b
+
+		29 = {
+			random_list = {
+				1 = { add_base_tax = 3 } 
+				1 = { add_base_production = 3 } 
+				1 = { add_base_manpower = 3 } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_right_wrong_events.6
+	title = hex_origin_right_wrong_events.6.t
+	desc = hex_origin_right_wrong_events.6.d
+	
+	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_right_wrong_events.6.a
+
+		31 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_right_wrong_events.6.b
+
+		31 = {
+			random_list = {
+				1 = { add_base_tax = 3 } 
+				1 = { add_base_production = 3 } 
+				1 = { add_base_manpower = 3 } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}

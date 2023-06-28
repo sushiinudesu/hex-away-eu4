@@ -9,3 +9,5 @@ hex_right_wrong_base = {}
 hex_scribe_base = {}
 
 hex_wizard_base = {}
+
+hex_foolish_death = {}

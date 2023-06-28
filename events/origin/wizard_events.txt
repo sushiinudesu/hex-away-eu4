@@ -1,0 +1,391 @@
+namespace = hex_origin_wizard_events
+
+country_event = {
+	id = hex_origin_wizard_events.1
+	title = hex_origin_wizard_events.1.t
+	desc = hex_origin_wizard_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 21
+
+	option = {
+		name = hex_origin_wizard_events.1.a
+
+		hidden_effect = {
+			random_list = {
+				1 = { country_event = { id = hex_origin_wizard_events.7 days = 100 random = 1725 } } 
+				1 = { country_event = { id = hex_origin_wizard_events.8 days = 100 random = 1725 } } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			21 = { hex_add_to_city = yes }
+		}
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.2
+	title = hex_origin_wizard_events.2.t
+	desc = hex_origin_wizard_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 30
+
+	option = {
+		name = hex_origin_wizard_events.2.a
+
+		hidden_effect = {
+			random_list = {
+				1 = { country_event = { id = hex_origin_wizard_events.9 days = 100 random = 1725 } } 
+				1 = { country_event = { id = hex_origin_wizard_events.10 days = 100 random = 1725 } } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.3
+	title = hex_origin_wizard_events.3.t
+	desc = hex_origin_wizard_events.3.d
+	
+	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 19
+
+	option = {
+		name = hex_origin_wizard_events.3.a
+
+		hidden_effect = {
+			random_list = {
+				1 = { country_event = { id = hex_origin_wizard_events.11 days = 100 random = 1725 } } 
+				1 = { country_event = { id = hex_origin_wizard_events.12 days = 100 random = 1725 } } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.4
+	title = hex_origin_wizard_events.4.t
+	desc = hex_origin_wizard_events.4.d
+	
+	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 12
+
+	option = {
+		name = hex_origin_wizard_events.4.a
+
+		hidden_effect = {
+			random_list = {
+				1 = { country_event = { id = hex_origin_wizard_events.13 days = 100 random = 1725 } } 
+				1 = { country_event = { id = hex_origin_wizard_events.14 days = 100 random = 1725 } } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.5
+	title = hex_origin_wizard_events.5.t
+	desc = hex_origin_wizard_events.5.d
+	
+	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 16
+
+	option = {
+		name = hex_origin_wizard_events.5.a
+
+		hidden_effect = {
+			random_list = {
+				1 = { country_event = { id = hex_origin_wizard_events.15 days = 100 random = 1725 } } 
+				1 = { country_event = { id = hex_origin_wizard_events.16 days = 100 random = 1725 } } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.6
+	title = hex_origin_wizard_events.6.t
+	desc = hex_origin_wizard_events.6.d
+	
+	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 23
+
+	option = {
+		name = hex_origin_wizard_events.6.a
+
+		hidden_effect = {
+			random_list = {
+				1 = { country_event = { id = hex_origin_wizard_events.17 days = 100 random = 1725 } } 
+				1 = { country_event = { id = hex_origin_wizard_events.18 days = 100 random = 1725 } } 
+			}
+		}
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.7
+	title = hex_origin_wizard_events.7.t
+	desc = hex_origin_wizard_events.7.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 21
+
+	option = {
+		name = hex_origin_wizard_events.7.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.8
+	title = hex_origin_wizard_events.8.t
+	desc = hex_origin_wizard_events.8.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 21
+
+	option = {
+		name = hex_origin_wizard_events.8.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.9
+	title = hex_origin_wizard_events.9.t
+	desc = hex_origin_wizard_events.9.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 30
+
+	option = {
+		name = hex_origin_wizard_events.9.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.10
+	title = hex_origin_wizard_events.10.t
+	desc = hex_origin_wizard_events.10.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 30
+
+	option = {
+		name = hex_origin_wizard_events.10.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.11
+	title = hex_origin_wizard_events.11.t
+	desc = hex_origin_wizard_events.11.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 19
+
+	option = {
+		name = hex_origin_wizard_events.11.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.12
+	title = hex_origin_wizard_events.12.t
+	desc = hex_origin_wizard_events.12.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 19
+
+	option = {
+		name = hex_origin_wizard_events.12.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.13
+	title = hex_origin_wizard_events.13.t
+	desc = hex_origin_wizard_events.13.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 12
+
+	option = {
+		name = hex_origin_wizard_events.13.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.14
+	title = hex_origin_wizard_events.14.t
+	desc = hex_origin_wizard_events.14.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 12
+
+	option = {
+		name = hex_origin_wizard_events.14.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.15
+	title = hex_origin_wizard_events.15.t
+	desc = hex_origin_wizard_events.15.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 16
+
+	option = {
+		name = hex_origin_wizard_events.15.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.16
+	title = hex_origin_wizard_events.16.t
+	desc = hex_origin_wizard_events.16.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 16
+
+	option = {
+		name = hex_origin_wizard_events.16.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.17
+	title = hex_origin_wizard_events.17.t
+	desc = hex_origin_wizard_events.17.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 23
+
+	option = {
+		name = hex_origin_wizard_events.17.a
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_wizard_events.18
+	title = hex_origin_wizard_events.18.t
+	desc = hex_origin_wizard_events.18.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 23
+
+	option = {
+		name = hex_origin_wizard_events.18.a
+
+		ai_chance = { factor = 1 }
+	}
+}

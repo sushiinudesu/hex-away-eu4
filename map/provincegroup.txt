@@ -1,11 +1,11 @@
-hex_wizard_migration_province_group = { 21 }
+hex_wizard_migration_province_group = { 12 16 19 21 23 30 }
 
-hex_right_wrong_migration_province_group = { 26 }
+hex_right_wrong_migration_province_group = { 21 26 29 31 34 37 }
 
-hex_scribe_migration_province_group = { 29 }
+hex_scribe_migration_province_group = { 9 12 14 16 18 19 20 23 25 27 28 29 30 32 33 35 36 }
 
-hex_preacher_migration_province_group = { 31 }
+hex_preacher_migration_province_group = { 9 12 14 18 19 31 }
 
-hex_fool_migration_province_group = { 34 }
+hex_fool_migration_province_group = { 9 14 16 19 25 34 }
 
-hex_hawk_migration_province_group = { 37 }
+hex_hawk_migration_province_group = { 12 20 23 35 36 37 }

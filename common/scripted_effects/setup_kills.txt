@@ -1,0 +1,30 @@
+hex_setup_kills = {
+	set_variable = { which = hex_badger_kills value = 0 }
+	set_variable = { which = hex_bat_kills value = 0 }
+	set_variable = { which = hex_bear_kills value = 0 }
+	set_variable = { which = hex_boar_kills value = 0 }
+	set_variable = { which = hex_cat_kills value = 0 }
+	set_variable = { which = hex_crab_kills value = 0 }
+	set_variable = { which = hex_deer_kills value = 0 }
+	set_variable = { which = hex_elephant_kills value = 0 }
+	set_variable = { which = hex_fox_kills value = 0 }
+	set_variable = { which = hex_goat_kills value = 0 }
+	set_variable = { which = hex_griffon_kills value = 0 }
+	set_variable = { which = hex_lion_kills value = 0 }
+	set_variable = { which = hex_owl_kills value = 0 }
+	set_variable = { which = hex_panther_kills value = 0 }
+	set_variable = { which = hex_prairie_dog_kills value = 0 }
+	set_variable = { which = hex_rabbit_kills value = 0 }
+	set_variable = { which = hex_wyvern_kills value = 0 }
+	set_variable = { which = hex_wolf_kills value = 0 }
+	set_variable = { which = hex_rat_kills value = 0 }
+	set_variable = { which = hex_raven_kills value = 0 }
+	set_variable = { which = hex_snake_kills value = 0 }
+	set_variable = { which = hex_spider_kills value = 0 }
+	set_variable = { which = hex_tiger_kills value = 0 }
+	set_variable = { which = hex_toad_kills value = 0 }
+}
+
+hex_kill = {
+	change_variable = { which = hex_$type$_kills value = $value$ }
+}

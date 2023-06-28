@@ -16,3 +16,6 @@
 
   hex_wizard_base:0 "Wizard"
   desc_hex_wizard_base:0 "Wizard is currently here"
+
+  hex_foolish_death:0 "Foolish Death"
+  desc_hex_foolish_death:0 "Only for a fool"

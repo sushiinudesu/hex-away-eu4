@@ -22,6 +22,8 @@ hex_setup_country = {
 
 			add_item = { awakening_robes = yes skill = 1 }
 			add_item = { gold_coin = yes skill = 1 }
+
+			hex_setup_kills = yes
 		}
 
 		if = { 

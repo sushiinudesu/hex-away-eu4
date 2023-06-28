@@ -1,0 +1,25 @@
+country_decisions = {
+	hex_kill_count = {
+		color = { 179 39 34 }
+		
+		potential = {
+			ai = no
+			hex_innocent = no
+		}
+
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = HEX_KILL_COUNT_ALLOW_TT
+				NOT = { has_country_flag = hex_kill_count_open_flag }
+			}
+		}
+
+		effect = {
+			custom_tooltip = HEX_KILL_COUNT_TT
+			hidden_effect = {
+				set_country_flag = hex_kill_count_open_flag
+				country_event = { id = hex_kill_count_events.1 }
+			}
+		}
+	}
+}

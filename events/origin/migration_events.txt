@@ -1,16 +1,16 @@
-namespace = hex_origin_migration_event
+namespace = hex_origin_migration_events
 
-country_event = {
-	id = hex_origin_migration_event.1
-	title = hex_origin_migration_event.1.t
-	desc = hex_origin_migration_event.1.d
+province_event = {
+	id = hex_origin_migration_events.1
+	title = hex_origin_migration_events.1.t
+	desc = hex_origin_migration_events.1.d
 	
 	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
 
 	is_triggered_only = yes
 
 	option = {
-		name = hex_origin_migration_event.1.a
+		name = hex_origin_migration_events.1.a
 
 		hidden_effect = {
 			random_province = {
@@ -18,7 +18,7 @@ country_event = {
 					province_group = hex_wizard_migration_province_group
 					NOT = { has_province_modifier = hex_wizard_base }
 				}
-				province_event = { id = hex_origin_migration_event.2 }
+				province_event = { id = hex_origin_migration_events.2 }
 			}
 		}
 	}
@@ -31,10 +31,10 @@ country_event = {
 }
 
 
-country_event = {
-	id = hex_origin_migration_event.2
-	title = hex_origin_migration_event.2.t
-	desc = hex_origin_migration_event.2.d
+province_event = {
+	id = hex_origin_migration_events.2
+	title = hex_origin_migration_events.2.t
+	desc = hex_origin_migration_events.2.d
 	
 	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
 
@@ -47,27 +47,42 @@ country_event = {
 	}
 
 	option = {
-		name = hex_origin_migration_event.2.a
+		name = hex_origin_migration_events.2.a
 	}
 	
 	after = {
 		hidden_effect = {
-			province_event = { id = hex_origin_migration_event.1 days = 365 random = 365 }
+			province_event = { id = hex_origin_migration_events.1 days = 365 random = 365 }
+
+			trigger_switch = {
+				on_trigger = province_id
+				21 = { 
+					if = {
+						limit = { is_city = no }
+						A01 = { country_event = { id = hex_origin_wizard_events.1 days = 100 random = 200 } } 
+					}
+				}
+				30 = { A01 = { country_event = { id = hex_origin_wizard_events.2 days = 100 random = 200 } } }
+				19 = { A01 = { country_event = { id = hex_origin_wizard_events.3 days = 100 random = 200 } } }
+				12 = { A01 = { country_event = { id = hex_origin_wizard_events.4 days = 100 random = 200 } } }
+				16 = { A01 = { country_event = { id = hex_origin_wizard_events.5 days = 100 random = 200 } } }
+				23 = { A01 = { country_event = { id = hex_origin_wizard_events.6 days = 100 random = 200 } } }
+			}
 		}
 	}
 }
 
-country_event = {
-	id = hex_origin_migration_event.3
-	title = hex_origin_migration_event.3.t
-	desc = hex_origin_migration_event.3.d
+province_event = {
+	id = hex_origin_migration_events.3
+	title = hex_origin_migration_events.3.t
+	desc = hex_origin_migration_events.3.d
 	
 	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
 
 	is_triggered_only = yes
 
 	option = {
-		name = hex_origin_migration_event.3.a
+		name = hex_origin_migration_events.3.a
 
 		hidden_effect = {
 			random_province = {
@@ -75,7 +90,7 @@ country_event = {
 					province_group = hex_right_wrong_migration_province_group
 					NOT = { has_province_modifier = hex_right_wrong_base }
 				}
-				province_event = { id = hex_origin_migration_event.4 }
+				province_event = { id = hex_origin_migration_events.4 }
 			}
 		}
 	}
@@ -88,10 +103,10 @@ country_event = {
 }
 
 
-country_event = {
-	id = hex_origin_migration_event.4
-	title = hex_origin_migration_event.4.t
-	desc = hex_origin_migration_event.4.d
+province_event = {
+	id = hex_origin_migration_events.4
+	title = hex_origin_migration_events.4.t
+	desc = hex_origin_migration_events.4.d
 	
 	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
 
@@ -104,27 +119,42 @@ country_event = {
 	}
 
 	option = {
-		name = hex_origin_migration_event.4.a
+		name = hex_origin_migration_events.4.a
 	}
 
 	after = {
 		hidden_effect = {
-			province_event = { id = hex_origin_migration_event.3 days = 365 random = 365 }
+			province_event = { id = hex_origin_migration_events.3 days = 365 random = 365 }
+
+			trigger_switch = {
+				on_trigger = province_id
+				26 = { 
+					if = {
+						limit = { is_city = no }
+						A01 = { country_event = { id = hex_origin_right_wrong_events.1 days = 100 random = 200 } } 
+					}
+				}
+				1 = { A01 = { country_event = { id = hex_origin_right_wrong_events.2 days = 100 random = 200 } } }
+				2 = { A01 = { country_event = { id = hex_origin_right_wrong_events.3 days = 100 random = 200 } } }
+				3 = { A01 = { country_event = { id = hex_origin_right_wrong_events.4 days = 100 random = 200 } } }
+				4 = { A01 = { country_event = { id = hex_origin_right_wrong_events.5 days = 100 random = 200 } } }
+				5 = { A01 = { country_event = { id = hex_origin_right_wrong_events.6 days = 100 random = 200 } } }
+			}
 		}
 	}
 }
 
-country_event = {
-	id = hex_origin_migration_event.5
-	title = hex_origin_migration_event.5.t
-	desc = hex_origin_migration_event.5.d
+province_event = {
+	id = hex_origin_migration_events.5
+	title = hex_origin_migration_events.5.t
+	desc = hex_origin_migration_events.5.d
 	
 	picture = HEX_EVENT_PICTURE_SCRIBE_AWAKE
 
 	is_triggered_only = yes
 
 	option = {
-		name = hex_origin_migration_event.5.a
+		name = hex_origin_migration_events.5.a
 
 		hidden_effect = {
 			random_province = {
@@ -132,7 +162,7 @@ country_event = {
 					province_group = hex_scribe_migration_province_group
 					NOT = { has_province_modifier = hex_scribe_base }
 				}
-				province_event = { id = hex_origin_migration_event.6 }
+				province_event = { id = hex_origin_migration_events.6 }
 			}
 		}
 	}
@@ -145,10 +175,10 @@ country_event = {
 }
 
 
-country_event = {
-	id = hex_origin_migration_event.6
-	title = hex_origin_migration_event.6.t
-	desc = hex_origin_migration_event.6.d
+province_event = {
+	id = hex_origin_migration_events.6
+	title = hex_origin_migration_events.6.t
+	desc = hex_origin_migration_events.6.d
 	
 	picture = HEX_EVENT_PICTURE_SCRIBE_AWAKE
 
@@ -161,27 +191,51 @@ country_event = {
 	}
 
 	option = {
-		name = hex_origin_migration_event.6.a
+		name = hex_origin_migration_events.6.a
 	}
 
 	after = {
 		hidden_effect = {
-			province_event = { id = hex_origin_migration_event.5 days = 365 random = 365 }
+			province_event = { id = hex_origin_migration_events.5 days = 365 random = 365 }
+
+			if = {
+				limit = { is_city = no }
+				trigger_switch = {
+					on_trigger = province_id
+					29 = { A01 = { country_event = { id = hex_origin_scribe_events.1 days = 100 random = 200 } } }
+					9 = { A01 = { country_event = { id = hex_origin_scribe_events.2 days = 100 random = 200 } } }
+					12 = { A01 = { country_event = { id = hex_origin_scribe_events.3 days = 100 random = 200 } } }
+					14 = { A01 = { country_event = { id = hex_origin_scribe_events.4 days = 100 random = 200 } } }
+					16 = { A01 = { country_event = { id = hex_origin_scribe_events.5 days = 100 random = 200 } } }
+					18 = { A01 = { country_event = { id = hex_origin_scribe_events.6 days = 100 random = 200 } } }
+					19 = { A01 = { country_event = { id = hex_origin_scribe_events.7 days = 100 random = 200 } } }
+					20 = { A01 = { country_event = { id = hex_origin_scribe_events.8 days = 100 random = 200 } } }
+					23 = { A01 = { country_event = { id = hex_origin_scribe_events.9 days = 100 random = 200 } } }
+					25 = { A01 = { country_event = { id = hex_origin_scribe_events.10 days = 100 random = 200 } } }
+					27 = { A01 = { country_event = { id = hex_origin_scribe_events.11 days = 100 random = 200 } } }
+					28 = { A01 = { country_event = { id = hex_origin_scribe_events.12 days = 100 random = 200 } } }
+					30 = { A01 = { country_event = { id = hex_origin_scribe_events.13 days = 100 random = 200 } } }
+					32 = { A01 = { country_event = { id = hex_origin_scribe_events.14 days = 100 random = 200 } } }
+					33 = { A01 = { country_event = { id = hex_origin_scribe_events.15 days = 100 random = 200 } } }
+					35 = { A01 = { country_event = { id = hex_origin_scribe_events.16 days = 100 random = 200 } } }
+					36 = { A01 = { country_event = { id = hex_origin_scribe_events.17 days = 100 random = 200 } } }
+				}
+			}
 		}
 	}
 }
 
-country_event = {
-	id = hex_origin_migration_event.7
-	title = hex_origin_migration_event.7.t
-	desc = hex_origin_migration_event.7.d
+province_event = {
+	id = hex_origin_migration_events.7
+	title = hex_origin_migration_events.7.t
+	desc = hex_origin_migration_events.7.d
 	
 	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
 
 	is_triggered_only = yes
 
 	option = {
-		name = hex_origin_migration_event.7.a
+		name = hex_origin_migration_events.7.a
 
 		hidden_effect = {
 			random_province = {
@@ -189,7 +243,7 @@ country_event = {
 					province_group = hex_preacher_migration_province_group
 					NOT = { has_province_modifier = hex_preacher_base }
 				}
-				province_event = { id = hex_origin_migration_event.8 }
+				province_event = { id = hex_origin_migration_events.8 }
 			}
 		}
 	}
@@ -202,10 +256,10 @@ country_event = {
 }
 
 
-country_event = {
-	id = hex_origin_migration_event.8
-	title = hex_origin_migration_event.8.t
-	desc = hex_origin_migration_event.8.d
+province_event = {
+	id = hex_origin_migration_events.8
+	title = hex_origin_migration_events.8.t
+	desc = hex_origin_migration_events.8.d
 	
 	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
 
@@ -218,27 +272,42 @@ country_event = {
 	}
 
 	option = {
-		name = hex_origin_migration_event.8.a
+		name = hex_origin_migration_events.8.a
 	}
 
 	after = {
 		hidden_effect = {
-			province_event = { id = hex_origin_migration_event.7 days = 365 random = 365 }
+			province_event = { id = hex_origin_migration_events.7 days = 365 random = 365 }
+	
+			trigger_switch = {
+				on_trigger = province_id
+				31 = {
+					if = {
+						limit = { is_city = no }
+						A01 = { country_event = { id = hex_origin_preacher_events.1 days = 100 random = 200 } }
+					}
+				}
+				12 = { A01 = { country_event = { id = hex_origin_preacher_events.2 days = 100 random = 200 } } }
+				14 = { A01 = { country_event = { id = hex_origin_preacher_events.3 days = 100 random = 200 } } }
+				19 = { A01 = { country_event = { id = hex_origin_preacher_events.4 days = 100 random = 200 } } }
+				18 = { A01 = { country_event = { id = hex_origin_preacher_events.5 days = 100 random = 200 } } }
+				9 = { A01 = { country_event = { id = hex_origin_preacher_events.6 days = 100 random = 200 } } }
+			}
 		}
 	}
 }
 
-country_event = {
-	id = hex_origin_migration_event.9
-	title = hex_origin_migration_event.9.t
-	desc = hex_origin_migration_event.9.d
+province_event = {
+	id = hex_origin_migration_events.9
+	title = hex_origin_migration_events.9.t
+	desc = hex_origin_migration_events.9.d
 	
 	picture = HEX_EVENT_PICTURE_FOOL_AWAKE
 
 	is_triggered_only = yes
 
 	option = {
-		name = hex_origin_migration_event.9.a
+		name = hex_origin_migration_events.9.a
 
 		hidden_effect = {
 			random_province = {
@@ -246,7 +315,7 @@ country_event = {
 					province_group = hex_fool_migration_province_group
 					NOT = { has_province_modifier = hex_fool_base }
 				}
-				province_event = { id = hex_origin_migration_event.10 }
+				province_event = { id = hex_origin_migration_events.10 }
 			}
 		}
 	}
@@ -259,10 +328,10 @@ country_event = {
 }
 
 
-country_event = {
-	id = hex_origin_migration_event.10
-	title = hex_origin_migration_event.10.t
-	desc = hex_origin_migration_event.10.d
+province_event = {
+	id = hex_origin_migration_events.10
+	title = hex_origin_migration_events.10.t
+	desc = hex_origin_migration_events.10.d
 	
 	picture = HEX_EVENT_PICTURE_FOOL_AWAKE
 
@@ -275,27 +344,42 @@ country_event = {
 	}
 
 	option = {
-		name = hex_origin_migration_event.10.a
+		name = hex_origin_migration_events.10.a
 	}
 
 	after = {
 		hidden_effect = {
-			province_event = { id = hex_origin_migration_event.9 days = 365 random = 365 }
+			province_event = { id = hex_origin_migration_events.9 days = 365 random = 365 }
+
+			trigger_switch = {
+				on_trigger = province_id
+				34 = {
+					if = {
+						limit = { is_city = no }
+						A01 = { country_event = { id = hex_origin_fool_events.1 days = 100 random = 200 } }
+					}
+				}
+				16 = { A01 = { country_event = { id = hex_origin_fool_events.2 days = 100 random = 200 } } }
+				19 = { A01 = { country_event = { id = hex_origin_fool_events.3 days = 100 random = 200 } } }
+				9 = { A01 = { country_event = { id = hex_origin_fool_events.4 days = 100 random = 200 } } }
+				25 = { A01 = { country_event = { id = hex_origin_fool_events.5 days = 100 random = 200 } } }
+				14 = { A01 = { country_event = { id = hex_origin_fool_events.6 days = 100 random = 200 } } }
+			}
 		}
 	}
 }
 
-country_event = {
-	id = hex_origin_migration_event.11
-	title = hex_origin_migration_event.11.t
-	desc = hex_origin_migration_event.11.d
+province_event = {
+	id = hex_origin_migration_events.11
+	title = hex_origin_migration_events.11.t
+	desc = hex_origin_migration_events.11.d
 	
 	picture = HEX_EVENT_PICTURE_HAWK_AWAKE
 
 	is_triggered_only = yes
 
 	option = {
-		name = hex_origin_migration_event.11.a
+		name = hex_origin_migration_events.11.a
 
 		hidden_effect = {
 			random_province = {
@@ -303,7 +387,7 @@ country_event = {
 					province_group = hex_hawk_migration_province_group
 					NOT = { has_province_modifier = hex_hawk_base }
 				}
-				province_event = { id = hex_origin_migration_event.12 }
+				province_event = { id = hex_origin_migration_events.12 }
 			}
 		}
 	}
@@ -316,10 +400,10 @@ country_event = {
 }
 
 
-country_event = {
-	id = hex_origin_migration_event.12
-	title = hex_origin_migration_event.12.t
-	desc = hex_origin_migration_event.12.d
+province_event = {
+	id = hex_origin_migration_events.12
+	title = hex_origin_migration_events.12.t
+	desc = hex_origin_migration_events.12.d
 	
 	picture = HEX_EVENT_PICTURE_HAWK_AWAKE
 
@@ -332,12 +416,27 @@ country_event = {
 	}
 
 	option = {
-		name = hex_origin_migration_event.12.a
+		name = hex_origin_migration_events.12.a
 	}
 
 	after = {
 		hidden_effect = {
-			province_event = { id = hex_origin_migration_event.12 days = 365 random = 365 }
+			province_event = { id = hex_origin_migration_events.12 days = 365 random = 365 }
+
+			trigger_switch = {
+				on_trigger = province_id
+				37 = {
+					if = {
+						limit = { is_city = no }
+						A01 = { country_event = { id = hex_origin_hawk_events.1 days = 100 random = 200 } }
+					}
+				}
+				20 = { A01 = { country_event = { id = hex_origin_hawk_events.2 days = 100 random = 200 } } }
+				35 = { A01 = { country_event = { id = hex_origin_hawk_events.3 days = 100 random = 200 } } }
+				36 = { A01 = { country_event = { id = hex_origin_hawk_events.4 days = 100 random = 200 } } }
+				23 = { A01 = { country_event = { id = hex_origin_hawk_events.5 days = 100 random = 200 } } }
+				12 = { A01 = { country_event = { id = hex_origin_hawk_events.6 days = 100 random = 200 } } }
+			}
 		}
 	}
 }

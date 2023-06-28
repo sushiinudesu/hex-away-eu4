@@ -1,0 +1,229 @@
+namespace = hex_origin_preacher_events
+
+country_event = {
+	id = hex_origin_preacher_events.1
+	title = hex_origin_preacher_events.1.t
+	desc = hex_origin_preacher_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 31
+
+	option = {
+		name = hex_origin_preacher_events.1.a
+
+		hidden_effect = { set_global_flag = hex_goat_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.1.b
+
+		hidden_effect = { set_global_flag = hex_star_fox_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.1.c
+
+		hidden_effect = { set_global_flag = hex_ice_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	after = {
+		hidden_effect = {
+			31 = { hex_add_to_city = yes }
+		}
+	}
+}
+
+country_event = {
+	id = hex_origin_preacher_events.2
+	title = hex_origin_preacher_events.2.t
+	desc = hex_origin_preacher_events.2.d
+	
+	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 12
+
+	option = {
+		name = hex_origin_preacher_events.2.a
+
+		hidden_effect = { set_global_flag = hex_burrow_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.2.b
+
+		hidden_effect = { set_global_flag = hex_changeling_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.2.c
+
+		hidden_effect = { set_global_flag = hex_free_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_preacher_events.3
+	title = hex_origin_preacher_events.3.t
+	desc = hex_origin_preacher_events.3.d
+	
+	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 14
+
+	option = {
+		name = hex_origin_preacher_events.3.a
+
+		hidden_effect = { set_global_flag = hex_scorpion_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.3.b
+
+		hidden_effect = { set_global_flag = hex_song_of_the_wind_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.3.c
+
+		hidden_effect = { set_global_flag = hex_scarmaker_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_preacher_events.4
+	title = hex_origin_preacher_events.4.t
+	desc = hex_origin_preacher_events.4.d
+	
+	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 19
+
+	option = {
+		name = hex_origin_preacher_events.4.a
+
+		hidden_effect = { set_global_flag = hex_bunny_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.4.b
+
+		hidden_effect = { set_global_flag = hex_frog_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.4.c
+
+		hidden_effect = { set_global_flag = hex_river_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_preacher_events.5
+	title = hex_origin_preacher_events.5.t
+	desc = hex_origin_preacher_events.5.d
+	
+	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 18
+
+	option = {
+		name = hex_origin_preacher_events.5.a
+
+		hidden_effect = { set_global_flag = hex_deer_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.5.b
+
+		hidden_effect = { set_global_flag = hex_owl_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.5.c
+
+		hidden_effect = { set_global_flag = hex_green_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = hex_origin_preacher_events.6
+	title = hex_origin_preacher_events.6.t
+	desc = hex_origin_preacher_events.6.d
+	
+	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	goto = 9
+
+	option = {
+		name = hex_origin_preacher_events.6.a
+
+		hidden_effect = { set_global_flag = hex_crab_spirit_unlocked_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.6.b
+
+		hidden_effect = { set_global_flag = hex_fish_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_origin_preacher_events.6.c
+
+		hidden_effect = { set_global_flag = hex_sea_spirit_unlocked }
+
+		ai_chance = { factor = 1 }
+	}
+}

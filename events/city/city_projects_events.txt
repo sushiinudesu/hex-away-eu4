@@ -7,6 +7,7 @@ province_event = {
 
 	picture = HEX_EVENT_PICTURE_LION_AWAKE
 	
+	fire_only_once = yes
 	is_triggered_only = yes
 
 	immediate = {
@@ -30,6 +31,7 @@ province_event = {
 
 	picture = HEX_EVENT_PICTURE_CHEF_AWAKE
 	
+	fire_only_once = yes
 	is_triggered_only = yes
 
 	immediate = {
@@ -53,6 +55,7 @@ province_event = {
 
 	picture = HEX_EVENT_PICTURE_CLAY_AWAKE
 	
+	fire_only_once = yes
 	is_triggered_only = yes
 
 	immediate = {
@@ -76,6 +79,7 @@ province_event = {
 
 	picture = HEX_EVENT_PICTURE_LONGBEARD_AWAKE
 	
+	fire_only_once = yes
 	is_triggered_only = yes
 
 	immediate = {
@@ -99,6 +103,7 @@ province_event = {
 
 	picture = HEX_EVENT_PICTURE_NEEDLE_AWAKE
 	
+	fire_only_once = yes
 	is_triggered_only = yes
 
 	immediate = {
@@ -122,6 +127,7 @@ province_event = {
 
 	picture = HEX_EVENT_PICTURE_SEAWATCHER_AWAKE
 	
+	fire_only_once = yes
 	is_triggered_only = yes
 
 	immediate = {
@@ -145,6 +151,7 @@ province_event = {
 
 	picture = HEX_EVENT_PICTURE_GOLD_AWAKE
 	
+	fire_only_once = yes
 	is_triggered_only = yes
 
 	immediate = {
@@ -168,6 +175,7 @@ province_event = {
 
 	picture = HEX_EVENT_PICTURE_SPEAR_AWAKE
 	
+	fire_only_once = yes
 	is_triggered_only = yes
 
 	trigger = {
