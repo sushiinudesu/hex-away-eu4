@@ -1,0 +1,18 @@
+﻿l_english:
+  hex_fool_base:0 "Fool"
+  desc_hex_fool_base:0 "Fool is currently here"
+
+  hex_hawk_base:0 "Hawk"
+  desc_hex_hawk_base:0 "Hawk is currently here"
+
+  hex_preacher_base:0 "Preacher"
+  desc_hex_preacher_base:0 "Preacher is currently here"
+
+  hex_right_wrong_base:0 "Right and Wrong"
+  desc_hex_right_wrong_base:0 "Right and Wrong are currently here"
+
+  hex_scribe_base:0 "Scribe"
+  desc_hex_scribe_base:0 "Scribe is currently here"
+
+  hex_wizard_base:0 "Wizard"
+  desc_hex_wizard_base:0 "Wizard is currently here"

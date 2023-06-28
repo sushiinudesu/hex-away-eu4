@@ -1,0 +1,11 @@
+hex_fool_base = {}
+
+hex_hawk_base = {}
+
+hex_preacher_base = {}
+
+hex_right_wrong_base = {}
+
+hex_scribe_base = {}
+
+hex_wizard_base = {}

@@ -1,0 +1,343 @@
+namespace = hex_origin_migration_event
+
+country_event = {
+	id = hex_origin_migration_event.1
+	title = hex_origin_migration_event.1.t
+	desc = hex_origin_migration_event.1.d
+	
+	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_migration_event.1.a
+
+		hidden_effect = {
+			random_province = {
+				limit = {
+					province_group = hex_wizard_migration_province_group
+					NOT = { has_province_modifier = hex_wizard_base }
+				}
+				province_event = { id = hex_origin_migration_event.2 }
+			}
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			remove_province_modifier = hex_wizard_base
+		}
+	}
+}
+
+
+country_event = {
+	id = hex_origin_migration_event.2
+	title = hex_origin_migration_event.2.t
+	desc = hex_origin_migration_event.2.d
+	
+	picture = HEX_EVENT_PICTURE_WIZARD_AWAKE
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_permanent_province_modifier = { name = hex_wizard_base duration = -1 }
+		}
+	}
+
+	option = {
+		name = hex_origin_migration_event.2.a
+	}
+	
+	after = {
+		hidden_effect = {
+			province_event = { id = hex_origin_migration_event.1 days = 365 random = 365 }
+		}
+	}
+}
+
+country_event = {
+	id = hex_origin_migration_event.3
+	title = hex_origin_migration_event.3.t
+	desc = hex_origin_migration_event.3.d
+	
+	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_migration_event.3.a
+
+		hidden_effect = {
+			random_province = {
+				limit = {
+					province_group = hex_right_wrong_migration_province_group
+					NOT = { has_province_modifier = hex_right_wrong_base }
+				}
+				province_event = { id = hex_origin_migration_event.4 }
+			}
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			remove_province_modifier = hex_right_wrong_base
+		}
+	}
+}
+
+
+country_event = {
+	id = hex_origin_migration_event.4
+	title = hex_origin_migration_event.4.t
+	desc = hex_origin_migration_event.4.d
+	
+	picture = HEX_EVENT_PICTURE_RIGHT_AWAKE
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_permanent_province_modifier = { name = hex_right_wrong_base duration = -1 }
+		}
+	}
+
+	option = {
+		name = hex_origin_migration_event.4.a
+	}
+
+	after = {
+		hidden_effect = {
+			province_event = { id = hex_origin_migration_event.3 days = 365 random = 365 }
+		}
+	}
+}
+
+country_event = {
+	id = hex_origin_migration_event.5
+	title = hex_origin_migration_event.5.t
+	desc = hex_origin_migration_event.5.d
+	
+	picture = HEX_EVENT_PICTURE_SCRIBE_AWAKE
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_migration_event.5.a
+
+		hidden_effect = {
+			random_province = {
+				limit = {
+					province_group = hex_scribe_migration_province_group
+					NOT = { has_province_modifier = hex_scribe_base }
+				}
+				province_event = { id = hex_origin_migration_event.6 }
+			}
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			remove_province_modifier = hex_scribe_base
+		}
+	}
+}
+
+
+country_event = {
+	id = hex_origin_migration_event.6
+	title = hex_origin_migration_event.6.t
+	desc = hex_origin_migration_event.6.d
+	
+	picture = HEX_EVENT_PICTURE_SCRIBE_AWAKE
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_permanent_province_modifier = { name = hex_scribe_base duration = -1 }
+		}
+	}
+
+	option = {
+		name = hex_origin_migration_event.6.a
+	}
+
+	after = {
+		hidden_effect = {
+			province_event = { id = hex_origin_migration_event.5 days = 365 random = 365 }
+		}
+	}
+}
+
+country_event = {
+	id = hex_origin_migration_event.7
+	title = hex_origin_migration_event.7.t
+	desc = hex_origin_migration_event.7.d
+	
+	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_migration_event.7.a
+
+		hidden_effect = {
+			random_province = {
+				limit = {
+					province_group = hex_preacher_migration_province_group
+					NOT = { has_province_modifier = hex_preacher_base }
+				}
+				province_event = { id = hex_origin_migration_event.8 }
+			}
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			remove_province_modifier = hex_preacher_base
+		}
+	}
+}
+
+
+country_event = {
+	id = hex_origin_migration_event.8
+	title = hex_origin_migration_event.8.t
+	desc = hex_origin_migration_event.8.d
+	
+	picture = HEX_EVENT_PICTURE_PREACHER_AWAKE
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_permanent_province_modifier = { name = hex_preacher_base duration = -1 }
+		}
+	}
+
+	option = {
+		name = hex_origin_migration_event.8.a
+	}
+
+	after = {
+		hidden_effect = {
+			province_event = { id = hex_origin_migration_event.7 days = 365 random = 365 }
+		}
+	}
+}
+
+country_event = {
+	id = hex_origin_migration_event.9
+	title = hex_origin_migration_event.9.t
+	desc = hex_origin_migration_event.9.d
+	
+	picture = HEX_EVENT_PICTURE_FOOL_AWAKE
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_migration_event.9.a
+
+		hidden_effect = {
+			random_province = {
+				limit = {
+					province_group = hex_fool_migration_province_group
+					NOT = { has_province_modifier = hex_fool_base }
+				}
+				province_event = { id = hex_origin_migration_event.10 }
+			}
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			remove_province_modifier = hex_fool_base
+		}
+	}
+}
+
+
+country_event = {
+	id = hex_origin_migration_event.10
+	title = hex_origin_migration_event.10.t
+	desc = hex_origin_migration_event.10.d
+	
+	picture = HEX_EVENT_PICTURE_FOOL_AWAKE
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_permanent_province_modifier = { name = hex_fool_base duration = -1 }
+		}
+	}
+
+	option = {
+		name = hex_origin_migration_event.10.a
+	}
+
+	after = {
+		hidden_effect = {
+			province_event = { id = hex_origin_migration_event.9 days = 365 random = 365 }
+		}
+	}
+}
+
+country_event = {
+	id = hex_origin_migration_event.11
+	title = hex_origin_migration_event.11.t
+	desc = hex_origin_migration_event.11.d
+	
+	picture = HEX_EVENT_PICTURE_HAWK_AWAKE
+
+	is_triggered_only = yes
+
+	option = {
+		name = hex_origin_migration_event.11.a
+
+		hidden_effect = {
+			random_province = {
+				limit = {
+					province_group = hex_hawk_migration_province_group
+					NOT = { has_province_modifier = hex_hawk_base }
+				}
+				province_event = { id = hex_origin_migration_event.12 }
+			}
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			remove_province_modifier = hex_hawk_base
+		}
+	}
+}
+
+
+country_event = {
+	id = hex_origin_migration_event.12
+	title = hex_origin_migration_event.12.t
+	desc = hex_origin_migration_event.12.d
+	
+	picture = HEX_EVENT_PICTURE_HAWK_AWAKE
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_permanent_province_modifier = { name = hex_hawk_base duration = -1 }
+		}
+	}
+
+	option = {
+		name = hex_origin_migration_event.12.a
+	}
+
+	after = {
+		hidden_effect = {
+			province_event = { id = hex_origin_migration_event.12 days = 365 random = 365 }
+		}
+	}
+}
