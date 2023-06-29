@@ -6,7 +6,5 @@ hex_setup_world = {
 
 		if = { limit = { is_year = 7 } set_global_flag = hex_basis_arc_flag }
 		if = { limit = { is_year = 13 } set_global_flag = hex_control_arc_flag }
-
-		hex_setup_origins = yes
 	}
 }

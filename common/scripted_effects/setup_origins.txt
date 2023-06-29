@@ -1,8 +1,0 @@
-hex_setup_origins = {
-	21 = { province_event = { id = hex_origin_migration_events.2 } }
-	26 = { province_event = { id = hex_origin_migration_events.4 } }
-	29 = { province_event = { id = hex_origin_migration_events.6 } }
-	31 = { province_event = { id = hex_origin_migration_events.8 } }
-	34 = { province_event = { id = hex_origin_migration_events.10 } }
-	37 = { province_event = { id = hex_origin_migration_events.12 } }
-}
