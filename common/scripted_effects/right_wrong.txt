@@ -1,0 +1,12 @@
+hex_setup_right_wrong_support = {
+	set_variable = { which = hex_right_support value = 0 }
+	set_variable = { which = hex_wrong_support value = 0 }
+}
+
+hex_support_right = {
+	REB = { change_variable = { which = hex_right_support value = 1 } }
+}
+
+hex_support_wrong = {
+	REB = { change_variable = { which = hex_wrong_support value = 1 } }
+}

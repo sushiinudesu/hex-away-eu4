@@ -57,6 +57,8 @@ country_event = {
 			add_base_manpower = 1
 		}
 
+		hidden_effect = { hex_support_right = yes }
+
 		ai_chance = { factor = 1 }
 	}
 
@@ -70,6 +72,8 @@ country_event = {
 				1 = { add_base_manpower = 3 } 
 			}
 		}
+
+		hidden_effect = { hex_support_wrong = yes }
 
 		ai_chance = { factor = 1 }
 	}
@@ -98,6 +102,8 @@ country_event = {
 			add_base_manpower = 1
 		}
 
+		hidden_effect = { hex_support_right = yes }
+
 		ai_chance = { factor = 1 }
 	}
 
@@ -111,6 +117,8 @@ country_event = {
 				1 = { add_base_manpower = 3 } 
 			}
 		}
+
+		hidden_effect = { hex_support_wrong = yes }
 
 		ai_chance = { factor = 1 }
 	}
@@ -139,6 +147,8 @@ country_event = {
 			add_base_manpower = 1
 		}
 
+		hidden_effect = { hex_support_right = yes }
+
 		ai_chance = { factor = 1 }
 	}
 
@@ -152,6 +162,8 @@ country_event = {
 				1 = { add_base_manpower = 3 } 
 			}
 		}
+
+		hidden_effect = { hex_support_wrong = yes }
 
 		ai_chance = { factor = 1 }
 	}
@@ -180,6 +192,8 @@ country_event = {
 			add_base_manpower = 1
 		}
 
+		hidden_effect = { hex_support_right = yes }
+
 		ai_chance = { factor = 1 }
 	}
 
@@ -193,6 +207,8 @@ country_event = {
 				1 = { add_base_manpower = 3 } 
 			}
 		}
+
+		hidden_effect = { hex_support_wrong = yes }
 
 		ai_chance = { factor = 1 }
 	}
@@ -221,6 +237,8 @@ country_event = {
 			add_base_manpower = 1
 		}
 
+		hidden_effect = { hex_support_right = yes }
+
 		ai_chance = { factor = 1 }
 	}
 
@@ -234,6 +252,8 @@ country_event = {
 				1 = { add_base_manpower = 3 } 
 			}
 		}
+
+		hidden_effect = { hex_support_wrong = yes }
 
 		ai_chance = { factor = 1 }
 	}
