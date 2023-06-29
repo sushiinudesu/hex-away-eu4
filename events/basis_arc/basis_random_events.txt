@@ -748,3 +748,40 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }
+
+
+country_event = {
+	id = hex_basis_random_events.19
+	title = hex_basis_random_events.19.t
+	desc = hex_basis_random_events.19.d
+	
+	picture = HEX_EVENT_PICTURE_SNAKE_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_basis_random_events.19.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.19.con
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Lion" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+			add_heir_claim = 0.5
+		}
+
+		ai_chance = { factor = 0 }
+	}
+}
