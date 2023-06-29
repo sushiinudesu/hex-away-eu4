@@ -15,6 +15,8 @@ country_event = {
 
 	goto = 29
 
+	immediate = { hidden_effect = { discover_province = 29 } }
+
 	option = {
 		name = hex_origin_scribe_events.1.a
 
@@ -44,6 +46,8 @@ country_event = {
 
 	goto = 9
 
+	immediate = { hidden_effect = { discover_province = 9 } }
+
 	option = {
 		name = hex_origin_scribe_events.2.a
 
@@ -66,6 +70,8 @@ country_event = {
 	is_triggered_only = yes
 
 	goto = 12
+
+	immediate = { hidden_effect = { discover_province = 12 } }
 
 	option = {
 		name = hex_origin_scribe_events.3.a
@@ -90,6 +96,8 @@ country_event = {
 
 	goto = 14
 
+	immediate = { hidden_effect = { discover_province = 14 } }
+
 	option = {
 		name = hex_origin_scribe_events.4.a
 
@@ -112,6 +120,8 @@ country_event = {
 	is_triggered_only = yes
 
 	goto = 16
+
+	immediate = { hidden_effect = { discover_province = 16 } }
 
 	option = {
 		name = hex_origin_scribe_events.5.a
@@ -136,6 +146,8 @@ country_event = {
 
 	goto = 18
 
+	immediate = { hidden_effect = { discover_province = 18 } }
+
 	option = {
 		name = hex_origin_scribe_events.6.a
 
@@ -158,6 +170,8 @@ country_event = {
 	is_triggered_only = yes
 
 	goto = 19
+
+	immediate = { hidden_effect = { discover_province = 19 } }
 
 	option = {
 		name = hex_origin_scribe_events.7.a
@@ -182,6 +196,8 @@ country_event = {
 
 	goto = 20
 
+	immediate = { hidden_effect = { discover_province = 20 } }
+
 	option = {
 		name = hex_origin_scribe_events.8.a
 
@@ -204,6 +220,8 @@ country_event = {
 	is_triggered_only = yes
 
 	goto = 23
+
+	immediate = { hidden_effect = { discover_province = 23 } }
 
 	option = {
 		name = hex_origin_scribe_events.9.a
@@ -228,6 +246,8 @@ country_event = {
 
 	goto = 25
 
+	immediate = { hidden_effect = { discover_province = 25 } }
+
 	option = {
 		name = hex_origin_scribe_events.10.a
 
@@ -250,6 +270,8 @@ country_event = {
 	is_triggered_only = yes
 
 	goto = 27
+
+	immediate = { hidden_effect = { discover_province = 27 } }
 
 	option = {
 		name = hex_origin_scribe_events.11.a
@@ -274,6 +296,8 @@ country_event = {
 
 	goto = 28
 
+	immediate = { hidden_effect = { discover_province = 28 } }
+
 	option = {
 		name = hex_origin_scribe_events.12.a
 
@@ -296,6 +320,8 @@ country_event = {
 	is_triggered_only = yes
 
 	goto = 30
+
+	immediate = { hidden_effect = { discover_province = 30 } }
 
 	option = {
 		name = hex_origin_scribe_events.13.a
@@ -320,6 +346,8 @@ country_event = {
 
 	goto = 32
 
+	immediate = { hidden_effect = { discover_province = 32 } }
+
 	option = {
 		name = hex_origin_scribe_events.14.a
 
@@ -342,6 +370,8 @@ country_event = {
 	is_triggered_only = yes
 
 	goto = 33
+
+	immediate = { hidden_effect = { discover_province = 33 } }
 
 	option = {
 		name = hex_origin_scribe_events.15.a
@@ -366,6 +396,8 @@ country_event = {
 
 	goto = 35
 
+	immediate = { hidden_effect = { discover_province = 35 } }
+
 	option = {
 		name = hex_origin_scribe_events.16.a
 
@@ -388,6 +420,8 @@ country_event = {
 	is_triggered_only = yes
 
 	goto = 36
+
+	immediate = { hidden_effect = { discover_province = 36 } }
 
 	option = {
 		name = hex_origin_scribe_events.17.a

@@ -1,13 +1,25 @@
-hex_fool_base = {}
+hex_fool_base = {
+	trade_goods_size_modifier = 0.05
+}
 
-hex_hawk_base = {}
+hex_hawk_base = {
+	trade_goods_size_modifier = 0.05
+}
 
-hex_preacher_base = {}
+hex_preacher_base = {
+	trade_goods_size_modifier = 0.05
+}
 
-hex_right_wrong_base = {}
+hex_right_wrong_base = {
+	trade_goods_size_modifier = 0.05
+}
 
-hex_scribe_base = {}
+hex_scribe_base = {
+	trade_goods_size_modifier = 0.05
+}
 
-hex_wizard_base = {}
+hex_wizard_base = {
+	trade_goods_size_modifier = 0.05
+}
 
 hex_foolish_death = {}

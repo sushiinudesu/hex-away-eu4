@@ -18,7 +18,7 @@ province_event = {
 					province_group = hex_wizard_migration_province_group
 					NOT = { has_province_modifier = hex_wizard_base }
 				}
-				province_event = { id = hex_origin_migration_events.2 days = 7 }
+				province_event = { id = hex_origin_migration_events.2 days = 30 random = 30 }
 			}
 		}
 	}
@@ -85,7 +85,7 @@ province_event = {
 					province_group = hex_right_wrong_migration_province_group
 					NOT = { has_province_modifier = hex_right_wrong_base }
 				}
-				province_event = { id = hex_origin_migration_events.4 days = 7 }
+				province_event = { id = hex_origin_migration_events.4 days = 30 random = 30 }
 			}
 		}
 	}
@@ -152,7 +152,7 @@ province_event = {
 					province_group = hex_scribe_migration_province_group
 					NOT = { has_province_modifier = hex_scribe_base }
 				}
-				province_event = { id = hex_origin_migration_events.6 days = 7 }
+				province_event = { id = hex_origin_migration_events.6 days = 30 random = 30 }
 			}
 		}
 	}
@@ -233,7 +233,7 @@ province_event = {
 					province_group = hex_preacher_migration_province_group
 					NOT = { has_province_modifier = hex_preacher_base }
 				}
-				province_event = { id = hex_origin_migration_events.8 days = 7 }
+				province_event = { id = hex_origin_migration_events.8 days = 30 random = 30 }
 			}
 		}
 	}
@@ -300,7 +300,7 @@ province_event = {
 					province_group = hex_fool_migration_province_group
 					NOT = { has_province_modifier = hex_fool_base }
 				}
-				province_event = { id = hex_origin_migration_events.10 days = 7 }
+				province_event = { id = hex_origin_migration_events.10 days = 30 random = 30 }
 			}
 		}
 	}
@@ -367,7 +367,7 @@ province_event = {
 					province_group = hex_hawk_migration_province_group
 					NOT = { has_province_modifier = hex_hawk_base }
 				}
-				province_event = { id = hex_origin_migration_events.12 days = 7 }
+				province_event = { id = hex_origin_migration_events.12 days = 30 random = 30 }
 			}
 		}
 	}

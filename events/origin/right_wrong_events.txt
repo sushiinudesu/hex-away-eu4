@@ -15,6 +15,8 @@ country_event = {
 
 	goto = 26
 
+	immediate = { hidden_effect = { discover_province = 26 } }
+
 	option = {
 		name = hex_origin_right_wrong_events.1.a
 
@@ -43,6 +45,8 @@ country_event = {
 	is_triggered_only = yes
 
 	goto = 34
+
+	immediate = { hidden_effect = { discover_province = 34 } }
 
 	option = {
 		name = hex_origin_right_wrong_events.2.a
@@ -83,6 +87,8 @@ country_event = {
 
 	goto = 37
 
+	immediate = { hidden_effect = { discover_province = 37 } }
+
 	option = {
 		name = hex_origin_right_wrong_events.3.a
 
@@ -121,6 +127,8 @@ country_event = {
 	is_triggered_only = yes
 
 	goto = 21
+
+	immediate = { hidden_effect = { discover_province = 21 } }
 
 	option = {
 		name = hex_origin_right_wrong_events.4.a
@@ -161,6 +169,8 @@ country_event = {
 
 	goto = 29
 
+	immediate = { hidden_effect = { discover_province = 29 } }
+
 	option = {
 		name = hex_origin_right_wrong_events.5.a
 
@@ -200,6 +210,8 @@ country_event = {
 
 	goto = 31
 	
+	immediate = { hidden_effect = { discover_province = 31 } }
+
 	option = {
 		name = hex_origin_right_wrong_events.6.a
 
