@@ -1,8 +1,8 @@
-hex_song_of_the_wind = {
+hex_echo_spirit = {
 	sprite = 1
 	
 	potential = {
-		has_global_flag = hex_song_of_the_wind_unlocked
+		has_global_flag = hex_echo_spirit_unlocked
 		religion = hex_faithless
 	}
 	trigger = {}

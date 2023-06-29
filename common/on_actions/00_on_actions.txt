@@ -204,7 +204,11 @@ on_yearly_pulse_4 = { }
 
 on_yearly_pulse_5 = { }
 
-on_bi_yearly_pulse = { }
+on_bi_yearly_pulse = {
+	events = {
+		hex_faithless_random_events.1
+	}
+}
 
 on_bi_yearly_pulse_2 = { }
 

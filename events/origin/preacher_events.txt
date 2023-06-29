@@ -20,7 +20,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.1.a
 
-		hidden_effect = { set_global_flag = hex_goat_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_goat_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_goat_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -28,7 +34,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.1.b
 
-		hidden_effect = { set_global_flag = hex_star_fox_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_star_fox_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_star_fox_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -36,7 +48,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.1.c
 
-		hidden_effect = { set_global_flag = hex_ice_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_ice_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_ice_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -69,7 +87,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.2.a
 
-		hidden_effect = { set_global_flag = hex_burrow_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_burrow_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_burrow_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -77,7 +101,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.2.b
 
-		hidden_effect = { set_global_flag = hex_changeling_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_changeling_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_changeling_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -85,7 +115,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.2.c
 
-		hidden_effect = { set_global_flag = hex_free_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_free_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_free_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -108,7 +144,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.3.a
 
-		hidden_effect = { set_global_flag = hex_scorpion_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_scorpion_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_scorpion_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -116,7 +158,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.3.b
 
-		hidden_effect = { set_global_flag = hex_song_of_the_wind_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_echo_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_echo_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -124,7 +172,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.3.c
 
-		hidden_effect = { set_global_flag = hex_scarmaker_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_scarmaker_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_scarmaker_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -147,7 +201,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.4.a
 
-		hidden_effect = { set_global_flag = hex_bunny_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_bunny_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_bunny_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -155,7 +215,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.4.b
 
-		hidden_effect = { set_global_flag = hex_frog_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_frog_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_frog_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -163,7 +229,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.4.c
 
-		hidden_effect = { set_global_flag = hex_river_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_river_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_river_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -186,7 +258,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.5.a
 
-		hidden_effect = { set_global_flag = hex_deer_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_deer_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_deer_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -194,7 +272,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.5.b
 
-		hidden_effect = { set_global_flag = hex_owl_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_owl_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_owl_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -202,7 +286,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.5.c
 
-		hidden_effect = { set_global_flag = hex_green_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_green_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_green_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -225,7 +315,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.6.a
 
-		hidden_effect = { set_global_flag = hex_crab_spirit_unlocked_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_crab_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_crab_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -233,7 +329,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.6.b
 
-		hidden_effect = { set_global_flag = hex_fish_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_fish_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_fish_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}
@@ -241,7 +343,13 @@ country_event = {
 	option = {
 		name = hex_origin_preacher_events.6.c
 
-		hidden_effect = { set_global_flag = hex_sea_spirit_unlocked }
+		hidden_effect = {
+			set_global_flag = hex_sea_spirit_unlocked
+			every_country = {
+				limit = { religion = hex_faithless NOT = { tag = ROOT } }
+				country_event = { id = hex_sea_spirit_events.1 }
+			}
+		}
 
 		ai_chance = { factor = 1 }
 	}

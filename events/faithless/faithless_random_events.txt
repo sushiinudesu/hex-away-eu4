@@ -1,0 +1,473 @@
+namespace = hex_faithless_random_events
+
+country_event = {
+	id = hex_faithless_random_events.1
+	title = hex_faithless_random_events.1.t
+	desc = hex_faithless_random_events.1.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = { }
+
+	option = {
+		name = hex_faithless_random_events.1.a
+
+		hidden_effect = {
+			random_list = {
+				1 = { }
+				1 = {
+					trigger = { has_global_flag = hex_bunny_spirit_unlocked }
+					country_event = { id = hex_bunny_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_bunny_spirit_unlocked }
+					country_event = { id = hex_bunny_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_bunny_spirit_unlocked }
+					country_event = { id = hex_bunny_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_bunny_spirit_unlocked }
+					country_event = { id = hex_bunny_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_bunny_spirit_unlocked }
+					country_event = { id = hex_bunny_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_bunny_spirit_unlocked }
+					country_event = { id = hex_bunny_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_burrow_spirit_unlocked }
+					country_event = { id = hex_burrow_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_burrow_spirit_unlocked }
+					country_event = { id = hex_burrow_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_burrow_spirit_unlocked }
+					country_event = { id = hex_burrow_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_burrow_spirit_unlocked }
+					country_event = { id = hex_burrow_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_burrow_spirit_unlocked }
+					country_event = { id = hex_burrow_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_burrow_spirit_unlocked }
+					country_event = { id = hex_burrow_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_changeling_spirit_unlocked }
+					country_event = { id = hex_changeling_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_changeling_spirit_unlocked }
+					country_event = { id = hex_changeling_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_changeling_spirit_unlocked }
+					country_event = { id = hex_changeling_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_changeling_spirit_unlocked }
+					country_event = { id = hex_changeling_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_changeling_spirit_unlocked }
+					country_event = { id = hex_changeling_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_changeling_spirit_unlocked }
+					country_event = { id = hex_changeling_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_crab_spirit_unlocked }
+					country_event = { id = hex_crab_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_crab_spirit_unlocked }
+					country_event = { id = hex_crab_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_crab_spirit_unlocked }
+					country_event = { id = hex_crab_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_crab_spirit_unlocked }
+					country_event = { id = hex_crab_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_crab_spirit_unlocked }
+					country_event = { id = hex_crab_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_crab_spirit_unlocked }
+					country_event = { id = hex_crab_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_deer_spirit_unlocked }
+					country_event = { id = hex_deer_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_deer_spirit_unlocked }
+					country_event = { id = hex_deer_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_deer_spirit_unlocked }
+					country_event = { id = hex_deer_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_deer_spirit_unlocked }
+					country_event = { id = hex_deer_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_deer_spirit_unlocked }
+					country_event = { id = hex_deer_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_deer_spirit_unlocked }
+					country_event = { id = hex_deer_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_echo_spirit_unlocked }
+					country_event = { id = hex_echo_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_echo_spirit_unlocked }
+					country_event = { id = hex_echo_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_echo_spirit_unlocked }
+					country_event = { id = hex_echo_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_echo_spirit_unlocked }
+					country_event = { id = hex_echo_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_echo_spirit_unlocked }
+					country_event = { id = hex_echo_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_echo_spirit_unlocked }
+					country_event = { id = hex_echo_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_fish_spirit_unlocked }
+					country_event = { id = hex_fish_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_fish_spirit_unlocked }
+					country_event = { id = hex_fish_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_fish_spirit_unlocked }
+					country_event = { id = hex_fish_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_fish_spirit_unlocked }
+					country_event = { id = hex_fish_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_fish_spirit_unlocked }
+					country_event = { id = hex_fish_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_fish_spirit_unlocked }
+					country_event = { id = hex_fish_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_free_spirit_unlocked }
+					country_event = { id = hex_free_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_free_spirit_unlocked }
+					country_event = { id = hex_free_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_free_spirit_unlocked }
+					country_event = { id = hex_free_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_free_spirit_unlocked }
+					country_event = { id = hex_free_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_free_spirit_unlocked }
+					country_event = { id = hex_free_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_free_spirit_unlocked }
+					country_event = { id = hex_free_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_frog_spirit_unlocked }
+					country_event = { id = hex_frog_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_frog_spirit_unlocked }
+					country_event = { id = hex_frog_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_frog_spirit_unlocked }
+					country_event = { id = hex_frog_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_frog_spirit_unlocked }
+					country_event = { id = hex_frog_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_frog_spirit_unlocked }
+					country_event = { id = hex_frog_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_frog_spirit_unlocked }
+					country_event = { id = hex_frog_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_goat_spirit_unlocked }
+					country_event = { id = hex_goat_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_goat_spirit_unlocked }
+					country_event = { id = hex_goat_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_goat_spirit_unlocked }
+					country_event = { id = hex_goat_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_goat_spirit_unlocked }
+					country_event = { id = hex_goat_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_goat_spirit_unlocked }
+					country_event = { id = hex_goat_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_goat_spirit_unlocked }
+					country_event = { id = hex_goat_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_green_spirit_unlocked }
+					country_event = { id = hex_green_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_green_spirit_unlocked }
+					country_event = { id = hex_green_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_green_spirit_unlocked }
+					country_event = { id = hex_green_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_green_spirit_unlocked }
+					country_event = { id = hex_green_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_green_spirit_unlocked }
+					country_event = { id = hex_green_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_green_spirit_unlocked }
+					country_event = { id = hex_green_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_ice_spirit_unlocked }
+					country_event = { id = hex_ice_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_ice_spirit_unlocked }
+					country_event = { id = hex_ice_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_ice_spirit_unlocked }
+					country_event = { id = hex_ice_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_ice_spirit_unlocked }
+					country_event = { id = hex_ice_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_ice_spirit_unlocked }
+					country_event = { id = hex_ice_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_ice_spirit_unlocked }
+					country_event = { id = hex_ice_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_owl_spirit_unlocked }
+					country_event = { id = hex_owl_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_owl_spirit_unlocked }
+					country_event = { id = hex_owl_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_owl_spirit_unlocked }
+					country_event = { id = hex_owl_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_owl_spirit_unlocked }
+					country_event = { id = hex_owl_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_owl_spirit_unlocked }
+					country_event = { id = hex_owl_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_owl_spirit_unlocked }
+					country_event = { id = hex_owl_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_river_spirit_unlocked }
+					country_event = { id = hex_river_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_river_spirit_unlocked }
+					country_event = { id = hex_river_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_river_spirit_unlocked }
+					country_event = { id = hex_river_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_river_spirit_unlocked }
+					country_event = { id = hex_river_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_river_spirit_unlocked }
+					country_event = { id = hex_river_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_river_spirit_unlocked }
+					country_event = { id = hex_river_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_scarmaker_spirit_unlocked }
+					country_event = { id = hex_scarmaker_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_scarmaker_spirit_unlocked }
+					country_event = { id = hex_scarmaker_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_scarmaker_spirit_unlocked }
+					country_event = { id = hex_scarmaker_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_scarmaker_spirit_unlocked }
+					country_event = { id = hex_scarmaker_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_scarmaker_spirit_unlocked }
+					country_event = { id = hex_scarmaker_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_scarmaker_spirit_unlocked }
+					country_event = { id = hex_scarmaker_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_scorpion_spirit_unlocked }
+					country_event = { id = hex_scorpion_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_scorpion_spirit_unlocked }
+					country_event = { id = hex_scorpion_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_scorpion_spirit_unlocked }
+					country_event = { id = hex_scorpion_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_scorpion_spirit_unlocked }
+					country_event = { id = hex_scorpion_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_scorpion_spirit_unlocked }
+					country_event = { id = hex_scorpion_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_scorpion_spirit_unlocked }
+					country_event = { id = hex_scorpion_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_sea_spirit_unlocked }
+					country_event = { id = hex_sea_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_sea_spirit_unlocked }
+					country_event = { id = hex_sea_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_sea_spirit_unlocked }
+					country_event = { id = hex_sea_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_sea_spirit_unlocked }
+					country_event = { id = hex_sea_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_sea_spirit_unlocked }
+					country_event = { id = hex_sea_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_sea_spirit_unlocked }
+					country_event = { id = hex_sea_spirit_events.7 days = 5 random = 720 }
+				}
+
+				1 = {
+					trigger = { has_global_flag = hex_star_fox_spirit_unlocked }
+					country_event = { id = hex_star_fox_spirit_events.2 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_star_fox_spirit_unlocked }
+					country_event = { id = hex_star_fox_spirit_events.3 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_star_fox_spirit_unlocked }
+					country_event = { id = hex_star_fox_spirit_events.4 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_star_fox_spirit_unlocked }
+					country_event = { id = hex_star_fox_spirit_events.5 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_star_fox_spirit_unlocked }
+					country_event = { id = hex_star_fox_spirit_events.6 days = 5 random = 720 }
+				}
+				1 = {
+					trigger = { has_global_flag = hex_star_fox_spirit_unlocked }
+					country_event = { id = hex_star_fox_spirit_events.7 days = 5 random = 720 }
+				}
+			}
+		}
+	}
+}

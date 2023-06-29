@@ -1,8 +1,8 @@
-hex_scarmaker = {
+hex_scarmaker_spirit = {
 	sprite = 1
 	
 	potential = {
-		has_global_flag = hex_scarmaker_unlocked
+		has_global_flag = hex_scarmaker_spirit_unlocked
 		religion = hex_faithless
 	}
 	trigger = {}
