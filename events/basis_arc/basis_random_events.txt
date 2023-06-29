@@ -20,7 +20,7 @@ country_event = {
 
 		hidden_effect = {
 			random_list = {
-				6 = { }
+				18 = { }
 
 				1 = {
 					trigger = { has_faction = hex_city_bank }
@@ -70,6 +70,31 @@ country_event = {
 				1 = {
 					trigger = { has_faction = hex_city_watch }
 					country_event = { id = hex_basis_random_events.13 days = 1 random = 25 }
+				}
+
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_basis_random_events.14 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_basis_random_events.15 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_basis_random_events.16 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_basis_random_events.17 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_basis_random_events.18 days = 1 random = 25 }
+				}
+				1 = {
+					trigger = { has_faction = hex_hunters_guild }
+					country_event = { id = hex_basis_random_events.19 days = 1 random = 25 }
 				}
 			}
 		}
@@ -539,6 +564,186 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = { add_heir_claim = 1 }
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.14
+	title = hex_basis_random_events.14.t
+	desc = hex_basis_random_events.14.d
+	
+	picture = HEX_EVENT_PICTURE_SNAKE_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_basis_random_events.14.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.14.con
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Lion" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+			add_heir_claim = 0.5
+		}
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.15
+	title = hex_basis_random_events.15.t
+	desc = hex_basis_random_events.15.d
+	
+	picture = HEX_EVENT_PICTURE_SNAKE_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_basis_random_events.15.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.15.con
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Lion" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+			add_heir_claim = 0.5
+		}
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.16
+	title = hex_basis_random_events.16.t
+	desc = hex_basis_random_events.16.d
+	
+	picture = HEX_EVENT_PICTURE_SNAKE_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_basis_random_events.16.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.16.con
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Lion" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+			add_heir_claim = 0.5
+		}
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.17
+	title = hex_basis_random_events.17.t
+	desc = hex_basis_random_events.17.d
+	
+	picture = HEX_EVENT_PICTURE_SNAKE_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_basis_random_events.17.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.17.con
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Lion" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+			add_heir_claim = 0.5
+		}
+
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = hex_basis_random_events.18
+	title = hex_basis_random_events.18.t
+	desc = hex_basis_random_events.18.d
+	
+	picture = HEX_EVENT_PICTURE_SNAKE_AWAKE
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = hex_basis_random_events.18.a
+
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = hex_basis_random_events.18.con
+		custom_tooltip = HEX_INCREASE_HUNTERS_INFLUENCE_TT
+
+		trigger = {
+			hex_loyal = { to = "Lion" }
+			hex_skill_check = { constitution = 2 }
+		}
+
+		highlight = yes 
+
+		hidden_effect = {
+			add_faction_influence = { faction = hex_hunters_guild influence = 1 }
+			add_heir_claim = 0.5
+		}
 
 		ai_chance = { factor = 0 }
 	}
