@@ -1,0 +1,7 @@
+hex_setup_city_construction = {
+	set_variable = { which = hex_city_construction value = 0 }
+}
+
+hex_increase_city_construction = {
+	A01 = { change_variable = { which = hex_city_construction value = $value$ } }
+}

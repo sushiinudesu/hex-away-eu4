@@ -52,7 +52,12 @@ country_event = {
 					6 = { add_great_project = { type = hex_project_city_wall_6 instant = yes } clr_province_flag = hex_city_wall_flag }
 					7 = { add_great_project = { type = hex_project_city_wall_7 instant = yes } clr_province_flag = hex_city_wall_flag }
 				}
-
+				hex_city_square_flag = { add_great_project = { type = hex_project_city_square instant = yes } clr_province_flag = hex_city_square_flag }
+				hex_sand_market_flag = { add_great_project = { type = hex_project_sand_market instant = yes } clr_province_flag = hex_sand_market_flag }
+				hex_the_gardens_flag = { add_great_project = { type = hex_project_the_gardens instant = yes } clr_province_flag = hex_the_gardens_flag }
+				hex_light_house_flag = { add_great_project = { type = hex_project_light_house instant = yes } clr_province_flag = hex_light_house_flag }
+				hex_guild_hall_flag = { add_great_project = { type = hex_project_guild_hall instant = yes } clr_province_flag = hex_guild_hall_flag }
+				hex_red_keep_flag = { add_great_project = { type = hex_project_red_keep instant = yes } clr_province_flag = hex_red_keep_flag }
 			}
 		}
 	}
@@ -79,6 +84,12 @@ country_event = {
 						add_province_modifier = { name = hex_city_wall_modifier duration = -1 } clr_province_flag = hex_city_wall_flag
 					}
 				}
+				hex_city_square_flag = { add_province_modifier = { name = hex_city_square_modifier duration = -1 } clr_province_flag = hex_city_square_flag }
+				hex_sand_market_flag = { add_province_modifier = { name = hex_sand_market_modifier duration = -1 } clr_province_flag = hex_sand_market_flag }
+				hex_the_gardens_flag = { add_province_modifier = { name = hex_the_gardens_modifier duration = -1 } clr_province_flag = hex_the_gardens_flag }
+				hex_light_house_flag = { add_province_modifier = { name = hex_light_house_modifier duration = -1 } clr_province_flag = hex_light_house_flag }
+				hex_guild_hall_flag = { add_province_modifier = { name = hex_guild_hall_modifier duration = -1 } clr_province_flag = hex_guild_hall_flag }
+				hex_red_keep_flag = { add_province_modifier = { name = hex_red_keep_modifier duration = -1 } clr_province_flag = hex_red_keep_flag }
 			}
 		}
 	}

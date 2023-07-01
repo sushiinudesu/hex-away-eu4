@@ -12,3 +12,10 @@
   hex_project_city_wall_5:0 "City Wall"
   hex_project_city_wall_6:0 "City Wall"
   hex_project_city_wall_7:0 "City Wall"
+
+  hex_project_city_square:0 "City Square"
+  hex_project_sand_market:0 "Sand Market"
+  hex_project_the_gardens:0 "The Gardens"
+  hex_project_light_house:0 "Light House"
+  hex_project_guild_hall:0 "Guild Hall"
+  hex_project_red_keep:0 "Red Keep"

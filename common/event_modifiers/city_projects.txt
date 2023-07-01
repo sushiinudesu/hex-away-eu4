@@ -13,3 +13,15 @@ hex_salt_shipyard_modifier = { }
 hex_city_bank_modifier = { }
 
 hex_city_wall_modifier = { fort_level = 1 }
+
+hex_city_square_modifier = { }
+
+hex_sand_market_modifier = { }
+
+hex_the_gardens_modifier = { }
+
+hex_light_house_modifier = { }
+
+hex_guild_hall_modifier = { }
+
+hex_red_keep_modifier = { }

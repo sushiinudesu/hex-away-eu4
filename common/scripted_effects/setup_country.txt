@@ -32,6 +32,11 @@ hex_setup_country = {
 			add_country_modifier = { name = hex_military_professionalism_0 duration = -1 }
 		}
 
+		if = {
+			limit = { tag = A01 }
+			hex_setup_city_construction = yes
+		}
+
 		set_country_flag = hex_setup_finished
 	}
 }

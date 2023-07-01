@@ -22,3 +22,32 @@
 
   hex_build_city_wall_desc:0 "§YSpear§! §Mwants to build a giant wall around the City. I don't see why we need it, but okay.§!"
   hex_build_city_wall_title:0 "Build City Wall"
+
+  hex_build_city_district_desc:0 "§MIt's time to join others and build the City!§!"
+  hex_build_city_district_title:0 "Build City Districts"
+  HEX_BUILD_CITY_DISTRICT_TT:0 "Progress: §Y[Root.hex_city_construction.GetValue]§![Root.HexConstructionRewards]"
+  HEX_CONSTRUCTION_REWARD_6:0 "\n\nRewards:\n§G30§! - §YCity Square§!\n§G60§! - §YSand Market§!\n§G90§! - §YThe Gardens§!\n§G120§! - §YLight House§!\n§G150§! - §YGuild Hall§!\n§G180§! - §YRed Keep§!"
+  HEX_CONSTRUCTION_REWARD_5:0 "\n\nRewards:\n§G30§! - §YCity Square§!\n§G60§! - §YSand Market§!\n§G90§! - §YThe Gardens§!\n§G120§! - §YLight House§!\n§G150§! - §YGuild Hall§!"
+  HEX_CONSTRUCTION_REWARD_4:0 "\n\nRewards:\n§G30§! - §YCity Square§!\n§G60§! - §YSand Market§!\n§G90§! - §YThe Gardens§!\n§G120§! - §YLight House§!"
+  HEX_CONSTRUCTION_REWARD_3:0 "\n\nRewards:\n§G30§! - §YCity Square§!\n§G60§! - §YSand Market§!\n§G90§! - §YThe Gardens§!"
+  HEX_CONSTRUCTION_REWARD_2:0 "\n\nRewards:\n§G30§! - §YCity Square§!\n§G60§! - §YSand Market§!"
+  HEX_CONSTRUCTION_REWARD_1:0 "\n\nRewards:\n§G30§! - §YCity Square§!"
+  HEX_CONSTRUCTION_REWARD_0:0 ""
+
+  hex_build_city_square_desc:0 "§MThe City must have a place for gatherings - I know where we can setup a square.§!"
+  hex_build_city_square_title:0 "Build City Square"
+
+  hex_build_sand_market_desc:0 "§MPersonally I don't like sand, but I love finding new things there. It would be great if the place gets more protected from the desert.§!"
+  hex_build_sand_market_title:0 "Build Sand Market"
+
+  hex_build_the_gardens_desc:0 "§MCan you imagine - they wanted to cut this place down! Just look how beautiful it is! I love spending time here.§!"
+  hex_build_the_gardens_title:0 "Build the Gardens"
+
+  hex_build_light_house_desc:0 "§MI've heard there are plans for a tower on the shore. To help the ships, they say. Why don't they call Light Tower then?§!"
+  hex_build_light_house_title:0 "Build Light House"
+
+  hex_build_guild_hall_desc:0 "§MFinally some place for the guild members to gather! Why didn't be build it first?§!"
+  hex_build_guild_hall_title:0 "Build Guild Hall"
+
+  hex_build_red_keep_desc:0 "§MA castle of red stone, standing on a cliff above all the white stone buildings... Menacing.§!"
+  hex_build_red_keep_title:0 "Build Red Keep"

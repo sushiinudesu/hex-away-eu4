@@ -291,4 +291,239 @@ country_decisions = {
 
 		ai_will_do = { factor = 100 }
 	}
+
+	hex_build_city_district = {
+		color = { 207 130 89 }
+
+		potential = { hex_is_basis_arc = yes }
+
+		allow = { 
+			custom_trigger_tooltip = {
+				tooltip = HEX_BUILD_CITY_DISTRICT_TT
+
+				hex_inner_city_area = {
+					type = any
+					owned_by = ROOT
+					NOT = { has_construction = any }
+				}
+			}
+		 }
+
+		effect = {
+			hex_inner_city_area = {
+				limit = { NOT = { has_construction = any } }
+				add_building_construction = {
+					building = hex_building_city_district
+					speed = 1
+					cost = 0
+				}
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_build_city_square = {
+		color = { 207 130 89 }
+
+		potential = {
+			tag = A01
+			check_variable = { which = hex_city_construction value = 30 } 
+
+			2 = {
+				owned_by = ROOT
+				NOT = { has_province_flag = hex_city_square_flag }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_city_square_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_city_square tier = 0 } }
+				}
+			}
+		}
+
+		allow = {
+			2 = { NOT = { has_construction = any } }		
+		}
+
+		effect = {
+			2 = {
+				set_province_flag = hex_city_square_flag
+				province_event = { id = hex_city_projects_events.9 }
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_build_sand_market = {
+		color = { 207 130 89 }
+
+		potential = {
+			tag = A01
+			check_variable = { which = hex_city_construction value = 60 }
+			
+			5 = {
+				owned_by = ROOT
+				NOT = { has_province_flag = hex_sand_market_flag }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_sand_market_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_sand_market tier = 0 } }
+				}
+			}
+		}
+
+		allow = {
+			5 = { NOT = { has_construction = any } }
+		}
+
+		effect = {
+			5 = {
+				set_province_flag = hex_sand_market_flag
+				province_event = { id = hex_city_projects_events.10 }
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_build_the_gardens = {
+		color = { 207 130 89 }
+
+		potential = {
+			tag = A01
+			check_variable = { which = hex_city_construction value = 90 } 
+
+			7 = {
+				owned_by = ROOT
+				NOT = { has_province_flag = hex_the_gardens_flag }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_the_gardens_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_the_gardens tier = 0 } }
+				}
+			}
+		}
+
+		allow = {
+			7 = { NOT = { has_construction = any } }
+		}
+
+		effect = {
+			7 = {
+				set_province_flag = hex_the_gardens_flag
+				province_event = { id = hex_city_projects_events.11 }
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_build_light_house = {
+		color = { 207 130 89 }
+
+		potential = {
+			tag = A01
+			check_variable = { which = hex_city_construction value = 120 } 
+
+			3 = {
+				owned_by = ROOT
+				NOT = { has_province_flag = hex_light_house_flag }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_light_house_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_light_house tier = 0 } }
+				}
+			}
+		}
+
+		allow = {
+			3 = { NOT = { has_construction = any } }
+		}
+
+		effect = {
+			3 = {
+				set_province_flag = hex_light_house_flag
+				province_event = { id = hex_city_projects_events.12 }
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_build_guild_hall = {
+		color = { 207 130 89 }
+
+		potential = {
+			tag = A01
+			check_variable = { which = hex_city_construction value = 150 } 
+
+			6 = {
+				owned_by = ROOT
+				NOT = { has_province_flag = hex_guild_hall_flag }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_guild_hall_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_guild_hall tier = 0 } }
+				}
+			}
+		}
+
+		allow = {
+			6 = { NOT = { has_construction = any } }
+		}
+
+		effect = {
+			6 = {
+				set_province_flag = hex_guild_hall_flag
+				province_event = { id = hex_city_projects_events.13 }
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
+
+	hex_build_red_keep = {
+		color = { 207 130 89 }
+
+		potential = {
+			tag = A01
+			check_variable = { which = hex_city_construction value = 180 } 
+
+			4 = {
+				owned_by = ROOT
+				NOT = { has_province_flag = hex_red_keep_flag }
+				OR = {
+					AND = {
+						hex_monuments_mechanic_available = no
+						NOT = { has_province_modifier = hex_red_keep_modifier }
+					}
+					NOT = { has_great_project = { type = hex_project_red_keep tier = 0 } }
+				}
+			}
+		}
+
+		allow = {
+			4 = { NOT = { has_construction = any } }
+		}
+
+		effect = {
+			4 = {
+				set_province_flag = hex_red_keep_flag
+				province_event = { id = hex_city_projects_events.14 }
+			}
+		}
+
+		ai_will_do = { factor = 100 }
+	}
 }

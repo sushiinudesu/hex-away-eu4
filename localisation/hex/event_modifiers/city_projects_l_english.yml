@@ -22,3 +22,21 @@
 
   hex_city_wall_modifier:0 "City Wall"
   desc_hex_city_wall_modifier:0 "City Wall"
+
+  hex_city_square_modifier:0 "City Square"
+  desc_hex_city_square_modifier:0 "City Square"
+
+  hex_sand_market_modifier:0 "Sand Market"
+  desc_hex_sand_market_modifier:0 "Sand Market"
+
+  hex_the_gardens_modifier:0 "The Gardens"
+  desc_hex_the_gardens_modifier:0 "The Gardens"
+
+  hex_light_house_modifier:0 "Light House"
+  desc_hex_light_house_modifier:0 "Light House"
+
+  hex_guild_hall_modifier:0 "Guild Hall"
+  desc_hex_guild_hall_modifier:0 "Guild Hall"
+
+  hex_red_keep_modifier:0 "Red Keep"
+  desc_hex_red_keep_modifier:0 "Red Keep"

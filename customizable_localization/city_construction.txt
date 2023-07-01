@@ -1,0 +1,32 @@
+defined_text = {
+    name = HexConstructionRewards
+	random = no
+	
+	text = {
+        localisation_key = HEX_CONSTRUCTION_REWARD_6
+        trigger = { check_variable = { which = hex_city_construction value = 180 } }
+    }
+	text = {
+        localisation_key = HEX_CONSTRUCTION_REWARD_5
+		trigger = { check_variable = { which = hex_city_construction value = 150 } }
+    }
+	text = {
+        localisation_key = HEX_CONSTRUCTION_REWARD_4
+		trigger = { check_variable = { which = hex_city_construction value = 120 } }
+    }
+	text = {
+        localisation_key = HEX_CONSTRUCTION_REWARD_3
+		trigger = { check_variable = { which = hex_city_construction value = 90 } }
+    }
+	text = {
+        localisation_key = HEX_CONSTRUCTION_REWARD_2
+		trigger = { check_variable = { which = hex_city_construction value = 60 } }
+    }
+	text = {
+        localisation_key = HEX_CONSTRUCTION_REWARD_1
+		trigger = { check_variable = { which = hex_city_construction value = 30 } }
+    }
+	text = {
+        localisation_key = HEX_CONSTRUCTION_REWARD_0
+    }
+}

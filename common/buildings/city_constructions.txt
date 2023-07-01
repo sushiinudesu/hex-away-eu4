@@ -213,7 +213,6 @@ hex_building_city_wall = {
 	time = 6
 
 	indestructible = yes
-	one_per_country = yes
 
 	build_trigger = { always = no }
 	
@@ -232,6 +231,36 @@ hex_building_city_wall = {
 			remove_province_modifier = hex_faction_under_construction
 			set_province_flag = hex_city_wall_flag
 			province_event = { id = hex_city_projects_events.8 }
+		}
+	}
+
+	ai_will_do = { factor = 100 }
+}
+
+hex_building_city_district = {
+	cost = 0
+	time = 3
+
+	indestructible = yes
+
+	build_trigger = { always = no }
+	
+	on_construction_started = { }
+	on_construction_canceled = { }
+	on_built = {
+		hidden_effect = { 
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			remove_building = hex_building_city_district
+
+			hex_increase_city_construction = { value = 1 }
+
+			add_building_construction = {
+				building = hex_building_city_district
+				speed = 1
+				cost = 0
+			}
 		}
 	}
 
