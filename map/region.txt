@@ -1,5 +1,16 @@
 random_new_world_region = { }
 
+hex_beyond_region = {
+	areas = {
+		hex_beyond_coast_area
+		hex_beyond_desert_area
+		hex_beyond_forest_area
+		hex_beyond_islands_area
+		hex_beyond_north_area
+		hex_beyond_plains_area
+	}
+}
+
 hex_city_region = {
 	areas = {
 		hex_inner_city_area
