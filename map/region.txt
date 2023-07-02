@@ -11,6 +11,23 @@ hex_beyond_region = {
 	}
 }
 
+hex_far_beyond_region = {
+	areas = {
+		hex_far_beyond_north_area
+		hex_far_beyond_north_east_area
+		hex_far_beyond_east_north_area
+		hex_far_beyond_east_area
+		hex_far_beyond_east_south_area
+		hex_far_beyond_south_east_area
+		hex_far_beyond_south_area
+		hex_far_beyond_south_west_area
+		hex_far_beyond_west_south_area
+		hex_far_beyond_west_area
+		hex_far_beyond_west_north_area
+		hex_far_beyond_north_west_area
+	}
+}
+
 hex_city_region = {
 	areas = {
 		hex_inner_city_area

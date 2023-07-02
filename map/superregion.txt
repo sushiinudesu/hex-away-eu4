@@ -2,6 +2,7 @@ hex_heartland_superregion = { #Western Europe
 	restrict_charter		# harder to get TC here.
 
 	hex_beyond_region
+	hex_far_beyond_region
 	hex_city_region
 	hex_tower_region
 }
