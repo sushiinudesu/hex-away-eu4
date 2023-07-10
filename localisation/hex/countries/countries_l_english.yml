@@ -1,6 +1,6 @@
 ﻿l_english:
   A01:0 "The City"
-  A01_ADJ:0 "City"
+  A01_ADJ:0 "The City"
   A02:0 "Pots and Plates"
   A02_ADJ:0 "Pots and Plates"
   A03:0 "Clay Followers"
@@ -14,9 +14,9 @@
   A07:0 "Free Sailors"
   A07_ADJ:0 "Free Sailors"
   A08:0 "City Bank"
-  A08_ADJ:0 "Bank"
+  A08_ADJ:0 "City Bank"
   A09:0 "City Watch"
-  A09_ADJ:0 "Guard"
+  A09_ADJ:0 "City Watch"
 
   Z01:0 "Badgers"
   Z01_ADJ:0 "Badger"

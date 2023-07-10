@@ -1,0 +1,6 @@
+﻿l_english:
+  ADJECTIVE_MISSION_TITLE:0 "$ADJ$ Missions"
+  VIEW_MISSION_TREE:0 "View $COUNTRY|Y$ Mission Tree."
+  VIEW_MISSION_TREE_CURRENT:1 "You are currently viewing this mission tree."
+  VIEW_MISSION_TREE_OURS:1 "This is your country's mission tree."
+  VIEW_MISSION_TREE_SUBJECT:1 "You can view their missions as they are your §YSubject§!."
