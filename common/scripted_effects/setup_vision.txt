@@ -1,4 +1,5 @@
 hex_setup_vision = {
 	hex_inner_city_area = { discover_country = ROOT }
 	hex_tower_area = { discover_country = ROOT }
+	hex_city_outskirts_province_group = { discover_country = ROOT }
 }

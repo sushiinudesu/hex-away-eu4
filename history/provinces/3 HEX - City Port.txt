@@ -1,7 +1,9 @@
+tribal_owner = A01
+
 base_manpower = 1
 base_production = 1
 base_tax = 1
-culture = hex_vagabond_culture
+culture = hex_awake_culture
 religion = hex_faithless
 trade_goods = hex_trade_good_none
 
@@ -11,9 +13,6 @@ add_province_triggered_modifier = hex_city_province
 	add_core = A01
 	owner = A01
 	controller = A01
-	tribal_owner = A01
-
-	culture = hex_awake_culture
 }
 
 13.1.1 = {

@@ -9,3 +9,5 @@ hex_preacher_migration_province_group = { 9 12 14 18 19 31 }
 hex_fool_migration_province_group = { 9 14 16 19 25 34 }
 
 hex_hawk_migration_province_group = { 12 20 23 35 36 37 }
+
+hex_city_outskirts_province_group = { 8 9 11 12 13 14 15 16 17 18 19 38 }
