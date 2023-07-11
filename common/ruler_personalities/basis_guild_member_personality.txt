@@ -1,39 +1,65 @@
-hex_basis_guild_member_personality = {
-	ruler_allow = {
-		allow = { always = no }
-
-		chance = {
-			modifier = {
-				factor = 1000
-				always = yes
-			}
-		}
-	}
-
-	heir_allow = {
-		allow = { always = no }
-
-		chance = {
-			modifier = {
-				factor = 1000
-				always = yes
-			}
-		}
-	}
-
-	consort_allow = {
-		allow = { always = no }
-
-		chance = {
-			modifier = {
-				factor = 0
-				always = yes
-			}
-		}
-	}
+hex_basis_artisan_guild_member_personality = {
+	ruler_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	heir_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	consort_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
 
 	nation_designer_cost = 0
 	static = yes
 
-	hex_basis_guild_member_personality_modifier = 1
+	hex_basis_artisan_guild_member_personality_modifier = 1
+}
+
+hex_basis_builders_guild_member_personality = {
+	ruler_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	heir_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	consort_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+
+	nation_designer_cost = 0
+	static = yes
+
+	hex_basis_builders_guild_member_personality_modifier = 1
+}
+
+hex_basis_farmers_guild_member_personality = {
+	ruler_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	heir_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	consort_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+
+	nation_designer_cost = 0
+	static = yes
+
+	hex_basis_farmers_guild_member_personality_modifier = 1
+}
+
+hex_basis_hunters_guild_member_personality = {
+	ruler_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	heir_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	consort_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+
+	nation_designer_cost = 0
+	static = yes
+
+	hex_basis_hunters_guild_member_personality_modifier = 1
+}
+
+hex_basis_miners_guild_member_personality = {
+	ruler_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	heir_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	consort_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+
+	nation_designer_cost = 0
+	static = yes
+
+	hex_basis_miners_guild_member_personality_modifier = 1
+}
+
+hex_basis_sailors_guild_member_personality = {
+	ruler_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	heir_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+	consort_allow = { allow = { always = no } chance = { modifier = { factor = 1000 always = yes } } }
+
+	nation_designer_cost = 0
+	static = yes
+
+	hex_basis_sailors_guild_member_personality_modifier = 1
 }

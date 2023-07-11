@@ -1,5 +1,30 @@
 ﻿l_english:
-  hex_basis_guild_member_personality:0 "§gGuild Member§! §WTrait§!"
-  desc_hex_basis_guild_member_personality:0 "Character is §gGuild Member§! and joined one of the City guilds."
-  hex_basis_guild_member_personality_die_desc:0 ""
-  hex_basis_guild_member_personality_modifier:0 "Is §gGuild Member§!"
+  hex_basis_artisan_guild_member_personality:0 "§gArtisan Guild Member§! §WTrait§!"
+  desc_hex_basis_artisan_guild_member_personality:0 "Character is §gArtisan Guild Member§! and eagerly joined one of the City guilds."
+  hex_basis_artisan_guild_member_personality_die_desc:0 ""
+  hex_basis_artisan_guild_member_personality_modifier:0 "Is §gArtisan Guild Member§!"
+
+  hex_basis_builders_guild_member_personality:0 "§gBuilders Guild Member§! §WTrait§!"
+  desc_hex_basis_builders_guild_member_personality:0 "Character is §gBuilders Guild Member§! and eagerly joined one of the City guilds."
+  hex_basis_builders_guild_member_personality_die_desc:0 ""
+  hex_basis_builders_guild_member_personality_modifier:0 "Is §gBuilders Guild Member§!"
+
+  hex_basis_farmers_guild_member_personality:0 "§gFarmers Guild Member§! §WTrait§!"
+  desc_hex_basis_farmers_guild_member_personality:0 "Character is §gFarmers Guild Member§! and eagerly joined one of the City guilds."
+  hex_basis_farmers_guild_member_personality_die_desc:0 ""
+  hex_basis_farmers_guild_member_personality_modifier:0 "Is §gFarmers Guild Member§!"
+
+  hex_basis_hunters_guild_member_personality:0 "§gHunters Guild Member§! §WTrait§!"
+  desc_hex_basis_hunters_guild_member_personality:0 "Character is §gHunters Guild Member§! and eagerly joined one of the City guilds."
+  hex_basis_hunters_guild_member_personality_die_desc:0 ""
+  hex_basis_hunters_guild_member_personality_modifier:0 "Is §gMiners Guild Member§!"
+
+  hex_basis_miners_guild_member_personality:0 "§gMiners Guild Member§! §WTrait§!"
+  desc_hex_basis_miners_guild_member_personality:0 "Character is §gMiners Guild Member§! and eagerly joined one of the City guilds."
+  hex_basis_miners_guild_member_personality_die_desc:0 ""
+  hex_basis_miners_guild_member_personality_modifier:0 "Is §gMiners Guild Member§!"
+
+  hex_basis_sailors_guild_member_personality:0 "§gSailors Guild Member§! §WTrait§!"
+  desc_hex_basis_sailors_guild_member_personality:0 "Character is §gSailors Guild Member§! and eagerly joined one of the City guilds."
+  hex_basis_sailors_guild_member_personality_die_desc:0 ""
+  hex_basis_sailors_guild_member_personality_modifier:0 "Is §gSailors Guild Member§!"

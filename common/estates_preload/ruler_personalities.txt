@@ -15,7 +15,37 @@ hex_estate_personalities_hidden = {
 
 	modifier_definition = {
 		type = personality
-		key = hex_basis_guild_member_personality_modifier
+		key = hex_basis_artisan_guild_member_personality_modifier
+		trigger = { always = no }
+	}
+
+	modifier_definition = {
+		type = personality
+		key = hex_basis_builders_guild_member_personality_modifier
+		trigger = { always = no }
+	}
+
+	modifier_definition = {
+		type = personality
+		key = hex_basis_farmers_guild_member_personality_modifier
+		trigger = { always = no }
+	}
+
+	modifier_definition = {
+		type = personality
+		key = hex_basis_hunters_guild_member_personality_modifier
+		trigger = { always = no }
+	}
+
+	modifier_definition = {
+		type = personality
+		key = hex_basis_miners_guild_member_personality_modifier
+		trigger = { always = no }
+	}
+
+	modifier_definition = {
+		type = personality
+		key = hex_basis_sailors_guild_member_personality_modifier
 		trigger = { always = no }
 	}
 

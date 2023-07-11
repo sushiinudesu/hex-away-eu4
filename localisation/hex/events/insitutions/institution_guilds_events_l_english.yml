@@ -9,3 +9,13 @@
   hex_institution_guilds_events.2.t:0 "First Guild Meeting!"
   hex_institution_guilds_events.2.d:0 "At sunset people gather at First Camp and wait patiently for the [Root.Monarch.GetTitle] and [Root.Monarch.GetHerHis] advisors to appear. Soon they step out of the main building and §YFirst§! starts his speech:\n\n§R- Friends! I welcome all of you here today. As you know, I was the first to awake in this World. I've spent a whole year alone without anyone around. For a whole year I've been searching for another soul, another person to talk to. Someone I could call my friend.\n\nSo when you all finally awoke, I was happy. My dreams finally came true. I never wished to become a leader, telling you what to do and how to live your life. All I wanted was not to be alone.\n\nWe've lived together for a few years now. Some of you stayed with me, others decided to set up their own camps further away from the Tower. I bet some of you will go even further into the Beyond. But there are still people that are coming through the Wall every day. And all of them are as clueless about this World as you were once. They need our help and a place to stay after Awakening. I want us to focus on building the City so that it can be a home to everyone. No matter how far away you'll go, there will always be a place for you here.§!\n\nHe stops, waiting for the people to react. Shy at first, soon the shouts get louder and louder, as people cheer in agreement. After a while §YFirst§! continues:\n\n§R- Thank you. I know we can do it if we band together. I was talking to the others, -§! he pointed at his companions, §R- and we thought of a new system that can help us achieve that. We will divide all required tasks into categories and have everyone join a group - we call them Guilds. There will be six Guilds in total...§!\n\nAfter that he dives into the specifics, but one is clear - our life in the World will never be the same."
   hex_institution_guilds_events.2.a:0 "Interesting idea..."
+
+  hex_institution_guilds_events.3.t:0 "Choosing a Guild"
+  hex_institution_guilds_events.3.d:0 ""
+  hex_institution_guilds_events.3.artisan:0 "Artisan Guild"
+  hex_institution_guilds_events.3.builders:0 "Builders Guild"
+  hex_institution_guilds_events.3.farmers:0 "Farmers Guild"
+  hex_institution_guilds_events.3.hunters:0 "Hunters Guild"
+  hex_institution_guilds_events.3.miners:0 "Miners Guild"
+  hex_institution_guilds_events.3.sailors:0 "Sailors Guild"
+  hex_institution_guilds_events.3.guildless:0 "No thanks"

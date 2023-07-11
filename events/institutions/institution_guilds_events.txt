@@ -63,6 +63,8 @@ country_event = {
 			}
 	
 			add_government_reform = hex_city_grand_construction_reform
+
+			country_event = { id = hex_institution_guilds_events.3 days = 10 }
 		}
 	}
 }
@@ -84,6 +86,96 @@ country_event = {
 		
 		hidden_effect = {
 			add_ruler_personality = hex_basis_guild_founder_personality
+		}
+	}
+}
+
+country_event = {
+	id = hex_institution_guilds_events.3
+	title = hex_institution_guilds_events.3.t
+	desc = hex_institution_guilds_events.3.d
+	
+	picture = HEX_EVENT_PICTURE_EMPTY
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = { 
+		OR = {
+			hex_is_basis_arc = yes
+			hex_is_control_arc = yes
+		}
+	}
+
+	option = {
+		name = hex_institution_guilds_events.3.artisan
+		
+		hidden_effect = {
+			set_country_flag = hex_joined_artisan_guild
+
+			add_ruler_personality = hex_basis_artisan_guild_member_personality
+		}
+	}
+
+	option = {
+		name = hex_institution_guilds_events.3.builders
+		
+		hidden_effect = {
+			set_country_flag = hex_joined_builders_guild
+
+			add_ruler_personality = hex_basis_builders_guild_member_personality
+		}
+	}
+
+	option = {
+		name = hex_institution_guilds_events.3.farmers
+		
+		hidden_effect = {
+			set_country_flag = hex_joined_farmers_guild
+
+			add_ruler_personality = hex_basis_farmers_guild_member_personality
+		}
+	}
+
+	option = {
+		name = hex_institution_guilds_events.3.hunters
+		
+		hidden_effect = {
+			set_country_flag = hex_joined_hunters_guild
+
+			add_ruler_personality = hex_basis_hunters_guild_member_personality
+		}
+	}
+
+	option = {
+		name = hex_institution_guilds_events.3.miners
+		
+		hidden_effect = {
+			set_country_flag = hex_joined_miners_guild
+
+			add_ruler_personality = hex_basis_miners_guild_member_personality 
+		}
+	}
+
+	option = {
+		name = hex_institution_guilds_events.3.sailors
+		
+		hidden_effect = {
+			set_country_flag = hex_joined_sailors_guild
+
+			add_ruler_personality = hex_basis_sailors_guild_member_personality
+		}
+	}
+
+	option = {
+		name = hex_institution_guilds_events.3.guildless
+
+		trigger = {
+			NOT = { ruler_has_personality = hex_basis_guild_founder_personality }
+		}
+
+		hidden_effect = {
+			add_ruler_personality = hex_basis_guildless_personality
 		}
 	}
 }

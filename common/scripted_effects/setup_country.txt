@@ -35,6 +35,8 @@ hex_setup_country = {
 		if = {
 			limit = { tag = A01 }
 			hex_setup_city_construction = yes
+
+			country_event = { id = hex_institution_guilds_events.3 days = 10 }
 		}
 
 		set_country_flag = hex_setup_finished
