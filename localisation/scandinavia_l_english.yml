@@ -345,7 +345,6 @@
  swe_catholic_defender_of_faith_desc:0 "We have won the Religious War in Germany! But the threat of the heretics still lingers. We should embrace the title of Defender of Faith so that our [Root.Religion.GetName] brothers and sisters can practice their faith without the threat of the Catholics."
  swe_catholic_defender_of_faith_ct:0 "§Y[Root.GetName]§! has force converted another country to the §Y[Root.Religion.GetName]§! faith."
  swe_catholic_defender_of_faith_tt:1 "Convert §Y30§! provinces (§Y[Root.GetNumConvertedProvinces]§!/§Y30§!)"
- swe_won_wars_variable:0 "[Root.swe_won_wars_against_christians.GetValue]"
  swe_a_viking_empire_title:0 "A new Norse Empire"
  swe_a_viking_empire_desc:0 "The vikings of the past created an empire without any equal - such as the legendary Empire of the North Sea. But in the end, their realms were not built to last, and the foul stench of Christianity led to their inevitable downfall.\nLet us create a Norse Empire, which shall prevail against all odds, and brings glory to the Gods!"
  swe_commune_between_the_religions_title:0 "Inbetween the Faiths"
@@ -1685,10 +1684,8 @@
  nor_norwegian_independence_war_mod:0 "Fight for Norwegian Liberty"
  desc_nor_norwegian_independence_war_mod:0 "Our people is fed up with the decadent Kalmar Union and is ready to fight to the last man for the independence of the great [Root.GovernmentName] of Norway!"
  ####VARIABLES###
- NUM_OF_COMMITTED_RAIDS_COUNTER:0 "[Root.num_of_raided_coasts.GetValue]"
  NUM_OF_SOLD_INDULGENCES:0 "[Root.sold_indulgences.GetValue]"
  NUM_OF_RAIDED_CHURCHES:0 "[Root.raided_churches.GetValue]"
- NUM_OF_ISSUES_PASSED_TT:0 "[Root.issues_passed.GetValue]"
  ###DISASTERS###
  prussian_confederation_disaster:0 "Prussian Confederation"
  prussian_confederation_disaster_at:0 "Has enacted the decision '§YCurtail the Prussian Confederation§!'."

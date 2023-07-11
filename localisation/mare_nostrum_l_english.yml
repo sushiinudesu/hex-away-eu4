@@ -373,7 +373,6 @@
  refused_to_take_sides:0 "Refused to Take Sides"
  allowed_papal_league_advisor:0 "Allowed Papal Advisor in League"
  espionage_events.1.t:0 "Half the Loyalty, Double the Agent"
- espionage_events.1.d:1 "Espionage may be the hardest test there is for loyalty to one's country. Both fear and temptations surround spies constantly, and the better they are at what they do, the more certain they are to face them. These temptations, of course, are something we are more than willing to provide foreign agents.\n\nAn agent from [espionage_event_country.GetUsableName], a country where corruption is rampant, has recently decided to give in to one of these temptations. Eager to make a bigger profit than most can hope to earn through bribes, he has offered to act as a double agent for us. However, the 'anonymous' method of contact he chose has turned out to be less anonymous than expected, so we now know his name. How shall we proceed?"
  espionage_events.1.a:0 "Accept the offer for a lesser sum and spare his life."
  espionage_events.1.b:0 "Shadow him for a few days before he has an accident."
  espionage_events.2.t:0 "Second Chance for a Traitor"

@@ -1,5 +1,5 @@
 ﻿l_english:
-  HISTORY_LEFT_EMPIRE:0 "§R[REDACTED]§!"
+  HISTORY_LEFT_EMPIRE:0 "§RREDACTED§!"
   HISTORY_DISCOVERED_BY:0 "Became known to the §Y$GROUP$§W."
   HISTORY_OWNER_CHANGE:0 "Taken by §Y$NEW$§W."
   HISTORY_CORE_ADD:0 "Integrated by §Y$COUNTRY$§W."
