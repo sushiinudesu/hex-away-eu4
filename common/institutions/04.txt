@@ -15,7 +15,9 @@ hex_institution_4 = {
 
 	can_embrace = { always = yes }
 
-	embracement_speed = { }
+	embracement_speed = {
+		modifier = { factor = 0 }
+	}
 	
 	ai_will_do = { factor = 1000 }
 }

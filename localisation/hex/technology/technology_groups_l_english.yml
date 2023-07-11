@@ -1,3 +1,9 @@
 ﻿l_english:
   hex_technology_group_city:0 "City Sphere"
   hex_technology_group_city_desc:0 "City Sphere represents all those living near the Tower"
+
+  hex_technology_group_nature:0 "Nature Sphere"
+  hex_technology_group_nature_desc:0 "Nature Sphere represents all the beasts of Nature"
+
+  hex_technology_group_earth:0 "Earth Sphere"
+  hex_technology_group_earth_desc:0 "Earth Sphere represents all those humans from another world called Earth"

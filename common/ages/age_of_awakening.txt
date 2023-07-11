@@ -3,7 +3,14 @@ hex_age_of_awakening = {
 	
 	can_start = { always = yes }	
 
-	objectives = { }		
+	objectives = {
+		hex_obj_age_of_awakening_1 = { allow = { always = no } }
+		hex_obj_age_of_awakening_2 = { allow = { always = no } }
+		hex_obj_age_of_awakening_3 = { allow = { always = no } }
+		hex_obj_age_of_awakening_4 = { allow = { always = no } }
+	}		
 	
-	abilities = { }
+	abilities = {
+		hex_ab_age_of_awakening_1 = { effect = { } ai_will_do = { factor = 0 } }
+	}
 }

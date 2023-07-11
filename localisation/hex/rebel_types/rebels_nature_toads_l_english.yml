@@ -1,6 +1,7 @@
 ﻿l_english:
-  hex_toad_rebels_name: "Toads"
-  hex_toad_rebels_desc: ""
-  hex_toad_rebels_army: "Toads"
-  hex_toad_rebels_demand: "..."
-  hex_toad_rebels_demand_desc: ""
+  hex_toad_rebels_name:0 "Toads"
+  hex_toad_rebels_desc:0 ""
+  hex_toad_rebels_army:0 "Toads"
+  hex_toad_rebels_demand:0 "..."
+  hex_toad_rebels_demand_desc:0 ""
+  hex_toad_rebels_title:0 "Toads"

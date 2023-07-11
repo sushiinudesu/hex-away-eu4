@@ -3,7 +3,14 @@ hex_age_of_mechanim = {
 	
 	can_start = { always = no }	
 
-	objectives = { }		
+	objectives = {
+		hex_obj_age_of_mechanim_1 = { allow = { always = no } }
+		hex_obj_age_of_mechanim_2 = { allow = { always = no } }
+		hex_obj_age_of_mechanim_3 = { allow = { always = no } }
+		hex_obj_age_of_mechanim_4 = { allow = { always = no } }
+	}		
 	
-	abilities = { }
+	abilities = {
+		hex_ab_age_of_mechanim_1 = { effect = { } ai_will_do = { factor = 0 } }
+	}
 }

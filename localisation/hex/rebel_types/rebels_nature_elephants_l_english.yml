@@ -1,6 +1,7 @@
 ﻿l_english:
-  hex_elephant_rebels_name: "Elephants"
-  hex_elephant_rebels_desc: ""
-  hex_elephant_rebels_army: "Elephants"
-  hex_elephant_rebels_demand: "..."
-  hex_elephant_rebels_demand_desc: ""
+  hex_elephant_rebels_name:0 "Elephants"
+  hex_elephant_rebels_desc:0 ""
+  hex_elephant_rebels_army:0 "Elephants"
+  hex_elephant_rebels_demand:0 "..."
+  hex_elephant_rebels_demand_desc:0 ""
+  hex_elephant_rebels_title:0 "Elephants"

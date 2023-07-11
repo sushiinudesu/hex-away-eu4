@@ -1,6 +1,7 @@
 ﻿l_english:
-  hex_badger_rebels_name: "Badgers"
-  hex_badger_rebels_desc: ""
-  hex_badger_rebels_army: "Badgers"
-  hex_badger_rebels_demand: "..."
-  hex_badger_rebels_demand_desc: ""
+  hex_badger_rebels_name:0 "Badgers"
+  hex_badger_rebels_desc:0 ""
+  hex_badger_rebels_army:0 "Badgers"
+  hex_badger_rebels_demand:0 "..."
+  hex_badger_rebels_demand_desc:0 ""
+  hex_badger_rebels_title:0 "Badgers"

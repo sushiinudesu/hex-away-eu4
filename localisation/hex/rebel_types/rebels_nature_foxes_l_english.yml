@@ -1,6 +1,7 @@
 ﻿l_english:
-  hex_fox_rebels_name: "Foxes"
-  hex_fox_rebels_desc: ""
-  hex_fox_rebels_army: "Foxes"
-  hex_fox_rebels_demand: "..."
-  hex_fox_rebels_demand_desc: ""
+  hex_fox_rebels_name:0 "Foxes"
+  hex_fox_rebels_desc:0 ""
+  hex_fox_rebels_army:0 "Foxes"
+  hex_fox_rebels_demand:0 "..."
+  hex_fox_rebels_demand_desc:0 ""
+  hex_fox_rebels_title:0 "Foxes"

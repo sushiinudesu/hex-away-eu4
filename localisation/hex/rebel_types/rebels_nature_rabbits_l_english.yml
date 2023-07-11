@@ -1,6 +1,7 @@
 ﻿l_english:
-  hex_rabbit_rebels_name: "Rabbits"
-  hex_rabbit_rebels_desc: ""
-  hex_rabbit_rebels_army: "Rabbits"
-  hex_rabbit_rebels_demand: "..."
-  hex_rabbit_rebels_demand_desc: ""
+  hex_rabbit_rebels_name:0 "Rabbits"
+  hex_rabbit_rebels_desc:0 ""
+  hex_rabbit_rebels_army:0 "Rabbits"
+  hex_rabbit_rebels_demand:0 "..."
+  hex_rabbit_rebels_demand_desc:0 ""
+  hex_rabbit_rebels_title:0 "Rabbits"

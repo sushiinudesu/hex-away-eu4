@@ -3,7 +3,14 @@ hex_age_of_elements = {
 	
 	can_start = { always = no }	
 
-	objectives = { }		
+	objectives = {
+		hex_obj_age_of_elements_1 = { allow = { always = no } }
+		hex_obj_age_of_elements_2 = { allow = { always = no } }
+		hex_obj_age_of_elements_3 = { allow = { always = no } }
+		hex_obj_age_of_elements_4 = { allow = { always = no } }
+	}		
 	
-	abilities = { }
+	abilities = {
+		hex_ab_age_of_elements_1 = { effect = { } ai_will_do = { factor = 0 } }
+	}
 }

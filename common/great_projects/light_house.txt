@@ -1,4 +1,5 @@
 hex_project_light_house = {
+	start = 3
 	date = 1000.1.1
 	
 	build_cost = 0
@@ -25,6 +26,54 @@ hex_project_light_house = {
 	keep_trigger = { always = yes }
 
 	tier_0 = {
+		upgrade_time = { months = 0 }
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = { }
+
+		area_modifier = { }
+
+		country_modifiers = { }
+
+		on_upgraded = { }
+	}
+
+	tier_1 = {
+		upgrade_time = { months = 0 }
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = { }
+
+		area_modifier = { }
+
+		country_modifiers = { }
+
+		on_upgraded = { }
+	}
+
+	tier_2 = {
+		upgrade_time = { months = 0 }
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = { }
+
+		area_modifier = { }
+
+		country_modifiers = { }
+
+		on_upgraded = { }
+	}
+
+	tier_3 = {
 		upgrade_time = { months = 0 }
 
 		cost_to_upgrade = {

@@ -4,11 +4,18 @@ graphical_culture = westerngfx
 color = { 58 50 45 } #3a322d obsidian
 
 historical_idea_groups = {
-	
+	hex_dummy_idea_group_1
+	hex_dummy_idea_group_2
+	hex_dummy_idea_group_3
+	hex_dummy_idea_group_4
+	hex_dummy_idea_group_5
+	hex_dummy_idea_group_6
+	hex_dummy_idea_group_7
+	hex_dummy_idea_group_8
 }
 
 historical_units = {
-	
+	western_men_at_arms
 }
 
 monarch_names = {

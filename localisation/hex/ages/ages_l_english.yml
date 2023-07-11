@@ -3,14 +3,38 @@
   hex_age_of_awakening_desc:0 "In the City and Beyond this Age is all about exploration and growth.\nThe World is new and exciting, untouched by Awake hands.\nYou and the others will try your best to build a better future together."
   hex_age_of_awakening_short:0 "Awakening"
 
+	hex_obj_age_of_awakening_1:0 "TBD"
+  hex_obj_age_of_awakening_2:0 "TBD"
+  hex_obj_age_of_awakening_3:0 "TBD"
+  hex_obj_age_of_awakening_4:0 "TBD"
+  hex_ab_age_of_awakening_1:0 "TBD"
+
   hex_age_of_elements:0 "Age of Elements"
   hex_age_of_elements_desc:0 "TBD"
   hex_age_of_elements_short:0 "Elements"
+
+	hex_obj_age_of_elements_1:0 "TBD"
+  hex_obj_age_of_elements_2:0 "TBD"
+  hex_obj_age_of_elements_3:0 "TBD"
+  hex_obj_age_of_elements_4:0 "TBD"
+  hex_ab_age_of_elements_1:0 "TBD"
 
   hex_age_of_ignition:0 "Age of Ignition"
   hex_age_of_ignition_desc:0 "TBD"
   hex_age_of_ignition_short:0 "Ignition"
 
+	hex_obj_age_of_ignition_1:0 "TBD"
+  hex_obj_age_of_ignition_2:0 "TBD"
+  hex_obj_age_of_ignition_3:0 "TBD"
+  hex_obj_age_of_ignition_4:0 "TBD"
+  hex_ab_age_of_ignition_1:0 "TBD"
+
   hex_age_of_mechanim:0 "Age of Mechanim"
   hex_age_of_mechanim_desc:0 "TBD"
   hex_age_of_mechanim_short:0 "Mechanim"
+
+	hex_obj_age_of_mechanim_1:0 "TBD"
+  hex_obj_age_of_mechanim_2:0 "TBD"
+  hex_obj_age_of_mechanim_3:0 "TBD"
+  hex_obj_age_of_mechanim_4:0 "TBD"
+  hex_ab_age_of_mechanim_1:0 "TBD"

@@ -1,6 +1,7 @@
 ﻿l_english:
-  hex_owl_rebels_name: "Owls"
-  hex_owl_rebels_desc: ""
-  hex_owl_rebels_army: "Owls"
-  hex_owl_rebels_demand: "..."
-  hex_owl_rebels_demand_desc: ""
+  hex_owl_rebels_name:0 "Owls"
+  hex_owl_rebels_desc:0 ""
+  hex_owl_rebels_army:0 "Owls"
+  hex_owl_rebels_demand:0 "..."
+  hex_owl_rebels_demand_desc:0 ""
+  hex_owl_rebels_title:0 "Owls"

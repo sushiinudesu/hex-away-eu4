@@ -1,6 +1,7 @@
 ﻿l_english:
-  hex_deer_rebels_name: "Deer"
-  hex_deer_rebels_desc: ""
-  hex_deer_rebels_army: "Deer"
-  hex_deer_rebels_demand: "..."
-  hex_deer_rebels_demand_desc: ""
+  hex_deer_rebels_name:0 "Deer"
+  hex_deer_rebels_desc:0 ""
+  hex_deer_rebels_army:0 "Deer"
+  hex_deer_rebels_demand:0 "..."
+  hex_deer_rebels_demand_desc:0 ""
+  hex_deer_rebels_title:0 "Deer"

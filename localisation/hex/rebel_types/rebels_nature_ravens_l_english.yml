@@ -1,6 +1,7 @@
 ﻿l_english:
-  hex_raven_rebels_name: "Ravens"
-  hex_raven_rebels_desc: ""
-  hex_raven_rebels_army: "Ravens"
-  hex_raven_rebels_demand: "..."
-  hex_raven_rebels_demand_desc: ""
+  hex_raven_rebels_name:0 "Ravens"
+  hex_raven_rebels_desc:0 ""
+  hex_raven_rebels_army:0 "Ravens"
+  hex_raven_rebels_demand:0 "..."
+  hex_raven_rebels_demand_desc:0 ""
+  hex_raven_rebels_title:0 "Ravens"

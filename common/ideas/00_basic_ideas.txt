@@ -1,1 +1,139 @@
 # Empty Base EU4 file to avoid warnings
+
+hex_dummy_idea_group_1 = {
+	category = MIL
+
+	bonus = { }
+	trigger = { always = no }
+	
+	hex_dummy_ig_1_idea_1 = { }
+	hex_dummy_ig_1_idea_2 = { }
+	hex_dummy_ig_1_idea_3 = { }
+	hex_dummy_ig_1_idea_4 = { }
+	hex_dummy_ig_1_idea_5 = { }
+	hex_dummy_ig_1_idea_6 = { }
+	hex_dummy_ig_1_idea_7 = { }
+
+	ai_will_do = { factor = 0 }
+}
+
+hex_dummy_idea_group_2 = {
+	category = MIL
+
+	bonus = { }
+	trigger = { always = no }
+	
+	hex_dummy_ig_2_idea_1 = { }
+	hex_dummy_ig_2_idea_2 = { }
+	hex_dummy_ig_2_idea_3 = { }
+	hex_dummy_ig_2_idea_4 = { }
+	hex_dummy_ig_2_idea_5 = { }
+	hex_dummy_ig_2_idea_6 = { }
+	hex_dummy_ig_2_idea_7 = { }
+
+	ai_will_do = { factor = 0 }
+}
+
+hex_dummy_idea_group_3 = {
+	category = MIL
+
+	bonus = { }
+	trigger = { always = no }
+	
+	hex_dummy_ig_3_idea_1 = { }
+	hex_dummy_ig_3_idea_2 = { }
+	hex_dummy_ig_3_idea_3 = { }
+	hex_dummy_ig_3_idea_4 = { }
+	hex_dummy_ig_3_idea_5 = { }
+	hex_dummy_ig_3_idea_6 = { }
+	hex_dummy_ig_3_idea_7 = { }
+
+	ai_will_do = { factor = 0 }
+}
+
+
+hex_dummy_idea_group_4 = {
+	category = MIL
+
+	bonus = { }
+	trigger = { always = no }
+	
+	hex_dummy_ig_4_idea_1 = { }
+	hex_dummy_ig_4_idea_2 = { }
+	hex_dummy_ig_4_idea_3 = { }
+	hex_dummy_ig_4_idea_4 = { }
+	hex_dummy_ig_4_idea_5 = { }
+	hex_dummy_ig_4_idea_6 = { }
+	hex_dummy_ig_4_idea_7 = { }
+
+	ai_will_do = { factor = 0 }
+}
+
+hex_dummy_idea_group_5 = {
+	category = MIL
+
+	bonus = { }
+	trigger = { always = no }
+	
+	hex_dummy_ig_5_idea_1 = { }
+	hex_dummy_ig_5_idea_2 = { }
+	hex_dummy_ig_5_idea_3 = { }
+	hex_dummy_ig_5_idea_4 = { }
+	hex_dummy_ig_5_idea_5 = { }
+	hex_dummy_ig_5_idea_6 = { }
+	hex_dummy_ig_5_idea_7 = { }
+
+	ai_will_do = { factor = 0 }
+}
+
+
+hex_dummy_idea_group_6 = {
+	category = MIL
+
+	bonus = { }
+	trigger = { always = no }
+	
+	hex_dummy_ig_6_idea_1 = { }
+	hex_dummy_ig_6_idea_2 = { }
+	hex_dummy_ig_6_idea_3 = { }
+	hex_dummy_ig_6_idea_4 = { }
+	hex_dummy_ig_6_idea_5 = { }
+	hex_dummy_ig_6_idea_6 = { }
+	hex_dummy_ig_6_idea_7 = { }
+
+	ai_will_do = { factor = 0 }
+}
+
+hex_dummy_idea_group_7 = {
+	category = MIL
+
+	bonus = { }
+	trigger = { always = no }
+	
+	hex_dummy_ig_7_idea_1 = { }
+	hex_dummy_ig_7_idea_2 = { }
+	hex_dummy_ig_7_idea_3 = { }
+	hex_dummy_ig_7_idea_4 = { }
+	hex_dummy_ig_7_idea_5 = { }
+	hex_dummy_ig_7_idea_6 = { }
+	hex_dummy_ig_7_idea_7 = { }
+
+	ai_will_do = { factor = 0 }
+}
+
+hex_dummy_idea_group_8 = {
+	category = MIL
+
+	bonus = { }
+	trigger = { always = no }
+	
+	hex_dummy_ig_8_idea_1 = { }
+	hex_dummy_ig_8_idea_2 = { }
+	hex_dummy_ig_8_idea_3 = { }
+	hex_dummy_ig_8_idea_4 = { }
+	hex_dummy_ig_8_idea_5 = { }
+	hex_dummy_ig_8_idea_6 = { }
+	hex_dummy_ig_8_idea_7 = { }
+
+	ai_will_do = { factor = 0 }
+}

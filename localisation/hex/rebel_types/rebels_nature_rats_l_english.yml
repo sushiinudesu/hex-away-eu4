@@ -1,6 +1,7 @@
 ﻿l_english:
-  hex_rat_rebels_name: "Rats"
-  hex_rat_rebels_desc: ""
-  hex_rat_rebels_army: "Rats"
-  hex_rat_rebels_demand: "..."
-  hex_rat_rebels_demand_desc: ""
+  hex_rat_rebels_name:0 "Rats"
+  hex_rat_rebels_desc:0 ""
+  hex_rat_rebels_army:0 "Rats"
+  hex_rat_rebels_demand:0 "..."
+  hex_rat_rebels_demand_desc:0 ""
+  hex_rat_rebels_title:0 "Rats"
