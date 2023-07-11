@@ -32,7 +32,7 @@ hex_far_beyond_north_east_trade_node = {
 	}
 }
 
-hex_far_beyond_north_wes_trade_node = {
+hex_far_beyond_north_west_trade_node = {
 	color = { 201 54 83 }
 	inland = yes
 	location = 669
@@ -154,7 +154,7 @@ hex_far_beyond_south_west_trade_node = {
 	}
 }
 
-hex_far_beyond_west_south_node = {
+hex_far_beyond_west_south_trade_node = {
 	color = { 85 106 89 }
 	inland = yes
 	location = 558
@@ -172,7 +172,7 @@ hex_far_beyond_west_south_node = {
 	}
 }
 
-hex_far_beyond_west_node = {
+hex_far_beyond_west_trade_node = {
 	color = { 189 53 109 }
 	inland = yes
 	location = 595
@@ -190,7 +190,7 @@ hex_far_beyond_west_node = {
 	}
 }
 
-hex_far_beyond_west_north_node = {
+hex_far_beyond_west_north_trade_node = {
 	color = { 237 89 107 }
 	inland = yes
 	location = 632

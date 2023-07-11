@@ -1,3 +1,11 @@
+hex_leader_flag_fix = {
+	# dummy effect to fix lint errors for the flags
+	set_country_flag = hex_hiring_general
+	set_country_flag = hex_hiring_conquistador
+	set_country_flag = hex_hiring_admiral
+	set_country_flag = hex_hiring_explorer
+}
+
 hex_hire_leader_start = {
 	if = {
 		limit = { NOT = { hex_hiring_leader = yes } }

@@ -1,10 +1,10 @@
-dummy_religions = {
+hex_dummy_religions = {
 	defender_of_faith = yes
 	can_form_personal_unions = yes
 	
 	center_of_religion = 1	
 	
-	dummy_pope = {
+	hex_dummy_pope = {
 		color = { 204 204 0 }
 		icon = 1
 
@@ -14,7 +14,7 @@ dummy_religions = {
 		
 		on_convert = { }
 		
-		heretic = { DUMMY_HERETIC }
+		heretic = { HEX_DUMMY_HERETIC }
 		
 		papacy = {
 			papal_tag = NAT

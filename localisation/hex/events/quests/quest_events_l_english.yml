@@ -6,3 +6,4 @@
   hex_quest_events.2.t:0 "Quest Hidden Event"
   hex_quest_events.2.d:0 "Hidden event to select quest step."
   hex_quest_events.2.a:0 "OK"
+  hex_quest_events.2.b:0 "OK"

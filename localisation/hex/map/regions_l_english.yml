@@ -1,3 +1,6 @@
 ﻿l_english:
   hex_city_region:0 "City"
   hex_tower_region:0 "The Tower"
+
+	hex_beyond_region:0 "Beyond"
+	hex_far_beyond_region:0 "Far Beyond"
