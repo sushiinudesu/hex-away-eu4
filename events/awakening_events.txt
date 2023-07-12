@@ -37,19 +37,19 @@ country_event = {
 	option = {
 		name = hex_awakening_events.2.daggers
 
-		add_item = { camp_daggers = yes skill = 1 }
+		add_item = { item = camp_daggers skill = 1 }
 	}
 
 	option = {
 		name = hex_awakening_events.2.handaxe
 
-		add_item = { camp_handaxe = yes skill = 1 }
+		add_item = { item = camp_handaxe skill = 1 }
 	}
 
 	option = {
 		name = hex_awakening_events.2.shortbow
 
-		add_item = { camp_shortbow = yes skill = 1 }
+		add_item = { item = camp_shortbow skill = 1 }
 	}
 }
 

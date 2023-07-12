@@ -29,7 +29,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { hex_loyal = { to = "Chef" } } }
-				hex_set_heir = { chef = yes }
+				hex_set_heir = { character = chef }
 			}
 			else = { remove_country_modifier = hex_switched_loyalty }
 		}
@@ -45,7 +45,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { hex_loyal = { to = "Clay" } } }
-				hex_set_heir = { clay = yes }
+				hex_set_heir = { character = clay }
 			}
 			else = { remove_country_modifier = hex_switched_loyalty }
 		}
@@ -61,7 +61,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { hex_loyal = { to = "First" } } }
-				hex_set_heir = { first = yes }
+				hex_set_heir = { character = first }
 			}
 			else = { remove_country_modifier = hex_switched_loyalty }
 		}
@@ -77,7 +77,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { hex_loyal = { to = "Gold" } } }
-				hex_set_heir = { gold = yes }
+				hex_set_heir = { character = gold }
 			}
 			else = { remove_country_modifier = hex_switched_loyalty }
 		}
@@ -93,7 +93,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { hex_loyal = { to = "Lion" } } }
-				hex_set_heir = { lion = yes }
+				hex_set_heir = { character = lion }
 			}
 			else = { remove_country_modifier = hex_switched_loyalty }
 		}
@@ -109,7 +109,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { hex_loyal = { to = "Longbeard" } } }
-				hex_set_heir = { longbeard = yes }
+				hex_set_heir = { character = longbeard }
 			}
 			else = { remove_country_modifier = hex_switched_loyalty }
 		}
@@ -125,7 +125,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { hex_loyal = { to = "Needle" } } }
-				hex_set_heir = { needle = yes }
+				hex_set_heir = { character = needle }
 			}
 			else = { remove_country_modifier = hex_switched_loyalty }
 		}
@@ -141,7 +141,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { hex_loyal = { to = "Seawatcher" } } }
-				hex_set_heir = { seawatcher = yes }
+				hex_set_heir = { character = seawatcher }
 			}
 			else = { remove_country_modifier = hex_switched_loyalty }
 		}
@@ -157,7 +157,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { NOT = { hex_loyal = { to = "Spear" } } }
-				hex_set_heir = { spear = yes }
+				hex_set_heir = { character = spear }
 			}
 			else = { remove_country_modifier = hex_switched_loyalty }
 		}

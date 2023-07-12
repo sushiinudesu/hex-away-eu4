@@ -290,7 +290,7 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = {
-			add_item = { blue_pot = yes skill = 1 }
+			add_item = { item = blue_pot skill = 1 }
 		}
 
 		ai_chance = { factor = 0 }
@@ -370,7 +370,7 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = {
-			add_item = { tiny_bell = yes skill = 1 }
+			add_item = { item = tiny_bell skill = 1 }
 		}
 
 		ai_chance = { factor = 0 }
@@ -957,7 +957,7 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = {
-			hex_set_familiar = { bear_cub = yes }
+			hex_set_familiar = { familiar = bear_cub }
 		}
 
 		ai_chance = { factor = 0 }
@@ -1232,7 +1232,7 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = {
-			add_item = { red_geode = yes skill = 1 }
+			add_item = { item = red_geode skill = 1 }
 		}
 
 		ai_chance = { factor = 0 }
@@ -1546,7 +1546,7 @@ country_event = {
 		highlight = yes 
 
 		hidden_effect = {
-			add_item = { black_pearl = yes skill = 1 }
+			add_item = { item = black_pearl skill = 1 }
 		}
 
 		ai_chance = { factor = 0 }

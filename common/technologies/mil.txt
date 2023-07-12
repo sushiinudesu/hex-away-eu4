@@ -14,6 +14,7 @@ technology = {
 	may_force_march = yes
 	sprite_level = 1
 
+	enable = western_men_at_arms
 	enable = hex_unit_nature_1_badger
 	enable = hex_unit_nature_1_bat
 	enable = hex_unit_nature_1_bear

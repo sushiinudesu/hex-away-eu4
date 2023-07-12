@@ -79,7 +79,7 @@ country_event = {
 		highlight = yes
 
 		hidden_effect = {
-			hex_set_heir = { spear = yes }
+			hex_set_heir = { character = spear }
 			add_faction_influence = { faction = hex_city_watch influence = 5 }
 			add_country_modifier = { name = hex_switched_loyalty duration = 365 }
 		}

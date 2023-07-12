@@ -24,75 +24,75 @@ country_event = {
 
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { wind = yes event = hex_awakening_first_events id = 2 }
+					hex_seasonal_country_event = { season = wind event = hex_awakening_first_events id = 2 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { wind = yes event = hex_awakening_first_events id = 3 }
+					hex_seasonal_country_event = { season = wind event = hex_awakening_first_events id = 3 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { wind = yes event = hex_awakening_first_events id = 4 }
+					hex_seasonal_country_event = { season = wind event = hex_awakening_first_events id = 4 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { water = yes event = hex_awakening_first_events id = 5 }
+					hex_seasonal_country_event = { season = water event = hex_awakening_first_events id = 5 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { water = yes event = hex_awakening_first_events id = 6 }
+					hex_seasonal_country_event = { season = water event = hex_awakening_first_events id = 6 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { water = yes event = hex_awakening_first_events id = 7 }
+					hex_seasonal_country_event = { season = water event = hex_awakening_first_events id = 7 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { earth = yes event = hex_awakening_first_events id = 8 }
+					hex_seasonal_country_event = { season = earth event = hex_awakening_first_events id = 8 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { earth = yes event = hex_awakening_first_events id = 9 }
+					hex_seasonal_country_event = { season = earth event = hex_awakening_first_events id = 9 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { earth = yes event = hex_awakening_first_events id = 10 }
+					hex_seasonal_country_event = { season = earth event = hex_awakening_first_events id = 10 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { fire = yes event = hex_awakening_first_events id = 11 }
+					hex_seasonal_country_event = { season = fire event = hex_awakening_first_events id = 11 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { fire = yes event = hex_awakening_first_events id = 12 }
+					hex_seasonal_country_event = { season = fire event = hex_awakening_first_events id = 12 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { fire = yes event = hex_awakening_first_events id = 13 }
+					hex_seasonal_country_event = { season = fire event = hex_awakening_first_events id = 13 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { void = yes event = hex_awakening_first_events id = 14 }
+					hex_seasonal_country_event = { season = void event = hex_awakening_first_events id = 14 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { void = yes event = hex_awakening_first_events id = 15 }
+					hex_seasonal_country_event = { season = void event = hex_awakening_first_events id = 15 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { void = yes event = hex_awakening_first_events id = 16 }
+					hex_seasonal_country_event = { season = void event = hex_awakening_first_events id = 16 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { dust = yes event = hex_awakening_first_events id = 17 }
+					hex_seasonal_country_event = { season = dust event = hex_awakening_first_events id = 17 }
 				}
 				1 = {
 					trigger = { is_year = 3 }
-					hex_seasonal_country_event = { dust = yes event = hex_awakening_first_events id = 18 }
+					hex_seasonal_country_event = { season = dust event = hex_awakening_first_events id = 18 }
 				}
 				1 = {
 					trigger = { NOT = { is_year = 3 } }
-					hex_seasonal_country_event = { dust = yes event = hex_awakening_first_events id = 19 }
+					hex_seasonal_country_event = { season = dust event = hex_awakening_first_events id = 19 }
 				}
 			}
 		}

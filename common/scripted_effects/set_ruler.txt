@@ -2,7 +2,7 @@ hex_set_ruler = {
 	if = {
 		limit = { ai = yes }
 		add_corruption = -100
-		hex_set_heir = { $ruler$ = yes }
+		hex_set_heir = { character = $ruler$ }
 	}
 	exile_heir_as = exiled_heir
 

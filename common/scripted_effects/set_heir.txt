@@ -3,100 +3,7 @@ hex_set_heir = {
 	export_to_variable = { variable_name = hex_heir_dip value = heir_dip }
 	export_to_variable = { variable_name = hex_heir_mil value = heir_mil }
 
-	[[chef]
-		define_heir = {
-			name = "Chef"
-			dynasty = "'the Cauldron Master'"
-			birth_date = 2.1.1
-			claim = 50
-		}
-		hex_add_faction_modifier = { character = chef }
-	]
-
-	
-	[[clay]
-		define_heir = {
-			name = "Clay"
-			dynasty = "'the Architect'"
-			birth_date = 2.1.1
-			claim = 50
-		}
-		hex_add_faction_modifier = { character = clay }
-	]
-
-	[[first]
-		define_heir = {
-			name = "First"
-			dynasty = "'the Awake One'"
-			birth_date = 1.1.2
-			claim = 50
-		}
-		hex_add_faction_modifier = { character = first }
-	]
-
-	[[gold]
-		define_heir = {
-			name = "Gold"
-			dynasty = "'the Tax Collector'"
-			birth_date = 2.1.1
-			claim = 50
-		}
-		hex_add_faction_modifier = { character = gold }
-	]
-
-	[[lion]
-		define_heir = {
-			name = "Lion"
-			dynasty = "'the Two-Headed Hunter'"
-			birth_date = 2.1.1
-			claim = 50
-		}
-		hex_add_faction_modifier = { character = lion }
-	]
-
-	
-	[[longbeard]
-		define_heir = {
-			name = "Longbeard"
-			dynasty = "'the Bald'"
-			birth_date = 2.1.1
-			claim = 50
-		}
-		hex_add_faction_modifier = { character = longbeard }
-	]
-
-	
-	[[needle]
-		define_heir = {
-			name = "Needle"
-			dynasty = "'the Elegant Clothier'"
-			birth_date = 2.1.1
-			claim = 50
-			female =yes
-		}
-		hex_add_faction_modifier = { character = needle }
-	]
-
-	[[seawatcher]
-		define_heir = {
-			name = "Seawatcher"
-			dynasty = "'of the Horizon'"
-			birth_date = 2.1.1
-			claim = 50
-		}
-		hex_add_faction_modifier = { character = seawatcher }
-	]
-
-	[[spear]
-		define_heir = {
-			name = "Spear"
-			dynasty = "'the Unbreakable'"
-			birth_date = 2.1.1
-			claim = 50
-			female = yes
-		}
-		hex_add_faction_modifier = { character = spear }
-	]
+	hex_set_heir_$character$ = yes
 
 	hex_set_heir_skills = yes
 	add_heir_personality = hex_awakening_awake_personality
@@ -118,4 +25,97 @@ hex_change_heir_skill = {
 	else_if = { limit = { check_variable = { which = hex_heir_$skill$ value = 3 } } change_heir_$skill$ = 3 }
 	else_if = { limit = { check_variable = { which = hex_heir_$skill$ value = 2 } } change_heir_$skill$ = 2 }
 	else = { change_heir_$skill$ = 1 }
+}
+
+hex_set_heir_chef = {
+	define_heir = {
+		name = "Chef"
+		dynasty = "'the Cauldron Master'"
+		birth_date = 2.1.1
+		claim = 50
+	}
+	hex_add_faction_modifier = { character = chef }
+}
+
+hex_set_heir_clay = {
+	define_heir = {
+		name = "Clay"
+		dynasty = "'the Architect'"
+		birth_date = 2.1.1
+		claim = 50
+	}
+	hex_add_faction_modifier = { character = clay }
+}
+
+hex_set_heir_first = {
+	define_heir = {
+		name = "First"
+		dynasty = "'the Awake One'"
+		birth_date = 1.1.2
+		claim = 50
+	}
+	hex_add_faction_modifier = { character = first }
+}
+
+hex_set_heir_gold = {
+	define_heir = {
+		name = "Gold"
+		dynasty = "'the Tax Collector'"
+		birth_date = 2.1.1
+		claim = 50
+	}
+	hex_add_faction_modifier = { character = gold }
+}
+
+hex_set_heir_lion = {
+	define_heir = {
+		name = "Lion"
+		dynasty = "'the Two-Headed Hunter'"
+		birth_date = 2.1.1
+		claim = 50
+	}
+	hex_add_faction_modifier = { character = lion }
+}
+
+
+hex_set_heir_longbeard = {
+	define_heir = {
+		name = "Longbeard"
+		dynasty = "'the Bald'"
+		birth_date = 2.1.1
+		claim = 50
+	}
+	hex_add_faction_modifier = { character = longbeard }
+}
+
+hex_set_heir_needle = {
+	define_heir = {
+		name = "Needle"
+		dynasty = "'the Elegant Clothier'"
+		birth_date = 2.1.1
+		claim = 50
+		female =yes
+	}
+	hex_add_faction_modifier = { character = needle }
+}
+
+hex_set_heir_seawatcher = {
+	define_heir = {
+		name = "Seawatcher"
+		dynasty = "'of the Horizon'"
+		birth_date = 2.1.1
+		claim = 50
+	}
+	hex_add_faction_modifier = { character = seawatcher }
+}
+
+hex_set_heir_spear = {
+	define_heir = {
+		name = "Spear"
+		dynasty = "'the Unbreakable'"
+		birth_date = 2.1.1
+		claim = 50
+		female = yes
+	}
+	hex_add_faction_modifier = { character = spear }
 }

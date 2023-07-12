@@ -20,8 +20,8 @@ hex_setup_country = {
 		if = {
 			limit = { ai = no }
 
-			add_item = { awakening_robes = yes skill = 1 }
-			add_item = { gold_coin = yes skill = 1 }
+			add_item = { item = awakening_robes skill = 1 }
+			add_item = { item = gold_coin skill = 1 }
 
 			hex_setup_kills = yes
 		}
